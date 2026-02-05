@@ -38,7 +38,11 @@ On the engineering side, I participated in the "One Student One Chip" (YSYX) pro
 
 ---
 ### Education
-* Beijing University of Posts and Telecommunications (BUPT)
+* **Beijing University of Posts and Telecommunications (BUPT)**
     * B.Eng. in Communication Engineering
     * Sept. 2023 - July 2027 (Expected)
     * **GPA:** 91.1/100 (Top 4.6%)
+
+* **Shanghai Jianping High School**
+    * Ranked **Top 7%** in Shanghai College Entrance Examination (Gaokao)
+    * Ranked **Top 4%** in Shanghai Spring College Entrance Examination
