@@ -6,28 +6,28 @@ subtitle: Undergraduate Student at <a href='https://www.bupt.edu.cn/'>BUPT</a>
 
 profile:
   align: right
-  image: prof_pic.jpg  
-  image_circular: false 
+  image: prof_pic.jpg
+  image_circular: false
   more_info: >
     <p>School of Information and Communication Engineering</p>
     <p>Beijing Univ. of Posts and Telecom.</p>
     <p>Beijing, China</p>
     <p><a href="mailto:pdxqjiashuao@bupt.edu.cn">pdxqjiashuao@bupt.edu.cn</a></p>
 
-selected_papers: true # 
-social: true # 
+selected_papers: true #
+social: true #
 
 projects:
   enabled: true
   limit: 3
 
 announcements:
-  enabled: true # 
+  enabled: true #
   scrollable: true
   limit: 5
 
 latest_posts:
-  enabled: false 
+  enabled: false
   scrollable: true
   limit: 3
 ---
@@ -39,13 +39,14 @@ Currently, I am conducting research on 3D-integrated compute-near-memory archite
 
 On the engineering side, I participated in the "One Student One Chip" (YSYX) program. I designed a 5-stage pipelined RISC-V processor (RV32E) from scratch using Chisel3 and successfully passed the verification (Stage C).
 
-
 ---
-### Education
-* **Beijing University of Posts and Telecommunications (BUPT)**
-    * B.Eng. in Communication Engineering
-    * Sept. 2023 - July 2027 (Expected)
-    * **GPA:** 91.1/100 (Top 4.6%)
 
-* **Shanghai Jianping High School**
-    * Sept. 2020 - June 2023
+### Education
+
+- **Beijing University of Posts and Telecommunications (BUPT)**
+  - B.Eng. in Communication Engineering
+  - Sept. 2023 - July 2027 (Expected)
+  - **GPA:** 91.1/100 (Top 4.6%)
+
+- **Shanghai Jianping High School**
+  - Sept. 2020 - June 2023

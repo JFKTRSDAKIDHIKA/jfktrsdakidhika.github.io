@@ -24,9 +24,9 @@ The core features a decoupled fetch unit with a dual-stage Instruction Cache for
 
 The project adopted an agile development methodology using Chisel3 to create parameterized and reusable modules. To ensure robustness, a **Differential Testing (DiffTest)** mechanism was implemented.
 
-* **DUT (Design Under Test):** The core written in Chisel, simulated by Verilator.
-* **REF (Reference):** The NEMU C functional simulator.
-* **Method:** The architectural state (GPR & PC) is compared every cycle, allowing bugs to be caught automatically during test program execution and OS booting.
+- **DUT (Design Under Test):** The core written in Chisel, simulated by Verilator.
+- **REF (Reference):** The NEMU C functional simulator.
+- **Method:** The architectural state (GPR & PC) is compared every cycle, allowing bugs to be caught automatically during test program execution and OS booting.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -51,9 +51,9 @@ System bring-up involved integrating the core into an SoC environment with AXI b
 
 Through an iterative optimization process, the microarchitecture evolved significantly. The optimization roadmap included adding Branch Prediction, ICache pipelining, and AXI Burst support.
 
-* **IPC Improvement:** Significant trajectory from the Base Core (0.02) to a Peak of **0.158**.
-* **Bottleneck Migration:** Addressed bottlenecks shifting from Memory Bound (84.6%) to Fetch Bound, and finally to IDU Stall Bound.
-* **Final Speedup:** Achieved an **11.0x** total speedup over the baseline implementation.
+- **IPC Improvement:** Significant trajectory from the Base Core (0.02) to a Peak of **0.158**.
+- **Bottleneck Migration:** Addressed bottlenecks shifting from Memory Bound (84.6%) to Fetch Bound, and finally to IDU Stall Bound.
+- **Final Speedup:** Achieved an **11.0x** total speedup over the baseline implementation.
 
 <div class="row">
     <div class="col-sm-6 mt-3 mt-md-0">
@@ -68,4 +68,5 @@ Through an iterative optimization process, the microarchitecture evolved signifi
 </div>
 
 ### Future Work
+
 The project aims to advance to tape-out verification (Stage B) and silicon validation, as well as exploring Out-of-Order (OoO) execution in future iterations.
