@@ -56,15 +56,16 @@ Through an iterative optimization process, the microarchitecture evolved signifi
 * **Final Speedup:** Achieved an **11.0x** total speedup over the baseline implementation.
 
 <div class="row">
-    <div class="col-sm-6 mt-3 mt-md-0">
+    <div class="col-12 mt-3">
         {% include figure.liquid path="assets/ysyx/ipc_trajectory.jpg" title="IPC Trajectory" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm-6 mt-3 mt-md-0">
+
+    <div class="col-12 mt-3">
         {% include figure.liquid path="assets/ysyx/speedup_chart.jpg" title="Speedup Evolution" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Left: IPC/CPI Trajectory showing bottleneck migration[cite: 94]. Right: Final 11.0x Speedup achieved[cite: 114].
+    Top: IPC/CPI Trajectory showing bottleneck migration. Bottom: Final 11.0x Speedup achieved.
 </div>
 
 ### Future Work
