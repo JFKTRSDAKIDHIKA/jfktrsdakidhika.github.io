@@ -26,11 +26,12 @@ latest_posts:
   enabled: false 
   scrollable: true
   limit: 3
----
+
 projects:
   enabled: true 
   scrollable: true
   limit: 3
+---
 
 I am a third-year undergraduate student majoring in Communication Engineering at [Beijing University of Posts and Telecommunications (BUPT)](https://english.bupt.edu.cn/). I am expected to graduate in July 2027.
 
