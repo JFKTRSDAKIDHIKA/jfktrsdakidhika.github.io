@@ -44,5 +44,4 @@ On the engineering side, I participated in the "One Student One Chip" (YSYX) pro
     * **GPA:** 91.1/100 (Top 4.6%)
 
 * **Shanghai Jianping High School**
-    * Ranked **Top 7%** in Shanghai College Entrance Examination (Gaokao)
-    * Ranked **Top 4%** in Shanghai Spring College Entrance Examination
+    * Sept. 2020 - June 2023
