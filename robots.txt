@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://JFKTRSDAKIDHIKA.github.io/sitemap.xml
+Sitemap: https://jfktrsdakidhika.github.io/sitemap.xml
