@@ -1,81 +1,71 @@
 ---
 layout: page
-title: project 1
-description: with background image
-img: assets/img/12.jpg
+title: Golden Apple Corelet
+description: A compact, in-order RISC-V microarchitecture optimized for embedded systems.
+img: assets/img/ysyx/architecture_overview.jpg
 importance: 1
 category: work
-related_publications: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+The **Golden Apple Corelet** is a compact, in-order RISC-V microarchitecture specifically optimized for embedded systems. Developed using the **Chisel3** hardware construction language, this project implements the RV32E instruction set with a custom 2+5 stage pipeline design.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+The core features a decoupled fetch unit with a dual-stage Instruction Cache for high throughput, alongside a classic 5-stage execution pipeline with full bypassing and hazard detection.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/ysyx/pipeline_diagram.jpg" title="Pipeline Architecture" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    The 2+5 Stage Pipeline Design: Decoupled Fetch & Classic Execution.
 </div>
+
+### Agile Development & Verification
+
+The project adopted an agile development methodology using Chisel3 to create parameterized and reusable modules. To ensure robustness, a **Differential Testing (DiffTest)** mechanism was implemented.
+
+* **DUT (Design Under Test):** The core written in Chisel, simulated by Verilator.
+* **REF (Reference):** The NEMU C functional simulator.
+* **Method:** The architectural state (GPR & PC) is compared every cycle, allowing bugs to be caught automatically during test program execution and OS booting.
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/ysyx/difftest_flow.jpg" title="Differential Testing Flow" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+### System Integration: Booting RT-Thread
+
+System bring-up involved integrating the core into an SoC environment with AXI bus, UART, GPIO, and SDRAM support. The ultimate stress test for architectural correctness was booting **RT-Thread**, a real-time operating system. This required implementing CSRs for exception handling, timer interrupts, and context switching.
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm-10 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/ysyx/rt_thread_boot.jpg" title="RT-Thread Interactive Shell" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    This image can also have a caption. It's like magic.
+    Successfully entered the interactive shell of RT-Thread[cite: 92].
 </div>
 
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+### Performance Evaluation
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+Through an iterative optimization process, the microarchitecture evolved significantly. The optimization roadmap included adding Branch Prediction, ICache pipelining, and AXI Burst support.
+
+* **IPC Improvement:** Significant trajectory from the Base Core (0.02) to a Peak of **0.158**.
+* **Bottleneck Migration:** Addressed bottlenecks shifting from Memory Bound (84.6%) to Fetch Bound, and finally to IDU Stall Bound.
+* **Final Speedup:** Achieved an **11.0x** total speedup over the baseline implementation.
+
+<div class="row">
+    <div class="col-sm-6 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/ysyx/ipc_trajectory.jpg" title="IPC Trajectory" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm-6 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/ysyx/speedup_chart.jpg" title="Speedup Evolution" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+    Left: IPC/CPI Trajectory showing bottleneck migration[cite: 94]. Right: Final 11.0x Speedup achieved[cite: 114].
 </div>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
+### Future Work
+The project aims to advance to tape-out verification (Stage B) and silicon validation, as well as exploring Out-of-Order (OoO) execution in future iterations.
