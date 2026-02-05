@@ -2,7 +2,7 @@
 layout: page
 title: Golden Apple Corelet
 description: A compact, in-order RISC-V microarchitecture optimized for embedded systems.
-img: assets/img/ysyx/architecture_overview.jpg
+img: assets/ysyx/architecture_overview.jpg
 importance: 1
 category: work
 ---
@@ -13,7 +13,7 @@ The core features a decoupled fetch unit with a dual-stage Instruction Cache for
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/ysyx/pipeline_diagram.jpg" title="Pipeline Architecture" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/ysyx/pipeline_diagram.jpg" title="Pipeline Architecture" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -30,7 +30,7 @@ The project adopted an agile development methodology using Chisel3 to create par
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/ysyx/agile_dev_flow.jpg" title="Agile Development Flow" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/ysyx/agile_dev_flow.jpg" title="Agile Development Flow" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -40,11 +40,11 @@ System bring-up involved integrating the core into an SoC environment with AXI b
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-10 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/ysyx/rt_thread_boot.jpg" title="RT-Thread Interactive Shell" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/ysyx/rt_thread_boot.jpg" title="RT-Thread Interactive Shell" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Successfully entered the interactive shell of RT-Thread[cite: 92].
+    Successfully entered the interactive shell of RT-Thread.
 </div>
 
 ### Performance Evaluation
@@ -56,15 +56,16 @@ Through an iterative optimization process, the microarchitecture evolved signifi
 - **Final Speedup:** Achieved an **11.0x** total speedup over the baseline implementation.
 
 <div class="row">
-    <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/ysyx/ipc_trajectory.jpg" title="IPC Trajectory" class="img-fluid rounded z-depth-1" %}
+    <div class="col-12 mt-3">
+        {% include figure.liquid path="assets/ysyx/ipc_trajectory.jpg" title="IPC Trajectory" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/ysyx/speedup_chart.jpg" title="Speedup Evolution" class="img-fluid rounded z-depth-1" %}
+
+    <div class="col-12 mt-3">
+        {% include figure.liquid path="assets/ysyx/speedup_chart.jpg" title="Speedup Evolution" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Left: IPC/CPI Trajectory showing bottleneck migration[cite: 94]. Right: Final 11.0x Speedup achieved[cite: 114].
+    Top: IPC/CPI Trajectory showing bottleneck migration. Bottom: Final 11.0x Speedup achieved.
 </div>
 
 ### Future Work
