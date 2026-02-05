@@ -17,6 +17,10 @@ profile:
 selected_papers: true # 
 social: true # 
 
+projects:
+  enabled: true
+  limit: 3
+
 announcements:
   enabled: true # 
   scrollable: true
