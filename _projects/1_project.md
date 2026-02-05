@@ -2,7 +2,7 @@
 layout: page
 title: Golden Apple Corelet
 description: A compact, in-order RISC-V microarchitecture optimized for embedded systems.
-img: assets/img/ysyx/architecture_overview.jpg
+img: assets/ysyx/architecture_overview.jpg
 importance: 1
 category: work
 ---
