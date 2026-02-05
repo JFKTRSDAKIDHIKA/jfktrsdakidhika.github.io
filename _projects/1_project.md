@@ -30,7 +30,7 @@ The project adopted an agile development methodology using Chisel3 to create par
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/ysyx/difftest_flow.jpg" title="Differential Testing Flow" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/ysyx/agile_dev_flow.jpg" title="Agile Development Flow" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
