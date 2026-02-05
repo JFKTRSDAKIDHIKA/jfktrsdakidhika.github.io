@@ -440,10 +440,7 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
-          description: "",
-          section: "News",},{id: "projects-golden-apple-corelet",
+            },},{id: "projects-golden-apple-corelet",
           title: 'Golden Apple Corelet',
           description: "A compact, in-order RISC-V microarchitecture optimized for embedded systems.",
           section: "Projects",handler: () => {
