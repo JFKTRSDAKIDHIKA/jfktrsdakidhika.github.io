@@ -14,11 +14,11 @@ profile:
     <p>Beijing, China</p>
     <p><a href="mailto:pdxqjiashuao@bupt.edu.cn">pdxqjiashuao@bupt.edu.cn</a></p>
 
-selected_papers: true # 
-social: true # 
+selected_papers: false # 
+social: false # 
 
 announcements:
-  enabled: true # 
+  enabled: false # 
   scrollable: true
   limit: 5
 
@@ -27,6 +27,10 @@ latest_posts:
   scrollable: true
   limit: 3
 ---
+projects:
+  enabled: true 
+  scrollable: true
+  limit: 3
 
 I am a third-year undergraduate student majoring in Communication Engineering at [Beijing University of Posts and Telecommunications (BUPT)](https://english.bupt.edu.cn/). I am expected to graduate in July 2027.
 
