@@ -44,7 +44,7 @@ System bring-up involved integrating the core into an SoC environment with AXI b
     </div>
 </div>
 <div class="caption">
-    Successfully entered the interactive shell of RT-Thread[cite: 92].
+    Successfully entered the interactive shell of RT-Thread.
 </div>
 
 ### Performance Evaluation
