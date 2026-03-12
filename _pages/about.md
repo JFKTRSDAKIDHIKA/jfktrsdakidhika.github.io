@@ -14,11 +14,11 @@ profile:
     <p>Beijing, China</p>
     <p><a href="mailto:pdxqjiashuao@bupt.edu.cn">pdxqjiashuao@bupt.edu.cn</a></p>
 
-selected_papers: false # 
-social: false # 
+selected_papers: false #
+social: false #
 
 announcements:
-  enabled: false # 
+  enabled: false #
   scrollable: true
   limit: 5
 
@@ -28,7 +28,7 @@ latest_posts:
   limit: 3
 
 projects:
-  enabled: true 
+  enabled: true
   scrollable: true
   limit: 3
 ---
