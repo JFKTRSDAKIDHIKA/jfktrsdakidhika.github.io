@@ -454,6 +454,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
+            },},{id: "paper_reading-paper-reading-fast-and-fusiest-an-optimal-fusion-aware-mapper-for-accelerator-design",
+          title: 'Paper Reading: Fast and Fusiest: An Optimal Fusion-Aware Mapper for Accelerator Design',
+          description: "One-sentence summary of the paper and why it matters.",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/paper-reading-template/";
             },},{id: "projects-golden-apple-corelet",
           title: 'Golden Apple Corelet',
           description: "A compact, in-order RISC-V microarchitecture optimized for embedded systems.",
