@@ -33,6 +33,4 @@ projects:
   limit: 3
 ---
 
-
 ---
-

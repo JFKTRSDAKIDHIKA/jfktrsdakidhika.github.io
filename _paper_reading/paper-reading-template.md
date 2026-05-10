@@ -4,7 +4,7 @@ title: "Paper Reading: Fast and Fusiest: An Optimal Fusion-Aware Mapper for Acce
 date: 2026-05-10
 description: "One-sentence summary of the paper and why it matters."
 published: MICRO 2026 Under Review
-tags: paper-reading dataflow modeling and optimization for DNN accelerator 
+tags: paper-reading dataflow modeling and optimization for DNN accelerator
 toc:
   sidebar: left
 related_posts: false
@@ -18,7 +18,6 @@ paper:
 ---
 
 ## TL;DR
-
 
 用 3-5 句话写清楚：
 
