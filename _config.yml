@@ -160,6 +160,11 @@ collections:
     defaults:
       layout: post
     output: true
+  paper_reading:
+    defaults:
+      layout: post
+    output: true
+    permalink: /paper-reading/:path/
   projects:
     output: true
   teachings:
