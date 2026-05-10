@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Paper Reading: Paper Title"
+title: "Paper Reading: Fast and Fusiest: An Optimal Fusion-Aware Mapper for Accelerator Design"
 date: 2026-05-10
 description: "One-sentence summary of the paper and why it matters."
-published: false
-tags: paper-reading topic-name method-name
+published: MICRO 2026 Under Review
+tags: paper-reading dataflow modeling and optimization for DNN accelerator 
 toc:
   sidebar: left
 related_posts: false
@@ -18,6 +18,7 @@ paper:
 ---
 
 ## TL;DR
+
 
 用 3-5 句话写清楚：
 
@@ -37,6 +38,7 @@ paper:
 ## Problem
 
 这篇论文试图解决的具体问题是什么？  
+This paper tries to fastly explore the vast complete design space of mapping DNN model to tensor accelerators. The combination of intra-einsum mapping and inter-einsum fusion create a huge design space which hueristic methods fail to converge to optimal solution in a reasonable time.
 可以写清楚输入、输出、约束、已有方法的不足。
 
 ## Method
