@@ -11,7 +11,7 @@ ninja.data = [{
     },
   },{id: "nav-paper-reading",
           title: "paper reading",
-          description: "Notes and interpretations of research papers, organized by year and venue.",
+          description: "Notes and interpretations of research papers, organized by year/venue and topic.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/paper-reading/";
@@ -714,11 +714,6 @@ ninja.data = [{
           description: "TODO: One-sentence summary",
           section: "Paper_reading",handler: () => {
               window.location.href = "/paper-reading/2024-DAC/explainable-fuzzy-neural-network-withmulti-fidelity-reinforc/";
-            },},{id: "paper_reading-paper-reading-hierarchical-power-co-optimization-and-management-for-llm-chiplet-designs",
-          title: 'Paper Reading: Hierarchical Power Co-Optimization and Management for LLM Chiplet Designs',
-          description: "TODO: One-sentence summary",
-          section: "Paper_reading",handler: () => {
-              window.location.href = "/paper-reading/2024-ICCAD/hierarchical-power-co-optimization-and-management-for-llm-ch/";
             },},{id: "paper_reading-paper-reading-is-vanilla-bayesian-optimization-enough-for-high-dimensional-architecture-design-optimization",
           title: 'Paper Reading: Is Vanilla Bayesian Optimization Enough for High Dimensional Architecture Design Optimization...',
           description: "TODO: One-sentence summary",
@@ -809,6 +804,11 @@ ninja.data = [{
           description: "TODO: One-sentence summary",
           section: "Paper_reading",handler: () => {
               window.location.href = "/paper-reading/2024-arXiv/240901141v1/";
+            },},{id: "paper_reading-paper-reading-hierarchical-power-co-optimization-and-management-for-llm-chiplet-designs",
+          title: 'Paper Reading: Hierarchical Power Co-Optimization and Management for LLM Chiplet Designs',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-3DIC_and_Packaging/hierarchical-power-co-optimization-and-management-for-llm-ch/";
             },},{id: "paper_reading-paper-reading-maco",
           title: 'Paper Reading: MACO',
           description: "TODO: One-sentence summary",
@@ -994,276 +994,71 @@ ninja.data = [{
           description: "TODO: One-sentence summary",
           section: "Paper_reading",handler: () => {
               window.location.href = "/paper-reading/2025-arXiv/250616444v2/";
-            },},{id: "paper_reading-paper-reading-08894429",
-          title: 'Paper Reading: 08894429',
-          description: "TODO: One-sentence summary",
-          section: "Paper_reading",handler: () => {
-              window.location.href = "/paper-reading/To_Read/08894429/";
-            },},{id: "paper_reading-paper-reading-3613424-3623784",
-          title: 'Paper Reading: 3613424.3623784',
-          description: "TODO: One-sentence summary",
-          section: "Paper_reading",handler: () => {
-              window.location.href = "/paper-reading/To_Read/36134243623784/";
-            },},{id: "paper_reading-paper-reading-3676536-3676798",
-          title: 'Paper Reading: 3676536.3676798',
-          description: "TODO: One-sentence summary",
-          section: "Paper_reading",handler: () => {
-              window.location.href = "/paper-reading/To_Read/36765363676798/";
-            },},{id: "paper_reading-paper-reading-3676641-3716009",
-          title: 'Paper Reading: 3676641.3716009',
-          description: "TODO: One-sentence summary",
-          section: "Paper_reading",handler: () => {
-              window.location.href = "/paper-reading/To_Read/36766413716009/";
-            },},{id: "paper_reading-paper-reading-3676641-3716267",
-          title: 'Paper Reading: 3676641.3716267',
-          description: "TODO: One-sentence summary",
-          section: "Paper_reading",handler: () => {
-              window.location.href = "/paper-reading/To_Read/36766413716267-2/";
-            },},{id: "paper_reading-paper-reading-3676641-3716267",
-          title: 'Paper Reading: 3676641.3716267',
-          description: "TODO: One-sentence summary",
-          section: "Paper_reading",handler: () => {
-              window.location.href = "/paper-reading/To_Read/36766413716267/";
-            },},{id: "paper_reading-paper-reading-3695053-3731041",
-          title: 'Paper Reading: 3695053.3731041',
-          description: "TODO: One-sentence summary",
-          section: "Paper_reading",handler: () => {
-              window.location.href = "/paper-reading/To_Read/36950533731041-2/";
-            },},{id: "paper_reading-paper-reading-3695053-3731041",
-          title: 'Paper Reading: 3695053.3731041',
-          description: "TODO: One-sentence summary",
-          section: "Paper_reading",handler: () => {
-              window.location.href = "/paper-reading/To_Read/36950533731041/";
-            },},{id: "paper_reading-paper-reading-3695053-3731089",
-          title: 'Paper Reading: 3695053.3731089',
-          description: "TODO: One-sentence summary",
-          section: "Paper_reading",handler: () => {
-              window.location.href = "/paper-reading/To_Read/36950533731089/";
-            },},{id: "paper_reading-paper-reading-3695053-3731096",
-          title: 'Paper Reading: 3695053.3731096',
-          description: "TODO: One-sentence summary",
-          section: "Paper_reading",handler: () => {
-              window.location.href = "/paper-reading/To_Read/36950533731096/";
-            },},{id: "paper_reading-paper-reading-3695053-3731111",
-          title: 'Paper Reading: 3695053.3731111',
-          description: "TODO: One-sentence summary",
-          section: "Paper_reading",handler: () => {
-              window.location.href = "/paper-reading/To_Read/36950533731111/";
-            },},{id: "paper_reading-paper-reading-3698364-3709127",
-          title: 'Paper Reading: 3698364.3709127',
-          description: "TODO: One-sentence summary",
-          section: "Paper_reading",handler: () => {
-              window.location.href = "/paper-reading/To_Read/36983643709127/";
-            },},{id: "paper_reading-paper-reading-3718487",
-          title: 'Paper Reading: 3718487',
-          description: "TODO: One-sentence summary",
-          section: "Paper_reading",handler: () => {
-              window.location.href = "/paper-reading/To_Read/3718487/";
-            },},{id: "paper_reading-paper-reading-3725843-3756017",
-          title: 'Paper Reading: 3725843.3756017',
-          description: "TODO: One-sentence summary",
-          section: "Paper_reading",handler: () => {
-              window.location.href = "/paper-reading/To_Read/37258433756017/";
-            },},{id: "paper_reading-paper-reading-3725843-3756020",
-          title: 'Paper Reading: 3725843.3756020',
-          description: "TODO: One-sentence summary",
-          section: "Paper_reading",handler: () => {
-              window.location.href = "/paper-reading/To_Read/37258433756020/";
-            },},{id: "paper_reading-paper-reading-3725843-3756034",
-          title: 'Paper Reading: 3725843.3756034',
-          description: "TODO: One-sentence summary",
-          section: "Paper_reading",handler: () => {
-              window.location.href = "/paper-reading/To_Read/37258433756034/";
-            },},{id: "paper_reading-paper-reading-3725843-3756043",
-          title: 'Paper Reading: 3725843.3756043',
-          description: "TODO: One-sentence summary",
-          section: "Paper_reading",handler: () => {
-              window.location.href = "/paper-reading/To_Read/37258433756043/";
-            },},{id: "paper_reading-paper-reading-3725843-3756062",
-          title: 'Paper Reading: 3725843.3756062',
-          description: "TODO: One-sentence summary",
-          section: "Paper_reading",handler: () => {
-              window.location.href = "/paper-reading/To_Read/37258433756062/";
-            },},{id: "paper_reading-paper-reading-3725843-3756071",
-          title: 'Paper Reading: 3725843.3756071',
-          description: "TODO: One-sentence summary",
-          section: "Paper_reading",handler: () => {
-              window.location.href = "/paper-reading/To_Read/37258433756071/";
-            },},{id: "paper_reading-paper-reading-3725843-3756087",
-          title: 'Paper Reading: 3725843.3756087',
-          description: "TODO: One-sentence summary",
-          section: "Paper_reading",handler: () => {
-              window.location.href = "/paper-reading/To_Read/37258433756087/";
-            },},{id: "paper_reading-paper-reading-3725843-3756117",
-          title: 'Paper Reading: 3725843.3756117',
-          description: "TODO: One-sentence summary",
-          section: "Paper_reading",handler: () => {
-              window.location.href = "/paper-reading/To_Read/37258433756117/";
-            },},{id: "paper_reading-paper-reading-3725843-3756121",
-          title: 'Paper Reading: 3725843.3756121',
-          description: "TODO: One-sentence summary",
-          section: "Paper_reading",handler: () => {
-              window.location.href = "/paper-reading/To_Read/37258433756121/";
             },},{id: "paper_reading-paper-reading-3d-v-cache-the-implementation-of-a-hybrid-bonded-64mb-stacked-cache-for-a-7nm-x86-64-cpu",
           title: 'Paper Reading: 3D V-Cache the Implementation of a Hybrid-Bonded 64MB Stacked Cache for...',
           description: "TODO: One-sentence summary",
           section: "Paper_reading",handler: () => {
-              window.location.href = "/paper-reading/To_Read/3d-v-cache-the-implementation-of-a-hybrid-bonded-64mb-stacke/";
+              window.location.href = "/paper-reading/Topic-3DIC_and_Packaging/3d-v-cache-the-implementation-of-a-hybrid-bonded-64mb-stacke/";
             },},{id: "paper_reading-paper-reading-978-3-031-01747-6",
           title: 'Paper Reading: 978-3-031-01747-6',
           description: "TODO: One-sentence summary",
           section: "Paper_reading",handler: () => {
-              window.location.href = "/paper-reading/To_Read/978-3-031-01747-6/";
+              window.location.href = "/paper-reading/Topic-3DIC_and_Packaging/978-3-031-01747-6/";
             },},{id: "paper_reading-paper-reading-a-1596-gb-s-48-gb-stacked-embedded-dram-384-core-soc-with-hybrid-bonding-integration",
           title: 'Paper Reading: A 1596-GB s 48-Gb Stacked Embedded DRAM 384-Core SoC With Hybrid...',
           description: "TODO: One-sentence summary",
           section: "Paper_reading",handler: () => {
-              window.location.href = "/paper-reading/To_Read/a-1596-gb-s-48-gb-stacked-embedded-dram-384-core-soc-with-hy/";
+              window.location.href = "/paper-reading/Topic-3DIC_and_Packaging/a-1596-gb-s-48-gb-stacked-embedded-dram-384-core-soc-with-hy/";
             },},{id: "paper_reading-paper-reading-a-stacked-embedded-dram-array-for-lpddr4-4x-using-hybrid-bonding-3d-integration-with-34gb-s-1gb-0-88pj-b-logic-to-memory-interface",
           title: 'Paper Reading: A Stacked Embedded DRAM Array for LPDDR4 4X using Hybrid Bonding...',
           description: "TODO: One-sentence summary",
           section: "Paper_reading",handler: () => {
-              window.location.href = "/paper-reading/To_Read/a-stacked-embedded-dram-array-for-lpddr4-4x-using-hybrid-bon/";
-            },},{id: "paper_reading-paper-reading-active-interposer-technology-for-chiplet-based-advanced-3d-system-architectures",
-          title: 'Paper Reading: Active Interposer Technology for Chiplet-Based Advanced 3D System Architectures',
-          description: "TODO: One-sentence summary",
-          section: "Paper_reading",handler: () => {
-              window.location.href = "/paper-reading/To_Read/active-interposer-technology-for-chiplet-based-advanced-3d-s/";
-            },},{id: "paper_reading-paper-reading-adelia-a-4nm-llm-processor-for-efficient-generative-al-inference",
-          title: 'Paper Reading: Adelia A 4nm LLM Processor for Efficient Generative Al Inference',
-          description: "TODO: One-sentence summary",
-          section: "Paper_reading",handler: () => {
-              window.location.href = "/paper-reading/To_Read/adelia-a-4nm-llm-processor-for-efficient-generative-al-infer/";
-            },},{id: "paper_reading-paper-reading-bit-separable-transformer-accelerator-leveraging-output-activation-sparsity-for-efficient-dram-access",
-          title: 'Paper Reading: Bit-Separable Transformer Accelerator Leveraging Output Activation Sparsity for Efficient DRAM Access...',
-          description: "TODO: One-sentence summary",
-          section: "Paper_reading",handler: () => {
-              window.location.href = "/paper-reading/To_Read/bit-separable-transformer-accelerator-leveraging-output-acti/";
-            },},{id: "paper_reading-paper-reading-computers-13-00174-v2",
-          title: 'Paper Reading: computers-13-00174-v2',
-          description: "TODO: One-sentence summary",
-          section: "Paper_reading",handler: () => {
-              window.location.href = "/paper-reading/To_Read/computers-13-00174-v2/";
-            },},{id: "paper_reading-paper-reading-corsairan-in-memory-computing-chipletarchitecture-for-inference-time-compute-acceleration",
-          title: 'Paper Reading: CORSAIRAn In-Memory Computing ChipletArchitecture for Inference-Time Compute Acceleration',
-          description: "TODO: One-sentence summary",
-          section: "Paper_reading",handler: () => {
-              window.location.href = "/paper-reading/To_Read/corsairan-in-memory-computing-chipletarchitecture-for-infere/";
-            },},{id: "paper_reading-paper-reading-delivering-the-future-of-high-performance-computing",
-          title: 'Paper Reading: Delivering the Future of High-Performance Computing',
-          description: "TODO: One-sentence summary",
-          section: "Paper_reading",handler: () => {
-              window.location.href = "/paper-reading/To_Read/delivering-the-future-of-high-performance-computing/";
-            },},{id: "paper_reading-paper-reading-duplex-a-device-for-large-language-models-with-mixture-of-experts-grouped-query-attention-and-continuous-batching",
-          title: 'Paper Reading: Duplex A Device for Large Language Models with Mixture of Experts...',
-          description: "TODO: One-sentence summary",
-          section: "Paper_reading",handler: () => {
-              window.location.href = "/paper-reading/To_Read/duplex-a-device-for-large-language-models-with-mixture-of-ex/";
-            },},{id: "paper_reading-paper-reading-exploiting-similarity-opportunities-of-emerging-vision-ai-models-on-hybrid-bonding-architecture",
-          title: 'Paper Reading: Exploiting Similarity Opportunities of Emerging Vision AI Models on Hybrid Bonding...',
-          description: "TODO: One-sentence summary",
-          section: "Paper_reading",handler: () => {
-              window.location.href = "/paper-reading/To_Read/exploiting-similarity-opportunities-of-emerging-vision-ai-mo-2/";
-            },},{id: "paper_reading-paper-reading-exploiting-similarity-opportunities-of-emerging-vision-ai-models-on-hybrid-bonding-architecture",
-          title: 'Paper Reading: Exploiting Similarity Opportunities of Emerging Vision AI Models on Hybrid Bonding...',
-          description: "TODO: One-sentence summary",
-          section: "Paper_reading",handler: () => {
-              window.location.href = "/paper-reading/To_Read/exploiting-similarity-opportunities-of-emerging-vision-ai-mo/";
-            },},{id: "paper_reading-paper-reading-fcdram",
-          title: 'Paper Reading: fcdram',
-          description: "TODO: One-sentence summary",
-          section: "Paper_reading",handler: () => {
-              window.location.href = "/paper-reading/To_Read/fcdram/";
-            },},{id: "paper_reading-paper-reading-gemini-mapping-and-architecture-co-exploration-for-large-scale-dnn-chiplet-accelerators",
-          title: 'Paper Reading: Gemini Mapping and Architecture Co-exploration for Large-scale DNN Chiplet Accelerators',
-          description: "TODO: One-sentence summary",
-          section: "Paper_reading",handler: () => {
-              window.location.href = "/paper-reading/To_Read/gemini-mapping-and-architecture-co-exploration-for-large-sca/";
-            },},{id: "paper_reading-paper-reading-graphp-reducing-communication-for-pim-based-graph-processing-with-efficient-data-partition",
-          title: 'Paper Reading: GraphP Reducing Communication for PIM-Based Graph Processing with Efficient Data Partition...',
-          description: "TODO: One-sentence summary",
-          section: "Paper_reading",handler: () => {
-              window.location.href = "/paper-reading/To_Read/graphp-reducing-communication-for-pim-based-graph-processing/";
-            },},{id: "paper_reading-paper-reading-keynote1",
-          title: 'Paper Reading: keynote1',
-          description: "TODO: One-sentence summary",
-          section: "Paper_reading",handler: () => {
-              window.location.href = "/paper-reading/To_Read/keynote1/";
-            },},{id: "paper_reading-paper-reading-klima-low-latency-mixed-signal-in-memory-computing-accelerator-for-solving-arbitrary-order-boolean-satisfiability",
-          title: 'Paper Reading: KLIMA Low-latency mixed-signal In-Memory Computing accelerator for solving arbitrary-order Boolean Satisfiability...',
-          description: "TODO: One-sentence summary",
-          section: "Paper_reading",handler: () => {
-              window.location.href = "/paper-reading/To_Read/klima-low-latency-mixed-signal-in-memory-computing-accelerat/";
-            },},{id: "paper_reading-paper-reading-mega-mini-a-npu-with-novel-heterogeneous-ai-processing-architecture-balancing-efficiency-performance-and-intelligence-for-the-era-of-generative-ai",
-          title: 'Paper Reading: MEGA.mini A NPU with Novel Heterogeneous AI Processing Architecture Balancing Efficiency...',
-          description: "TODO: One-sentence summary",
-          section: "Paper_reading",handler: () => {
-              window.location.href = "/paper-reading/To_Read/megamini-a-npu-with-novel-heterogeneous-ai-processing-archit/";
-            },},{id: "paper_reading-paper-reading-mimdram",
-          title: 'Paper Reading: mimdram',
-          description: "TODO: One-sentence summary",
-          section: "Paper_reading",handler: () => {
-              window.location.href = "/paper-reading/To_Read/mimdram/";
-            },},{id: "paper_reading-paper-reading-modernprimeronpim-springer-emerging-computing-bookchapter21-extended",
-          title: 'Paper Reading: ModernPrimerOnPIM springer-emerging-computing-bookchapter21-extended',
-          description: "TODO: One-sentence summary",
-          section: "Paper_reading",handler: () => {
-              window.location.href = "/paper-reading/To_Read/modernprimeronpim-springer-emerging-computing-bookchapter21/";
-            },},{id: "paper_reading-paper-reading-multi-chip-technologies-to-unleash-computing-performance-gains-over-the-next-decade",
-          title: 'Paper Reading: Multi-chip technologies to unleash computing performance gains over the next decade...',
-          description: "TODO: One-sentence summary",
-          section: "Paper_reading",handler: () => {
-              window.location.href = "/paper-reading/To_Read/multi-chip-technologies-to-unleash-computing-performance-gai/";
-            },},{id: "paper_reading-paper-reading-onur-digitaldesign-comparch-2022-lecture19c-dae-beforelecture",
-          title: 'Paper Reading: onur-digitaldesign comparch-2022-lecture19c-dae-beforelecture',
-          description: "TODO: One-sentence summary",
-          section: "Paper_reading",handler: () => {
-              window.location.href = "/paper-reading/To_Read/onur-digitaldesign-comparch-2022-lecture19c-dae-beforelectur/";
-            },},{id: "paper_reading-paper-reading-onur-seminarincomparch-memorycentriccomputing-25-september-2025-afterlecture",
-          title: 'Paper Reading: onur-seminarincomparch-memorycentriccomputing-25-september-2025-afterlecture',
-          description: "TODO: One-sentence summary",
-          section: "Paper_reading",handler: () => {
-              window.location.href = "/paper-reading/To_Read/onur-seminarincomparch-memorycentriccomputing-25-september-2/";
-            },},{id: "paper_reading-paper-reading-pioneering-chiplet-technology-and-design-for-the-amd-epyc-and-ryzen-processor-families-industrial-product",
-          title: 'Paper Reading: Pioneering Chiplet Technology and Design for the AMD EPYC and Ryzen...',
-          description: "TODO: One-sentence summary",
-          section: "Paper_reading",handler: () => {
-              window.location.href = "/paper-reading/To_Read/pioneering-chiplet-technology-and-design-for-the-amd-epyc-an/";
-            },},{id: "paper_reading-paper-reading-samsung-pim-pnm-for-transfmer-based-ai-energy-efficiency-on-pim-pnm-cluster",
-          title: 'Paper Reading: Samsung PIM PNM for Transfmer Based AI Energy Efficiency on PIM...',
-          description: "TODO: One-sentence summary",
-          section: "Paper_reading",handler: () => {
-              window.location.href = "/paper-reading/To_Read/samsung-pim-pnm-for-transfmer-based-ai-energy-efficiency-on/";
-            },},{id: "paper_reading-paper-reading-tcad24-sai",
-          title: 'Paper Reading: tcad24-sai',
-          description: "TODO: One-sentence summary",
-          section: "Paper_reading",handler: () => {
-              window.location.href = "/paper-reading/To_Read/tcad24-sai/";
-            },},{id: "paper_reading-paper-reading-the-true-processing-in-memory-accelerator",
-          title: 'Paper Reading: The true Processing In Memory accelerator',
-          description: "TODO: One-sentence summary",
-          section: "Paper_reading",handler: () => {
-              window.location.href = "/paper-reading/To_Read/the-true-processing-in-memory-accelerator/";
-            },},{id: "paper_reading-paper-reading-ucie",
-          title: 'Paper Reading: UCIe',
-          description: "TODO: One-sentence summary",
-          section: "Paper_reading",handler: () => {
-              window.location.href = "/paper-reading/To_Read/ucie/";
-            },},{id: "paper_reading-paper-reading-unindp-a-unified-compilation-and-simulation-tool-for-near-dram-processing-architectures",
-          title: 'Paper Reading: UniNDP A Unified Compilation and Simulation Tool for Near DRAM Processing...',
-          description: "TODO: One-sentence summary",
-          section: "Paper_reading",handler: () => {
-              window.location.href = "/paper-reading/To_Read/unindp-a-unified-compilation-and-simulation-tool-for-near-dr/";
-            },},{id: "paper_reading-paper-reading-zen3-the-amd-2nd-generation-7nm-x86-64-microprocessor-core",
-          title: 'Paper Reading: Zen3 The AMD 2nd-Generation 7nm x86-64 Microprocessor Core',
-          description: "TODO: One-sentence summary",
-          section: "Paper_reading",handler: () => {
-              window.location.href = "/paper-reading/To_Read/zen3-the-amd-2nd-generation-7nm-x86-64-microprocessor-core/";
+              window.location.href = "/paper-reading/Topic-3DIC_and_Packaging/a-stacked-embedded-dram-array-for-lpddr4-4x-using-hybrid-bon/";
             },},{id: "paper_reading-paper-reading-accelstack-a-cost-driven-analysis-of-3d-stacked-llm-accelerators",
           title: 'Paper Reading: AccelStack - A Cost-Driven Analysis of 3D-Stacked LLM Accelerators',
           description: "Cost-driven analysis framework for 3D-stacked LLM accelerators covering performance model and manufacturing cost for DoD/DoW/WoW hybrid bonding",
           section: "Paper_reading",handler: () => {
-              window.location.href = "/paper-reading/Topic-3DIC/accelstack-a-cost-driven-analysis-of-3d-stacked-llm-accelera/";
+              window.location.href = "/paper-reading/Topic-3DIC_and_Packaging/accelstack-a-cost-driven-analysis-of-3d-stacked-llm-accelera/";
+            },},{id: "paper_reading-paper-reading-active-interposer-technology-for-chiplet-based-advanced-3d-system-architectures",
+          title: 'Paper Reading: Active Interposer Technology for Chiplet-Based Advanced 3D System Architectures',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-3DIC_and_Packaging/active-interposer-technology-for-chiplet-based-advanced-3d-s/";
+            },},{id: "paper_reading-paper-reading-exploiting-similarity-opportunities-of-emerging-vision-ai-models-on-hybrid-bonding-architecture",
+          title: 'Paper Reading: Exploiting Similarity Opportunities of Emerging Vision AI Models on Hybrid Bonding...',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-3DIC_and_Packaging/exploiting-similarity-opportunities-of-emerging-vision-ai-mo-2/";
+            },},{id: "paper_reading-paper-reading-exploiting-similarity-opportunities-of-emerging-vision-ai-models-on-hybrid-bonding-architecture",
+          title: 'Paper Reading: Exploiting Similarity Opportunities of Emerging Vision AI Models on Hybrid Bonding...',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-3DIC_and_Packaging/exploiting-similarity-opportunities-of-emerging-vision-ai-mo/";
+            },},{id: "paper_reading-paper-reading-keynote1",
+          title: 'Paper Reading: keynote1',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-3DIC_and_Packaging/keynote1/";
+            },},{id: "paper_reading-paper-reading-multi-chip-technologies-to-unleash-computing-performance-gains-over-the-next-decade",
+          title: 'Paper Reading: Multi-chip technologies to unleash computing performance gains over the next decade...',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-3DIC_and_Packaging/multi-chip-technologies-to-unleash-computing-performance-gai/";
+            },},{id: "paper_reading-paper-reading-pioneering-chiplet-technology-and-design-for-the-amd-epyc-and-ryzen-processor-families-industrial-product",
+          title: 'Paper Reading: Pioneering Chiplet Technology and Design for the AMD EPYC and Ryzen...',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-3DIC_and_Packaging/pioneering-chiplet-technology-and-design-for-the-amd-epyc-an/";
+            },},{id: "paper_reading-paper-reading-the-survey-of-chiplet-based-integrated-architecture-an-eda-perspective",
+          title: 'Paper Reading: The Survey of Chiplet-based Integrated Architecture An EDA perspective',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-3DIC_and_Packaging/the-survey-of-chiplet-based-integrated-architecture-an-eda-p/";
+            },},{id: "paper_reading-paper-reading-ucie",
+          title: 'Paper Reading: UCIe',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-3DIC_and_Packaging/ucie/";
             },},{id: "paper_reading-paper-reading-2021dac-gemmini",
           title: 'Paper Reading: (2021DAC) Gemmini',
           description: "TODO: One-sentence summary",
@@ -1289,61 +1084,36 @@ ninja.data = [{
           description: "TODO: One-sentence summary",
           section: "Paper_reading",handler: () => {
               window.location.href = "/paper-reading/Topic-Accelerator_Architecture/2025micro-oasis---a-commercial-high-performance-terminal-ai/";
-            },},{id: "paper_reading-paper-reading-3453483-3454083",
-          title: 'Paper Reading: 3453483.3454083',
+            },},{id: "paper_reading-paper-reading-3676536-3676798",
+          title: 'Paper Reading: 3676536.3676798',
           description: "TODO: One-sentence summary",
           section: "Paper_reading",handler: () => {
-              window.location.href = "/paper-reading/Topic-Accelerator_Architecture/34534833454083/";
-            },},{id: "paper_reading-paper-reading-3503222-3507723",
-          title: 'Paper Reading: 3503222.3507723',
+              window.location.href = "/paper-reading/Topic-Accelerator_Architecture/36765363676798/";
+            },},{id: "paper_reading-paper-reading-bit-separable-transformer-accelerator-leveraging-output-activation-sparsity-for-efficient-dram-access",
+          title: 'Paper Reading: Bit-Separable Transformer Accelerator Leveraging Output Activation Sparsity for Efficient DRAM Access...',
           description: "TODO: One-sentence summary",
           section: "Paper_reading",handler: () => {
-              window.location.href = "/paper-reading/Topic-Accelerator_Architecture/35032223507723/";
-            },},{id: "paper_reading-paper-reading-3503222-3507767",
-          title: 'Paper Reading: 3503222.3507767',
+              window.location.href = "/paper-reading/Topic-Accelerator_Architecture/bit-separable-transformer-accelerator-leveraging-output-acti/";
+            },},{id: "paper_reading-paper-reading-data-oblivious-cpu-microarchitectural-side-channel-leakage-resilient-processor",
+          title: 'Paper Reading: Data Oblivious CPU Microarchitectural Side-channel Leakage-Resilient Processor',
           description: "TODO: One-sentence summary",
           section: "Paper_reading",handler: () => {
-              window.location.href = "/paper-reading/Topic-Accelerator_Architecture/35032223507767/";
-            },},{id: "paper_reading-paper-reading-3649329-3657373",
-          title: 'Paper Reading: 3649329.3657373',
-          description: "TODO: One-sentence summary",
-          section: "Paper_reading",handler: () => {
-              window.location.href = "/paper-reading/Topic-Accelerator_Architecture/36493293657373/";
-            },},{id: "paper_reading-paper-reading-3676536-3676648",
-          title: 'Paper Reading: 3676536.3676648',
-          description: "TODO: One-sentence summary",
-          section: "Paper_reading",handler: () => {
-              window.location.href = "/paper-reading/Topic-Accelerator_Architecture/36765363676648/";
-            },},{id: "paper_reading-paper-reading-airchitect-v2-learning-the-hardware-accelerator-design-space-through-unified-representations",
-          title: 'Paper Reading: AIRCHITECT V2 Learning the Hardware Accelerator Design Space through Unified Representations...',
-          description: "TODO: One-sentence summary",
-          section: "Paper_reading",handler: () => {
-              window.location.href = "/paper-reading/Topic-Accelerator_Architecture/airchitect-v2-learning-the-hardware-accelerator-design-space/";
-            },},{id: "paper_reading-paper-reading-deap-dnn-accelerator-parallelism-dse",
-          title: 'Paper Reading: DEAP DNN Accelerator Parallelism DSE',
-          description: "TODO: One-sentence summary",
-          section: "Paper_reading",handler: () => {
-              window.location.href = "/paper-reading/Topic-Accelerator_Architecture/deap-dnn-accelerator-parallelism-dse/";
+              window.location.href = "/paper-reading/Topic-Accelerator_Architecture/data-oblivious-cpu-microarchitectural-side-channel-leakage-r/";
             },},{id: "paper_reading-paper-reading-dip-a-scalable-energy-efficient-systolic-array-for-matrix-multiplication-acceleration",
           title: 'Paper Reading: DiP A Scalable Energy-Efficient Systolic Array for Matrix Multiplication Acceleration',
           description: "TODO: One-sentence summary",
           section: "Paper_reading",handler: () => {
               window.location.href = "/paper-reading/Topic-Accelerator_Architecture/dip-a-scalable-energy-efficient-systolic-array-for-matrix-mu/";
-            },},{id: "paper_reading-paper-reading-dnnfuser-transformer-as-a-generalized-mapper-for-fusion-in-dnnaccelerators",
-          title: 'Paper Reading: DNNFuser Transformer as a Generalized Mapper for Fusion in DNNAccelerators',
-          description: "TODO: One-sentence summary",
-          section: "Paper_reading",handler: () => {
-              window.location.href = "/paper-reading/Topic-Accelerator_Architecture/dnnfuser-transformer-as-a-generalized-mapper-for-fusion-in-d/";
-            },},{id: "paper_reading-paper-reading-dosa2023-micro-slides",
-          title: 'Paper Reading: dosa2023-micro-slides',
-          description: "TODO: One-sentence summary",
-          section: "Paper_reading",handler: () => {
-              window.location.href = "/paper-reading/Topic-Accelerator_Architecture/dosa2023-micro-slides/";
             },},{id: "paper_reading-paper-reading-dpuv4e-high-throughput-dpu-architecture-design-for-cnn-on-versal-acap",
           title: 'Paper Reading: DPUV4E High-Throughput DPU Architecture Design for CNN on Versal ACAP',
           description: "TODO: One-sentence summary",
           section: "Paper_reading",handler: () => {
               window.location.href = "/paper-reading/Topic-Accelerator_Architecture/dpuv4e-high-throughput-dpu-architecture-design-for-cnn-on-ve/";
+            },},{id: "paper_reading-paper-reading-dual-issue-execution-of-mixed-integer-and-floating-point-workloads-on-energy-efficient-in-order-risc-v-cores",
+          title: 'Paper Reading: Dual-Issue Execution of Mixed Integer and Floating-Point Workloads on Energy-Efficient In-Order...',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-Accelerator_Architecture/dual-issue-execution-of-mixed-integer-and-floating-point-wor/";
             },},{id: "paper_reading-paper-reading-eq-vit-algorithm-hardware-co-design-for-end-to-end-acceleration-of-real-time-vision-transformer-inference-on-versal-acap-architecture",
           title: 'Paper Reading: EQ-ViT Algorithm-Hardware Co-Design for End-to-End Acceleration of Real-Time Vision Transformer Inference...',
           description: "TODO: One-sentence summary",
@@ -1354,11 +1124,6 @@ ninja.data = [{
           description: "TODO: One-sentence summary",
           section: "Paper_reading",handler: () => {
               window.location.href = "/paper-reading/Topic-Accelerator_Architecture/esfa-an-efficient-scalable-fft-design-framework-on-versal-ai/";
-            },},{id: "paper_reading-paper-reading-extending-silicon-lifetime-a-review-of-design-techniques-for-reliable-integrated-circuits",
-          title: 'Paper Reading: Extending Silicon Lifetime A Review of Design Techniques for Reliable Integrated...',
-          description: "TODO: One-sentence summary",
-          section: "Paper_reading",handler: () => {
-              window.location.href = "/paper-reading/Topic-Accelerator_Architecture/extending-silicon-lifetime-a-review-of-design-techniques-for/";
             },},{id: "paper_reading-paper-reading-eyeriss-v2-a-flexible-accelerator-for-emerging-deep-neural-networks-on-mobile-devices",
           title: 'Paper Reading: Eyeriss v2 A Flexible Accelerator for Emerging Deep Neural Networks on...',
           description: "TODO: One-sentence summary",
@@ -1389,56 +1154,16 @@ ninja.data = [{
           description: "TODO: One-sentence summary",
           section: "Paper_reading",handler: () => {
               window.location.href = "/paper-reading/Topic-Accelerator_Architecture/late-breaking-results-pyaie-a-python-based-programming-frame/";
-            },},{id: "paper_reading-paper-reading-llm-aided-compilation-for-tensor-accelerators",
-          title: 'Paper Reading: LLM-Aided Compilation for Tensor Accelerators',
-          description: "TODO: One-sentence summary",
-          section: "Paper_reading",handler: () => {
-              window.location.href = "/paper-reading/Topic-Accelerator_Architecture/llm-aided-compilation-for-tensor-accelerators/";
-            },},{id: "paper_reading-paper-reading-maestro-a-data-centric-approach-to-understand-reuse-performance-and-hardware-cost-of-dnn-mappings",
-          title: 'Paper Reading: MAESTRO A Data-Centric Approach to Understand Reuse Performance and Hardware Cost...',
-          description: "TODO: One-sentence summary",
-          section: "Paper_reading",handler: () => {
-              window.location.href = "/paper-reading/Topic-Accelerator_Architecture/maestro-a-data-centric-approach-to-understand-reuse-performa/";
             },},{id: "paper_reading-paper-reading-magnet-a-modular-accelerator-generator-for-neural-networks",
           title: 'Paper Reading: MAGNet A Modular Accelerator Generator for Neural Networks',
           description: "TODO: One-sentence summary",
           section: "Paper_reading",handler: () => {
               window.location.href = "/paper-reading/Topic-Accelerator_Architecture/magnet-a-modular-accelerator-generator-for-neural-networks/";
-            },},{id: "paper_reading-paper-reading-naas-neural-accelerator-architecture-search",
-          title: 'Paper Reading: NAAS Neural Accelerator Architecture Search',
+            },},{id: "paper_reading-paper-reading-meek-re-thinking-heterogeneous-parallel-error-detection-architecture-for-real-world-ooo-superscalar-processors",
+          title: 'Paper Reading: MEEK Re-thinking Heterogeneous Parallel Error Detection Architecture for Real-World OoO Superscalar...',
           description: "TODO: One-sentence summary",
           section: "Paper_reading",handler: () => {
-              window.location.href = "/paper-reading/Topic-Accelerator_Architecture/naas-neural-accelerator-architecture-search/";
-            },},{id: "paper_reading-paper-reading-optimized-spatial-architecture-mapping-flow-for",
-          title: 'Paper Reading: Optimized Spatial Architecture Mapping Flow for',
-          description: "TODO: One-sentence summary",
-          section: "Paper_reading",handler: () => {
-              window.location.href = "/paper-reading/Topic-Accelerator_Architecture/optimized-spatial-architecture-mapping-flow-for/";
-            },},{id: "paper_reading-paper-reading-place-iccad2024-wang",
-          title: 'Paper Reading: PLACE ICCAD2024 Wang',
-          description: "TODO: One-sentence summary",
-          section: "Paper_reading",handler: () => {
-              window.location.href = "/paper-reading/Topic-Accelerator_Architecture/place-iccad2024-wang/";
-            },},{id: "paper_reading-paper-reading-polaris-multi-fidelity-design-space-exploration-of-deep-learning-accelerators",
-          title: 'Paper Reading: Polaris - Multi-Fidelity Design Space Exploration of Deep Learning Accelerators',
-          description: "TODO: One-sentence summary",
-          section: "Paper_reading",handler: () => {
-              window.location.href = "/paper-reading/Topic-Accelerator_Architecture/polaris---multi-fidelity-design-space-exploration-of-deep-le/";
-            },},{id: "paper_reading-paper-reading-spec2rtl-agent",
-          title: 'Paper Reading: Spec2RTL-Agent',
-          description: "TODO: One-sentence summary",
-          section: "Paper_reading",handler: () => {
-              window.location.href = "/paper-reading/Topic-Accelerator_Architecture/spec2rtl-agent/";
-            },},{id: "paper_reading-paper-reading-the-dawn-of-ai-native-eda-opportunities-and-challenges-of-large-circuit-models",
-          title: 'Paper Reading: The Dawn of AI-Native EDA Opportunities and Challenges of Large Circuit...',
-          description: "TODO: One-sentence summary",
-          section: "Paper_reading",handler: () => {
-              window.location.href = "/paper-reading/Topic-Accelerator_Architecture/the-dawn-of-ai-native-eda-opportunities-and-challenges-of-la/";
-            },},{id: "paper_reading-paper-reading-the-survey-of-chiplet-based-integrated-architecture-an-eda-perspective",
-          title: 'Paper Reading: The Survey of Chiplet-based Integrated Architecture An EDA perspective',
-          description: "TODO: One-sentence summary",
-          section: "Paper_reading",handler: () => {
-              window.location.href = "/paper-reading/Topic-Accelerator_Architecture/the-survey-of-chiplet-based-integrated-architecture-an-eda-p/";
+              window.location.href = "/paper-reading/Topic-Accelerator_Architecture/meek-re-thinking-heterogeneous-parallel-error-detection-arch/";
             },},{id: "paper_reading-paper-reading-using-shi-2020",
           title: 'Paper Reading: using shi 2020',
           description: "TODO: One-sentence summary",
@@ -1454,161 +1179,436 @@ ninja.data = [{
           description: "TODO: One-sentence summary",
           section: "Paper_reading",handler: () => {
               window.location.href = "/paper-reading/Topic-Accelerator_Architecture/widesa-a-high-array-utilization-mapping-scheme-for-uniform-r/";
-            },},{id: "paper_reading-paper-reading-3597931",
-          title: 'Paper Reading: 3597931',
+            },},{id: "paper_reading-paper-reading-zen3-the-amd-2nd-generation-7nm-x86-64-microprocessor-core",
+          title: 'Paper Reading: Zen3 The AMD 2nd-Generation 7nm x86-64 Microprocessor Core',
           description: "TODO: One-sentence summary",
           section: "Paper_reading",handler: () => {
-              window.location.href = "/paper-reading/Topic-DSE/3597931/";
-            },},{id: "paper_reading-paper-reading-3676536-3676746",
-          title: 'Paper Reading: 3676536.3676746',
+              window.location.href = "/paper-reading/Topic-Accelerator_Architecture/zen3-the-amd-2nd-generation-7nm-x86-64-microprocessor-core/";
+            },},{id: "paper_reading-paper-reading-3453483-3454083",
+          title: 'Paper Reading: 3453483.3454083',
           description: "TODO: One-sentence summary",
           section: "Paper_reading",handler: () => {
-              window.location.href = "/paper-reading/Topic-DSE/36765363676746/";
-            },},{id: "paper_reading-paper-reading-3676536-3676782",
-          title: 'Paper Reading: 3676536.3676782',
+              window.location.href = "/paper-reading/Topic-Compiler_and_Software/34534833454083/";
+            },},{id: "paper_reading-paper-reading-3503222-3507723",
+          title: 'Paper Reading: 3503222.3507723',
           description: "TODO: One-sentence summary",
           section: "Paper_reading",handler: () => {
-              window.location.href = "/paper-reading/Topic-DSE/36765363676782/";
-            },},{id: "paper_reading-paper-reading-boosting-vlsi-design-flow-parameter-tuning-with-randomembedding-and-multi-objective-trust-region-bayesianoptimization",
-          title: 'Paper Reading: Boosting VLSI Design Flow Parameter Tuning with RandomEmbedding and Multi-objective Trust-region...',
+              window.location.href = "/paper-reading/Topic-Compiler_and_Software/35032223507723/";
+            },},{id: "paper_reading-paper-reading-llm-aided-compilation-for-tensor-accelerators",
+          title: 'Paper Reading: LLM-Aided Compilation for Tensor Accelerators',
           description: "TODO: One-sentence summary",
           section: "Paper_reading",handler: () => {
-              window.location.href = "/paper-reading/Topic-DSE/boosting-vlsi-design-flow-parameter-tuning-with-randomembedd/";
-            },},{id: "paper_reading-paper-reading-data-oblivious-cpu-microarchitectural-side-channel-leakage-resilient-processor",
-          title: 'Paper Reading: Data Oblivious CPU Microarchitectural Side-channel Leakage-Resilient Processor',
-          description: "TODO: One-sentence summary",
-          section: "Paper_reading",handler: () => {
-              window.location.href = "/paper-reading/Topic-DSE/data-oblivious-cpu-microarchitectural-side-channel-leakage-r/";
-            },},{id: "paper_reading-paper-reading-dual-issue-execution-of-mixed-integer-and-floating-point-workloads-on-energy-efficient-in-order-risc-v-cores",
-          title: 'Paper Reading: Dual-Issue Execution of Mixed Integer and Floating-Point Workloads on Energy-Efficient In-Order...',
-          description: "TODO: One-sentence summary",
-          section: "Paper_reading",handler: () => {
-              window.location.href = "/paper-reading/Topic-DSE/dual-issue-execution-of-mixed-integer-and-floating-point-wor/";
-            },},{id: "paper_reading-paper-reading-gem5-accesys-enabling-system-level-exploration-of-standard-interconnects-for-novel-accelerators",
-          title: 'Paper Reading: Gem5-AcceSys Enabling System-Level Exploration of Standard Interconnects for Novel Accelerators',
-          description: "TODO: One-sentence summary",
-          section: "Paper_reading",handler: () => {
-              window.location.href = "/paper-reading/Topic-DSE/gem5-accesys-enabling-system-level-exploration-of-standard-i/";
-            },},{id: "paper_reading-paper-reading-meek-re-thinking-heterogeneous-parallel-error-detection-architecture-for-real-world-ooo-superscalar-processors",
-          title: 'Paper Reading: MEEK Re-thinking Heterogeneous Parallel Error Detection Architecture for Real-World OoO Superscalar...',
-          description: "TODO: One-sentence summary",
-          section: "Paper_reading",handler: () => {
-              window.location.href = "/paper-reading/Topic-DSE/meek-re-thinking-heterogeneous-parallel-error-detection-arch/";
-            },},{id: "paper_reading-paper-reading-neurips-2023-framework-and-benchmarks-for-combinatorial-and-mixed-variable-bayesian-optimization-paper-datasets-and-benchmarks",
-          title: 'Paper Reading: NeurIPS-2023-framework-and-benchmarks-for-combinatorial-and-mixed-variable-bayesian-optimization-Paper-Datasets and Benchmarks',
-          description: "TODO: One-sentence summary",
-          section: "Paper_reading",handler: () => {
-              window.location.href = "/paper-reading/Topic-DSE/neurips-2023-framework-and-benchmarks-for-combinatorial-and/";
-            },},{id: "paper_reading-paper-reading-on-design-space-exploration-of-cache-system-in-multi-chiplet-systems",
-          title: 'Paper Reading: On Design Space Exploration of Cache System in Multi-Chiplet Systems',
-          description: "TODO: One-sentence summary",
-          section: "Paper_reading",handler: () => {
-              window.location.href = "/paper-reading/Topic-DSE/on-design-space-exploration-of-cache-system-in-multi-chiplet/";
-            },},{id: "paper_reading-paper-reading-scalable-global-optimization-via-local-bayesian-optimization",
-          title: 'Paper Reading: Scalable Global Optimization via Local Bayesian Optimization',
-          description: "TODO: One-sentence summary",
-          section: "Paper_reading",handler: () => {
-              window.location.href = "/paper-reading/Topic-DSE/scalable-global-optimization-via-local-bayesian-optimization/";
+              window.location.href = "/paper-reading/Topic-Compiler_and_Software/llm-aided-compilation-for-tensor-accelerators/";
             },},{id: "paper_reading-paper-reading-c187-iccad2023-klotski",
           title: 'Paper Reading: C187-ICCAD2023-Klotski',
           description: "TODO: One-sentence summary",
           section: "Paper_reading",handler: () => {
               window.location.href = "/paper-reading/Topic-Dataflow_and_Mapping/c187-iccad2023-klotski/";
+            },},{id: "paper_reading-paper-reading-dnnfuser-transformer-as-a-generalized-mapper-for-fusion-in-dnnaccelerators",
+          title: 'Paper Reading: DNNFuser Transformer as a Generalized Mapper for Fusion in DNNAccelerators',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-Dataflow_and_Mapping/dnnfuser-transformer-as-a-generalized-mapper-for-fusion-in-d/";
+            },},{id: "paper_reading-paper-reading-gemini-mapping-and-architecture-co-exploration-for-large-scale-dnn-chiplet-accelerators",
+          title: 'Paper Reading: Gemini Mapping and Architecture Co-exploration for Large-scale DNN Chiplet Accelerators',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-Dataflow_and_Mapping/gemini-mapping-and-architecture-co-exploration-for-large-sca/";
             },},{id: "paper_reading-paper-reading-klotski-v2-improved-dnn-model-orchestration-framework-for-dataflow-architecture-accelerators",
           title: 'Paper Reading: Klotski v2 Improved DNN Model Orchestration Framework for Dataflow Architecture Accelerators...',
           description: "TODO: One-sentence summary",
           section: "Paper_reading",handler: () => {
               window.location.href = "/paper-reading/Topic-Dataflow_and_Mapping/klotski-v2-improved-dnn-model-orchestration-framework-for-da/";
+            },},{id: "paper_reading-paper-reading-maestro-a-data-centric-approach-to-understand-reuse-performance-and-hardware-cost-of-dnn-mappings",
+          title: 'Paper Reading: MAESTRO A Data-Centric Approach to Understand Reuse Performance and Hardware Cost...',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-Dataflow_and_Mapping/maestro-a-data-centric-approach-to-understand-reuse-performa/";
+            },},{id: "paper_reading-paper-reading-optimized-spatial-architecture-mapping-flow-for",
+          title: 'Paper Reading: Optimized Spatial Architecture Mapping Flow for',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-Dataflow_and_Mapping/optimized-spatial-architecture-mapping-flow-for/";
+            },},{id: "paper_reading-paper-reading-3503222-3507767",
+          title: 'Paper Reading: 3503222.3507767',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-Design_Space_Exploration/35032223507767/";
+            },},{id: "paper_reading-paper-reading-3597931",
+          title: 'Paper Reading: 3597931',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-Design_Space_Exploration/3597931/";
+            },},{id: "paper_reading-paper-reading-3676536-3676746",
+          title: 'Paper Reading: 3676536.3676746',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-Design_Space_Exploration/36765363676746/";
+            },},{id: "paper_reading-paper-reading-3676536-3676782",
+          title: 'Paper Reading: 3676536.3676782',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-Design_Space_Exploration/36765363676782/";
+            },},{id: "paper_reading-paper-reading-airchitect-v2-learning-the-hardware-accelerator-design-space-through-unified-representations",
+          title: 'Paper Reading: AIRCHITECT V2 Learning the Hardware Accelerator Design Space through Unified Representations...',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-Design_Space_Exploration/airchitect-v2-learning-the-hardware-accelerator-design-space/";
+            },},{id: "paper_reading-paper-reading-boosting-vlsi-design-flow-parameter-tuning-with-randomembedding-and-multi-objective-trust-region-bayesianoptimization",
+          title: 'Paper Reading: Boosting VLSI Design Flow Parameter Tuning with RandomEmbedding and Multi-objective Trust-region...',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-Design_Space_Exploration/boosting-vlsi-design-flow-parameter-tuning-with-randomembedd/";
+            },},{id: "paper_reading-paper-reading-deap-dnn-accelerator-parallelism-dse",
+          title: 'Paper Reading: DEAP DNN Accelerator Parallelism DSE',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-Design_Space_Exploration/deap-dnn-accelerator-parallelism-dse/";
+            },},{id: "paper_reading-paper-reading-dosa2023-micro-slides",
+          title: 'Paper Reading: dosa2023-micro-slides',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-Design_Space_Exploration/dosa2023-micro-slides/";
+            },},{id: "paper_reading-paper-reading-gem5-accesys-enabling-system-level-exploration-of-standard-interconnects-for-novel-accelerators",
+          title: 'Paper Reading: Gem5-AcceSys Enabling System-Level Exploration of Standard Interconnects for Novel Accelerators',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-Design_Space_Exploration/gem5-accesys-enabling-system-level-exploration-of-standard-i/";
+            },},{id: "paper_reading-paper-reading-naas-neural-accelerator-architecture-search",
+          title: 'Paper Reading: NAAS Neural Accelerator Architecture Search',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-Design_Space_Exploration/naas-neural-accelerator-architecture-search/";
+            },},{id: "paper_reading-paper-reading-neurips-2023-framework-and-benchmarks-for-combinatorial-and-mixed-variable-bayesian-optimization-paper-datasets-and-benchmarks",
+          title: 'Paper Reading: NeurIPS-2023-framework-and-benchmarks-for-combinatorial-and-mixed-variable-bayesian-optimization-Paper-Datasets and Benchmarks',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-Design_Space_Exploration/neurips-2023-framework-and-benchmarks-for-combinatorial-and/";
+            },},{id: "paper_reading-paper-reading-on-design-space-exploration-of-cache-system-in-multi-chiplet-systems",
+          title: 'Paper Reading: On Design Space Exploration of Cache System in Multi-Chiplet Systems',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-Design_Space_Exploration/on-design-space-exploration-of-cache-system-in-multi-chiplet/";
+            },},{id: "paper_reading-paper-reading-polaris-multi-fidelity-design-space-exploration-of-deep-learning-accelerators",
+          title: 'Paper Reading: Polaris - Multi-Fidelity Design Space Exploration of Deep Learning Accelerators',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-Design_Space_Exploration/polaris---multi-fidelity-design-space-exploration-of-deep-le/";
+            },},{id: "paper_reading-paper-reading-scalable-global-optimization-via-local-bayesian-optimization",
+          title: 'Paper Reading: Scalable Global Optimization via Local Bayesian Optimization',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-Design_Space_Exploration/scalable-global-optimization-via-local-bayesian-optimization/";
+            },},{id: "paper_reading-paper-reading-08894429",
+          title: 'Paper Reading: 08894429',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-EDA_and_Physical_Design/08894429/";
+            },},{id: "paper_reading-paper-reading-3676536-3676648",
+          title: 'Paper Reading: 3676536.3676648',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-EDA_and_Physical_Design/36765363676648/";
+            },},{id: "paper_reading-paper-reading-3698364-3709127",
+          title: 'Paper Reading: 3698364.3709127',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-EDA_and_Physical_Design/36983643709127/";
+            },},{id: "paper_reading-paper-reading-place-iccad2024-wang",
+          title: 'Paper Reading: PLACE ICCAD2024 Wang',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-EDA_and_Physical_Design/place-iccad2024-wang/";
+            },},{id: "paper_reading-paper-reading-spec2rtl-agent",
+          title: 'Paper Reading: Spec2RTL-Agent',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-EDA_and_Physical_Design/spec2rtl-agent/";
+            },},{id: "paper_reading-paper-reading-tcad24-sai",
+          title: 'Paper Reading: tcad24-sai',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-EDA_and_Physical_Design/tcad24-sai/";
+            },},{id: "paper_reading-paper-reading-the-dawn-of-ai-native-eda-opportunities-and-challenges-of-large-circuit-models",
+          title: 'Paper Reading: The Dawn of AI-Native EDA Opportunities and Challenges of Large Circuit...',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-EDA_and_Physical_Design/the-dawn-of-ai-native-eda-opportunities-and-challenges-of-la/";
             },},{id: "paper_reading-paper-reading-1978-cmu-cs-report-kung-leiserson",
           title: 'Paper Reading: 1978-cmu-cs-report-kung-leiserson',
           description: "TODO: One-sentence summary",
           section: "Paper_reading",handler: () => {
-              window.location.href = "/paper-reading/Topic-Other/1978-cmu-cs-report-kung-leiserson/";
+              window.location.href = "/paper-reading/Topic-Foundations/1978-cmu-cs-report-kung-leiserson/";
             },},{id: "paper_reading-paper-reading-20250716-amp-0718-rvsc-xsai-以cpu的编程范式支持现代llm核函数",
           title: 'Paper Reading: 20250716&amp;amp;0718-RVSC-XSAI：以CPU的编程范式支持现代LLM核函数',
           description: "TODO: One-sentence summary",
           section: "Paper_reading",handler: () => {
-              window.location.href = "/paper-reading/Topic-Other/202507160718-rvsc-xsaicpullm-2/";
+              window.location.href = "/paper-reading/Topic-Foundations/202507160718-rvsc-xsaicpullm-2/";
             },},{id: "paper_reading-paper-reading-berkeleyview",
           title: 'Paper Reading: BerkeleyView',
           description: "TODO: One-sentence summary",
           section: "Paper_reading",handler: () => {
-              window.location.href = "/paper-reading/Topic-Other/berkeleyview/";
-            },},{id: "paper_reading-paper-reading-cacm12-why-coherence",
-          title: 'Paper Reading: cacm12 why coherence',
-          description: "TODO: One-sentence summary",
-          section: "Paper_reading",handler: () => {
-              window.location.href = "/paper-reading/Topic-Other/cacm12-why-coherence/";
+              window.location.href = "/paper-reading/Topic-Foundations/berkeleyview/";
             },},{id: "paper_reading-paper-reading-leiserson-et-al-theres-plenty-of-room-at-the-top",
           title: 'Paper Reading: Leiserson-et-al-Theres-plenty-of-room-at-the-top',
           description: "TODO: One-sentence summary",
           section: "Paper_reading",handler: () => {
-              window.location.href = "/paper-reading/Topic-Other/leiserson-et-al-theres-plenty-of-room-at-the-top/";
+              window.location.href = "/paper-reading/Topic-Foundations/leiserson-et-al-theres-plenty-of-room-at-the-top/";
+            },},{id: "paper_reading-paper-reading-onur-digitaldesign-comparch-2022-lecture19c-dae-beforelecture",
+          title: 'Paper Reading: onur-digitaldesign comparch-2022-lecture19c-dae-beforelecture',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-Foundations/onur-digitaldesign-comparch-2022-lecture19c-dae-beforelectur/";
             },},{id: "paper_reading-paper-reading-ten-lessons-learned-from-ttap",
           title: 'Paper Reading: Ten Lessons Learned from TTAP',
           description: "TODO: One-sentence summary",
           section: "Paper_reading",handler: () => {
-              window.location.href = "/paper-reading/Topic-Other/ten-lessons-learned-from-ttap/";
+              window.location.href = "/paper-reading/Topic-Foundations/ten-lessons-learned-from-ttap/";
+            },},{id: "paper_reading-paper-reading-3676641-3716009",
+          title: 'Paper Reading: 3676641.3716009',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-LLM_Accelerators/36766413716009/";
+            },},{id: "paper_reading-paper-reading-3676641-3716267",
+          title: 'Paper Reading: 3676641.3716267',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-LLM_Accelerators/36766413716267/";
+            },},{id: "paper_reading-paper-reading-3695053-3731089",
+          title: 'Paper Reading: 3695053.3731089',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-LLM_Accelerators/36950533731089/";
+            },},{id: "paper_reading-paper-reading-3718487",
+          title: 'Paper Reading: 3718487',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-LLM_Accelerators/3718487/";
+            },},{id: "paper_reading-paper-reading-3725843-3756020",
+          title: 'Paper Reading: 3725843.3756020',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-LLM_Accelerators/37258433756020/";
+            },},{id: "paper_reading-paper-reading-3725843-3756043",
+          title: 'Paper Reading: 3725843.3756043',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-LLM_Accelerators/37258433756043/";
+            },},{id: "paper_reading-paper-reading-3725843-3756062",
+          title: 'Paper Reading: 3725843.3756062',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-LLM_Accelerators/37258433756062/";
+            },},{id: "paper_reading-paper-reading-3725843-3756071",
+          title: 'Paper Reading: 3725843.3756071',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-LLM_Accelerators/37258433756071/";
+            },},{id: "paper_reading-paper-reading-3725843-3756117",
+          title: 'Paper Reading: 3725843.3756117',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-LLM_Accelerators/37258433756117/";
+            },},{id: "paper_reading-paper-reading-3725843-3756121",
+          title: 'Paper Reading: 3725843.3756121',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-LLM_Accelerators/37258433756121/";
+            },},{id: "paper_reading-paper-reading-adelia-a-4nm-llm-processor-for-efficient-generative-al-inference",
+          title: 'Paper Reading: Adelia A 4nm LLM Processor for Efficient Generative Al Inference',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-LLM_Accelerators/adelia-a-4nm-llm-processor-for-efficient-generative-al-infer/";
             },},{id: "paper_reading-paper-reading-calculon-a-methodology-and-tool-for-high-level-codesign-of-systems-and-large-language-models",
           title: 'Paper Reading: Calculon a Methodology and Tool for High-Level Codesign of Systems and...',
           description: "TODO: One-sentence summary",
           section: "Paper_reading",handler: () => {
-              window.location.href = "/paper-reading/Topic-PIM_CIM/calculon-a-methodology-and-tool-for-high-level-codesign-of-s/";
-            },},{id: "paper_reading-paper-reading-cellular-logic-in-memory-arrays",
-          title: 'Paper Reading: cellular logic-in-memory arrays',
+              window.location.href = "/paper-reading/Topic-LLM_Accelerators/calculon-a-methodology-and-tool-for-high-level-codesign-of-s/";
+            },},{id: "paper_reading-paper-reading-delivering-the-future-of-high-performance-computing",
+          title: 'Paper Reading: Delivering the Future of High-Performance Computing',
           description: "TODO: One-sentence summary",
           section: "Paper_reading",handler: () => {
-              window.location.href = "/paper-reading/Topic-PIM_CIM/cellular-logic-in-memory-arrays/";
+              window.location.href = "/paper-reading/Topic-LLM_Accelerators/delivering-the-future-of-high-performance-computing/";
+            },},{id: "paper_reading-paper-reading-duplex-a-device-for-large-language-models-with-mixture-of-experts-grouped-query-attention-and-continuous-batching",
+          title: 'Paper Reading: Duplex A Device for Large Language Models with Mixture of Experts...',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-LLM_Accelerators/duplex-a-device-for-large-language-models-with-mixture-of-ex/";
             },},{id: "paper_reading-paper-reading-lp-spec-leveraging-lpddr-pim-for-efficient-llm-mobile-speculative-inference-with-architecture-dataflow-co-optimization",
           title: 'Paper Reading: LP-Spec Leveraging LPDDR PIM for Efficient LLM Mobile Speculative Inference with...',
           description: "TODO: One-sentence summary",
           section: "Paper_reading",handler: () => {
-              window.location.href = "/paper-reading/Topic-PIM_CIM/lp-spec-leveraging-lpddr-pim-for-efficient-llm-mobile-specul/";
+              window.location.href = "/paper-reading/Topic-LLM_Accelerators/lp-spec-leveraging-lpddr-pim-for-efficient-llm-mobile-specul/";
+            },},{id: "paper_reading-paper-reading-mega-mini-a-npu-with-novel-heterogeneous-ai-processing-architecture-balancing-efficiency-performance-and-intelligence-for-the-era-of-generative-ai",
+          title: 'Paper Reading: MEGA.mini A NPU with Novel Heterogeneous AI Processing Architecture Balancing Efficiency...',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-LLM_Accelerators/megamini-a-npu-with-novel-heterogeneous-ai-processing-archit/";
+            },},{id: "paper_reading-paper-reading-3695053-3731111",
+          title: 'Paper Reading: 3695053.3731111',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-Memory_Systems/36950533731111/";
+            },},{id: "paper_reading-paper-reading-cacm12-why-coherence",
+          title: 'Paper Reading: cacm12 why coherence',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-Memory_Systems/cacm12-why-coherence/";
+            },},{id: "paper_reading-paper-reading-3613424-3623784",
+          title: 'Paper Reading: 3613424.3623784',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-PIM_and_CIM/36134243623784/";
+            },},{id: "paper_reading-paper-reading-3649329-3657373",
+          title: 'Paper Reading: 3649329.3657373',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-PIM_and_CIM/36493293657373/";
+            },},{id: "paper_reading-paper-reading-3676641-3716267",
+          title: 'Paper Reading: 3676641.3716267',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-PIM_and_CIM/36766413716267-2/";
+            },},{id: "paper_reading-paper-reading-3695053-3731041",
+          title: 'Paper Reading: 3695053.3731041',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-PIM_and_CIM/36950533731041-2/";
+            },},{id: "paper_reading-paper-reading-3695053-3731041",
+          title: 'Paper Reading: 3695053.3731041',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-PIM_and_CIM/36950533731041/";
+            },},{id: "paper_reading-paper-reading-3695053-3731096",
+          title: 'Paper Reading: 3695053.3731096',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-PIM_and_CIM/36950533731096/";
+            },},{id: "paper_reading-paper-reading-3725843-3756017",
+          title: 'Paper Reading: 3725843.3756017',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-PIM_and_CIM/37258433756017/";
+            },},{id: "paper_reading-paper-reading-3725843-3756034",
+          title: 'Paper Reading: 3725843.3756034',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-PIM_and_CIM/37258433756034/";
+            },},{id: "paper_reading-paper-reading-3725843-3756087",
+          title: 'Paper Reading: 3725843.3756087',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-PIM_and_CIM/37258433756087/";
+            },},{id: "paper_reading-paper-reading-cellular-logic-in-memory-arrays",
+          title: 'Paper Reading: cellular logic-in-memory arrays',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-PIM_and_CIM/cellular-logic-in-memory-arrays/";
+            },},{id: "paper_reading-paper-reading-computers-13-00174-v2",
+          title: 'Paper Reading: computers-13-00174-v2',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-PIM_and_CIM/computers-13-00174-v2/";
+            },},{id: "paper_reading-paper-reading-corsairan-in-memory-computing-chipletarchitecture-for-inference-time-compute-acceleration",
+          title: 'Paper Reading: CORSAIRAn In-Memory Computing ChipletArchitecture for Inference-Time Compute Acceleration',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-PIM_and_CIM/corsairan-in-memory-computing-chipletarchitecture-for-infere/";
+            },},{id: "paper_reading-paper-reading-fcdram",
+          title: 'Paper Reading: fcdram',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-PIM_and_CIM/fcdram/";
+            },},{id: "paper_reading-paper-reading-graphp-reducing-communication-for-pim-based-graph-processing-with-efficient-data-partition",
+          title: 'Paper Reading: GraphP Reducing Communication for PIM-Based Graph Processing with Efficient Data Partition...',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-PIM_and_CIM/graphp-reducing-communication-for-pim-based-graph-processing/";
+            },},{id: "paper_reading-paper-reading-klima-low-latency-mixed-signal-in-memory-computing-accelerator-for-solving-arbitrary-order-boolean-satisfiability",
+          title: 'Paper Reading: KLIMA Low-latency mixed-signal In-Memory Computing accelerator for solving arbitrary-order Boolean Satisfiability...',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-PIM_and_CIM/klima-low-latency-mixed-signal-in-memory-computing-accelerat/";
+            },},{id: "paper_reading-paper-reading-mimdram",
+          title: 'Paper Reading: mimdram',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-PIM_and_CIM/mimdram/";
             },},{id: "paper_reading-paper-reading-mnsim-2-0-a-behavior-level-modeling-tool-for-processing-in-memory-architectures",
           title: 'Paper Reading: MNSIM 2.0 A Behavior-Level Modeling Tool for Processing-In-Memory Architectures',
           description: "TODO: One-sentence summary",
           section: "Paper_reading",handler: () => {
-              window.location.href = "/paper-reading/Topic-PIM_CIM/mnsim-20-a-behavior-level-modeling-tool-for-processing-in-me/";
+              window.location.href = "/paper-reading/Topic-PIM_and_CIM/mnsim-20-a-behavior-level-modeling-tool-for-processing-in-me/";
             },},{id: "paper_reading-paper-reading-modernprimeronpim-springer-emerging-computing-bookchapter21",
           title: 'Paper Reading: ModernPrimerOnPIM springer-emerging-computing-bookchapter21',
           description: "TODO: One-sentence summary",
           section: "Paper_reading",handler: () => {
-              window.location.href = "/paper-reading/Topic-PIM_CIM/modernprimeronpim-springer-emerging-computing-bookchapter21-2/";
+              window.location.href = "/paper-reading/Topic-PIM_and_CIM/modernprimeronpim-springer-emerging-computing-bookchapter21-2/";
+            },},{id: "paper_reading-paper-reading-modernprimeronpim-springer-emerging-computing-bookchapter21-extended",
+          title: 'Paper Reading: ModernPrimerOnPIM springer-emerging-computing-bookchapter21-extended',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-PIM_and_CIM/modernprimeronpim-springer-emerging-computing-bookchapter21/";
+            },},{id: "paper_reading-paper-reading-onur-seminarincomparch-memorycentriccomputing-25-september-2025-afterlecture",
+          title: 'Paper Reading: onur-seminarincomparch-memorycentriccomputing-25-september-2025-afterlecture',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-PIM_and_CIM/onur-seminarincomparch-memorycentriccomputing-25-september-2/";
             },},{id: "paper_reading-paper-reading-prim-upmem-tutorial-analysis-benchmarking-safari-live-seminar-2021-07-12-talk",
           title: 'Paper Reading: PrIM-UPMEM-Tutorial-Analysis-Benchmarking-SAFARI-Live-Seminar-2021-07-12-talk',
           description: "TODO: One-sentence summary",
           section: "Paper_reading",handler: () => {
-              window.location.href = "/paper-reading/Topic-PIM_CIM/prim-upmem-tutorial-analysis-benchmarking-safari-live-semina/";
+              window.location.href = "/paper-reading/Topic-PIM_and_CIM/prim-upmem-tutorial-analysis-benchmarking-safari-live-semina/";
             },},{id: "paper_reading-paper-reading-processing-in-memory-workload-driven-perspective-ibmjrd19",
           title: 'Paper Reading: processing-in-memory workload-driven-perspective IBMjrd19',
           description: "TODO: One-sentence summary",
           section: "Paper_reading",handler: () => {
-              window.location.href = "/paper-reading/Topic-PIM_CIM/processing-in-memory-workload-driven-perspective-ibmjrd19/";
+              window.location.href = "/paper-reading/Topic-PIM_and_CIM/processing-in-memory-workload-driven-perspective-ibmjrd19/";
             },},{id: "paper_reading-paper-reading-ramulator2-arxiv23",
           title: 'Paper Reading: Ramulator2 arxiv23',
           description: "TODO: One-sentence summary",
           section: "Paper_reading",handler: () => {
-              window.location.href = "/paper-reading/Topic-PIM_CIM/ramulator2-arxiv23/";
+              window.location.href = "/paper-reading/Topic-PIM_and_CIM/ramulator2-arxiv23/";
             },},{id: "paper_reading-paper-reading-redcim-reconfigurable-digital-computing-in-memory-processor-with-unified-fp-int-pipeline-for-cloud-ai-acceleration",
           title: 'Paper Reading: ReDCIM Reconfigurable Digital Computing- In -Memory Processor With Unified FP INT...',
           description: "TODO: One-sentence summary",
           section: "Paper_reading",handler: () => {
-              window.location.href = "/paper-reading/Topic-PIM_CIM/redcim-reconfigurable-digital-computing--in--memory-processo/";
+              window.location.href = "/paper-reading/Topic-PIM_and_CIM/redcim-reconfigurable-digital-computing--in--memory-processo/";
+            },},{id: "paper_reading-paper-reading-samsung-pim-pnm-for-transfmer-based-ai-energy-efficiency-on-pim-pnm-cluster",
+          title: 'Paper Reading: Samsung PIM PNM for Transfmer Based AI Energy Efficiency on PIM...',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-PIM_and_CIM/samsung-pim-pnm-for-transfmer-based-ai-energy-efficiency-on/";
             },},{id: "paper_reading-paper-reading-spcim-sparsity-balanced-practical-cim-accelerator-with-optimized-spatial-temporal-multi-macro-utilization",
           title: 'Paper Reading: SPCIM Sparsity-Balanced Practical CIM Accelerator With Optimized Spatial-Temporal Multi-Macro Utilization',
           description: "TODO: One-sentence summary",
           section: "Paper_reading",handler: () => {
-              window.location.href = "/paper-reading/Topic-PIM_CIM/spcim-sparsity-balanced-practical-cim-accelerator-with-optim/";
+              window.location.href = "/paper-reading/Topic-PIM_and_CIM/spcim-sparsity-balanced-practical-cim-accelerator-with-optim/";
             },},{id: "paper_reading-paper-reading-stone-logic-in-memory-1970",
           title: 'Paper Reading: stone logic in memory 1970',
           description: "TODO: One-sentence summary",
           section: "Paper_reading",handler: () => {
-              window.location.href = "/paper-reading/Topic-PIM_CIM/stone-logic-in-memory-1970/";
+              window.location.href = "/paper-reading/Topic-PIM_and_CIM/stone-logic-in-memory-1970/";
+            },},{id: "paper_reading-paper-reading-the-true-processing-in-memory-accelerator",
+          title: 'Paper Reading: The true Processing In Memory accelerator',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-PIM_and_CIM/the-true-processing-in-memory-accelerator/";
             },},{id: "paper_reading-paper-reading-trancim-full-digital-bitline-transpose-cim-based-sparse-transformer-accelerator-with-pipeline-parallel-reconfigurable-modes",
           title: 'Paper Reading: TranCIM Full-Digital Bitline-Transpose CIM-based Sparse Transformer Accelerator With Pipeline Parallel Reconfigurable...',
           description: "TODO: One-sentence summary",
           section: "Paper_reading",handler: () => {
-              window.location.href = "/paper-reading/Topic-PIM_CIM/trancim-full-digital-bitline-transpose-cim-based-sparse-tran/";
+              window.location.href = "/paper-reading/Topic-PIM_and_CIM/trancim-full-digital-bitline-transpose-cim-based-sparse-tran/";
+            },},{id: "paper_reading-paper-reading-unindp-a-unified-compilation-and-simulation-tool-for-near-dram-processing-architectures",
+          title: 'Paper Reading: UniNDP A Unified Compilation and Simulation Tool for Near DRAM Processing...',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-PIM_and_CIM/unindp-a-unified-compilation-and-simulation-tool-for-near-dr/";
+            },},{id: "paper_reading-paper-reading-extending-silicon-lifetime-a-review-of-design-techniques-for-reliable-integrated-circuits",
+          title: 'Paper Reading: Extending Silicon Lifetime A Review of Design Techniques for Reliable Integrated...',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-Technology/extending-silicon-lifetime-a-review-of-design-techniques-for/";
             },},{id: "paper_reading-paper-reading-gaafet-versus-pragmatic-finfet-at-the-5nm-si-based-cmos-technology-node",
           title: 'Paper Reading: GAAFET Versus Pragmatic FinFET at the 5nm Si-Based CMOS Technology Node...',
           description: "TODO: One-sentence summary",
