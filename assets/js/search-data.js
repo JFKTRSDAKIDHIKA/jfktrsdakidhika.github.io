@@ -461,7 +461,7 @@ ninja.data = [{
               window.location.href = "/paper-reading/Topic-Memory/cacm12-why-coherence/";
             },},{id: "paper_reading-2013-keynote-die-stacking-is-happening",
           title: '(2013 Keynote) Die Stacking Is Happening!',
-          description: "TODO: One-sentence summary",
+          description: "2013 keynote declaring the arrival of die stacking technology",
           section: "Paper_reading",handler: () => {
               window.location.href = "/paper-reading/Topic-3DIC/keynote1/";
             },},{id: "paper_reading-2014-isscc-1-1-computings-energy-problem-and-what-we-can-do-about-it",
@@ -501,7 +501,7 @@ ninja.data = [{
               window.location.href = "/paper-reading/Topic-Process/gaafet-versus-pragmatic-finfet-at-the-5nm-si-based-cmos-tech/";
             },},{id: "paper_reading-2018-synthesis-lectures-on-computer-architecture-die-stacking-architecture",
           title: '(2018 Synthesis Lectures on Computer Architecture) Die-stacking Architecture',
-          description: "TODO: One-sentence summary",
+          description: "Synthesis Lectures textbook on die-stacking architecture",
           section: "Paper_reading",handler: () => {
               window.location.href = "/paper-reading/Topic-3DIC/978-3-031-01747-6/";
             },},{id: "paper_reading-2018-hpca-graphp-reducing-communication-for-pim-based-graph-processing-with-efficient-data-partition",
@@ -536,7 +536,7 @@ ninja.data = [{
               window.location.href = "/paper-reading/2019-MICRO/understanding-reuse-performance-and-hardware-cost-of-dnn-dat/";
             },},{id: "paper_reading-2019-ieee-jssc-active-interposer-technology-for-chiplet-based-advanced-3d-system-architectures",
           title: '(2019 IEEE JSSC) Active Interposer Technology for Chiplet-Based Advanced 3D System Architectures',
-          description: "TODO: One-sentence summary",
+          description: "Active silicon interposer technology enabling advanced chiplet-based 3D systems",
           section: "Paper_reading",handler: () => {
               window.location.href = "/paper-reading/Topic-3DIC/active-interposer-technology-for-chiplet-based-advanced-3d-s/";
             },},{id: "paper_reading-2019-jssc-eyeriss-v2-a-flexible-accelerator-for-emerging-deep-neural-networks-on-mobile-devices",
@@ -549,9 +549,9 @@ ninja.data = [{
           description: "TuRBO: trust-region BO that maintains multiple local models for scalable high-dimensional optimization",
           section: "Paper_reading",handler: () => {
               window.location.href = "/paper-reading/Topic-DSE/scalable-global-optimization-via-local-bayesian-optimization/";
-            },},{id: "paper_reading-2019-ibm-jrd-processing-in-memory-workload-driven-perspective-ibmjrd19",
-          title: '(2019 IBM JRD) processing-in-memory workload-driven-perspective IBMjrd19',
-          description: "TODO: One-sentence summary",
+            },},{id: "paper_reading-2019-ibm-jrd-processing-in-memory-a-workload-driven-perspective",
+          title: '(2019 IBM JRD) Processing-in-Memory: A Workload-Driven Perspective',
+          description: "IBM&#39;s workload-driven analysis of Processing-in-Memory opportunities",
           section: "Paper_reading",handler: () => {
               window.location.href = "/paper-reading/Topic-Fundamentals/processing-in-memory-workload-driven-perspective-ibmjrd19/";
             },},{id: "paper_reading-2020-asplos-interstellar-using-halide-s-scheduling-language-to-analyze-dnn-accelerators",
@@ -586,7 +586,7 @@ ninja.data = [{
               window.location.href = "/paper-reading/Topic-Fundamentals/leiserson-et-al-theres-plenty-of-room-at-the-top/";
             },},{id: "paper_reading-2020-tcad-compact-2d-a-physical-design-methodology-to-build-two-tier-gate-level-3-d-ics",
           title: '(2020 TCAD) Compact-2D: A Physical Design Methodology to Build Two-Tier Gate-Level 3-D ICs...',
-          description: "TODO: One-sentence summary",
+          description: "Physical design methodology for two-tier gate-level 3D ICs using 2D-like flow",
           section: "Paper_reading",handler: () => {
               window.location.href = "/paper-reading/Topic-Physical_Design/08894429/";
             },},{id: "paper_reading-2021-cicc-a-22-nm-1540-top-s-w-12-1-top-s-mm2-in-memory-analog-matrix-vector-multiplier-for-dnn-acceleration",
@@ -624,9 +624,9 @@ ninja.data = [{
           description: "TODO: One-sentence summary",
           section: "Paper_reading",handler: () => {
               window.location.href = "/paper-reading/2021-arXiv/210201723v1/";
-            },},{id: "paper_reading-2021-isca-pioneering-chiplet-technology-and-design-for-the-amd-epyc-and-ryzen-processor-families-industrial-product",
+            },},{id: "paper_reading-2021-isca-pioneering-chiplet-technology-and-design-for-the-amd-epyc-and-ryzen-processor-families",
           title: '(2021 ISCA) Pioneering Chiplet Technology and Design for the AMD EPYC and Ryzen...',
-          description: "TODO: One-sentence summary",
+          description: "AMD&#39;s pioneering chiplet approach for EPYC and Ryzen processors (ISCA Industry Track)",
           section: "Paper_reading",handler: () => {
               window.location.href = "/paper-reading/Topic-3DIC/pioneering-chiplet-technology-and-design-for-the-amd-epyc-an/";
             },},{id: "paper_reading-2021-dac-gemmini-enabling-systematic-deep-learning-architecture-evaluation-via-full-stack-integration",
@@ -645,13 +645,13 @@ ninja.data = [{
           section: "Paper_reading",handler: () => {
               window.location.href = "/paper-reading/Topic-DSE/naas-neural-accelerator-architecture-search/";
             },},{id: "paper_reading-2021-dac-hasco-towards-agile-hardware-and-software-co-design-for-tensor-computation",
-          title: '(2021 DAC) HASCO Towards Agile HArdware and Software CO-design for Tensor Computation',
-          description: "TODO: One-sentence summary",
+          title: '(2021 DAC) HASCO: Towards Agile Hardware and Software CO-design for Tensor Computation',
+          description: "Agile HW/SW co-design framework for tensor computations on FPGA",
           section: "Paper_reading",handler: () => {
               window.location.href = "/paper-reading/Topic-FPGA/hasco-towards-agile-hardware-and-software-co-design-for-tens/";
             },},{id: "paper_reading-2021-safari-seminar-understanding-a-modern-processing-in-memory-architecture-benchmarking-and-experimental-characterization",
           title: '(2021 SAFARI Seminar) Understanding a Modern Processing-in-Memory Architecture: Benchmarking and Experimental Characterization',
-          description: "TODO: One-sentence summary",
+          description: "Experimental benchmarking and characterization of UPMEM PIM architecture",
           section: "Paper_reading",handler: () => {
               window.location.href = "/paper-reading/Topic-Fundamentals/prim-upmem-tutorial-analysis-benchmarking-safari-live-semina/";
             },},{id: "paper_reading-2022-dac-hammer-a-modular-and-reusable-physical-design-flow-tool",
@@ -700,18 +700,18 @@ ninja.data = [{
           section: "Paper_reading",handler: () => {
               window.location.href = "/paper-reading/2022-ISSCC/a-1ynm-125v-8gb-16gb-s-pin-gddr6-based-accelerator-in-memory/";
             },},{id: "paper_reading-2022-isscc-3d-v-cache-the-implementation-of-a-hybrid-bonded-64mb-stacked-cache-for-a-7nm-x86-64-cpu",
-          title: '(2022 ISSCC) 3D V-Cache the Implementation of a Hybrid-Bonded 64MB Stacked Cache for...',
-          description: "TODO: One-sentence summary",
+          title: '(2022 ISSCC) 3D V-Cache: The Implementation of a Hybrid-Bonded 64MB Stacked Cache for...',
+          description: "AMD 3D V-Cache implementation using hybrid bonding for 64MB stacked L3 cache",
           section: "Paper_reading",handler: () => {
               window.location.href = "/paper-reading/Topic-3DIC/3d-v-cache-the-implementation-of-a-hybrid-bonded-64mb-stacke/";
             },},{id: "paper_reading-2022-nature-electronics-multi-chip-technologies-to-unleash-computing-performance-gains-over-the-next-decade",
-          title: '(2022 Nature Electronics) Multi-chip technologies to unleash computing performance gains over the next...',
-          description: "TODO: One-sentence summary",
+          title: '(2022 Nature Electronics) Multi-chip Technologies to Unleash Computing Performance Gains over the Next...',
+          description: "Nature Electronics review of multi-chip technologies for future computing performance",
           section: "Paper_reading",handler: () => {
               window.location.href = "/paper-reading/Topic-3DIC/multi-chip-technologies-to-unleash-computing-performance-gai/";
             },},{id: "paper_reading-2022-isscc-zen3-the-amd-2nd-generation-7nm-x86-64-microprocessor-core",
-          title: '(2022 ISSCC) Zen3 The AMD 2nd-Generation 7nm x86-64 Microprocessor Core',
-          description: "TODO: One-sentence summary",
+          title: '(2022 ISSCC) Zen3: The AMD 2nd-Generation 7nm x86-64 Microprocessor Core',
+          description: "AMD Zen3 microprocessor core architecture details from ISSCC",
           section: "Paper_reading",handler: () => {
               window.location.href = "/paper-reading/Topic-CPU/zen3-the-amd-2nd-generation-7nm-x86-64-microprocessor-core/";
             },},{id: "paper_reading-2022-asplos-astitch-multi-dimensional-optimization-for-memory-intensive-ml-on-simt",
@@ -729,9 +729,14 @@ ninja.data = [{
           description: "Optimized mapping flow for spatial DNN accelerator architectures",
           section: "Paper_reading",handler: () => {
               window.location.href = "/paper-reading/Topic-DSE/optimized-spatial-architecture-mapping-flow-for/";
-            },},{id: "paper_reading-2022-springer-book-modernprimeronpim-springer-emerging-computing-bookchapter21-extended",
-          title: '(2022 Springer Book) ModernPrimerOnPIM springer-emerging-computing-bookchapter21-extended',
-          description: "TODO: One-sentence summary",
+            },},{id: "paper_reading-2022-springer-book-a-modern-primer-on-processing-in-memory",
+          title: '(2022 Springer Book) A Modern Primer on Processing in Memory',
+          description: "Comprehensive modern primer on Processing-in-Memory technologies",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-Fundamentals/modernprimeronpim-springer-emerging-computing-bookchapter21-/";
+            },},{id: "paper_reading-2022-springer-book-a-modern-primer-on-processing-in-memory-full-version",
+          title: '(2022 Springer Book) A Modern Primer on Processing in Memory (Full Version)',
+          description: "Full version of the PIM primer book chapter",
           section: "Paper_reading",handler: () => {
               window.location.href = "/paper-reading/Topic-Fundamentals/modernprimeronpim-springer-emerging-computing-bookchapter21/";
             },},{id: "paper_reading-2022-eth-lecture-decoupled-access-execute-dae-architecture",
@@ -829,9 +834,9 @@ ninja.data = [{
           description: "TODO: One-sentence summary",
           section: "Paper_reading",handler: () => {
               window.location.href = "/paper-reading/2023-MICRO/unico-unified-hardware-software-co-optimization-for-robust-n/";
-            },},{id: "paper_reading-2023-isscc-a-stacked-embedded-dram-array-for-lpddr4-4x-using-hybrid-bonding-3d-integration-with-34gb-s-1gb-0-88pj-b-logic-to-memory-interface",
+            },},{id: "paper_reading-2023-isscc-a-stacked-embedded-dram-array-for-lpddr4-4x-using-hybrid-bonding-3d-integration",
           title: '(2023 ISSCC) A Stacked Embedded DRAM Array for LPDDR4 4X using Hybrid Bonding...',
-          description: "TODO: One-sentence summary",
+          description: "Stacked eDRAM with LPDDR4 4X interface using hybrid bonding",
           section: "Paper_reading",handler: () => {
               window.location.href = "/paper-reading/Topic-3DIC/a-stacked-embedded-dram-array-for-lpddr4-4x-using-hybrid-bon/";
             },},{id: "paper_reading-2023-sc-calculon-a-methodology-and-tool-for-high-level-codesign-of-systems-and-large-language-models",
@@ -904,24 +909,24 @@ ninja.data = [{
           description: "Next-generation DRAM simulator with modular design supporting emerging memory technologies and PIM",
           section: "Paper_reading",handler: () => {
               window.location.href = "/paper-reading/Topic-DSE/ramulator2-arxiv23/";
-            },},{id: "paper_reading-2023-fpl-dpuv4e-high-throughput-dpu-architecture-design-for-cnn-on-versal-acap",
-          title: '(2023 FPL) DPUV4E High-Throughput DPU Architecture Design for CNN on Versal ACAP',
-          description: "TODO: One-sentence summary",
+            },},{id: "paper_reading-2023-fpl-dpuv4e-high-throughput-dpu-architecture-design-for-cnn-on-versal",
+          title: '(2023 FPL) DPUV4E: High-Throughput DPU Architecture Design for CNN on Versal',
+          description: "Xilinx DPU v4E architecture for CNN inference on Versal platform",
           section: "Paper_reading",handler: () => {
               window.location.href = "/paper-reading/Topic-FPGA/dpuv4e-high-throughput-dpu-architecture-design-for-cnn-on-ve/";
-            },},{id: "paper_reading-2023-fpga-high-performance-low-power-matrix-multiply-design-on-acap-from-architecture-design-challenges-and-dse-perspectives",
-          title: '(2023 FPGA) High Performance Low Power Matrix Multiply Design on ACAP from Architecture...',
-          description: "TODO: One-sentence summary",
+            },},{id: "paper_reading-2023-fpga-high-performance-low-power-matrix-multiply-design-on-acap-from-algorithm-to-rtl",
+          title: '(2023 FPGA) High Performance Low Power Matrix Multiply Design on ACAP from Algorithm...',
+          description: "High-performance matrix multiply on Versal ACAP platform",
           section: "Paper_reading",handler: () => {
               window.location.href = "/paper-reading/Topic-FPGA/high-performance-low-power-matrix-multiply-design-on-acap-fr/";
-            },},{id: "paper_reading-2023-dac-late-breaking-results-pyaie-a-python-based-programming-framework-for-versal-acap-platforms",
-          title: '(2023 DAC) Late Breaking Results PyAIE A Python-based Programming Framework for Versal ACAP...',
-          description: "TODO: One-sentence summary",
+            },},{id: "paper_reading-2023-dac-pyaie-a-python-based-programming-framework-for-versal-ai-engine",
+          title: '(2023 DAC) PyAIE: A Python-based Programming Framework for Versal AI Engine',
+          description: "Python-based programming framework for Versal AI Engine",
           section: "Paper_reading",handler: () => {
               window.location.href = "/paper-reading/Topic-FPGA/late-breaking-results-pyaie-a-python-based-programming-frame/";
-            },},{id: "paper_reading-2023-dac-widesa-a-high-array-utilization-mapping-scheme-for-uniform-recurrences-on-acap",
-          title: '(2023 DAC) WideSA A High Array Utilization Mapping Scheme for Uniform Recurrences on...',
-          description: "TODO: One-sentence summary",
+            },},{id: "paper_reading-2023-dac-widesa-a-high-array-utilization-mapping-scheme-for-uniform-recurrence-on-fpga",
+          title: '(2023 DAC) WideSA: A High Array Utilization Mapping Scheme for Uniform Recurrence on...',
+          description: "High utilization mapping for systolic arrays on FPGA",
           section: "Paper_reading",handler: () => {
               window.location.href = "/paper-reading/Topic-FPGA/widesa-a-high-array-utilization-mapping-scheme-for-uniform-r/";
             },},{id: "paper_reading-2024-aaai-towards-automated-risc-v-microarchitecture-design-with-reinforcement-learning",
@@ -1055,23 +1060,23 @@ ninja.data = [{
           section: "Paper_reading",handler: () => {
               window.location.href = "/paper-reading/2024-arXiv/240901141v1/";
             },},{id: "paper_reading-2024-isscc-a-1596-gb-s-48-gb-stacked-embedded-dram-384-core-soc-with-hybrid-bonding-integration",
-          title: '(2024 ISSCC) A 1596-GB s 48-Gb Stacked Embedded DRAM 384-Core SoC With Hybrid...',
-          description: "TODO: One-sentence summary",
+          title: '(2024 ISSCC) A 1596-GB/s 48-Gb Stacked Embedded DRAM 384-Core SoC With Hybrid Bonding...',
+          description: "384-core SoC with 48Gb stacked eDRAM using hybrid bonding achieving 1596 GB/s",
           section: "Paper_reading",handler: () => {
               window.location.href = "/paper-reading/Topic-3DIC/a-1596-gb-s-48-gb-stacked-embedded-dram-384-core-soc-with-hy/";
             },},{id: "paper_reading-2024-isca-exploiting-similarity-opportunities-of-emerging-vision-ai-models-on-hybrid-bonding-architecture",
           title: '(2024 ISCA) Exploiting Similarity Opportunities of Emerging Vision AI Models on Hybrid Bonding...',
-          description: "TODO: One-sentence summary",
+          description: "Exploiting model similarity for efficient vision AI on hybrid bonding architectures",
           section: "Paper_reading",handler: () => {
               window.location.href = "/paper-reading/Topic-3DIC/exploiting-similarity-opportunities-of-emerging-vision-ai-mo/";
             },},{id: "paper_reading-2024-iccad-hierarchical-power-co-optimization-and-management-for-llm-chiplet-designs",
           title: '(2024 ICCAD) Hierarchical Power Co-Optimization and Management for LLM Chiplet Designs',
-          description: "TODO: One-sentence summary",
+          description: "Hierarchical power optimization for LLM chiplet architectures",
           section: "Paper_reading",handler: () => {
               window.location.href = "/paper-reading/Topic-3DIC/hierarchical-power-co-optimization-and-management-for-llm-ch/";
             },},{id: "paper_reading-2024-survey-the-survey-of-chiplet-based-integrated-architecture-an-eda-perspective",
-          title: '(2024 Survey) The Survey of Chiplet-based Integrated Architecture An EDA perspective',
-          description: "TODO: One-sentence summary",
+          title: '(2024 Survey) The Survey of Chiplet-based Integrated Architecture: An EDA Perspective',
+          description: "Comprehensive survey of chiplet architecture from EDA tool perspective",
           section: "Paper_reading",handler: () => {
               window.location.href = "/paper-reading/Topic-3DIC/the-survey-of-chiplet-based-integrated-architecture-an-eda-p/";
             },},{id: "paper_reading-2024-isca-mind-the-gap-attainable-data-movement-and-operational-intensity-bounds-for-tensor-algorithms",
@@ -1144,14 +1149,14 @@ ninja.data = [{
           description: "End-to-end Processing-Using-DRAM system with MIMD execution model",
           section: "Paper_reading",handler: () => {
               window.location.href = "/paper-reading/Topic-AI_Accelerator/mimdram/";
-            },},{id: "paper_reading-2024-isca-data-oblivious-cpu-microarchitectural-side-channel-leakage-resilient-processor",
-          title: '(2024 ISCA) Data Oblivious CPU Microarchitectural Side-channel Leakage-Resilient Processor',
-          description: "TODO: One-sentence summary",
+            },},{id: "paper_reading-2024-isca-data-oblivious-cpu-microarchitectural-side-channel-leakage-resilient-processing",
+          title: '(2024 ISCA) Data Oblivious CPU Microarchitectural Side-channel Leakage-Resilient Processing',
+          description: "Data-oblivious CPU design to resist microarchitectural side-channel attacks",
           section: "Paper_reading",handler: () => {
               window.location.href = "/paper-reading/Topic-CPU/data-oblivious-cpu-microarchitectural-side-channel-leakage-r/";
-            },},{id: "paper_reading-2024-unknown-dual-issue-execution-of-mixed-integer-and-floating-point-workloads-on-energy-efficient-in-order-risc-v-cores",
-          title: '(2024 Unknown) Dual-Issue Execution of Mixed Integer and Floating-Point Workloads on Energy-Efficient In-Order...',
-          description: "TODO: One-sentence summary",
+            },},{id: "paper_reading-2024-unknown-dual-issue-execution-of-mixed-integer-and-floating-point-workloads",
+          title: '(2024 Unknown) Dual-Issue Execution of Mixed Integer and Floating-Point Workloads',
+          description: "Dual-issue execution scheme for mixed integer and FP workloads",
           section: "Paper_reading",handler: () => {
               window.location.href = "/paper-reading/Topic-CPU/dual-issue-execution-of-mixed-integer-and-floating-point-wor/";
             },},{id: "paper_reading-2024-todaes-boosting-vlsi-design-flow-parameter-tuning-with-random-embedding-and-multi-objective-trust-region-bo",
@@ -1214,29 +1219,29 @@ ninja.data = [{
           description: "Unified compilation and simulation tool for near-DRAM processing (NDP) architectures",
           section: "Paper_reading",handler: () => {
               window.location.href = "/paper-reading/Topic-DSE/unindp-a-unified-compilation-and-simulation-tool-for-near-dr/";
-            },},{id: "paper_reading-2024-tcad-eq-vit-algorithm-hardware-co-design-for-end-to-end-acceleration-of-real-time-vision-transformer-inference-on-versal-acap-architecture",
-          title: '(2024 TCAD) EQ-ViT Algorithm-Hardware Co-Design for End-to-End Acceleration of Real-Time Vision Transformer Inference...',
-          description: "TODO: One-sentence summary",
+            },},{id: "paper_reading-2024-tcad-eq-vit-algorithm-hardware-co-design-for-end-to-end-acceleration-of-vision-transformers-on-fpga",
+          title: '(2024 TCAD) EQ-ViT: Algorithm-Hardware Co-Design for End-to-End Acceleration of Vision Transformers on FPGA...',
+          description: "Algorithm-hardware co-design for Vision Transformer acceleration on FPGA",
           section: "Paper_reading",handler: () => {
               window.location.href = "/paper-reading/Topic-FPGA/eq-vit-algorithm-hardware-co-design-for-end-to-end-accelerat/";
             },},{id: "paper_reading-2024-tcad-esfa-an-efficient-scalable-fft-design-framework-on-versal-ai-engine",
-          title: '(2024 TCAD) ESFA An Efficient Scalable FFT Design Framework on Versal AI Engine...',
-          description: "TODO: One-sentence summary",
+          title: '(2024 TCAD) ESFA: An Efficient Scalable FFT Design Framework on Versal AI Engine...',
+          description: "Scalable FFT design framework targeting Versal AI Engine",
           section: "Paper_reading",handler: () => {
               window.location.href = "/paper-reading/Topic-FPGA/esfa-an-efficient-scalable-fft-design-framework-on-versal-ai/";
             },},{id: "paper_reading-2024-dac-heterosvd-efficient-svd-accelerator-on-versal-acap-with-algorithm-hardware-co-design",
-          title: '(2024 DAC) HeteroSVD Efficient SVD Accelerator on Versal ACAP with Algorithm-Hardware Co-Design',
-          description: "TODO: One-sentence summary",
+          title: '(2024 DAC) HeteroSVD: Efficient SVD Accelerator on Versal ACAP with Algorithm-Hardware Co-Design',
+          description: "SVD accelerator on Versal ACAP exploiting heterogeneous compute resources",
           section: "Paper_reading",handler: () => {
               window.location.href = "/paper-reading/Topic-FPGA/heterosvd-efficient-svd-accelerator-on-versal-acap-with-algo/";
             },},{id: "paper_reading-2024-iccad-vspgemm-exploiting-versal-acap-for-high-performance-spgemm-acceleration",
-          title: '(2024 ICCAD) VSpGEMM Exploiting Versal ACAP for High-Performance SpGEMM Acceleration',
-          description: "TODO: One-sentence summary",
+          title: '(2024 ICCAD) VSpGEMM: Exploiting Versal ACAP for High-Performance SpGEMM Acceleration',
+          description: "Sparse GEMM acceleration on Versal ACAP",
           section: "Paper_reading",handler: () => {
               window.location.href = "/paper-reading/Topic-FPGA/vspgemm-exploiting-versal-acap-for-high-performance-spgemm-a/";
-            },},{id: "paper_reading-2024-mdpi-computers-computers-13-00174-v2",
-          title: '(2024 MDPI Computers) computers-13-00174-v2',
-          description: "TODO: One-sentence summary",
+            },},{id: "paper_reading-2024-mdpi-computers-survey-on-processing-in-memory-architectures",
+          title: '(2024 MDPI Computers) Survey on Processing-in-Memory Architectures',
+          description: "2024 survey of PIM architecture landscape",
           section: "Paper_reading",handler: () => {
               window.location.href = "/paper-reading/Topic-Fundamentals/computers-13-00174-v2/";
             },},{id: "paper_reading-2024-iccad-atplace2-5d-analytical-thermal-aware-chiplet-placement-framework-for-large-scale-2-5d-ic",
@@ -1244,14 +1249,14 @@ ninja.data = [{
           description: "TODO: One-sentence summary",
           section: "Paper_reading",handler: () => {
               window.location.href = "/paper-reading/Topic-Physical_Design/place-iccad2024-wang/";
-            },},{id: "paper_reading-2024-tcad-tcad24-sai",
-          title: '(2024 TCAD) tcad24-sai',
-          description: "TODO: One-sentence summary",
+            },},{id: "paper_reading-2024-tcad-pin-3d-effective-physical-design-methodology-for-multi-die-co-optimization-in-monolithic-3-d-ics",
+          title: '(2024 TCAD) Pin-3D: Effective Physical Design Methodology for Multi-Die Co-Optimization in Monolithic 3-D...',
+          description: "Native 3D PnR methodology for monolithic 3D ICs with multi-die co-optimization",
           section: "Paper_reading",handler: () => {
               window.location.href = "/paper-reading/Topic-Physical_Design/tcad24-sai/";
             },},{id: "paper_reading-2024-iccad-the-dawn-of-ai-native-eda-opportunities-and-challenges-of-large-circuit-models",
-          title: '(2024 ICCAD) The Dawn of AI-Native EDA Opportunities and Challenges of Large Circuit...',
-          description: "TODO: One-sentence summary",
+          title: '(2024 ICCAD) The Dawn of AI-Native EDA: Opportunities and Challenges of Large Circuit...',
+          description: "Vision paper on AI-native EDA leveraging large circuit models",
           section: "Paper_reading",handler: () => {
               window.location.href = "/paper-reading/Topic-Physical_Design/the-dawn-of-ai-native-eda-opportunities-and-challenges-of-la/";
             },},{id: "paper_reading-2025-aspdac-maco",
@@ -1446,7 +1451,7 @@ ninja.data = [{
               window.location.href = "/paper-reading/Topic-3DIC/accelstack-a-cost-driven-analysis-of-3d-stacked-llm-accelera/";
             },},{id: "paper_reading-2025-notes-ucie-standard-package-module-amp-phy-结构笔记",
           title: '(2025 Notes) UCIe Standard Package Module &amp;amp; PHY 结构笔记',
-          description: "TODO: One-sentence summary",
+          description: "Personal notes on UCIe standard package module and PHY structure",
           section: "Paper_reading",handler: () => {
               window.location.href = "/paper-reading/Topic-3DIC/ucie/";
             },},{id: "paper_reading-2025-rvsc-talk-xsai-hardware-support-for-modern-llm-kernels-in-a-cpu-paradigm",
@@ -1549,6 +1554,11 @@ ninja.data = [{
           description: "TODO: One-sentence summary",
           section: "Paper_reading",handler: () => {
               window.location.href = "/paper-reading/Topic-CPU/meek-re-thinking-heterogeneous-parallel-error-detection-arch/";
+            },},{id: "paper_reading-2025-dac-meek-re-thinking-heterogeneous-parallel-error-detection-architecture",
+          title: '(2025 DAC) MEEK: Re-thinking Heterogeneous Parallel Error Detection Architecture',
+          description: "Heterogeneous parallel error detection architecture rethinking",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-CPU/meek-re-thinking-heterogeneous-parallel-error-detection-archi/";
             },},{id: "paper_reading-2025-unknown-llm-aided-compilation-for-tensor-accelerators",
           title: '(2025 Unknown) LLM-Aided Compilation for Tensor Accelerators',
           description: "Using LLMs to assist compilation and code generation for domain-specific tensor accelerators",
@@ -1569,6 +1579,11 @@ ninja.data = [{
           description: "TODO: One-sentence summary",
           section: "Paper_reading",handler: () => {
               window.location.href = "/paper-reading/Topic-Fundamentals/onur-seminarincomparch-memorycentriccomputing-25-september-2/";
+            },},{id: "paper_reading-2025-seminar-memory-centric-computing",
+          title: '(2025 Seminar) Memory-Centric Computing',
+          description: "Onur Mutlu&#39;s seminar on memory-centric computing vision",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-Fundamentals/onur-seminarincomparch-memorycentriccomputing-25-september-20/";
             },},{id: "paper_reading-2025-self-published-ten-lessons-learned-from-a-tenure-track-ap-39-s-first-two-years",
           title: '(2025 Self-published) Ten Lessons Learned from a Tenure-Track AP&amp;#39;s First Two Years',
           description: "Reflections on cold-start failures in academic research group building for new PIs in computer architecture",
@@ -1581,7 +1596,7 @@ ninja.data = [{
               window.location.href = "/paper-reading/Topic-Memory/36950533731111/";
             },},{id: "paper_reading-2025-ispd-physical-design-for-advanced-3d-ics-challenges-and-solutions",
           title: '(2025 ISPD) Physical Design for Advanced 3D ICs: Challenges and Solutions',
-          description: "TODO: One-sentence summary",
+          description: "Challenges and solutions for physical design of advanced 3D ICs with hybrid bonding",
           section: "Paper_reading",handler: () => {
               window.location.href = "/paper-reading/Topic-Physical_Design/36983643709127/";
             },},{id: "paper_reading-2025-arxiv-spec2rtl-agent",
