@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Paper Reading: Hierarchical Power Co-Optimization and Management for LLM Chiplet Designs"
+title: "(2024 ICCAD) Hierarchical Power Co-Optimization and Management for LLM Chiplet Designs"
 date: 2024-01-01
 description: "TODO: One-sentence summary"
 published: ICCAD 2024

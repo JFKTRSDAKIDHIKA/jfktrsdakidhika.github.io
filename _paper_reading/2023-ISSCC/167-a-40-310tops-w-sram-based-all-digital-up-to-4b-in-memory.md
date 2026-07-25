@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Paper Reading: 16.7 A 40-310TOPS W SRAM-Based All-Digital Up to 4b In-Memory Computing Multi-Tiled NN Accelerator in FD-SOI 18nm for Deep-Learning Edge Applications"
+title: "(2023 ISSCC) 16.7 A 40-310TOPS W SRAM-Based All-Digital Up to 4b In-Memory Computing Multi-Tiled NN Accelerator in FD-SOI 18nm for Deep-Learning Edge Applications"
 date: 2023-01-01
 description: "TODO: One-sentence summary"
 published: ISSCC 2023

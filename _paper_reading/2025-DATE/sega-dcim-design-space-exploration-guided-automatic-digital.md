@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Paper Reading: SEGA-DCIM Design Space Exploration-Guided Automatic Digital CIM Compiler with Multiple Precision Support"
+title: "(2025 DATE) SEGA-DCIM Design Space Exploration-Guided Automatic Digital CIM Compiler with Multiple Precision Support"
 date: 2025-01-01
 description: "TODO: One-sentence summary"
 published: DATE 2025

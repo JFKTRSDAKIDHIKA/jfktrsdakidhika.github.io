@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Paper Reading: OptiPIM Optimizing Processing-in-Memory Acceleration Using Integer Linear Programming"
+title: "(2025 ISCA) OptiPIM Optimizing Processing-in-Memory Acceleration Using Integer Linear Programming"
 date: 2025-01-01
 description: "TODO: One-sentence summary"
 published: ISCA 2025

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Paper Reading: HIDA A Hierarchical Dataflow Compiler for High-Level Synthesis"
+title: "(2024 ASPLOS) HIDA A Hierarchical Dataflow Compiler for High-Level Synthesis"
 date: 2024-01-01
 description: "TODO: One-sentence summary"
 published: ASPLOS 2024

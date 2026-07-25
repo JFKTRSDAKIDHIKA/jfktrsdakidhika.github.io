@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Paper Reading: 3D-Stacked Memory Architectures for Multi-Core Processors"
+title: "(2008 ISCA) 3D-Stacked Memory Architectures for Multi-Core Processors"
 date: 2008-01-01
 description: "Proposes aggressive 3D DRAM organizations achieving 1.75× speedup over prior 3D-DRAM approaches, plus a novel Vector Bloom Filter for scalable MSHR"
 published: ISCA 2008

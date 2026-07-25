@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Paper Reading: Cambricon-SR An Accelerator for Neural Scene Representation"
+title: "(2025 ISCA) Cambricon-SR An Accelerator for Neural Scene Representation"
 date: 2025-01-01
 description: "TODO: One-sentence summary"
 published: ISCA 2025

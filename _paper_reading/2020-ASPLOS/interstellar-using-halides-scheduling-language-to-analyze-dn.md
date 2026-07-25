@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Paper Reading: Interstellar Using Halide’s Scheduling Language to Analyze DNN Accelerators"
+title: "(2020 ASPLOS) Interstellar Using Halide’s Scheduling Language to Analyze DNN Accelerators"
 date: 2020-01-01
 description: "TODO: One-sentence summary"
 published: ASPLOS 2020

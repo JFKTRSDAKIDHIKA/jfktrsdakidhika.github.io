@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Paper Reading: TeAAL A Declarative Framework for Modeling Sparse Tensor Accelerators"
+title: "(2023 MICRO) TeAAL A Declarative Framework for Modeling Sparse Tensor Accelerators"
 date: 2023-01-01
 description: "TODO: One-sentence summary"
 published: MICRO 2023

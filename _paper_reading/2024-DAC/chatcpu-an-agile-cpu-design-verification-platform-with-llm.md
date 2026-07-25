@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Paper Reading: ChatCPU An Agile CPU Design & Verification Platform with LLM"
+title: "(2024 DAC) ChatCPU An Agile CPU Design & Verification Platform with LLM"
 date: 2024-01-01
 description: "TODO: One-sentence summary"
 published: DAC 2024

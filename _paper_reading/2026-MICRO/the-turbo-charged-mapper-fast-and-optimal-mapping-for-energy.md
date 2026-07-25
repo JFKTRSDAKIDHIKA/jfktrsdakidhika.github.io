@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Paper Reading: The Turbo Charged Mapper Fast and Optimal Mapping for Energy efficient and Low latency Accelerator Design"
+title: "(2026 MICRO) The Turbo Charged Mapper Fast and Optimal Mapping for Energy efficient and Low latency Accelerator Design"
 date: 2026-01-01
 description: "TODO: One-sentence summary"
 published: MICRO 2026

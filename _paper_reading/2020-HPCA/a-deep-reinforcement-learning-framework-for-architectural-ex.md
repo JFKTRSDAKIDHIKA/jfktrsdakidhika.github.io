@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Paper Reading: A Deep Reinforcement Learning Framework for Architectural Exploration A Routerless NoC Case Study"
+title: "(2020 HPCA) A Deep Reinforcement Learning Framework for Architectural Exploration A Routerless NoC Case Study"
 date: 2020-01-01
 description: "TODO: One-sentence summary"
 published: HPCA 2020

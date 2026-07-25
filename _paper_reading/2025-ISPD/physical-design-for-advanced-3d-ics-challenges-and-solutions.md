@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Paper Reading: Physical Design for Advanced 3D ICs: Challenges and Solutions"
+title: "(2025 ISPD) Physical Design for Advanced 3D ICs: Challenges and Solutions"
 date: 2025-01-01
 description: "Survey of physical design challenges for hybrid-bonding and monolithic 3D ICs, covering partitioning, PDN, placement, clock delivery, and routing"
 published: ISPD 2025

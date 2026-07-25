@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Paper Reading: TransLib An Extensible Graph-Aware Library Framework for Automated Generation of Transformer Operators on FPGA"
+title: "(2024 ICCAD) TransLib An Extensible Graph-Aware Library Framework for Automated Generation of Transformer Operators on FPGA"
 date: 2024-01-01
 description: "TODO: One-sentence summary"
 published: ICCAD 2024

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Paper Reading: Pioneering Chiplet Technology and Design for the AMD EPYC and Ryzen Processor Families Industrial Product"
+title: "(2025) Pioneering Chiplet Technology and Design for the AMD EPYC and Ryzen Processor Families Industrial Product"
 date: 2025-01-01
 description: "TODO: One-sentence summary"
 published: Unknown 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Paper Reading: LLMShare Optimizing LLM Inference Serving with Hardware Architecture Exploration"
+title: "(2025 DAC) LLMShare Optimizing LLM Inference Serving with Hardware Architecture Exploration"
 date: 2025-01-01
 description: "TODO: One-sentence summary"
 published: DAC 2025

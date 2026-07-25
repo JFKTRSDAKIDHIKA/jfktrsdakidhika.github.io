@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Paper Reading: AttAcc! Unleashing the Power of PIM for Batched Transformer-based Generative Model Inference"
+title: "(2024 ASPLOS) AttAcc! Unleashing the Power of PIM for Batched Transformer-based Generative Model Inference"
 date: 2024-01-01
 description: "TODO: One-sentence summary"
 published: ASPLOS 2024

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Paper Reading: A Novel Dimensionally-Decomposed Router for On-Chip Communication in 3D Architectures"
+title: "(2007 ISCA) A Novel Dimensionally-Decomposed Router for On-Chip Communication in 3D Architectures"
 date: 2007-01-01
 description: "DimDe router decomposes 3D NoC traffic into X/Y/Z dimensions, achieving near-full-crossbar performance with dramatically reduced complexity"
 published: ISCA 2007

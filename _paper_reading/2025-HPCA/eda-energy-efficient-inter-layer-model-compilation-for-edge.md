@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Paper Reading: EDA Energy-Efficient Inter-Layer Model Compilation for Edge DNN Inference Acceleration"
+title: "(2025 HPCA) EDA Energy-Efficient Inter-Layer Model Compilation for Edge DNN Inference Acceleration"
 date: 2025-01-01
 description: "TODO: One-sentence summary"
 published: HPCA 2025

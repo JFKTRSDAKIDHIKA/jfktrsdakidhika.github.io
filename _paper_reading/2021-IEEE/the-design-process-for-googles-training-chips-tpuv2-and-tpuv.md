@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Paper Reading: The Design Process for Googles Training Chips TPUv2 and TPUv3"
+title: "(2021 IEEE Mico) The Design Process for Googles Training Chips TPUv2 and TPUv3"
 date: 2021-01-01
 description: "TODO: One-sentence summary"
 published: IEEE Mico 2021

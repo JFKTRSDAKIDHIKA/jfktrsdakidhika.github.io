@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Paper Reading: Fast and Fusiest An Optimal Fusion Aware Mapper for Accelerator Design"
+title: "(2026 MICRO) Fast and Fusiest An Optimal Fusion Aware Mapper for Accelerator Design"
 date: 2026-01-01
 description: "TODO: One-sentence summary"
 published: MICRO 2026

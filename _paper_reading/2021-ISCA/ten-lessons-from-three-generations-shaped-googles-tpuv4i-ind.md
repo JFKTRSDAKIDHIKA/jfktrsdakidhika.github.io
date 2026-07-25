@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Paper Reading: Ten Lessons From Three Generations Shaped Googles TPUv4i Industrial Product"
+title: "(2021 ISCA) Ten Lessons From Three Generations Shaped Googles TPUv4i Industrial Product"
 date: 2021-01-01
 description: "TODO: One-sentence summary"
 published: ISCA 2021

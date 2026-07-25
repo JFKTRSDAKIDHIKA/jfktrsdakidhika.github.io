@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Paper Reading: M100 An Orchestrated Dataflow Architecture Powering General AI Computing"
+title: "(2026 ISCA) M100 An Orchestrated Dataflow Architecture Powering General AI Computing"
 date: 2026-01-01
 description: "TODO: One-sentence summary"
 published: ISCA 2026

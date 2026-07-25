@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Paper Reading: UNICO Unified Hardware Software Co-Optimization for Robust Neural Network Acceleration"
+title: "(2023 MICRO) UNICO Unified Hardware Software Co-Optimization for Robust Neural Network Acceleration"
 date: 2023-01-01
 description: "TODO: One-sentence summary"
 published: MICRO 2023

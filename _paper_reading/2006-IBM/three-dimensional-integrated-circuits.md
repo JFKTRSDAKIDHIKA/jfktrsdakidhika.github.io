@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Paper Reading: Three-dimensional integrated circuits"
+title: "(2006 IBM J. Res. Dev.) Three-dimensional integrated circuits"
 date: 2006-01-01
 description: "IBM's pioneering work on 3D IC fabrication using layer transfer, oxide fusion bonding, and high-aspect-ratio inter-layer vias"
 published: IBM J. Res. Dev. 2006

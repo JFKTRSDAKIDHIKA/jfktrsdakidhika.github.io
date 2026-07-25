@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Paper Reading: A 64-Tile 2.4-Mb In-Memory-Computing CNN Accelerator Employing Charge-Domain Compute"
+title: "(2019 JSSC) A 64-Tile 2.4-Mb In-Memory-Computing CNN Accelerator Employing Charge-Domain Compute"
 date: 2019-01-01
 description: "TODO: One-sentence summary"
 published: JSSC 2019

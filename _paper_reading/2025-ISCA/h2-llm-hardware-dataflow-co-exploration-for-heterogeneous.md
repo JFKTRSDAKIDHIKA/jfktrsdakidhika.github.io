@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Paper Reading: H2-LLM Hardware-Dataflow Co-Exploration for Heterogeneous"
+title: "(2025 ISCA) H2-LLM Hardware-Dataflow Co-Exploration for Heterogeneous"
 date: 2025-01-01
 description: "TODO: One-sentence summary"
 published: ISCA 2025

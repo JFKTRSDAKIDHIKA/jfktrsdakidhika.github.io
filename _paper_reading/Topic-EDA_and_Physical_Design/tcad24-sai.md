@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Paper Reading: tcad24-sai"
+title: "(2025) tcad24-sai"
 date: 2025-01-01
 description: "TODO: One-sentence summary"
 published: Unknown 

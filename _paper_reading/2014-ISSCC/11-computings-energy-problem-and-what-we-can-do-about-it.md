@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Paper Reading: 1.1 Computings energy problem and what we can do about it"
+title: "(2014 ISSCC) 1.1 Computings energy problem and what we can do about it"
 date: 2014-01-01
 description: "TODO: One-sentence summary"
 published: ISSCC 2014

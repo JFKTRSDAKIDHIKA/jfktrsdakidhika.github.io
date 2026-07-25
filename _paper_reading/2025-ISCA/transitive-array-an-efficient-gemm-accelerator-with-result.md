@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Paper Reading: Transitive Array An Efficient GEMM Accelerator with Result"
+title: "(2025 ISCA) Transitive Array An Efficient GEMM Accelerator with Result"
 date: 2025-01-01
 description: "TODO: One-sentence summary"
 published: ISCA 2025

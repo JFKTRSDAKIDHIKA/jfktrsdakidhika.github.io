@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Paper Reading: ShiDianNao Shifting vision processing closer to the sensor"
+title: "(2015 ISCA) ShiDianNao Shifting vision processing closer to the sensor"
 date: 2015-01-01
 description: "TODO: One-sentence summary"
 published: ISCA 2015

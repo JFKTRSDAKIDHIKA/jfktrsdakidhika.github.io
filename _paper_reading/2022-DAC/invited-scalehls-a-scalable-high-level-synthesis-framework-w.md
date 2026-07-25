@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Paper Reading: Invited ScaleHLS a Scalable High-Level Synthesis Framework with Multi-level Transformations and Optimizations"
+title: "(2022 DAC) Invited ScaleHLS a Scalable High-Level Synthesis Framework with Multi-level Transformations and Optimizations"
 date: 2022-01-01
 description: "TODO: One-sentence summary"
 published: DAC 2022

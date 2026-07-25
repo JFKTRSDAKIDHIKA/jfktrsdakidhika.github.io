@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Paper Reading: Aquabolt-XL HBM2-PIM LPDDR5-PIM With In-Memory Processing and AXDIMM With Acceleration Buffer"
+title: "(2022 IEEE Micro) Aquabolt-XL HBM2-PIM LPDDR5-PIM With In-Memory Processing and AXDIMM With Acceleration Buffer"
 date: 2022-01-01
 description: "TODO: One-sentence summary"
 published: IEEE Micro 2022

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Paper Reading: A Domain Specific Supercomputer for Training Deep Neural Networks (TPUv2)"
+title: "(2020 CACM) A Domain Specific Supercomputer for Training Deep Neural Networks (TPUv2)"
 date: 2020-01-01
 description: "TODO: One-sentence summary"
 published: CACM 2020

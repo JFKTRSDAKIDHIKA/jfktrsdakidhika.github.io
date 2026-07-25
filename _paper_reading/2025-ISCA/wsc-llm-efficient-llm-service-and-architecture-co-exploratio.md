@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Paper Reading: WSC-LLM Efficient LLM Service and Architecture Co-exploration for Wafer-scale Chips"
+title: "(2025 ISCA) WSC-LLM Efficient LLM Service and Architecture Co-exploration for Wafer-scale Chips"
 date: 2025-01-01
 description: "TODO: One-sentence summary"
 published: ISCA 2025

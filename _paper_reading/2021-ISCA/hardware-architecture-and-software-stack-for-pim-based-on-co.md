@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Paper Reading: Hardware Architecture and Software Stack for PIM Based on Commercial DRAM Technology Industrial Product"
+title: "(2021 ISCA) Hardware Architecture and Software Stack for PIM Based on Commercial DRAM Technology Industrial Product"
 date: 2021-01-01
 description: "TODO: One-sentence summary"
 published: ISCA 2021

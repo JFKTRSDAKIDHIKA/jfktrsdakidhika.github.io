@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Paper Reading: HeterRAG Heterogeneous Processing-in-Memory Acceleration for Retrieval-augmented Generation"
+title: "(2025 ISCA) HeterRAG Heterogeneous Processing-in-Memory Acceleration for Retrieval-augmented Generation"
 date: 2025-01-01
 description: "TODO: One-sentence summary"
 published: ISCA 2025

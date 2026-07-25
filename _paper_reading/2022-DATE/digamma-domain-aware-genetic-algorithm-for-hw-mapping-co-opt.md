@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Paper Reading: DiGamma Domain-aware Genetic Algorithm for HW-Mapping Co-optimization for DNN Accelerators"
+title: "(2022 DATE) DiGamma Domain-aware Genetic Algorithm for HW-Mapping Co-optimization for DNN Accelerators"
 date: 2022-01-01
 description: "TODO: One-sentence summary"
 published: DATE 2022

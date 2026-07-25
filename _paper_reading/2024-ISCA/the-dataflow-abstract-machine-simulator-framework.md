@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Paper Reading: The Dataflow Abstract Machine Simulator Framework"
+title: "(2024 ISCA) The Dataflow Abstract Machine Simulator Framework"
 date: 2024-01-01
 description: "TODO: One-sentence summary"
 published: ISCA 2024

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Paper Reading: LoopTree Enabling Exploration of Fused-layer Dataflow Accelerators"
+title: "(2023 ISPASS) LoopTree Enabling Exploration of Fused-layer Dataflow Accelerators"
 date: 2023-01-01
 description: "TODO: One-sentence summary"
 published: ISPASS 2023

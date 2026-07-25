@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Paper Reading: DeepPiC xPU-PIM Cluster Architecture with Adaptive Resource-Aware Task Orchestration for DeepSeek-Style MoE Inference"
+title: "(2026 ASPDAC) DeepPiC xPU-PIM Cluster Architecture with Adaptive Resource-Aware Task Orchestration for DeepSeek-Style MoE Inference"
 date: 2026-01-01
 description: "TODO: One-sentence summary"
 published: ASPDAC 2026

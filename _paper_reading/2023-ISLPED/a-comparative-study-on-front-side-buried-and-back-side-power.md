@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Paper Reading: A Comparative Study on Front Side Buried and Back Side Power Rail Topologies in 3nm Technology Node"
+title: "(2023 ISLPED) A Comparative Study on Front Side Buried and Back Side Power Rail Topologies in 3nm Technology Node"
 date: 2023-01-01
 description: "TODO: One-sentence summary"
 published: ISLPED 2023

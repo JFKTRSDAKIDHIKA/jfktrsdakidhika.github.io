@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Paper Reading: AIM Software and Hardware Co-design for Architecture-level IR-drop Mitigation in High-performance PIM"
+title: "(2025 ISCA) AIM Software and Hardware Co-design for Architecture-level IR-drop Mitigation in High-performance PIM"
 date: 2025-01-01
 description: "TODO: One-sentence summary"
 published: ISCA 2025

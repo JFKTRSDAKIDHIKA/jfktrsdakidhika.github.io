@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Paper Reading: Trapezoid A Versatile Accelerator for Dense and Sparse Matrix Multiplications"
+title: "(2024 ISCA) Trapezoid A Versatile Accelerator for Dense and Sparse Matrix Multiplications"
 date: 2024-01-01
 description: "TODO: One-sentence summary"
 published: ISCA 2024

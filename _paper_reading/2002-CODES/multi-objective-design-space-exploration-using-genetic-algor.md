@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Paper Reading: Multi-objective design space exploration using genetic algorithms"
+title: "(2002 CODES) Multi-objective design space exploration using genetic algorithms"
 date: 2002-01-01
 description: "TODO: One-sentence summary"
 published: CODES 2002

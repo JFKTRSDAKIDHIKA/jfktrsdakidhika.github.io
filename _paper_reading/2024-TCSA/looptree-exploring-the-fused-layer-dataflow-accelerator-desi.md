@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Paper Reading: LoopTree Exploring the Fused-Layer Dataflow Accelerator Design Space"
+title: "(2024 TCSA) LoopTree Exploring the Fused-Layer Dataflow Accelerator Design Space"
 date: 2024-01-01
 description: "TODO: One-sentence summary"
 published: TCSA 2024

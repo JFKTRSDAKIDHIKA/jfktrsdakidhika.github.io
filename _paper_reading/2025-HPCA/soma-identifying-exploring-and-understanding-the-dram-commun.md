@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Paper Reading: SoMa Identifying Exploring and Understanding the DRAM Communication Scheduling Space for DNN Accelerators"
+title: "(2025 HPCA) SoMa Identifying Exploring and Understanding the DRAM Communication Scheduling Space for DNN Accelerators"
 date: 2025-01-01
 description: "TODO: One-sentence summary"
 published: HPCA 2025

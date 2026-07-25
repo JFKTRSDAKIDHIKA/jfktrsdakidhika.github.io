@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Paper Reading: Multi-chip technologies to unleash computing performance gains over the next decade"
+title: "(2025) Multi-chip technologies to unleash computing performance gains over the next decade"
 date: 2025-01-01
 description: "TODO: One-sentence summary"
 published: Unknown 

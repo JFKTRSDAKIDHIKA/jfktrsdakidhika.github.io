@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Paper Reading: DOSA Differentiable Model-Based One Loop Search for DNN Accelerators"
+title: "(2023 Micro) DOSA Differentiable Model-Based One Loop Search for DNN Accelerators"
 date: 2023-01-01
 description: "TODO: One-sentence summary"
 published: Micro 2023

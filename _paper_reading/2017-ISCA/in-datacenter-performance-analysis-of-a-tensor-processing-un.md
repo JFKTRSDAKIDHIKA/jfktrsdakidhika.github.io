@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Paper Reading: In-Datacenter Performance Analysis of a Tensor Processing Unit"
+title: "(2017 ISCA) In-Datacenter Performance Analysis of a Tensor Processing Unit"
 date: 2017-01-01
 description: "TODO: One-sentence summary"
 published: ISCA 2017

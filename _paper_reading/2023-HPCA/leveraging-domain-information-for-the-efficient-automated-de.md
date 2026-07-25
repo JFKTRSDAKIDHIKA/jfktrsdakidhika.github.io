@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Paper Reading: Leveraging Domain Information for the Efficient Automated Design of Deep Learning Accelerators"
+title: "(2023 HPCA) Leveraging Domain Information for the Efficient Automated Design of Deep Learning Accelerators"
 date: 2023-01-01
 description: "TODO: One-sentence summary"
 published: HPCA 2023

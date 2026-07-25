@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Paper Reading: ScaleHLS A New Scalable High-Level Synthesis Framework on Multi-Level Intermediate Representation"
+title: "(2022 HPCA) ScaleHLS A New Scalable High-Level Synthesis Framework on Multi-Level Intermediate Representation"
 date: 2022-01-01
 description: "TODO: One-sentence summary"
 published: HPCA 2022

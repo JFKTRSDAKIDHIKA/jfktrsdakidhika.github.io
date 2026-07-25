@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Paper Reading: A 22 nm 1540 TOP s W 12.1 TOP s mm2 in-Memory Analog Matrix-Vector-Multiplier for DNN Acceleration"
+title: "(2021 CICC) A 22 nm 1540 TOP s W 12.1 TOP s mm2 in-Memory Analog Matrix-Vector-Multiplier for DNN Acceleration"
 date: 2021-01-01
 description: "TODO: One-sentence summary"
 published: CICC 2021

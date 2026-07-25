@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Paper Reading: Exploring the Performance Improvement of Tensor Processing Engines through Transformation in the Bit-weight Dimension of MACs"
+title: "(2025 HPCA) Exploring the Performance Improvement of Tensor Processing Engines through Transformation in the Bit-weight Dimension of MACs"
 date: 2025-01-01
 description: "TODO: One-sentence summary"
 published: HPCA 2025

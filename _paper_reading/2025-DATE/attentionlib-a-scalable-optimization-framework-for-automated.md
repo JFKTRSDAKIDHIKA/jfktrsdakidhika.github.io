@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Paper Reading: AttentionLib A Scalable Optimization Framework for Automated Attention Acceleration on FPGA"
+title: "(2025 DATE) AttentionLib A Scalable Optimization Framework for Automated Attention Acceleration on FPGA"
 date: 2025-01-01
 description: "TODO: One-sentence summary"
 published: DATE 2025

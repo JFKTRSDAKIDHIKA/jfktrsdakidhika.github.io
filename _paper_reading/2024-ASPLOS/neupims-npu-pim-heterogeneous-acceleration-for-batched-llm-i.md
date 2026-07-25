@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Paper Reading: NeuPIMs NPU-PIM Heterogeneous Acceleration for Batched LLM Inferencing"
+title: "(2024 ASPLOS) NeuPIMs NPU-PIM Heterogeneous Acceleration for Batched LLM Inferencing"
 date: 2024-01-01
 description: "TODO: One-sentence summary"
 published: ASPLOS 2024

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Paper Reading: Prior-Boosted GRL Microarchitecture Design Space Exploration via Graph Representation Learning"
+title: "(2025 TCAD) Prior-Boosted GRL Microarchitecture Design Space Exploration via Graph Representation Learning"
 date: 2025-01-01
 description: "TODO: One-sentence summary"
 published: TCAD 2025

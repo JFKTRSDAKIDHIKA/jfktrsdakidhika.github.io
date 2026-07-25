@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Paper Reading: PLACE ICCAD2024 Wang"
+title: "(2025) PLACE ICCAD2024 Wang"
 date: 2025-01-01
 description: "TODO: One-sentence summary"
 published: Unknown 

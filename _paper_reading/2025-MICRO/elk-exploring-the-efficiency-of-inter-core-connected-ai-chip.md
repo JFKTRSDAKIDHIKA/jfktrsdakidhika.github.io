@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Paper Reading: Elk Exploring the Efficiency of Inter-core Connected AI Chips with Deep Learning Compiler Techniques"
+title: "(2025 MICRO) Elk Exploring the Efficiency of Inter-core Connected AI Chips with Deep Learning Compiler Techniques"
 date: 2025-01-01
 description: "TODO: One-sentence summary"
 published: MICRO 2025

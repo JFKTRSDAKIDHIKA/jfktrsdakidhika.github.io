@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Paper Reading: How to Keep Pushing ML Accelerator Performance Know Your Rooflines"
+title: "(2025 JSSC) How to Keep Pushing ML Accelerator Performance Know Your Rooflines"
 date: 2025-01-01
 description: "TODO: One-sentence summary"
 published: JSSC 2025

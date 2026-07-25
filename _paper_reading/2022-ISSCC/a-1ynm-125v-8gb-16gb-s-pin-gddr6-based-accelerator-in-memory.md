@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Paper Reading: A 1ynm 1.25V 8Gb 16Gb s pin GDDR6-based Accelerator-in-Memory supporting 1TFLOPS MAC Operation and Various Activation Functions for Deep-Learning Applications"
+title: "(2022 ISSCC) A 1ynm 1.25V 8Gb 16Gb s pin GDDR6-based Accelerator-in-Memory supporting 1TFLOPS MAC Operation and Various Activation Functions for Deep-Learning Applications"
 date: 2022-01-01
 description: "TODO: One-sentence summary"
 published: ISSCC 2022

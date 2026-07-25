@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Paper Reading: Explainable Fuzzy Neural Network withMulti-Fidelity Reinforcement Learning for Micro-Architecture Design Space Exploration"
+title: "(2024 DAC) Explainable Fuzzy Neural Network withMulti-Fidelity Reinforcement Learning for Micro-Architecture Design Space Exploration"
 date: 2024-01-01
 description: "TODO: One-sentence summary"
 published: DAC 2024

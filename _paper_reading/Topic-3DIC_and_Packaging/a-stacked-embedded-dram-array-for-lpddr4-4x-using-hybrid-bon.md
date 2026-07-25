@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Paper Reading: A Stacked Embedded DRAM Array for LPDDR4 4X using Hybrid Bonding 3D Integration with 34GB s 1Gb 0.88pJ b Logic-to-Memory Interface"
+title: "(2025) A Stacked Embedded DRAM Array for LPDDR4 4X using Hybrid Bonding 3D Integration with 34GB s 1Gb 0.88pJ b Logic-to-Memory Interface"
 date: 2025-01-01
 description: "TODO: One-sentence summary"
 published: Unknown 

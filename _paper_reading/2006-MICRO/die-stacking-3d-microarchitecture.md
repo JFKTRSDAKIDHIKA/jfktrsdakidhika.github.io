@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Paper Reading: Die Stacking (3D) Microarchitecture"
+title: "(2006 MICRO) Die Stacking (3D) Microarchitecture"
 date: 2006-01-01
 description: "Intel's exploration of 3D die stacking for Memory+Logic and Logic+Logic configurations, showing simultaneous power reduction and performance gain"
 published: MICRO 2006

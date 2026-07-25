@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Paper Reading: keynote1"
+title: "(2025) keynote1"
 date: 2025-01-01
 description: "TODO: One-sentence summary"
 published: Unknown 

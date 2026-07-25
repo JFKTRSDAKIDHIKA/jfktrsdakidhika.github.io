@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Paper Reading: High-Performance Computing Architecture Exploration with Stage-Enhanced Bayesian Optimization"
+title: "(2025 DAC) High-Performance Computing Architecture Exploration with Stage-Enhanced Bayesian Optimization"
 date: 2025-01-01
 description: "TODO: One-sentence summary"
 published: DAC 2025

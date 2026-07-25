@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Paper Reading: Using Analytical PerformancePower Model and Fine-Grained DVFS to Enhance AI Accelerator Energy Efficiency"
+title: "(2025 ASPLOS) Using Analytical PerformancePower Model and Fine-Grained DVFS to Enhance AI Accelerator Energy Efficiency"
 date: 2025-01-01
 description: "TODO: One-sentence summary"
 published: ASPLOS 2025

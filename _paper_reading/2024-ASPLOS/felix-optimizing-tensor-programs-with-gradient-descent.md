@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Paper Reading: Felix Optimizing Tensor Programs with Gradient Descent"
+title: "(2024 ASPLOS) Felix Optimizing Tensor Programs with Gradient Descent"
 date: 2024-01-01
 description: "TODO: One-sentence summary"
 published: ASPLOS 2024

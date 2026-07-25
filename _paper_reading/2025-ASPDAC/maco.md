@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Paper Reading: MACO"
+title: "(2025 ASPDAC) MACO"
 date: 2025-01-01
 description: "TODO: One-sentence summary"
 published: ASPDAC 2025

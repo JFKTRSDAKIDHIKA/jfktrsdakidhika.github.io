@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Paper Reading: ASAP7 predictive design kit development and cell design technology co-optimization Invited paper"
+title: "(2017 ISPD) ASAP7 predictive design kit development and cell design technology co-optimization Invited paper"
 date: 2017-01-01
 description: "TODO: One-sentence summary"
 published: ISPD 2017

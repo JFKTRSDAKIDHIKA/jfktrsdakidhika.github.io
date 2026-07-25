@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Paper Reading: Towards Automated RISC-V Microarchitecture Design with Reinforcement Learning"
+title: "(2024 AAAI) Towards Automated RISC-V Microarchitecture Design with Reinforcement Learning"
 date: 2024-01-01
 description: "TODO: One-sentence summary"
 published: AAAI 2024

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Paper Reading: System-level exploration for Pareto-optimal configurations in parameterized systems-on-a-chip"
+title: "(2001 ICCAD) System-level exploration for Pareto-optimal configurations in parameterized systems-on-a-chip"
 date: 2001-01-01
 description: "TODO: One-sentence summary"
 published: ICCAD 2001

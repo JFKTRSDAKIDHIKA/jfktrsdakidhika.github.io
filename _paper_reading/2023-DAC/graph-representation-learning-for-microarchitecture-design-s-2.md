@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Paper Reading: Graph Representation Learning for Microarchitecture Design Space Exploration - final"
+title: "(2023 DAC) Graph Representation Learning for Microarchitecture Design Space Exploration - final"
 date: 2023-01-01
 description: "TODO: One-sentence summary"
 published: DAC 2023

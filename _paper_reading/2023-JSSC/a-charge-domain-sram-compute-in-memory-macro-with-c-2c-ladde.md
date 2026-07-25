@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Paper Reading: A Charge Domain SRAM Compute-in-Memory Macro With C-2C Ladder-Based 8-Bit MAC Unit in 22-nm FinFET Process for Edge Inference"
+title: "(2023 JSSC) A Charge Domain SRAM Compute-in-Memory Macro With C-2C Ladder-Based 8-Bit MAC Unit in 22-nm FinFET Process for Edge Inference"
 date: 2023-01-01
 description: "TODO: One-sentence summary"
 published: JSSC 2023

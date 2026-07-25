@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Paper Reading: Mind the Gap Attainable Data Movement and Operational Intensity Bounds for Tensor Algorithms"
+title: "(2024 ISCA) Mind the Gap Attainable Data Movement and Operational Intensity Bounds for Tensor Algorithms"
 date: 2024-01-01
 description: "TODO: One-sentence summary"
 published: ISCA 2024

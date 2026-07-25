@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Paper Reading: TPUv4"
+title: "(2023 ISCA) TPUv4"
 date: 2023-01-01
 description: "TODO: One-sentence summary"
 published: ISCA 2023

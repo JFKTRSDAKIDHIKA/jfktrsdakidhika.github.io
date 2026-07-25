@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Paper Reading: A Hybrid-Bonded 12.1TOPS/mm² 56-Core DNN Processor with 2.5Tb/s/mm² 3D Network on Chip"
+title: "(2026 ISSCC) A Hybrid-Bonded 12.1TOPS/mm² 56-Core DNN Processor with 2.5Tb/s/mm² 3D Network on Chip"
 date: 2026-01-01
 description: "Intel's manycore 3D DNN processor using hybrid bonding: 56 RISC-V cores + 56 DNN accelerators with 3D mesh NoC achieving 39% throughput improvement"
 published: ISSCC 2026

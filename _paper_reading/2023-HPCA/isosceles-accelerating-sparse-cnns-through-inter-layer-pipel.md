@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Paper Reading: ISOSceles Accelerating Sparse CNNs through Inter-Layer Pipelining"
+title: "(2023 HPCA) ISOSceles Accelerating Sparse CNNs through Inter-Layer Pipelining"
 date: 2023-01-01
 description: "TODO: One-sentence summary"
 published: HPCA 2023

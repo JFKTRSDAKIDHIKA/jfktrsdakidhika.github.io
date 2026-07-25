@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Paper Reading: From TeAAL to FuseMax Separation of Concerns for Attention Accelerator Design"
+title: "(2025 IEEE micro) From TeAAL to FuseMax Separation of Concerns for Attention Accelerator Design"
 date: 2025-01-01
 description: "TODO: One-sentence summary"
 published: IEEE micro 2025

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Paper Reading: LEMOE LLM-Enhanced Multi-Objective Bayesian Optimization for Microarchitecture Exploration"
+title: "(2025 DAC) LEMOE LLM-Enhanced Multi-Objective Bayesian Optimization for Microarchitecture Exploration"
 date: 2025-01-01
 description: "TODO: One-sentence summary"
 published: DAC 2025

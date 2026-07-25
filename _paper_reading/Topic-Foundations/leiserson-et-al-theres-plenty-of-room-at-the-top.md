@@ -1,18 +1,18 @@
 ---
 layout: post
-title: "Paper Reading: Leiserson-et-al-Theres-plenty-of-room-at-the-top"
-date: 2025-01-01
-description: "TODO: One-sentence summary"
-published: Unknown 
-tags: paper-reading foundations
+title: "(2020 Science) There's Plenty of Room at the Top"
+date: 2020-01-01
+description: "Argues that post-Moore's-Law performance gains will come from software, algorithms, and hardware specialization rather than transistor scaling"
+published: Science 2020
+tags: paper-reading foundations performance specialization
 toc:
   sidebar: left
 related_posts: false
 giscus_comments: true
 paper:
-  title: "Leiserson-et-al-Theres-plenty-of-room-at-the-top"
-  authors: "TODO"
-  venue: "Unknown, Unknown"
+  title: "There's Plenty of Room at the Top: What Will Drive Computer Performance After Moore's Law?"
+  authors: "Charles E. Leiserson, Neil C. Thompson, Joel S. Emer, Bradley C. Kuszmaul, Butler W. Lampson, Daniel Sanchez, Tao B. Schardl"
+  venue: "Science, 2020"
   url: ""
   code: ""
   pdf: "/assets/pdf/papers/Leiserson-et-al-Theres-plenty-of-room-at-the-top.pdf"
@@ -20,54 +20,13 @@ paper:
 
 ## TL;DR
 
-<!-- 用 3-5 句话写清楚 -->
-- 这篇论文解决什么问题。
-- 核心想法是什么。
-- 结果为什么重要。
-- 你读完后的主要判断。
-
-## Paper Info
-
-- **Title:** {{ page.paper.title }}
-- **Authors:** {{ page.paper.authors }}
-- **Venue:** {{ page.paper.venue }}
-- **Paper:** [PDF]({{ page.paper.pdf }})
-- **Code:** [link]({{ page.paper.code }})
-
-## Problem
-
-<!-- 这篇论文试图解决的具体问题是什么？ -->
-
-
-## Method
-
-<!-- 按模块拆解核心方法 -->
-1. 方法的整体 pipeline。
-2. 关键假设或设计。
-3. 和已有方法相比的新东西。
-
-## Experiments
-
-<!-- 记录你认为真正支撑结论的实验 -->
-- 数据集和任务设置。
-- baseline 是否合理。
-- ablation 说明了什么。
-- 有哪些实验缺口。
+- 摩尔定律放缓后，性能提升将主要来自三个"上层"：**软件优化**、**算法改进**、**硬件特化**（domain-specific accelerators）。
+- 历史数据表明：软件层面的优化空间常常大于硬件改进（如排序算法进步 >10000× vs. 硬件 ~1000×）。
+- 呼吁回归"performance engineering"文化，而非仅依赖工艺进步。
+- Leiserson 的名字同时出现在 1978 systolic array 和 2020 这篇 —— 跨越 40+ 年的系统观。
 
 ## Insights
 
-<!-- 写自己的理解，不只是复述论文 -->
-- 这个方法为什么有效？
-- 它适合什么场景？
-- 它可能在哪些场景下失败？
-- 对你自己的研究或项目有什么启发？
-
-## Limitations
-
-<!-- 列出论文没有解决、或者你觉得论证不充分的地方 -->
-
-
-## Follow-up
-
-<!-- 值得继续读的相关论文 / 可以复现的部分 / 可以进一步验证的问题 -->
-
+- 这篇论文是 DSE 研究的哲学基础：为什么我们需要 hardware specialization + co-design。
+- "Room at the top" = 软件/算法/架构层的优化空间 >> "Room at the bottom" = 继续缩放晶体管。
+- 对 DNN accelerator 研究的直接指导：不是只做硬件，要 SW-HW co-design。

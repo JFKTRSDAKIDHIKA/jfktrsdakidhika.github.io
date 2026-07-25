@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Paper Reading: ROI-HIT Region of Interest-Driven High-Dimensional Microarchitecture Design Space Exploration"
+title: "(2024 TCAD) ROI-HIT Region of Interest-Driven High-Dimensional Microarchitecture Design Space Exploration"
 date: 2024-01-01
 description: "TODO: One-sentence summary"
 published: TCAD 2024

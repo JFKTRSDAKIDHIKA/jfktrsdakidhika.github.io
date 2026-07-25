@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Paper Reading: SCAR Scheduling Multi-Model AI Workloads on Heterogeneous Multi-Chiplet Module Accelerators"
+title: "(2024 Micro) SCAR Scheduling Multi-Model AI Workloads on Heterogeneous Multi-Chiplet Module Accelerators"
 date: 2024-01-01
 description: "TODO: One-sentence summary"
 published: Micro 2024

@@ -1,18 +1,18 @@
 ---
 layout: post
-title: "Paper Reading: Ten Lessons Learned from TTAP"
+title: "(2025 Self-published) Ten Lessons Learned from a Tenure-Track AP's First Two Years"
 date: 2025-01-01
-description: "TODO: One-sentence summary"
-published: Unknown 
-tags: paper-reading misc
+description: "Reflections on cold-start failures in academic research group building for new PIs in computer architecture"
+published: Self-published 2025
+tags: paper-reading foundations academic career
 toc:
   sidebar: left
 related_posts: false
 giscus_comments: true
 paper:
   title: "Ten Lessons Learned from TTAP"
-  authors: "TODO"
-  venue: "Unknown, Unknown"
+  authors: "Anonymous"
+  venue: "Self-published, 2025"
   url: ""
   code: ""
   pdf: "/assets/pdf/papers/Ten%20Lessons%20Learned%20from%20TTAP.pdf"
@@ -20,54 +20,20 @@ paper:
 
 ## TL;DR
 
-<!-- 用 3-5 句话写清楚 -->
-- 这篇论文解决什么问题。
-- 核心想法是什么。
-- 结果为什么重要。
-- 你读完后的主要判断。
+- 一位 CMU PhD 毕业后加入中等学校做 tenure-track AP 的两年反思。
+- 核心教训：两年仅产出一篇 regional workshop paper — 典型的 "cold-start failure"。
+- 10 条经验涵盖：组建团队、选题策略、学生培养、时间管理、心理建设。
+- 对学术界新 PI 有直接参考价值。
 
-## Paper Info
+## Key Lessons
 
-- **Title:** {{ page.paper.title }}
-- **Authors:** {{ page.paper.authors }}
-- **Venue:** {{ page.paper.venue }}
-- **Paper:** [PDF]({{ page.paper.pdf }})
-- **Code:** [link]({{ page.paper.code }})
-
-## Problem
-
-<!-- 这篇论文试图解决的具体问题是什么？ -->
-
-
-## Method
-
-<!-- 按模块拆解核心方法 -->
-1. 方法的整体 pipeline。
-2. 关键假设或设计。
-3. 和已有方法相比的新东西。
-
-## Experiments
-
-<!-- 记录你认为真正支撑结论的实验 -->
-- 数据集和任务设置。
-- baseline 是否合理。
-- ablation 说明了什么。
-- 有哪些实验缺口。
+1. 不要同时开太多方向
+2. 前 1-2 年要有"quick win"项目（几个月出结果）
+3. 学生招募和培养是最大瓶颈
+4. 不要低估 infrastructure/toolchain 搭建的时间成本
+5. 保持与 PhD 导师组的合作是 bootstrap 的关键
 
 ## Insights
 
-<!-- 写自己的理解，不只是复述论文 -->
-- 这个方法为什么有效？
-- 它适合什么场景？
-- 它可能在哪些场景下失败？
-- 对你自己的研究或项目有什么启发？
-
-## Limitations
-
-<!-- 列出论文没有解决、或者你觉得论证不充分的地方 -->
-
-
-## Follow-up
-
-<!-- 值得继续读的相关论文 / 可以复现的部分 / 可以进一步验证的问题 -->
-
+- 对我的启发：选题要有梯度 — 短期可发表的 + 长期有影响力的。
+- Computer Architecture 领域周期长（simulator/RTL/tapeout），更需要 project pipeline management。

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Paper Reading: Soter Analytical Tensor-Architecture Modeling and Automatic Tensor Program Tuning for Spatial Accelerators"
+title: "(2024 ISCA) Soter Analytical Tensor-Architecture Modeling and Automatic Tensor Program Tuning for Spatial Accelerators"
 date: 2024-01-01
 description: "TODO: One-sentence summary"
 published: ISCA 2024

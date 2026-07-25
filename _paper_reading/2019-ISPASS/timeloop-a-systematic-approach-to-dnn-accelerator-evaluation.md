@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Paper Reading: Timeloop A Systematic Approach to DNN Accelerator Evaluation"
+title: "(2019 ISPASS) Timeloop A Systematic Approach to DNN Accelerator Evaluation"
 date: 2019-01-01
 description: "TODO: One-sentence summary"
 published: ISPASS 2019

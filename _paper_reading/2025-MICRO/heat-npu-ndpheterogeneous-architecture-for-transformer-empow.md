@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Paper Reading: HEAT NPU-NDPHEterogeneous Architecture for Transformer-Empowered Graph Neural Networks"
+title: "(2025 MICRO) HEAT NPU-NDPHEterogeneous Architecture for Transformer-Empowered Graph Neural Networks"
 date: 2025-01-01
 description: "TODO: One-sentence summary"
 published: MICRO 2025

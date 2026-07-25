@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Paper Reading: CHARM Composing Heterogeneous AcceleRators for Matrix Multiply on Versal ACAP Architecture"
+title: "(2023 FPGA) CHARM Composing Heterogeneous AcceleRators for Matrix Multiply on Versal ACAP Architecture"
 date: 2023-01-01
 description: "TODO: One-sentence summary"
 published: FPGA 2023

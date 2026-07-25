@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Paper Reading: Stellar An Automated Design Framework for Dense and Sparse Spatial Accelerators"
+title: "(2024 Micro) Stellar An Automated Design Framework for Dense and Sparse Spatial Accelerators"
 date: 2024-01-01
 description: "TODO: One-sentence summary"
 published: Micro 2024

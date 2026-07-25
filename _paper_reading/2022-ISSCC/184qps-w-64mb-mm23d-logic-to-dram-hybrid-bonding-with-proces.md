@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Paper Reading: 184QPS W 64Mb mm23D Logic-to-DRAM Hybrid Bonding with Process-Near-Memory Engine for Recommendation System"
+title: "(2022 ISSCC) 184QPS W 64Mb mm23D Logic-to-DRAM Hybrid Bonding with Process-Near-Memory Engine for Recommendation System"
 date: 2022-01-01
 description: "TODO: One-sentence summary"
 published: ISSCC 2022

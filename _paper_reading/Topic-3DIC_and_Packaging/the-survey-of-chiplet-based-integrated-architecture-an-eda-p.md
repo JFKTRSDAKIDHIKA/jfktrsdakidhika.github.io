@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Paper Reading: The Survey of Chiplet-based Integrated Architecture An EDA perspective"
+title: "(2025) The Survey of Chiplet-based Integrated Architecture An EDA perspective"
 date: 2025-01-01
 description: "TODO: One-sentence summary"
 published: Unknown 

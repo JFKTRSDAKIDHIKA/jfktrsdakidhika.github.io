@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Paper Reading: UCIe"
+title: "(2025) UCIe"
 date: 2025-01-01
 description: "TODO: One-sentence summary"
 published: Unknown 

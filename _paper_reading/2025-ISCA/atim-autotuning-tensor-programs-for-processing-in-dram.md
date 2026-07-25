@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Paper Reading: ATiM Autotuning Tensor Programs for Processing-in-DRAM"
+title: "(2025 ISCA) ATiM Autotuning Tensor Programs for Processing-in-DRAM"
 date: 2025-01-01
 description: "TODO: One-sentence summary"
 published: ISCA 2025

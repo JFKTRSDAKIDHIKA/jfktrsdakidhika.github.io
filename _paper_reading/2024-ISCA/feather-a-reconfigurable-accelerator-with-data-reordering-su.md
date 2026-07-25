@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Paper Reading: FEATHER A Reconfigurable Accelerator with Data Reordering Support for Low-Cost On-Chip Dataflow Switching"
+title: "(2024 ISCA) FEATHER A Reconfigurable Accelerator with Data Reordering Support for Low-Cost On-Chip Dataflow Switching"
 date: 2024-01-01
 description: "TODO: One-sentence summary"
 published: ISCA 2024

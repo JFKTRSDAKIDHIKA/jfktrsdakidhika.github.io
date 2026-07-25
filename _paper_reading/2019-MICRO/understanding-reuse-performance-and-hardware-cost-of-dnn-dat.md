@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Paper Reading: Understanding Reuse, Performance, and Hardware Cost of DNN Dataflows A Data-Centric Approach Using MAESTRO"
+title: "(2019 MICRO) Understanding Reuse, Performance, and Hardware Cost of DNN Dataflows A Data-Centric Approach Using MAESTRO"
 date: 2019-01-01
 description: "TODO: One-sentence summary"
 published: MICRO 2019

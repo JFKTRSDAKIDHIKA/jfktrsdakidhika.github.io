@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Paper Reading: ARES A Mapping Framework of DNNs Towards Diverse PIMs with General Abstractions"
+title: "(2023 ICCAD) ARES A Mapping Framework of DNNs Towards Diverse PIMs with General Abstractions"
 date: 2023-01-01
 description: "TODO: One-sentence summary"
 published: ICCAD 2023

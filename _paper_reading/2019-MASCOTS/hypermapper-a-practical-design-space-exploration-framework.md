@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Paper Reading: HyperMapper a Practical Design Space Exploration Framework"
+title: "(2019 MASCOTS) HyperMapper a Practical Design Space Exploration Framework"
 date: 2019-01-01
 description: "TODO: One-sentence summary"
 published: MASCOTS 2019

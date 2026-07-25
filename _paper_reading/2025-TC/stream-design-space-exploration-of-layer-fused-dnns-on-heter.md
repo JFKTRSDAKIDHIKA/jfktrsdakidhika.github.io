@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Paper Reading: Stream Design Space Exploration of Layer-Fused DNNs on Heterogeneous Dataflow Accelerators"
+title: "(2025 TC) Stream Design Space Exploration of Layer-Fused DNNs on Heterogeneous Dataflow Accelerators"
 date: 2025-01-01
 description: "TODO: One-sentence summary"
 published: TC 2025

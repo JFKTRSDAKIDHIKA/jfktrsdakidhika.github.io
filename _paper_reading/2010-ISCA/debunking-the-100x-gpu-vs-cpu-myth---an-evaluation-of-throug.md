@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Paper Reading: Debunking the 100X GPU vs CPU Myth - An Evaluation of Throughput Computing on CPU and GPU"
+title: "(2010 ISCA) Debunking the 100X GPU vs CPU Myth - An Evaluation of Throughput Computing on CPU and GPU"
 date: 2010-01-01
 description: "TODO: One-sentence summary"
 published: ISCA 2010

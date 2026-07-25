@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Paper Reading: 3D V-Cache the Implementation of a Hybrid-Bonded 64MB Stacked Cache for a 7nm x86-64 CPU"
+title: "(2025) 3D V-Cache the Implementation of a Hybrid-Bonded 64MB Stacked Cache for a 7nm x86-64 CPU"
 date: 2025-01-01
 description: "TODO: One-sentence summary"
 published: Unknown 

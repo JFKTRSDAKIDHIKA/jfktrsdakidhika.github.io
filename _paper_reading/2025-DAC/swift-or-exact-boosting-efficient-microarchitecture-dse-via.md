@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Paper Reading: Swift or Exact Boosting Efficient Microarchitecture DSE via Multi-fidelity Partial Order Prediction"
+title: "(2025 DAC) Swift or Exact Boosting Efficient Microarchitecture DSE via Multi-fidelity Partial Order Prediction"
 date: 2025-01-01
 description: "TODO: One-sentence summary"
 published: DAC 2025

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Paper Reading: Active Interposer Technology for Chiplet-Based Advanced 3D System Architectures"
+title: "(2025) Active Interposer Technology for Chiplet-Based Advanced 3D System Architectures"
 date: 2025-01-01
 description: "TODO: One-sentence summary"
 published: Unknown 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Paper Reading: CADOSys Cache Aware DSO Spatial ML Accelerators"
+title: "(2025 GLSVLSI) CADOSys Cache Aware DSO Spatial ML Accelerators"
 date: 2025-01-01
 description: "TODO: One-sentence summary"
 published: GLSVLSI 2025

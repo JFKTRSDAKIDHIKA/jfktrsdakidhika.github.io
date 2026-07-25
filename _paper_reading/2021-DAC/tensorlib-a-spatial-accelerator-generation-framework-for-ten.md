@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Paper Reading: TensorLib A Spatial Accelerator Generation Framework for Tensor Algebra"
+title: "(2021 DAC) TensorLib A Spatial Accelerator Generation Framework for Tensor Algebra"
 date: 2021-01-01
 description: "TODO: One-sentence summary"
 published: DAC 2021

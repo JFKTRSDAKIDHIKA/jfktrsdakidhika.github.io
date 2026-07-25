@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Paper Reading: Hammer A Modular and Reusable Physical Design Flow Tool"
+title: "(2022 DAC) Hammer A Modular and Reusable Physical Design Flow Tool"
 date: 2022-01-01
 description: "TODO: One-sentence summary"
 published: DAC 2022

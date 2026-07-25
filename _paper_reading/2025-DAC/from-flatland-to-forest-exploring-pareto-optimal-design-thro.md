@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Paper Reading: From Flatland to Forest Exploring Pareto-optimal Design through RTL Hierarchy Trees"
+title: "(2025 DAC) From Flatland to Forest Exploring Pareto-optimal Design through RTL Hierarchy Trees"
 date: 2025-01-01
 description: "TODO: One-sentence summary"
 published: DAC 2025

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Paper Reading: Crane Inter-Layer Scheduling Framework for DNN Inference and Training Co-Support on Tiled Architecture"
+title: "(2025 MICRO) Crane Inter-Layer Scheduling Framework for DNN Inference and Training Co-Support on Tiled Architecture"
 date: 2025-01-01
 description: "TODO: One-sentence summary"
 published: MICRO 2025

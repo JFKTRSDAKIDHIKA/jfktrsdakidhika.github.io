@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Paper Reading: The Dawn of AI-Native EDA Opportunities and Challenges of Large Circuit Models"
+title: "(2025) The Dawn of AI-Native EDA Opportunities and Challenges of Large Circuit Models"
 date: 2025-01-01
 description: "TODO: One-sentence summary"
 published: Unknown 

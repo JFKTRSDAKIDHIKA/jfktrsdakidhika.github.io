@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Paper Reading: FuseMax Leveraging Extended Einsums to Optimize Attention Accelerator Design"
+title: "(2024 MICRO) FuseMax Leveraging Extended Einsums to Optimize Attention Accelerator Design"
 date: 2024-01-01
 description: "TODO: One-sentence summary"
 published: MICRO 2024

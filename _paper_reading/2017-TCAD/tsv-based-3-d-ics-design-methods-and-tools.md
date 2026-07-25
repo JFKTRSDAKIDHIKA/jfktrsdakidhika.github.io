@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Paper Reading: TSV-Based 3-D ICs: Design Methods and Tools"
+title: "(2017 TCAD) TSV-Based 3-D ICs: Design Methods and Tools"
 date: 2017-01-01
 description: "Comprehensive survey of EDA challenges for TSV-based 3D ICs covering partitioning, placement, thermal, PDN, signal integrity, and reliability"
 published: TCAD 2017

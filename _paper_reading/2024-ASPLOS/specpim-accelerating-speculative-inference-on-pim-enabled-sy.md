@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Paper Reading: SpecPIM Accelerating Speculative Inference on PIM-Enabled System via Architecture-Dataflow Co-Exploration"
+title: "(2024 ASPLOS) SpecPIM Accelerating Speculative Inference on PIM-Enabled System via Architecture-Dataflow Co-Exploration"
 date: 2024-01-01
 description: "TODO: One-sentence summary"
 published: ASPLOS 2024

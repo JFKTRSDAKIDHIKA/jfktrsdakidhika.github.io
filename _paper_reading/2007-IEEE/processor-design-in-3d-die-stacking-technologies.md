@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Paper Reading: Processor Design in 3D Die-Stacking Technologies"
+title: "(2007 IEEE Micro) Processor Design in 3D Die-Stacking Technologies"
 date: 2007-01-01
 description: "Overview of processor design opportunities and challenges enabled by 3D die stacking technology"
 published: IEEE Micro 2007

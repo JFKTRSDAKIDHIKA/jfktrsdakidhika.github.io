@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Paper Reading: Accelergy An Architecture-Level Energy Estimation Methodology for Accelerator Designs"
+title: "(2019 ICCAD) Accelergy An Architecture-Level Energy Estimation Methodology for Accelerator Designs"
 date: 2019-01-01
 description: "TODO: One-sentence summary"
 published: ICCAD 2019

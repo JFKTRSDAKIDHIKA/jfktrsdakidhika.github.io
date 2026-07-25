@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Paper Reading: APPLE-DSE Asynchronous Parallel Pareto Set Learning for Microarchitecture Design Space Exploration"
+title: "(2025 TCAD) APPLE-DSE Asynchronous Parallel Pareto Set Learning for Microarchitecture Design Space Exploration"
 date: 2025-01-01
 description: "TODO: One-sentence summary"
 published: TCAD 2025

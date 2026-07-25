@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Paper Reading: Spec2RTL-Agent"
+title: "(2025) Spec2RTL-Agent"
 date: 2025-01-01
 description: "TODO: One-sentence summary"
 published: Unknown 

@@ -1,18 +1,18 @@
 ---
 layout: post
-title: "Paper Reading: onur-digitaldesign comparch-2022-lecture19c-dae-beforelecture"
-date: 2025-01-01
-description: "TODO: One-sentence summary"
-published: Unknown 
-tags: paper-reading to-read
+title: "(2022 ETH Lecture) Decoupled Access-Execute (DAE) Architecture"
+date: 2022-01-01
+description: "Onur Mutlu's lecture on Decoupled Access-Execute architecture - separating memory access from computation for latency tolerance"
+published: ETH Lecture 2022
+tags: paper-reading foundations DAE architecture memory-latency
 toc:
   sidebar: left
 related_posts: false
 giscus_comments: true
 paper:
-  title: "onur-digitaldesign comparch-2022-lecture19c-dae-beforelecture"
-  authors: "TODO"
-  venue: "Unknown, Unknown"
+  title: "Digital Design & Computer Architecture - Lecture 19c: Decoupled Access-Execute"
+  authors: "Onur Mutlu"
+  venue: "ETH Zürich Lecture, 2022"
   url: ""
   code: ""
   pdf: "/assets/pdf/papers/onur-digitaldesign_comparch-2022-lecture19c-dae-beforelecture.pdf"
@@ -20,54 +20,12 @@ paper:
 
 ## TL;DR
 
-<!-- 用 3-5 句话写清楚 -->
-- 这篇论文解决什么问题。
-- 核心想法是什么。
-- 结果为什么重要。
-- 你读完后的主要判断。
-
-## Paper Info
-
-- **Title:** {{ page.paper.title }}
-- **Authors:** {{ page.paper.authors }}
-- **Venue:** {{ page.paper.venue }}
-- **Paper:** [PDF]({{ page.paper.pdf }})
-- **Code:** [link]({{ page.paper.code }})
-
-## Problem
-
-<!-- 这篇论文试图解决的具体问题是什么？ -->
-
-
-## Method
-
-<!-- 按模块拆解核心方法 -->
-1. 方法的整体 pipeline。
-2. 关键假设或设计。
-3. 和已有方法相比的新东西。
-
-## Experiments
-
-<!-- 记录你认为真正支撑结论的实验 -->
-- 数据集和任务设置。
-- baseline 是否合理。
-- ablation 说明了什么。
-- 有哪些实验缺口。
+- **Decoupled Access-Execute (DAE)** 架构将程序执行拆分为 access stream（负责内存请求）和 execute stream（负责计算）。
+- Access stream 提前发出 memory request，execute stream 等数据就绪后计算 → 容忍 memory latency。
+- 经典架构思想，影响了现代 PIM、prefetcher、dataflow accelerator 的设计。
 
 ## Insights
 
-<!-- 写自己的理解，不只是复述论文 -->
-- 这个方法为什么有效？
-- 它适合什么场景？
-- 它可能在哪些场景下失败？
-- 对你自己的研究或项目有什么启发？
-
-## Limitations
-
-<!-- 列出论文没有解决、或者你觉得论证不充分的地方 -->
-
-
-## Follow-up
-
-<!-- 值得继续读的相关论文 / 可以复现的部分 / 可以进一步验证的问题 -->
-
+- DAE 思想对 PIM 尤其重要：PIM 本质上是把 "access" 极致优化（data locality），让 "execute" 在数据旁边完成。
+- 现代 DNN accelerator 的 double-buffering、prefetch pipeline 都是 DAE 思想的体现。
+- Onur Mutlu 是 PIM/NDP 领域的核心人物，他的 lecture 系列是入门必读。

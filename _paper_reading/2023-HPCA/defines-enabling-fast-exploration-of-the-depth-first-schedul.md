@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Paper Reading: DeFiNES Enabling Fast Exploration of the Depth-first Scheduling Space for DNN Accelerators through Analytical Modeling"
+title: "(2023 HPCA) DeFiNES Enabling Fast Exploration of the Depth-first Scheduling Space for DNN Accelerators through Analytical Modeling"
 date: 2023-01-01
 description: "TODO: One-sentence summary"
 published: HPCA 2023

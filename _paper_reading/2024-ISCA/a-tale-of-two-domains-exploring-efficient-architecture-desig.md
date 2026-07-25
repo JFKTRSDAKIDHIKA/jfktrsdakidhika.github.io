@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Paper Reading: A Tale of Two Domains Exploring Efficient Architecture Design for Truly Autonomous Things"
+title: "(2024 ISCA) A Tale of Two Domains Exploring Efficient Architecture Design for Truly Autonomous Things"
 date: 2024-01-01
 description: "TODO: One-sentence summary"
 published: ISCA 2024

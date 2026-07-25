@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Paper Reading: SOFA A Compute-Memory Optimized Sparsity Accelerator via Cross-Stage Coordinated Tiling"
+title: "(2024 MICRO) SOFA A Compute-Memory Optimized Sparsity Accelerator via Cross-Stage Coordinated Tiling"
 date: 2024-01-01
 description: "TODO: One-sentence summary"
 published: MICRO 2024

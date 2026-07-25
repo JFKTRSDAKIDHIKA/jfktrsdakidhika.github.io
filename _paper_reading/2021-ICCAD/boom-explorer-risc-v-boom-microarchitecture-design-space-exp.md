@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Paper Reading: BOOM-Explorer RISC-V BOOM Microarchitecture Design Space Exploration Framework"
+title: "(2021 ICCAD) BOOM-Explorer RISC-V BOOM Microarchitecture Design Space Exploration Framework"
 date: 2021-01-01
 description: "TODO: One-sentence summary"
 published: ICCAD 2021

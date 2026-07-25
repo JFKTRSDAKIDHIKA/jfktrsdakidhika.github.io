@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Paper Reading: Design Space Exploration Acceleration Through Operation Clustering"
+title: "(2010 TCAD) Design Space Exploration Acceleration Through Operation Clustering"
 date: 2010-01-01
 description: "TODO: One-sentence summary"
 published: TCAD 2010

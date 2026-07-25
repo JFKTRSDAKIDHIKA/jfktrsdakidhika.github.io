@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Paper Reading: Learning A Continuous and Reconstructible Latent Space for Hardware Accelerator Design"
+title: "(2022 ISPASS) Learning A Continuous and Reconstructible Latent Space for Hardware Accelerator Design"
 date: 2022-01-01
 description: "TODO: One-sentence summary"
 published: ISPASS 2022

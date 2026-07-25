@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Paper Reading: Multi-Objective SW-HW Co-Opt HD-PIM Noise-Aware Bayesian Opt"
+title: "(2024 ICCAD) Multi-Objective SW-HW Co-Opt HD-PIM Noise-Aware Bayesian Opt"
 date: 2024-01-01
 description: "TODO: One-sentence summary"
 published: ICCAD 2024

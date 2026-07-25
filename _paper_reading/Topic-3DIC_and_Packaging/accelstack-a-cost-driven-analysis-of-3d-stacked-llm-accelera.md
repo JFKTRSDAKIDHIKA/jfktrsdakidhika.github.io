@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Paper Reading: AccelStack - A Cost-Driven Analysis of 3D-Stacked LLM Accelerators"
+title: "(2025 ICCAD) AccelStack - A Cost-Driven Analysis of 3D-Stacked LLM Accelerators"
 date: 2025-01-01
 description: "Cost-driven analysis framework for 3D-stacked LLM accelerators covering performance model and manufacturing cost for DoD/DoW/WoW hybrid bonding"
 published: ICCAD 2025

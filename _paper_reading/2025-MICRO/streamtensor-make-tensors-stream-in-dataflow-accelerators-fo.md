@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Paper Reading: StreamTensor Make Tensors Stream in Dataflow Accelerators for LLMs"
+title: "(2025 MICRO) StreamTensor Make Tensors Stream in Dataflow Accelerators for LLMs"
 date: 2025-01-01
 description: "TODO: One-sentence summary"
 published: MICRO 2025

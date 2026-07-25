@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Paper Reading: Is Vanilla Bayesian Optimization Enough for High Dimensional Architecture Design Optimization"
+title: "(2024 ICCAD) Is Vanilla Bayesian Optimization Enough for High Dimensional Architecture Design Optimization"
 date: 2024-01-01
 description: "TODO: One-sentence summary"
 published: ICCAD 2024

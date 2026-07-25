@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Paper Reading: A 1596-GB s 48-Gb Stacked Embedded DRAM 384-Core SoC With Hybrid Bonding Integration"
+title: "(2025) A 1596-GB s 48-Gb Stacked Embedded DRAM 384-Core SoC With Hybrid Bonding Integration"
 date: 2025-01-01
 description: "TODO: One-sentence summary"
 published: Unknown 

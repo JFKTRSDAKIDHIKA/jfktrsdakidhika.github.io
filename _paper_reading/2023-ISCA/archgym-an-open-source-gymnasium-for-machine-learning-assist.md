@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Paper Reading: ArchGym An Open-Source Gymnasium for Machine Learning Assisted Architecture Design"
+title: "(2023 ISCA) ArchGym An Open-Source Gymnasium for Machine Learning Assisted Architecture Design"
 date: 2023-01-01
 description: "TODO: One-sentence summary"
 published: ISCA 2023

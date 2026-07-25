@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Paper Reading: 14.5 Envision A 0.26-to-10TOPS W subword-parallel dynamic-voltage-accuracy-frequency-scalable Convolutional Neural Network processor in 28nm FDSOI"
+title: "(2017 ISSCC) 14.5 Envision A 0.26-to-10TOPS W subword-parallel dynamic-voltage-accuracy-frequency-scalable Convolutional Neural Network processor in 28nm FDSOI"
 date: 2017-01-01
 description: "TODO: One-sentence summary"
 published: ISSCC 2017

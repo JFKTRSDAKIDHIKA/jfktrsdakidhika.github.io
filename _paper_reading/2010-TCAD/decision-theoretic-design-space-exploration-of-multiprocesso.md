@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Paper Reading: Decision-Theoretic Design Space Exploration of Multiprocessor Platforms"
+title: "(2010 TCAD) Decision-Theoretic Design Space Exploration of Multiprocessor Platforms"
 date: 2010-01-01
 description: "TODO: One-sentence summary"
 published: TCAD 2010

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Paper Reading: Cambricon-D Full-Network Differential Acceleration for Diffusion Models"
+title: "(2024 ISCA) Cambricon-D Full-Network Differential Acceleration for Diffusion Models"
 date: 2024-01-01
 description: "TODO: One-sentence summary"
 published: ISCA 2024

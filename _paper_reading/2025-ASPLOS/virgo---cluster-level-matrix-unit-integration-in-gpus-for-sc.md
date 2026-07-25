@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Paper Reading: Virgo - Cluster-level Matrix Unit Integration in GPUs for Scalability and Energy Efficiency"
+title: "(2025 ASPLOS) Virgo - Cluster-level Matrix Unit Integration in GPUs for Scalability and Energy Efficiency"
 date: 2025-01-01
 description: "TODO: One-sentence summary"
 published: ASPLOS 2025

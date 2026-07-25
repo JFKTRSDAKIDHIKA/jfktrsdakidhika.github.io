@@ -1,18 +1,18 @@
 ---
 layout: post
-title: "Paper Reading: 1978-cmu-cs-report-kung-leiserson"
-date: 2025-01-01
-description: "TODO: One-sentence summary"
-published: Unknown 
-tags: paper-reading misc
+title: "(1978 CMU CS Report) Systolic Arrays (for VLSI)"
+date: 1978-01-01
+description: "The seminal paper introducing systolic arrays - a foundational concept for all modern DNN accelerators"
+published: CMU CS Report 1978
+tags: paper-reading foundations systolic-array VLSI
 toc:
   sidebar: left
 related_posts: false
 giscus_comments: true
 paper:
-  title: "1978-cmu-cs-report-kung-leiserson"
-  authors: "TODO"
-  venue: "Unknown, Unknown"
+  title: "Systolic Arrays (for VLSI)"
+  authors: "H. T. Kung, Charles E. Leiserson"
+  venue: "CMU CS Report, 1978"
   url: ""
   code: ""
   pdf: "/assets/pdf/papers/1978-cmu-cs-report-kung-leiserson.pdf"
@@ -20,54 +20,30 @@ paper:
 
 ## TL;DR
 
-<!-- 用 3-5 句话写清楚 -->
-- 这篇论文解决什么问题。
-- 核心想法是什么。
-- 结果为什么重要。
-- 你读完后的主要判断。
-
-## Paper Info
-
-- **Title:** {{ page.paper.title }}
-- **Authors:** {{ page.paper.authors }}
-- **Venue:** {{ page.paper.venue }}
-- **Paper:** [PDF]({{ page.paper.pdf }})
-- **Code:** [link]({{ page.paper.code }})
+- 提出 **systolic array** 概念：数据在规则互连的 PE 阵列中有节奏地"泵送"，每个数据元素被多次复用。
+- 核心思想：用大量简单 PE 和 local interconnect 替代 global memory access，实现高吞吐计算。
+- 给出了矩阵乘法、卷积、LU分解等多种计算的 systolic 实现。
+- **所有现代 DNN accelerator（TPU, Eyeriss, systolic arrays）的理论根源。**
 
 ## Problem
 
-<!-- 这篇论文试图解决的具体问题是什么？ -->
-
+VLSI 时代，芯片上可以放大量 PE，但 I/O 带宽有限（pin-limited）。如何设计计算结构使得：少量 I/O 下实现高计算吞吐？
 
 ## Method
 
-<!-- 按模块拆解核心方法 -->
-1. 方法的整体 pipeline。
-2. 关键假设或设计。
-3. 和已有方法相比的新东西。
-
-## Experiments
-
-<!-- 记录你认为真正支撑结论的实验 -->
-- 数据集和任务设置。
-- baseline 是否合理。
-- ablation 说明了什么。
-- 有哪些实验缺口。
+- **Systolic principle**: 数据从 memory 读入后，在 PE array 中流动，每经过一个 PE 都被处理一次
+- 不需要每个 PE 独立访存 → memory bandwidth requirement 极低
+- PE 间只有 nearest-neighbor 通信 → 布线简单，时钟频率高
+- 数据流方向决定了不同的 systolic 组织（weight stationary, output stationary 等的原型）
 
 ## Insights
 
-<!-- 写自己的理解，不只是复述论文 -->
-- 这个方法为什么有效？
-- 它适合什么场景？
-- 它可能在哪些场景下失败？
-- 对你自己的研究或项目有什么启发？
-
-## Limitations
-
-<!-- 列出论文没有解决、或者你觉得论证不充分的地方 -->
-
+- **奠基之作**：1978 年的概念直接影响了 2017 年的 Google TPU（systolic array for matrix multiply）。
+- Dataflow taxonomy (weight/output/input stationary) 本质上就是 systolic array 中不同数据流动方向的分类。
+- Systolic 设计的核心权衡：regularity（易于 VLSI 实现）vs. flexibility（只适合规则计算模式）。
 
 ## Follow-up
 
-<!-- 值得继续读的相关论文 / 可以复现的部分 / 可以进一步验证的问题 -->
-
+- Google TPU (ISCA 2017) - systolic array 的商业化
+- Eyeriss (ISCA 2016) - row stationary dataflow
+- MAESTRO, Timeloop - systolic 映射空间建模工具

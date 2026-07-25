@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Paper Reading: Look Before You Leap A Self-Review Bayesian Optimization Method for Constrained High-Dimensional Design Space Exploration"
+title: "(2025 DAC) Look Before You Leap A Self-Review Bayesian Optimization Method for Constrained High-Dimensional Design Space Exploration"
 date: 2025-01-01
 description: "TODO: One-sentence summary"
 published: DAC 2025
