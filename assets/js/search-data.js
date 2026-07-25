@@ -396,27 +396,27 @@ ninja.data = [{
               window.location.href = "/paper-reading/2002-CODES/multi-objective-design-space-exploration-using-genetic-algor/";
             },},{id: "paper_reading-paper-reading-three-dimensional-integrated-circuits",
           title: 'Paper Reading: Three-dimensional integrated circuits',
-          description: "TODO: One-sentence summary",
+          description: "IBM&#39;s pioneering work on 3D IC fabrication using layer transfer, oxide fusion bonding, and high-aspect-ratio inter-layer vias",
           section: "Paper_reading",handler: () => {
               window.location.href = "/paper-reading/2006-IBM/three-dimensional-integrated-circuits/";
             },},{id: "paper_reading-paper-reading-die-stacking-3d-microarchitecture",
-          title: 'Paper Reading: Die Stacking 3D Microarchitecture',
-          description: "TODO: One-sentence summary",
+          title: 'Paper Reading: Die Stacking (3D) Microarchitecture',
+          description: "Intel&#39;s exploration of 3D die stacking for Memory+Logic and Logic+Logic configurations, showing simultaneous power reduction and performance gain",
           section: "Paper_reading",handler: () => {
               window.location.href = "/paper-reading/2006-MICRO/die-stacking-3d-microarchitecture/";
             },},{id: "paper_reading-paper-reading-processor-design-in-3d-die-stacking-technologies",
           title: 'Paper Reading: Processor Design in 3D Die-Stacking Technologies',
-          description: "TODO: One-sentence summary",
+          description: "Overview of processor design opportunities and challenges enabled by 3D die stacking technology",
           section: "Paper_reading",handler: () => {
               window.location.href = "/paper-reading/2007-IEEE/processor-design-in-3d-die-stacking-technologies/";
             },},{id: "paper_reading-paper-reading-a-novel-dimensionally-decomposed-router-for-on-chip-communication-in-3d-architectures",
           title: 'Paper Reading: A Novel Dimensionally-Decomposed Router for On-Chip Communication in 3D Architectures',
-          description: "TODO: One-sentence summary",
+          description: "DimDe router decomposes 3D NoC traffic into X/Y/Z dimensions, achieving near-full-crossbar performance with dramatically reduced complexity",
           section: "Paper_reading",handler: () => {
               window.location.href = "/paper-reading/2007-ISCA/a-novel-dimensionally-decomposed-router-for-on-chip-communic/";
             },},{id: "paper_reading-paper-reading-3d-stacked-memory-architectures-for-multi-core-processors",
           title: 'Paper Reading: 3D-Stacked Memory Architectures for Multi-Core Processors',
-          description: "TODO: One-sentence summary",
+          description: "Proposes aggressive 3D DRAM organizations achieving 1.75× speedup over prior 3D-DRAM approaches, plus a novel Vector Bloom Filter for scalable MSHR",
           section: "Paper_reading",handler: () => {
               window.location.href = "/paper-reading/2008-ISCA/3d-stacked-memory-architectures-for-multi-core-processors/";
             },},{id: "paper_reading-paper-reading-debunking-the-100x-gpu-vs-cpu-myth-an-evaluation-of-throughput-computing-on-cpu-and-gpu",
@@ -460,8 +460,8 @@ ninja.data = [{
           section: "Paper_reading",handler: () => {
               window.location.href = "/paper-reading/2017-ISSCC/145-envision-a-026-to-10tops-w-subword-parallel-dynamic-volt/";
             },},{id: "paper_reading-paper-reading-tsv-based-3-d-ics-design-methods-and-tools",
-          title: 'Paper Reading: TSV-Based 3-D ICs Design Methods and Tools',
-          description: "TODO: One-sentence summary",
+          title: 'Paper Reading: TSV-Based 3-D ICs: Design Methods and Tools',
+          description: "Comprehensive survey of EDA challenges for TSV-based 3D ICs covering partitioning, placement, thermal, PDN, signal integrity, and reliability",
           section: "Paper_reading",handler: () => {
               window.location.href = "/paper-reading/2017-TCAD/tsv-based-3-d-ics-design-methods-and-tools/";
             },},{id: "paper_reading-paper-reading-accelergy-an-architecture-level-energy-estimation-methodology-for-accelerator-designs",
@@ -945,8 +945,8 @@ ninja.data = [{
           section: "Paper_reading",handler: () => {
               window.location.href = "/paper-reading/2025-ISCA/wsc-llm-efficient-llm-service-and-architecture-co-exploratio/";
             },},{id: "paper_reading-paper-reading-physical-design-for-advanced-3d-ics-challenges-and-solutions",
-          title: 'Paper Reading: Physical Design for Advanced 3D ICs Challenges and Solutions',
-          description: "TODO: One-sentence summary",
+          title: 'Paper Reading: Physical Design for Advanced 3D ICs: Challenges and Solutions',
+          description: "Survey of physical design challenges for hybrid-bonding and monolithic 3D ICs, covering partitioning, PDN, placement, clock delivery, and routing",
           section: "Paper_reading",handler: () => {
               window.location.href = "/paper-reading/2025-ISPD/physical-design-for-advanced-3d-ics-challenges-and-solutions/";
             },},{id: "paper_reading-paper-reading-how-to-keep-pushing-ml-accelerator-performance-know-your-rooflines",
@@ -1260,8 +1260,8 @@ ninja.data = [{
           section: "Paper_reading",handler: () => {
               window.location.href = "/paper-reading/To_Read/zen3-the-amd-2nd-generation-7nm-x86-64-microprocessor-core/";
             },},{id: "paper_reading-paper-reading-accelstack-a-cost-driven-analysis-of-3d-stacked-llm-accelerators",
-          title: 'Paper Reading: AccelStack A Cost-Driven Analysis of 3D-Stacked LLM Accelerators',
-          description: "TODO: One-sentence summary",
+          title: 'Paper Reading: AccelStack - A Cost-Driven Analysis of 3D-Stacked LLM Accelerators',
+          description: "Cost-driven analysis framework for 3D-stacked LLM accelerators covering performance model and manufacturing cost for DoD/DoW/WoW hybrid bonding",
           section: "Paper_reading",handler: () => {
               window.location.href = "/paper-reading/Topic-3DIC/accelstack-a-cost-driven-analysis-of-3d-stacked-llm-accelera/";
             },},{id: "paper_reading-paper-reading-2021dac-gemmini",
@@ -1634,9 +1634,9 @@ ninja.data = [{
           description: "TODO: One-sentence summary",
           section: "Paper_reading",handler: () => {
               window.location.href = "/paper-reading/2026-ISCA/m100-an-orchestrated-dataflow-architecture-powering-general/";
-            },},{id: "paper_reading-paper-reading-10-6-a-hybrid-bonded-12-1tops-mm2-5-6-core-dnn-processor-with-2-5tb-s-mm2-3d-network-on-chip",
-          title: 'Paper Reading: 10.6 A Hybrid-Bonded 12.1Tops mm2 5 6-Core DNN Processor with 2.5Tb...',
-          description: "TODO: One-sentence summary",
+            },},{id: "paper_reading-paper-reading-a-hybrid-bonded-12-1tops-mm-56-core-dnn-processor-with-2-5tb-s-mm-3d-network-on-chip",
+          title: 'Paper Reading: A Hybrid-Bonded 12.1TOPS/mm² 56-Core DNN Processor with 2.5Tb/s/mm² 3D Network on...',
+          description: "Intel&#39;s manycore 3D DNN processor using hybrid bonding: 56 RISC-V cores + 56 DNN accelerators with 3D mesh NoC achieving 39% throughput improvement",
           section: "Paper_reading",handler: () => {
               window.location.href = "/paper-reading/2026-ISSCC/106-a-hybrid-bonded-121tops-mm2-5-6-core-dnn-processor-with/";
             },},{id: "paper_reading-paper-reading-fast-and-fusiest-an-optimal-fusion-aware-mapper-for-accelerator-design",
