@@ -10,7 +10,7 @@ ninja.data = [{
       window.location.href = "/";
     },
   },{id: "nav-paper-reading",
-          title: "paper reading",
+          title: "Paper Reading",
           description: "Notes and interpretations of research papers, organized by year/venue and topic.",
           section: "Navigation",
           handler: () => {
@@ -2489,6 +2489,861 @@ ninja.data = [{
           description: "TODO: One-sentence summary",
           section: "Paper_reading",handler: () => {
               window.location.href = "/paper-reading/2026-arXiv/260328793v1/";
+            },},{id: "paper_reading-2026-isca-capa-manufacturing-carbon-estimation-for-advanced-packaged-architectures",
+          title: '(2026 ISCA) CAPA: Manufacturing Carbon Estimation for Advanced-Packaged Architectures',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-3DIC/capa-manufacturing-carbon-estimation-for-advanced-packaged/";
+            },},{id: "paper_reading-2026-isca-dice-detailed-inter-chiplet-end-to-end-phy-modeling-for-accurate-chiplet",
+          title: '(2026 ISCA) DICE:Detailed Inter-Chiplet End-to-End PHY Modeling for Accurate Chiplet',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-3DIC/dicedetailed-inter-chiplet-end-to-end-phy-modeling-for/";
+            },},{id: "paper_reading-2026-isca-phaseweave-phase-aware-execution-on-heterogeneous-chiplet-architectures-for-datacenters",
+          title: '(2026 ISCA) PhaseWeave: Phase-Aware Execution on Heterogeneous Chiplet Architectures for Datacenters',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-3DIC/phaseweave-phase-aware-execution-on-heterogeneous-chiplet/";
+            },},{id: "paper_reading-2026-isca-unlocking-pipeline-parallelism-for-bootstrapping-a-pipelined-multi-chiplet-tfhe-accelerator",
+          title: '(2026 ISCA) Unlocking Pipeline Parallelism for Bootstrapping: A Pipelined Multi-Chiplet TFHE Accelerator',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-3DIC/unlocking-pipeline-parallelism-for-bootstrapping-a/";
+            },},{id: "paper_reading-2026-isca-waferbrain-whole-brain-scale-neuromorphic-architecture-based-on-wafer-scale-integration",
+          title: '(2026 ISCA) WaferBRAIN: Whole-Brain Scale Neuromorphic Architecture Based on Wafer-Scale Integration',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-3DIC/waferbrain-whole-brain-scale-neuromorphic-architecture/";
+            },},{id: "paper_reading-2026-isca-accelerating-moe-with-dynamic-in-switch-computing-on-multi-gpus",
+          title: '(2026 ISCA) Accelerating MoE with Dynamic In-Switch Computing on Multi-GPUs',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-AI_Accelerator/accelerating-moe-with-dynamic-in-switch-computing-on-multi/";
+            },},{id: "paper_reading-2026-isca-accelerator-polymorphism-transcending-domain-specific-architectures-with-robotics",
+          title: '(2026 ISCA) Accelerator Polymorphism: Transcending Domain-Specific Architectures with Robotics',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-AI_Accelerator/accelerator-polymorphism-transcending-domain-specific/";
+            },},{id: "paper_reading-2026-isca-approaching-shannon-bound-with-lossless-llm-weight-compression",
+          title: '(2026 ISCA) Approaching Shannon Bound with Lossless LLM Weight Compression',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-AI_Accelerator/approaching-shannon-bound-with-lossless-llm-weight/";
+            },},{id: "paper_reading-2026-isca-aquant-repurposing-codec-for-vlm-acceleration-via-adaptive-quantization",
+          title: '(2026 ISCA) AQuant: Repurposing CODEC for VLM Acceleration via Adaptive Quantization',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-AI_Accelerator/aquant-repurposing-codec-for-vlm-acceleration-via-adaptive/";
+            },},{id: "paper_reading-2026-isca-atx-accelerator-task-extensions",
+          title: '(2026 ISCA) ATX: Accelerator Task Extensions',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-AI_Accelerator/atx-accelerator-task-extensions/";
+            },},{id: "paper_reading-2026-isca-axle-coordinated-offloading-with-asynchronous-back-streaming-in-computational-memory-systems",
+          title: '(2026 ISCA) AXLE: Coordinated Offloading with Asynchronous Back-Streaming in Computational Memory Systems',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-AI_Accelerator/axle-coordinated-offloading-with-asynchronous-back/";
+            },},{id: "paper_reading-2026-isca-baap-coupling-compute-in-sram-with-dram-banks-for-near-memory-processing",
+          title: '(2026 ISCA) BAAP: Coupling Compute-in-SRAM with DRAM Banks for Near-Memory Processing',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-AI_Accelerator/baap-coupling-compute-in-sram-with-dram-banks-for-near/";
+            },},{id: "paper_reading-2026-isca-bridging-efficiency-and-scalability-in-llm-system-via-3d-hybrid-pim-with-2d-in-transit-computation",
+          title: '(2026 ISCA) Bridging Efficiency and Scalability in LLM System via 3D Hybrid PIM...',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-AI_Accelerator/bridging-efficiency-and-scalability-in-llm-system-via-3d/";
+            },},{id: "paper_reading-2026-isca-bringing-near-data-processing-into-the-low-bit-floating-point-era",
+          title: '(2026 ISCA) Bringing Near Data Processing into the Low-Bit Floating-Point Era',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-AI_Accelerator/bringing-near-data-processing-into-the-low-bit-floating/";
+            },},{id: "paper_reading-2026-isca-cassandra-enabling-reasoning-llms-at-edge-via-self-speculative-decoding",
+          title: '(2026 ISCA) Cassandra: Enabling Reasoning LLMs at Edge via Self-Speculative Decoding',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-AI_Accelerator/cassandra-enabling-reasoning-llms-at-edge-via-self/";
+            },},{id: "paper_reading-2026-isca-chime-a-case-for-efficient-long-context-attention-fc-disaggregated-inference-with-dimm-pim",
+          title: '(2026 ISCA) CHIME: A Case for Efficient Long-Context Attention-FC Disaggregated Inference with DIMM-PIM...',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-AI_Accelerator/chime-a-case-for-efficient-long-context-attention-fc/";
+            },},{id: "paper_reading-2026-isca-combating-the-memory-walls-optimization-pathways-for-long-context-agentic-llm-inference",
+          title: '(2026 ISCA) Combating the Memory Walls: Optimization Pathways for Long-Context Agentic LLM Inference...',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-AI_Accelerator/combating-the-memory-walls-optimization-pathways-for-long/";
+            },},{id: "paper_reading-2026-isca-cosm-a-cooperative-scheduling-framework-for-concurrent-pim-and-cpu-execution-on-mobile-devices",
+          title: '(2026 ISCA) COSM: A Cooperative Scheduling Framework for Concurrent PIM and CPU Execution...',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-AI_Accelerator/cosm-a-cooperative-scheduling-framework-for-concurrent-pim/";
+            },},{id: "paper_reading-2026-isca-dcc-data-centric-compilation-of-machine-learning-kernels-for-processing-in-memory-architectures",
+          title: '(2026 ISCA) DCC: Data-Centric Compilation of Machine Learning Kernels for Processing-In-Memory Architectures',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-AI_Accelerator/dcc-data-centric-compilation-of-machine-learning-kernels/";
+            },},{id: "paper_reading-2026-isca-diamond-dynamic-inference-for-adaptive-edge-moe-with-heterogeneous-in-nand-and-near-dram-compute-architecture",
+          title: '(2026 ISCA) DIAMoND: Dynamic Inference for Adaptive Edge MoE with Heterogeneous In-NAND and...',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-AI_Accelerator/diamond-dynamic-inference-for-adaptive-edge-moe-with/";
+            },},{id: "paper_reading-2026-isca-ditpa-a-dit-based-action-planner-accelerator",
+          title: '(2026 ISCA) DiTPA: A DiT-based Action Planner Accelerator',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-AI_Accelerator/ditpa-a-dit-based-action-planner-accelerator/";
+            },},{id: "paper_reading-2026-isca-dynamic-scheduling-for-ai-accelerators-via-tisa",
+          title: '(2026 ISCA) Dynamic Scheduling for AI Accelerators via TISA',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-AI_Accelerator/dynamic-scheduling-for-ai-accelerators-via-tisa/";
+            },},{id: "paper_reading-2026-isca-dynopipe-heterogeneous-edge-cloud-llm-serving-with-dynamically-orchestrated-pipeline-boundaries",
+          title: '(2026 ISCA) DynoPipe: Heterogeneous Edge-Cloud LLM Serving with Dynamically Orchestrated Pipeline Boundaries',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-AI_Accelerator/dynopipe-heterogeneous-edge-cloud-llm-serving-with/";
+            },},{id: "paper_reading-2026-isca-early-silicon-of-raptor-the-first-3d-dram-accelerator-for-generative-inference",
+          title: '(2026 ISCA) Early Silicon of Raptor: The First 3D-DRAM Accelerator for Generative Inference...',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-AI_Accelerator/early-silicon-of-raptor-the-first-3d-dram-accelerator-for/";
+            },},{id: "paper_reading-2026-isca-ecc-enabled-reliable-and-performant-processing-in-memory",
+          title: '(2026 ISCA) ECC Enabled Reliable and Performant Processing-in-Memory',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-AI_Accelerator/ecc-enabled-reliable-and-performant-processing-in-memory/";
+            },},{id: "paper_reading-2026-isca-elsa-an-el-astic-snn-inference-a-rchitecture-for-efficient-neuromorphic-computing",
+          title: '(2026 ISCA) ELSA: An EL astic SNN Inference A rchitecture for Efficient Neuromorphic...',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-AI_Accelerator/elsa-an-el-astic-snn-inference-a-rchitecture-for-efficient/";
+            },},{id: "paper_reading-2026-isca-enec-a-lossless-ai-model-compression-method-enabling-fast-inference-on-ascend-npus",
+          title: '(2026 ISCA) ENEC: A Lossless AI Model Compression Method Enabling Fast Inference on...',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-AI_Accelerator/enec-a-lossless-ai-model-compression-method-enabling-fast/";
+            },},{id: "paper_reading-2026-isca-eva-accelerating-llm-decoding-via-an-efficient-vector-quantization-architecture",
+          title: '(2026 ISCA) EVA: Accelerating LLM Decoding via an Efficient Vector Quantization Architecture',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-AI_Accelerator/eva-accelerating-llm-decoding-via-an-efficient-vector/";
+            },},{id: "paper_reading-2026-isca-fenc-unifying-data-packing-for-efficient-private-inference-via-convolution-and-architecture-aware-fragment-encoding",
+          title: '(2026 ISCA) FEnc: Unifying Data Packing for Efficient Private Inference via Convolution and...',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-AI_Accelerator/fenc-unifying-data-packing-for-efficient-private-inference/";
+            },},{id: "paper_reading-2026-isca-hit-a-unified-sparsity-adaptive-architecture-for-high-throughput-matrix-multiplication",
+          title: '(2026 ISCA) HiT: A Unified Sparsity-Adaptive Architecture for High-Throughput Matrix Multiplication',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-AI_Accelerator/hit-a-unified-sparsity-adaptive-architecture-for-high/";
+            },},{id: "paper_reading-2026-isca-hybridspec-exploiting-hybrid-bonding-memory-to-accelerate-llm-serving-through-heterogeneous-architecture-and-speculative-decoding",
+          title: '(2026 ISCA) HybridSpec: Exploiting Hybrid-Bonding Memory to Accelerate LLM Serving through Heterogeneous Architecture...',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-AI_Accelerator/hybridspec-exploiting-hybrid-bonding-memory-to-accelerate/";
+            },},{id: "paper_reading-2026-isca-iroknight-ownership-preserving-neural-acceleration-for-inference-serving",
+          title: '(2026 ISCA) IroKnight: Ownership-Preserving Neural Acceleration for Inference Serving',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-AI_Accelerator/iroknight-ownership-preserving-neural-acceleration-for/";
+            },},{id: "paper_reading-2026-isca-loka-low-precision-kernel-applications-for-recommendation-models-at-scale",
+          title: '(2026 ISCA) LoKA: Low-precision Kernel Applications for Recommendation Models At Scale',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-AI_Accelerator/loka-low-precision-kernel-applications-for-recommendation/";
+            },},{id: "paper_reading-2026-isca-lora-towards-improved-applicability-of-reconfigurable-architecture-for-versatile-nonlinear-functions",
+          title: '(2026 ISCA) LoRA: Towards Improved Applicability of Reconfigurable Architecture for Versatile Nonlinear Functions...',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-AI_Accelerator/lora-towards-improved-applicability-of-reconfigurable/";
+            },},{id: "paper_reading-2026-isca-m100-an-orchestrated-dataflow-architecture-powering-general-ai-computing",
+          title: '(2026 ISCA) M100: An Orchestrated Dataflow Architecture Powering General AI Computing',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-AI_Accelerator/m100-an-orchestrated-dataflow-architecture-powering-general/";
+            },},{id: "paper_reading-2026-isca-meridian-in-memory-acceleration-for-rag-with-document-attention",
+          title: '(2026 ISCA) MERIDIAN: In-Memory Acceleration for RAG with Document Attention',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-AI_Accelerator/meridian-in-memory-acceleration-for-rag-with-document/";
+            },},{id: "paper_reading-2026-isca-mtia-300-meta-39-s-first-training-chip-featuring-built-in-nics-and-collective-offloading-engines",
+          title: '(2026 ISCA) MTIA 300: Meta&amp;#39;s First Training Chip Featuring Built-in NICs and Collective...',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-AI_Accelerator/mtia-300-metas-first-training-chip-featuring-built-in-nics/";
+            },},{id: "paper_reading-2026-isca-mxffp-microscaling-flexible-floating-point-format-for-large-scale-ai-model-acceleration",
+          title: '(2026 ISCA) MXFFP: Microscaling Flexible Floating Point Format for Large-Scale AI Model Acceleration...',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-AI_Accelerator/mxffp-microscaling-flexible-floating-point-format-for-large/";
+            },},{id: "paper_reading-2026-isca-oasis-outlier-aware-lut-based-gemm-with-dual-side-quantization-for-llm-inference-acceleration",
+          title: '(2026 ISCA) OASIS: Outlier-Aware LUT-Based GEMM with Dual-Side Quantization for LLM Inference Acceleration...',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-AI_Accelerator/oasis-outlier-aware-lut-based-gemm-with-dual-side/";
+            },},{id: "paper_reading-2026-isca-omni-lut-energy-efficient-lut-based-accelerator-with-hardware-aware-kv-cache-quantization",
+          title: '(2026 ISCA) Omni-LUT: Energy-Efficient LUT-based Accelerator with Hardware-Aware KV Cache Quantization',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-AI_Accelerator/omni-lut-energy-efficient-lut-based-accelerator-with/";
+            },},{id: "paper_reading-2026-isca-p-llm-an-integrated-npu-pim-accelerator-for-edge-llm-inference",
+          title: '(2026 ISCA) P-LLM: An Integrated NPU-PIM Accelerator for Edge LLM Inference',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-AI_Accelerator/p-llm-an-integrated-npu-pim-accelerator-for-edge-llm/";
+            },},{id: "paper_reading-2026-isca-paretoes-hardware-accelerated-sparse-embedding-similarity-via-pareto-optimal-pruning",
+          title: '(2026 ISCA) ParetoES: Hardware-Accelerated Sparse Embedding Similarity via Pareto-Optimal Pruning',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-AI_Accelerator/paretoes-hardware-accelerated-sparse-embedding-similarity/";
+            },},{id: "paper_reading-2026-isca-patterns-behind-chaos-forecasting-data-movement-for-efficient-large-scale-moe-llm-inference",
+          title: '(2026 ISCA) Patterns behind Chaos: Forecasting Data Movement for Efficient Large-Scale MoE LLM...',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-AI_Accelerator/patterns-behind-chaos-forecasting-data-movement-for/";
+            },},{id: "paper_reading-2026-isca-pipeimc-a-pipelined-in-sram-computing-architecture",
+          title: '(2026 ISCA) PipeIMC: a Pipelined In-SRAM Computing Architecture',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-AI_Accelerator/pipeimc-a-pipelined-in-sram-computing-architecture/";
+            },},{id: "paper_reading-2026-isca-segfold-accelerating-sparse-gemm-with-a-fine-grained-dynamic-dataflow",
+          title: '(2026 ISCA) SegFold: Accelerating Sparse GEMM with a Fine-Grained Dynamic Dataflow',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-AI_Accelerator/segfold-accelerating-sparse-gemm-with-a-fine-grained/";
+            },},{id: "paper_reading-2026-isca-shining-light-on-silicon-photonic-dnn-accelerators",
+          title: '(2026 ISCA) Shining Light on Silicon Photonic DNN Accelerators',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-AI_Accelerator/shining-light-on-silicon-photonic-dnn-accelerators/";
+            },},{id: "paper_reading-2026-isca-shyla-3d-stacked-nvm-dram-hybrid-llm-inference-architecture-exploiting-data-and-memory-heterogeneity",
+          title: '(2026 ISCA) SHyLA: 3D-Stacked NVM-DRAM Hybrid LLM-Inference Architecture Exploiting Data and Memory Heterogeneity...',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-AI_Accelerator/shyla-3d-stacked-nvm-dram-hybrid-llm-inference-architecture/";
+            },},{id: "paper_reading-2026-isca-singularbit-exploiting-synergy-of-singular-value-decomposition-and-low-bit-quantization-for-weight-and-kv-compression-in-llm-inference",
+          title: '(2026 ISCA) SingularBit: Exploiting Synergy of Singular Value Decomposition and Low-Bit Quantization for...',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-AI_Accelerator/singularbit-exploiting-synergy-of-singular-value/";
+            },},{id: "paper_reading-2026-isca-smoe-an-algorithm-system-co-design-for-pushing-moe-to-the-edge-via-expert-substitution",
+          title: '(2026 ISCA) SMoE: An Algorithm-System Co-Design for Pushing MoE to the Edge via...',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-AI_Accelerator/smoe-an-algorithm-system-co-design-for-pushing-moe-to-the/";
+            },},{id: "paper_reading-2026-isca-smooth-hardware-assisted-fine-grained-on-chip-memory-management-for-efficient-on-device-llm-inference",
+          title: '(2026 ISCA) SMOOTH: Hardware-Assisted Fine-Grained On-Chip Memory Management for Efficient On-Device LLM Inference...',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-AI_Accelerator/smooth-hardware-assisted-fine-grained-on-chip-memory/";
+            },},{id: "paper_reading-2026-isca-step-adaptive-s-patio-temporal-expert-prefetching-for-low-latency-and-memory-efficient-moe-inference",
+          title: '(2026 ISCA) STEP: Adaptive S patio-Temporal Expert Prefetching for Low-Latency and Memory-Efficient MoE...',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-AI_Accelerator/step-adaptive-s-patio-temporal-expert-prefetching-for-low/";
+            },},{id: "paper_reading-2026-isca-symbiotic-mllm-serving-dynamically-balancing-parallelism-across-gpus-and-resources-within-gpus",
+          title: '(2026 ISCA) Symbiotic MLLM Serving: Dynamically Balancing Parallelism Across GPUs and Resources Within...',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-AI_Accelerator/symbiotic-mllm-serving-dynamically-balancing-parallelism/";
+            },},{id: "paper_reading-2026-isca-tagt-an-efficient-graph-transformer-accelerator-with-topology-aware-sparsification-and-merging",
+          title: '(2026 ISCA) TAGT: An Efficient Graph Transformer Accelerator with Topology-aware Sparsification and Merging...',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-AI_Accelerator/tagt-an-efficient-graph-transformer-accelerator-with/";
+            },},{id: "paper_reading-2026-isca-tensorprism-rethinking-sparse-high-order-tensor-acceleration-via-co-occurrence-graph",
+          title: '(2026 ISCA) TensorPrism: Rethinking Sparse High-order Tensor Acceleration via Co-occurrence Graph',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-AI_Accelerator/tensorprism-rethinking-sparse-high-order-tensor/";
+            },},{id: "paper_reading-2026-isca-tetris-efficient-long-context-llm-serving-with-chunkwise-dynamic-sequence-parallelism",
+          title: '(2026 ISCA) Tetris: Efficient Long-context LLM Serving with Chunkwise Dynamic Sequence Parallelism',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-AI_Accelerator/tetris-efficient-long-context-llm-serving-with-chunkwise/";
+            },},{id: "paper_reading-2026-isca-understanding-inference-scaling-for-llms-bottlenecks-trade-offs-and-performance-principles",
+          title: '(2026 ISCA) Understanding Inference Scaling for LLMs: Bottlenecks, Trade-offs, and Performance Principles',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-AI_Accelerator/understanding-inference-scaling-for-llms-bottlenecks-trade/";
+            },},{id: "paper_reading-2026-isca-unicore-a-bit-width-scalable-gemm-unit-for-unified-llm-inference",
+          title: '(2026 ISCA) UniCore: A Bit-Width Scalable GEMM Unit for Unified LLM Inference',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-AI_Accelerator/unicore-a-bit-width-scalable-gemm-unit-for-unified-llm/";
+            },},{id: "paper_reading-2026-isca-xtramac-an-efficient-mac-architecture-for-mixed-precision-llm-inference-on-fpga",
+          title: '(2026 ISCA) XtraMAC: An Efficient MAC Architecture for Mixed-Precision LLM Inference on FPGA...',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-AI_Accelerator/xtramac-an-efficient-mac-architecture-for-mixed-precision/";
+            },},{id: "paper_reading-2026-isca-augmenting-the-branch-predictor-with-a-squashed-branch-reuse-buffer",
+          title: '(2026 ISCA) Augmenting the Branch Predictor with a Squashed-Branch Reuse Buffer',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-CPU/augmenting-the-branch-predictor-with-a-squashed-branch/";
+            },},{id: "paper_reading-2026-isca-bullet-time-time-dilation-for-high-fidelity-tracing",
+          title: '(2026 ISCA) BULLET TIME: Time Dilation for High-Fidelity Tracing',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-CPU/bullet-time-time-dilation-for-high-fidelity-tracing/";
+            },},{id: "paper_reading-2026-isca-dorado-clustered-hardware-cache-coherence-for-1-000-cores",
+          title: '(2026 ISCA) Dorado: Clustered Hardware Cache Coherence for 1,000+ Cores',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-CPU/dorado-clustered-hardware-cache-coherence-for-1000plus-cores/";
+            },},{id: "paper_reading-2026-isca-enhancing-instruction-prefetching-via-cache-and-tlb-management",
+          title: '(2026 ISCA) Enhancing Instruction Prefetching via Cache and TLB Management',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-CPU/enhancing-instruction-prefetching-via-cache-and-tlb/";
+            },},{id: "paper_reading-2026-isca-from-lab-to-fleet-building-and-deploying-a-practical-rowhammer-defense-in-cloud-socs",
+          title: '(2026 ISCA) From Lab to Fleet: Building and Deploying a Practical Rowhammer Defense...',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-CPU/from-lab-to-fleet-building-and-deploying-a-practical/";
+            },},{id: "paper_reading-2026-isca-from-memorization-to-generalization-a-practical-neural-network-prefetching-framework",
+          title: '(2026 ISCA) From Memorization to Generalization: A Practical Neural Network Prefetching Framework',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-CPU/from-memorization-to-generalization-a-practical-neural/";
+            },},{id: "paper_reading-2026-isca-hierarchical-wakeup-logic-of-the-issue-queue-for-high-scalability",
+          title: '(2026 ISCA) Hierarchical Wakeup Logic of the Issue Queue for High Scalability',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-CPU/hierarchical-wakeup-logic-of-the-issue-queue-for-high/";
+            },},{id: "paper_reading-2026-isca-icp-exploiting-instruction-correlation-for-prefetching-irregular-memory-accesses",
+          title: '(2026 ISCA) ICP: Exploiting Instruction Correlation for Prefetching Irregular Memory Accesses',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-CPU/icp-exploiting-instruction-correlation-for-prefetching/";
+            },},{id: "paper_reading-2026-isca-optimizing-spatial-data-structure-with-near-cache-acceleration-by-exploiting-physical-locality",
+          title: '(2026 ISCA) Optimizing Spatial Data Structure with Near-Cache Acceleration by Exploiting Physical Locality...',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-CPU/optimizing-spatial-data-structure-with-near-cache/";
+            },},{id: "paper_reading-2026-isca-revisiting-global-value-prediction-a-resurgent-complement-to-local-predictors",
+          title: '(2026 ISCA) Revisiting Global Value Prediction: A Resurgent Complement to Local Predictors',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-CPU/revisiting-global-value-prediction-a-resurgent-complement/";
+            },},{id: "paper_reading-2026-isca-runlts-branch-prediction-with-register-value-correlations-and-hierarchical-table-orchestration",
+          title: '(2026 ISCA) RUNLTS: Branch Prediction with Register-Value Correlations and Hierarchical Table Orchestration',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-CPU/runlts-branch-prediction-with-register-value-correlations/";
+            },},{id: "paper_reading-2026-isca-spec-cpu-the-next-generation",
+          title: '(2026 ISCA) SPEC CPU: The Next Generation',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-CPU/spec-cpu-the-next-generation/";
+            },},{id: "paper_reading-2026-isca-ssbench-automated-characterization-of-memory-dependence-predictors-on-modern-cpus",
+          title: '(2026 ISCA) SSBench: Automated Characterization of Memory Dependence Predictors on Modern CPUs',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-CPU/ssbench-automated-characterization-of-memory-dependence/";
+            },},{id: "paper_reading-2026-isca-step-spatial-footprint-prefetcher-with-multi-point-temporal-triggers",
+          title: '(2026 ISCA) STEP: Spatial Footprint Prefetcher with Multi-Point Temporal Triggers',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-CPU/step-spatial-footprint-prefetcher-with-multi-point-temporal/";
+            },},{id: "paper_reading-2026-isca-dice-enabling-efficient-general-purpose-simt-execution-with-statically-scheduled-coarse-grained-reconfigurable-arrays",
+          title: '(2026 ISCA) DICE: Enabling Efficient General-Purpose SIMT Execution with Statically Scheduled Coarse-Grained Reconfigurable...',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-Compiler/dice-enabling-efficient-general-purpose-simt-execution-with/";
+            },},{id: "paper_reading-2026-isca-ds-isa-instruction-set-architecture-for-dynamical-system-units",
+          title: '(2026 ISCA) DS-ISA: Instruction Set Architecture for Dynamical System Units',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-Compiler/ds-isa-instruction-set-architecture-for-dynamical-system/";
+            },},{id: "paper_reading-2026-isca-harmonia-a-unified-hierarchical-scheduling-framework-for-sparse-matrix-multiplication",
+          title: '(2026 ISCA) Harmonia: A Unified Hierarchical Scheduling Framework for Sparse Matrix Multiplication',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-Compiler/harmonia-a-unified-hierarchical-scheduling-framework-for/";
+            },},{id: "paper_reading-2026-isca-lotus-a-multi-fpga-task-dataflow-architecture-to-accelerate",
+          title: '(2026 ISCA) Lotus: A Multi-FPGA Task Dataflow Architecture to Accelerate',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-Compiler/lotus-a-multi-fpga-task-dataflow-architecture-to-accelerate/";
+            },},{id: "paper_reading-2026-isca-pipecomm-maximizing-link-utilization-through-pipeline-aware-collective-communication-synthesis",
+          title: '(2026 ISCA) PipeComm: Maximizing Link Utilization through Pipeline-Aware Collective Communication Synthesis',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-Compiler/pipecomm-maximizing-link-utilization-through-pipeline-aware/";
+            },},{id: "paper_reading-2026-isca-rocc-harnessing-raster-operations-pipeline-for-efficient-tensor-collective-communication",
+          title: '(2026 ISCA) RoCC: Harnessing Raster Operations Pipeline for Efficient Tensor Collective Communication',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-Compiler/rocc-harnessing-raster-operations-pipeline-for-efficient/";
+            },},{id: "paper_reading-2026-isca-scrooge-circuit-level-design-and-optimization-framework-for-r-isc-v-out-of-order-gpus",
+          title: '(2026 ISCA) sCROOGe: Circuit-level Design and Optimization Framework for R ISC-V Out-of-Order GPUs...',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-Compiler/scrooge-circuit-level-design-and-optimization-framework-for/";
+            },},{id: "paper_reading-2026-isca-aesip-uarch-aware-asip-isa-co-design-via-program-synthesis-equality-saturation-and-external-dont-cares",
+          title: '(2026 ISCA) aeSIP: uArch-aware ASIP-ISA Co-Design via Program Synthesis Equality Saturation and External...',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-DSE/aesip-uarch-aware-asip-isa-co-design-via-program-synthesis/";
+            },},{id: "paper_reading-2026-isca-codo-an-automated-compiler-for-comprehensive-dataflow-optimization",
+          title: '(2026 ISCA) CODO: An Automated Compiler for Comprehensive Dataflow Optimization',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-DSE/codo-an-automated-compiler-for-comprehensive-dataflow/";
+            },},{id: "paper_reading-2026-isca-conbin-a-performance-convergence-framework-for-wafer-scale-chip-binning",
+          title: '(2026 ISCA) ConBin: A Performance-Convergence Framework for Wafer-Scale Chip Binning',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-DSE/conbin-a-performance-convergence-framework-for-wafer-scale/";
+            },},{id: "paper_reading-2026-isca-graph-hls-a-compiler-framework-for-composable-graph-accelerator-design",
+          title: '(2026 ISCA) Graph.hls: A Compiler Framework for Composable Graph Accelerator Design',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-DSE/graphhls-a-compiler-framework-for-composable-graph/";
+            },},{id: "paper_reading-2026-isca-kernelevolve-scaling-agentic-kernel-coding-for-heterogeneous-ai-accelerators-at-meta",
+          title: '(2026 ISCA) KernelEvolve: Scaling Agentic Kernel Coding for Heterogeneous AI Accelerators at Meta...',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-DSE/kernelevolve-scaling-agentic-kernel-coding-for/";
+            },},{id: "paper_reading-2026-isca-mapping-and-communication-optimizations-with-fault-tolerance-for-wafer-scale-llm-inference",
+          title: '(2026 ISCA) Mapping and Communication Optimizations with Fault Tolerance for Wafer-Scale LLM Inference...',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-DSE/mapping-and-communication-optimizations-with-fault/";
+            },},{id: "paper_reading-2026-isca-nerarch-sim-a-unified-simulator-for-benchmarking-and-dse-of-neural-rendering-accelerators",
+          title: '(2026 ISCA) NeRArch-Sim: A Unified Simulator for Benchmarking and DSE of Neural Rendering...',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-DSE/nerarch-sim-a-unified-simulator-for-benchmarking-and-dse-of/";
+            },},{id: "paper_reading-2026-isca-omelet-a-packaging-aware-hierarchical-interconnect-simulator-for-2-5d-3d-chiplet-architectures",
+          title: '(2026 ISCA) Omelet: A Packaging-Aware Hierarchical Interconnect Simulator for 2.5D-3D Chiplet Architectures',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-DSE/omelet-a-packaging-aware-hierarchical-interconnect/";
+            },},{id: "paper_reading-2026-isca-pipe-weave-synergizing-analytical-and-learning-models-for-unified-gpu-performance-prediction",
+          title: '(2026 ISCA) PIPE WEAVE: Synergizing Analytical and Learning Models for Unified GPU Performance...',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-DSE/pipe-weave-synergizing-analytical-and-learning-models-for/";
+            },},{id: "paper_reading-2026-isca-qimeng-tensify-scaling-up-tensor-computation-optimization-via-architecture-aware-llm-guided-mcts",
+          title: '(2026 ISCA) QiMeng-Tensify: Scaling up Tensor Computation Optimization via Architecture-Aware LLM-Guided MCTS',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-DSE/qimeng-tensify-scaling-up-tensor-computation-optimization/";
+            },},{id: "paper_reading-2026-isca-scalable-synthesis-of-distributed-llm-workloads-through-symbolic-tensor-graphs",
+          title: '(2026 ISCA) Scalable Synthesis of distributed LLM workloads through Symbolic Tensor Graphs',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-DSE/scalable-synthesis-of-distributed-llm-workloads-through/";
+            },},{id: "paper_reading-2026-isca-lembas-cost-efficient-genome-alignment-with-external-memory-and-fpga-acceleration",
+          title: '(2026 ISCA) Lembas: Cost-Efficient Genome Alignment with External Memory and FPGA Acceleration',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-FPGA/lembas-cost-efficient-genome-alignment-with-external-memory/";
+            },},{id: "paper_reading-2026-isca-a-silicon-proven-unified-low-latency-cxl-controller-and-port-based-routing-switch-for-memory-centric-fabrics",
+          title: '(2026 ISCA) A Silicon-Proven Unified Low-Latency CXL Controller and Port-Based Routing Switch for...',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-Memory/a-silicon-proven-unified-low-latency-cxl-controller-and/";
+            },},{id: "paper_reading-2026-isca-boostx-nti-fast-scalable-and-flexible-storage-architecture-with-nvme-tcp-initiator-acceleration",
+          title: '(2026 ISCA) BoostX™-NTI: Fast, Scalable and Flexible Storage Architecture with NVMe/TCP Initiator Acceleration...',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-Memory/boostx-nti-fast-scalable-and-flexible-storage-architecture/";
+            },},{id: "paper_reading-2026-isca-bumper-hinting-instruction-usefulness-for-robust-unified-caches",
+          title: '(2026 ISCA) Bumper: Hinting Instruction Usefulness for Robust Unified Caches',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-Memory/bumper-hinting-instruction-usefulness-for-robust-unified/";
+            },},{id: "paper_reading-2026-isca-cerberus-cross-layer-ecc-co-design-for-robust-and-efficient-memory-protection",
+          title: '(2026 ISCA) Cerberus: Cross-Layer ECC Co-Design for Robust and Efficient Memory Protection',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-Memory/cerberus-cross-layer-ecc-co-design-for-robust-and-efficient/";
+            },},{id: "paper_reading-2026-isca-columnkeeper-efficient-solutions-in-dram-based-columndisturb-mitigation",
+          title: '(2026 ISCA) ColumnKeeper: Efficient Solutions in DRAM-based ColumnDisturb Mitigation',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-Memory/columnkeeper-efficient-solutions-in-dram-based/";
+            },},{id: "paper_reading-2026-isca-conserve-contiguity-preserving-memory-management-for-multi-turn-llm-serving",
+          title: '(2026 ISCA) ConServe: Contiguity-Preserving Memory Management for Multi-Turn LLM Serving',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-Memory/conserve-contiguity-preserving-memory-management-for-multi/";
+            },},{id: "paper_reading-2026-isca-deduplication-later-duplication-centric-multi-gpu-memory",
+          title: '(2026 ISCA) Deduplication Later: Duplication-Centric Multi-GPU Memory',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-Memory/deduplication-later-duplication-centric-multi-gpu-memory/";
+            },},{id: "paper_reading-2026-isca-dejavu-why-you-should-write-to-your-dram-rows-twice-carefully",
+          title: '(2026 ISCA) DejaVu: Why You Should Write to Your DRAM Rows Twice Carefully...',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-Memory/dejavu-why-you-should-write-to-your-dram-rows-twice/";
+            },},{id: "paper_reading-2026-isca-five-minute-rule-40-years-later-a-first-principles-revisit-for-modern-memory-hierarchy",
+          title: '(2026 ISCA) Five-Minute Rule 40 Years Later: A First-Principles Revisit for Modern Memory...',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-Memory/five-minute-rule-40-years-later-a-first-principles-revisit/";
+            },},{id: "paper_reading-2026-isca-hbm-caso-a-coordinated-approach-to-hbm-system-level-and-on-die-ecc",
+          title: '(2026 ISCA) HBM-CASO: A Coordinated Approach to HBM System-Level and On-Die ECC',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-Memory/hbm-caso-a-coordinated-approach-to-hbm-system-level-and-on/";
+            },},{id: "paper_reading-2026-isca-intermittence-aware-speculative-page-coloring-for-secure-nvm",
+          title: '(2026 ISCA) Intermittence-Aware Speculative Page Coloring for Secure NVM',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-Memory/intermittence-aware-speculative-page-coloring-for-secure-nvm/";
+            },},{id: "paper_reading-2026-isca-libra-a-high-accuracy-cost-aware-and-coordinated-multi-gpu-page-prefetcher",
+          title: '(2026 ISCA) LIBRA: A High-Accuracy Cost-Aware and Coordinated Multi-GPU Page Prefetcher',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-Memory/libra-a-high-accuracy-cost-aware-and-coordinated-multi-gpu/";
+            },},{id: "paper_reading-2026-isca-loaded-dice-solving-the-non-selection-problem-for-scalable-probabilistic-rowhammer-defense",
+          title: '(2026 ISCA) Loaded Dice: Solving the Non-Selection Problem for Scalable Probabilistic RowHammer Defense...',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-Memory/loaded-dice-solving-the-non-selection-problem-for-scalable/";
+            },},{id: "paper_reading-2026-isca-loong-utilizing-long-stride-reprogramming-to-enhance-the-performance-of-ssds",
+          title: '(2026 ISCA) LOONG: Utilizing Long-Stride Reprogramming to Enhance the Performance of SSDs',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-Memory/loong-utilizing-long-stride-reprogramming-to-enhance-the/";
+            },},{id: "paper_reading-2026-isca-naszip-software-and-hardware-co-design-to-accelerate-approximate-nearest-neighbor-search-with-dimm-based-near-data-processing",
+          title: '(2026 ISCA) NasZip: Software and Hardware Co-Design to Accelerate Approximate Nearest Neighbor Search...',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-Memory/naszip-software-and-hardware-co-design-to-accelerate/";
+            },},{id: "paper_reading-2026-isca-observability-aided-gpu-memory-oversubscription",
+          title: '(2026 ISCA) Observability-aided GPU Memory Oversubscription',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-Memory/observability-aided-gpu-memory-oversubscription/";
+            },},{id: "paper_reading-2026-isca-optimized-memory-tagging-on-ampereone-processors",
+          title: '(2026 ISCA) Optimized Memory Tagging on AmpereOne Processors',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-Memory/optimized-memory-tagging-on-ampereone-processors/";
+            },},{id: "paper_reading-2026-isca-prowhammer-propagating-bit-flips-from-cpu-to-gpu",
+          title: '(2026 ISCA) PRowhammer: Propagating Bit-flips from CPU to GPU',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-Memory/prowhammer-propagating-bit-flips-from-cpu-to-gpu/";
+            },},{id: "paper_reading-2026-isca-pudghost-experimental-analysis-of-computation-result-corruption-in-processing-using-dram-operations-on-real-dram-chips-and-implications-for-future-systems",
+          title: '(2026 ISCA) PuDGhost: Experimental Analysis of Computation Result Corruption in Processing-using-DRAM Operations on...',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-Memory/pudghost-experimental-analysis-of-computation-result/";
+            },},{id: "paper_reading-2026-isca-pvac-a-rowhammer-mitigation-architecture-exploiting-per-victim-row-counting",
+          title: '(2026 ISCA) PVAC: A RowHammer Mitigation Architecture Exploiting Per-victim-row Counting',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-Memory/pvac-a-rowhammer-mitigation-architecture-exploiting-per/";
+            },},{id: "paper_reading-2026-isca-r-max-extending-belady-39-s-min-with-prefetching-to-bound-realistic-cache-performance",
+          title: '(2026 ISCA) R-Max: Extending Belady&amp;#39;s MIN with Prefetching to Bound Realistic Cache Performance...',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-Memory/r-max-extending-beladys-min-with-prefetching-to-bound/";
+            },},{id: "paper_reading-2026-isca-random-access-hardware-sequence-compression",
+          title: '(2026 ISCA) Random-Access Hardware Sequence Compression',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-Memory/random-access-hardware-sequence-compression/";
+            },},{id: "paper_reading-2026-isca-reducing-page-faults-via-invalidation-based-mapping-propagation-in-multi-gpu-systems",
+          title: '(2026 ISCA) Reducing Page Faults via Invalidation-based Mapping Propagation in Multi-GPU Systems',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-Memory/reducing-page-faults-via-invalidation-based-mapping/";
+            },},{id: "paper_reading-2026-isca-revelator-rapid-data-fetching-via-system-software-guided-hash-based-speculative-address-translation",
+          title: '(2026 ISCA) Revelator: Rapid Data Fetching via System-Software-Guided Hash-based Speculative Address Translation',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-Memory/revelator-rapid-data-fetching-via-system-software-guided/";
+            },},{id: "paper_reading-2026-isca-tdmsim-enabling-high-density-and-energy-efficient-gpu-dram-caches-with-2d-materials-for-data-intensive-applications",
+          title: '(2026 ISCA) TDMSim: Enabling High-Density and Energy-Efficient GPU DRAM Caches with 2D-Materials for...',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-Memory/tdmsim-enabling-high-density-and-energy-efficient-gpu-dram/";
+            },},{id: "paper_reading-2026-isca-vistara-making-cxl-real-full-path-from-asic-design-and-os-support-to-hyperscale-deployment",
+          title: '(2026 ISCA) Vistara: Making CXL Real—Full Path from ASIC Design and OS Support...',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-Memory/vistara-making-cxl-real-full-path-from-asic-design-and-os/";
+            },},{id: "paper_reading-2026-isca-a-streaming-architecture-for-quantum-error-syndrome-compression-at-4-kelvin",
+          title: '(2026 ISCA) A Streaming Architecture for Quantum Error Syndrome Compression at 4 Kelvin...',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-Quantum/a-streaming-architecture-for-quantum-error-syndrome/";
+            },},{id: "paper_reading-2026-isca-coset-ensemble-decoder-for-quantum-error-correction-with-algorithm-hardware-co-design",
+          title: '(2026 ISCA) Coset Ensemble Decoder for Quantum Error Correction with Algorithm–Hardware Co-Design',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-Quantum/coset-ensemble-decoder-for-quantum-error-correction-with/";
+            },},{id: "paper_reading-2026-isca-distilling-magic-states-in-the-bicycle-architecture",
+          title: '(2026 ISCA) Distilling Magic States in the Bicycle Architecture',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-Quantum/distilling-magic-states-in-the-bicycle-architecture/";
+            },},{id: "paper_reading-2026-isca-kernpiler-compiler-optimization-for-quantum-hamiltonian-simulation-with-partial-trotterization",
+          title: '(2026 ISCA) Kernpiler: Compiler Optimization for Quantum Hamiltonian Simulation with Partial Trotterization',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-Quantum/kernpiler-compiler-optimization-for-quantum-hamiltonian/";
+            },},{id: "paper_reading-2026-isca-leveraging-phase-polynomials-for-quantum-circuit-optimization",
+          title: '(2026 ISCA) Leveraging Phase Polynomials for Quantum Circuit Optimization',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-Quantum/leveraging-phase-polynomials-for-quantum-circuit/";
+            },},{id: "paper_reading-2026-isca-o3ls-optimizing-lattice-surgery-via-automatic-layout-searching-and-loose-scheduling",
+          title: '(2026 ISCA) O3LS: Optimizing Lattice Surgery via Automatic Layout Searching and Loose Scheduling...',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-Quantum/o3ls-optimizing-lattice-surgery-via-automatic-layout/";
+            },},{id: "paper_reading-2026-isca-photonic-quantum-computing-on-spin-memory-architecture-with-tree-encoded-fusion",
+          title: '(2026 ISCA) Photonic Quantum Computing on Spin Memory Architecture with Tree-Encoded Fusion',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-Quantum/photonic-quantum-computing-on-spin-memory-architecture-with/";
+            },},{id: "paper_reading-2026-isca-transpiler-architecture-co-design-to-curb-clifford-costs-in-fault-tolerant-quantum-computing",
+          title: '(2026 ISCA) Transpiler-Architecture Co-Design to Curb Clifford Costs in Fault-Tolerant Quantum Computing',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-Quantum/transpiler-architecture-co-design-to-curb-clifford-costs-in/";
+            },},{id: "paper_reading-2026-isca-triage-an-adaptive-parallel-window-decoding-scheduler-for-real-time-fault-tolerant-quantum-computation",
+          title: '(2026 ISCA) Triage: An Adaptive Parallel Window Decoding Scheduler for Real-time Fault-Tolerant Quantum...',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-Quantum/triage-an-adaptive-parallel-window-decoding-scheduler-for/";
+            },},{id: "paper_reading-2026-isca-tusq-tracking-uncomputation-and-sampling-for-noisy-quantum-simulation",
+          title: '(2026 ISCA) TUSQ: Tracking Uncomputation and Sampling for Noisy Quantum Simulation',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-Quantum/tusq-tracking-uncomputation-and-sampling-for-noisy-quantum/";
+            },},{id: "paper_reading-2026-isca-unifying-qubit-routing-across-diverse-quantum-isas-via-canonical-representation",
+          title: '(2026 ISCA) Unifying Qubit Routing Across Diverse Quantum ISAs via Canonical Representation',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-Quantum/unifying-qubit-routing-across-diverse-quantum-isas-via/";
+            },},{id: "paper_reading-2026-isca-darkstream-exploiting-internal-throughput-contention-in-data-streaming-accelerator-for-timing-attacks",
+          title: '(2026 ISCA) DarkStream: Exploiting Internal Throughput Contention in Data Streaming Accelerator for Timing...',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-Security/darkstream-exploiting-internal-throughput-contention-in/";
+            },},{id: "paper_reading-2026-isca-he2-a-communication-light-heterogeneous-architecture-for-efficient-fully-homomorphic-encryption",
+          title: '(2026 ISCA) HE2: A Communication-Light Heterogeneous Architecture for Efficient Fully Homomorphic Encryption',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-Security/he2-a-communication-light-heterogeneous-architecture-for/";
+            },},{id: "paper_reading-2026-isca-helium-quantifying-microarchitectural-side-channel-leakage-with-probabilistic-guarantees",
+          title: '(2026 ISCA) Helium: Quantifying Microarchitectural Side-Channel Leakage with Probabilistic Guarantees',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-Security/helium-quantifying-microarchitectural-side-channel-leakage/";
+            },},{id: "paper_reading-2026-isca-hyperdrive-hierarchical-exploitation-of-memory-efficiency-for-gpu-based-fhe-acceleration",
+          title: '(2026 ISCA) HyperDrive: Hierarchical Exploitation of Memory Efficiency for GPU-Based FHE Acceleration',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-Security/hyperdrive-hierarchical-exploitation-of-memory-efficiency/";
+            },},{id: "paper_reading-2026-isca-laegis-pinpointing-and-addressing-performance-overheads-of-gpu-based-confidential-computing",
+          title: '(2026 ISCA) LAEGIS: Pinpointing and Addressing Performance Overheads of GPU-based Confidential Computing',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-Security/laegis-pinpointing-and-addressing-performance-overheads-of/";
+            },},{id: "paper_reading-2026-isca-lippen-a-lightweight-in-place-pointer-encryption-architecture-for-pointer-integrity",
+          title: '(2026 ISCA) LIPPEN: A Lightweight In-Place Pointer Encryption Architecture for Pointer Integrity',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-Security/lippen-a-lightweight-in-place-pointer-encryption/";
+            },},{id: "paper_reading-2026-isca-mc-oram-a-mask-assisted-and-counter-based-non-deterministic-oram-inside-vm-based-tees",
+          title: '(2026 ISCA) MC-ORAM: A Mask-Assisted and Counter-Based Non-Deterministic ORAM inside VM-Based TEEs',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-Security/mc-oram-a-mask-assisted-and-counter-based-non-deterministic/";
+            },},{id: "paper_reading-2026-isca-mnemos-a-gpu-based-tfhe-acceleration-framework-with-memory-access-optimization",
+          title: '(2026 ISCA) MNEMOS: A GPU-based TFHE Acceleration Framework with Memory Access Optimization',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-Security/mnemos-a-gpu-based-tfhe-acceleration-framework-with-memory/";
+            },},{id: "paper_reading-2026-isca-timegaps-channels-exploiting-cpu-halted-time-for-fun-and-profit",
+          title: '(2026 ISCA) TimeGaps Channels: Exploiting CPU Halted Time for Fun and Profit',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-Security/timegaps-channels-exploiting-cpu-halted-time-for-fun-and/";
+            },},{id: "paper_reading-2026-isca-towards-practical-interrupt-side-channel-attacks-on-macos-for-apple-silicon",
+          title: '(2026 ISCA) Towards Practical Interrupt Side-Channel Attacks on macOS for Apple Silicon',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-Security/towards-practical-interrupt-side-channel-attacks-on-macos/";
+            },},{id: "paper_reading-2026-isca-autofhe-an-automatic-hardware-generation-framework-for-domain-specific-fhe-accelerators",
+          title: '(2026 ISCA) AutoFHE: An Automatic Hardware Generation Framework for Domain-Specific FHE Accelerators',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-Systems/autofhe-an-automatic-hardware-generation-framework-for/";
+            },},{id: "paper_reading-2026-isca-breaking-barriers-in-atomic-scaling-a-hardware-software-collaborated-framework-to-deconstruct-rdma-atomic",
+          title: '(2026 ISCA) Breaking Barriers in Atomic Scaling: A Hardware-Software-Collaborated Framework to Deconstruct RDMA...',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-Systems/breaking-barriers-in-atomic-scaling-a-hardware-software/";
+            },},{id: "paper_reading-2026-isca-democratizing-and-accelerating-hardware-verification-with-software-native-optimization",
+          title: '(2026 ISCA) Democratizing and Accelerating Hardware Verification with Software-Native Optimization',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-Systems/democratizing-and-accelerating-hardware-verification-with/";
+            },},{id: "paper_reading-2026-isca-desscam-an-event-d-riven-architecture-with-in-sensor-epitopological-sparse-sampling-to-break-the-latency-power-tradeoff-in-eye-tracking",
+          title: '(2026 ISCA) DESSCam: An Event-D riven Architecture with In-Sensor Epitopological Sparse Sampling to...',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-Systems/desscam-an-event-d-riven-architecture-with-in-sensor/";
+            },},{id: "paper_reading-2026-isca-disdp-disaggregating-compute-network-and-storage-for-model-sharded-data-parallel-training",
+          title: '(2026 ISCA) DisDP: Disaggregating Compute Network and Storage for Model-Sharded Data-Parallel Training',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-Systems/disdp-disaggregating-compute-network-and-storage-for-model/";
+            },},{id: "paper_reading-2026-isca-don-39-t-surrender-to-low-qps-dollar-fast-and-cost-efficient-anns-with-ridentt-ann",
+          title: '(2026 ISCA) Don&amp;#39;t Surrender to Low QPS Dollar - Fast and Cost-Efficient ANNS...',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-Systems/dont-surrender-to-low-qps-dollar-fast-and-cost-efficient/";
+            },},{id: "paper_reading-2026-isca-echo-efficient-head-orientation-guided-real-time-sound-spatialization-for-virtual-reality",
+          title: '(2026 ISCA) ECHO: Efficient Head-Orientation-Guided Real-Time Sound Spatialization for Virtual Reality',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-Systems/echo-efficient-head-orientation-guided-real-time-sound/";
+            },},{id: "paper_reading-2026-isca-efficient-3d-gaussian-splatting-with-axis-shared-rasterization-and-order-independent-transmittance",
+          title: '(2026 ISCA) Efficient 3D Gaussian Splatting with Axis-Shared Rasterization and Order-independent Transmittance',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-Systems/efficient-3d-gaussian-splatting-with-axis-shared/";
+            },},{id: "paper_reading-2026-isca-enabling-continuous-in-field-introspection-the-programmable-ipu-architecture",
+          title: '(2026 ISCA) Enabling Continuous, In-Field Introspection: The Programmable IPU Architecture',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-Systems/enabling-continuous-in-field-introspection-the-programmable/";
+            },},{id: "paper_reading-2026-isca-flashtfhe-a-scalable-architecture-for-efficient-multi-bit-fully-homomorphic-encryption",
+          title: '(2026 ISCA) FlashTFHE: A Scalable Architecture for Efficient Multi-bit Fully Homomorphic Encryption',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-Systems/flashtfhe-a-scalable-architecture-for-efficient-multi-bit/";
+            },},{id: "paper_reading-2026-isca-gautracer-extending-ray-tracing-accelerator-for-gaussian-based-scene-representation",
+          title: '(2026 ISCA) GauTracer: Extending Ray Tracing Accelerator for Gaussian-based Scene Representation',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-Systems/gautracer-extending-ray-tracing-accelerator-for-gaussian/";
+            },},{id: "paper_reading-2026-isca-genza-a-general-and-efficient-accelerator-for-diverse-zero-knowledge-proof-protocols",
+          title: '(2026 ISCA) GenZA: A General and Efficient Accelerator for Diverse Zero-Knowledge Proof Protocols...',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-Systems/genza-a-general-and-efficient-accelerator-for-diverse-zero/";
+            },},{id: "paper_reading-2026-isca-grains-enabling-high-performance-and-low-cost-via-storage-aware-graph-based-genome-analysis-algorithm-architecture-co-design",
+          title: '(2026 ISCA) GRAINS: Enabling High-Performance and Low-Cost via Storage-Aware Graph-Based Genome Analysis Algorithm-Architecture...',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-Systems/grains-enabling-high-performance-and-low-cost-via-storage/";
+            },},{id: "paper_reading-2026-isca-hartbreaker-deterministic-fuzzing-of-multi-hart-risc-v-cpus-with-non-deterministic-programs",
+          title: '(2026 ISCA) HARTBREAKER: Deterministic Fuzzing of Multi-Hart RISC-V CPUs with Non-Deterministic Programs',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-Systems/hartbreaker-deterministic-fuzzing-of-multi-hart-risc-v-cpus/";
+            },},{id: "paper_reading-2026-isca-l-pcn-a-point-cloud-accelerator-exploiting-spatial-locality-through-octree-based-islandization",
+          title: '(2026 ISCA) L-PCN: A Point Cloud Accelerator Exploiting Spatial Locality through Octree-based Islandization...',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-Systems/l-pcn-a-point-cloud-accelerator-exploiting-spatial-locality/";
+            },},{id: "paper_reading-2026-isca-lit-silicon-a-case-where-thermal-imbalance-couples-concurrent-execution-in-multiple-gpus",
+          title: '(2026 ISCA) Lit Silicon: A Case Where Thermal Imbalance Couples Concurrent Execution in...',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-Systems/lit-silicon-a-case-where-thermal-imbalance-couples/";
+            },},{id: "paper_reading-2026-isca-moe-hub-taming-software-complexity-for-seamless-moe-overlap-with-hardware-accelerated-communication-on-multi-gpu-systems",
+          title: '(2026 ISCA) MoE-Hub: Taming Software Complexity for Seamless MoE Overlap with Hardware-Accelerated Communication...',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-Systems/moe-hub-taming-software-complexity-for-seamless-moe-overlap/";
+            },},{id: "paper_reading-2026-isca-ns-fps-accelerating-farthest-point-sampling-via-neighbor-search-in-large-scale-point-clouds",
+          title: '(2026 ISCA) NS-FPS: Accelerating Farthest Point Sampling via Neighbor Search in Large-Scale Point...',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-Systems/ns-fps-accelerating-farthest-point-sampling-via-neighbor/";
+            },},{id: "paper_reading-2026-isca-power-sloshing-in-compound-servers-for-large-scale-ai-inference-workloads",
+          title: '(2026 ISCA) Power Sloshing in Compound Servers for Large-Scale AI Inference Workloads',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-Systems/power-sloshing-in-compound-servers-for-large-scale-ai/";
+            },},{id: "paper_reading-2026-isca-powergrad-hierarchical-power-management-for-power-limited-ml-inference-clusters",
+          title: '(2026 ISCA) PowerGrad: Hierarchical Power Management for Power-Limited ML Inference Clusters',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-Systems/powergrad-hierarchical-power-management-for-power-limited/";
+            },},{id: "paper_reading-2026-isca-powerweave-unlocking-energy-efficient-ml-on-gpus-with-os-level-spatial-power-management",
+          title: '(2026 ISCA) PowerWeave: Unlocking Energy-Efficient ML on GPUs with OS-Level Spatial Power Management...',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-Systems/powerweave-unlocking-energy-efficient-ml-on-gpus-with-os/";
+            },},{id: "paper_reading-2026-isca-prometheus-toward-resilient-data-centers-through-optimized-cooling-infrastructure",
+          title: '(2026 ISCA) Prometheus: Toward Resilient Data Centers through Optimized Cooling Infrastructure',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-Systems/prometheus-toward-resilient-data-centers-through-optimized/";
+            },},{id: "paper_reading-2026-isca-qed-scalable-consistency-verification-of-memory-instruction-reordering-in-hardware",
+          title: '(2026 ISCA) QED: Scalable Consistency Verification of Memory Instruction Reordering in Hardware',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-Systems/qed-scalable-consistency-verification-of-memory-instruction/";
+            },},{id: "paper_reading-2026-isca-r2d2-robotized-reconfigurable-network-for-disaggregated-datacenters",
+          title: '(2026 ISCA) R2D2: Robotized Reconfigurable Network for Disaggregated Datacenters',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-Systems/r2d2-robotized-reconfigurable-network-for-disaggregated/";
+            },},{id: "paper_reading-2026-isca-rangeguard-efficient-bounded-approximate-error-correction-for-reliable-dnns",
+          title: '(2026 ISCA) RangeGuard: Efficient, Bounded Approximate Error Correction for Reliable DNNs',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-Systems/rangeguard-efficient-bounded-approximate-error-correction/";
+            },},{id: "paper_reading-2026-isca-rearchitecting-the-datacenter-lifecycle-for-ai",
+          title: '(2026 ISCA) Rearchitecting the Datacenter Lifecycle for AI',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-Systems/rearchitecting-the-datacenter-lifecycle-for-ai/";
+            },},{id: "paper_reading-2026-isca-rhodes-robust-optimization-for-uncertainty-aware-design-of-co2-efficient-computing-systems",
+          title: '(2026 ISCA) RHODES: Robust Optimization for Uncertainty-Aware Design of CO2-Efficient Computing Systems',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-Systems/rhodes-robust-optimization-for-uncertainty-aware-design-of/";
+            },},{id: "paper_reading-2026-isca-satic-an-optimizing-ising-compiler-for-sat-isfiability",
+          title: '(2026 ISCA) SATIC: An Optimizing Ising Compiler for SAT(isfiability)',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-Systems/satic-an-optimizing-ising-compiler-for-satisfiability/";
+            },},{id: "paper_reading-2026-isca-slice-a-selective-local-inference-framework-with-codec-exploitation-for-accelerating-video-super-resolution",
+          title: '(2026 ISCA) SLICE: A Selective Local Inference Framework with Codec Exploitation for Accelerating...',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-Systems/slice-a-selective-local-inference-framework-with-codec/";
+            },},{id: "paper_reading-2026-isca-taking-analytic-databases-to-the-bank",
+          title: '(2026 ISCA) Taking Analytic Databases to the Bank',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-Systems/taking-analytic-databases-to-the-bank/";
+            },},{id: "paper_reading-2026-isca-takoformal-enabling-robust-software-for-programmable-memory-hierarchies",
+          title: '(2026 ISCA) takoFormal: Enabling Robust Software for Programmable Memory Hierarchies',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-Systems/takoformal-enabling-robust-software-for-programmable-memory/";
+            },},{id: "paper_reading-2026-isca-ttp-a-hardware-efficient-design-for-precise-prefetching-in-ray-tracing",
+          title: '(2026 ISCA) TTP: A Hardware-Efficient Design for Precise Prefetching in Ray Tracing',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-Systems/ttp-a-hardware-efficient-design-for-precise-prefetching-in/";
+            },},{id: "paper_reading-2026-isca-urng-a-framework-for-assessing-randomness-in-intermittent-computing-devices",
+          title: '(2026 ISCA) uRNG: A Framework for Assessing Randomness in Intermittent Computing Devices',
+          description: "TODO: One-sentence summary",
+          section: "Paper_reading",handler: () => {
+              window.location.href = "/paper-reading/Topic-Systems/urng-a-framework-for-assessing-randomness-in-intermittent/";
             },},{id: "paper_reading-paper-reading-fast-and-fusiest-an-optimal-fusion-aware-mapper-for-accelerator-design",
           title: 'Paper Reading: Fast and Fusiest: An Optimal Fusion-Aware Mapper for Accelerator Design',
           description: "One-sentence summary of the paper and why it matters.",
