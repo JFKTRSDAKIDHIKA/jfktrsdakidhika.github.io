@@ -11,7 +11,7 @@ ninja.data = [{
     },
   },{id: "nav-paper-reading",
           title: "paper reading",
-          description: "Notes and interpretations of research papers.",
+          description: "Notes and interpretations of research papers, organized by year and venue.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/paper-reading/";
