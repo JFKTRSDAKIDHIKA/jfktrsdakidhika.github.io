@@ -1,18 +1,18 @@
 ---
 layout: post
-title: "(2025) (2021DAC) Gemmini"
-date: 2025-01-01
+title: "(2021 DAC) Gemmini: Enabling Systematic Deep-Learning Architecture Evaluation via Full-Stack Integration"
+date: 2021-01-01
 description: "TODO: One-sentence summary"
-published: Unknown 
+published: DAC 2021
 tags: paper-reading accelerator-architecture
 toc:
   sidebar: left
 related_posts: false
 giscus_comments: true
 paper:
-  title: "(2021DAC) Gemmini"
-  authors: "TODO"
-  venue: "Unknown, Unknown"
+  title: "Gemmini: Enabling Systematic Deep-Learning Architecture Evaluation via Full-Stack Integration"
+  authors: "Hasan Genc, Seah Kim, Alon Amid et al."
+  venue: "DAC, 2021"
   url: ""
   code: ""
   pdf: "/assets/pdf/papers/%282021DAC%29%20Gemmini.pdf"

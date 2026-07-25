@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "(2025) A Stacked Embedded DRAM Array for LPDDR4 4X using Hybrid Bonding 3D Integration with 34GB s 1Gb 0.88pJ b Logic-to-Memory Interface"
-date: 2025-01-01
+title: "(2023 ISSCC) A Stacked Embedded DRAM Array for LPDDR4 4X using Hybrid Bonding 3D Integration with 34GB s 1Gb 0.88pJ b Logic-to-Memory Interface"
+date: 2023-01-01
 description: "TODO: One-sentence summary"
-published: Unknown 
+published: ISSCC 2023
 tags: paper-reading to-read
 toc:
   sidebar: left
@@ -12,7 +12,7 @@ giscus_comments: true
 paper:
   title: "A Stacked Embedded DRAM Array for LPDDR4 4X using Hybrid Bonding 3D Integration with 34GB s 1Gb 0.88pJ b Logic-to-Memory Interface"
   authors: "TODO"
-  venue: "Unknown, Unknown"
+  venue: "ISSCC, 2023"
   url: ""
   code: ""
   pdf: "/assets/pdf/papers/A_Stacked_Embedded_DRAM_Array_for_LPDDR4_4X_using_Hybrid_Bonding_3D_Integration_with_34GB_s_1Gb_0.88pJ_b_Logic-to-Memory_Interface.pdf"

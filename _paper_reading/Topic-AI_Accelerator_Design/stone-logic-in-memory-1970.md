@@ -1,18 +1,18 @@
 ---
 layout: post
-title: "(2025) stone logic in memory 1970"
-date: 2025-01-01
+title: "(1970 IEEE Trans. Computers) Logic-in-Memory Computer"
+date: 1970-01-01
 description: "TODO: One-sentence summary"
-published: Unknown 
+published: IEEE Trans. Computers 1970
 tags: paper-reading PIM CIM
 toc:
   sidebar: left
 related_posts: false
 giscus_comments: true
 paper:
-  title: "stone logic in memory 1970"
-  authors: "TODO"
-  venue: "Unknown, Unknown"
+  title: "Logic-in-Memory Computer"
+  authors: "Harold S. Stone"
+  venue: "IEEE Trans. Computers, 1970"
   url: ""
   code: ""
   pdf: "/assets/pdf/papers/stone_logic_in_memory_1970.pdf"

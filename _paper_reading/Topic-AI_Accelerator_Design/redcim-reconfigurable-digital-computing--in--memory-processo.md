@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "(2025) ReDCIM Reconfigurable Digital Computing- In -Memory Processor With Unified FP INT Pipeline for Cloud AI Acceleration"
-date: 2025-01-01
+title: "(2023 JSSC) ReDCIM Reconfigurable Digital Computing- In -Memory Processor With Unified FP INT Pipeline for Cloud AI Acceleration"
+date: 2023-01-01
 description: "TODO: One-sentence summary"
-published: Unknown 
+published: JSSC 2023
 tags: paper-reading PIM CIM
 toc:
   sidebar: left
@@ -12,7 +12,7 @@ giscus_comments: true
 paper:
   title: "ReDCIM Reconfigurable Digital Computing- In -Memory Processor With Unified FP INT Pipeline for Cloud AI Acceleration"
   authors: "TODO"
-  venue: "Unknown, Unknown"
+  venue: "JSSC, 2023"
   url: ""
   code: ""
   pdf: "/assets/pdf/papers/ReDCIM_Reconfigurable_Digital_Computing-_In_-Memory_Processor_With_Unified_FP_INT_Pipeline_for_Cloud_AI_Acceleration.pdf"

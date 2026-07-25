@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "(2025) HeteroSVD Efficient SVD Accelerator on Versal ACAP with Algorithm-Hardware Co-Design"
-date: 2025-01-01
+title: "(2024 DAC) HeteroSVD Efficient SVD Accelerator on Versal ACAP with Algorithm-Hardware Co-Design"
+date: 2024-01-01
 description: "TODO: One-sentence summary"
-published: Unknown 
+published: DAC 2024
 tags: paper-reading accelerator-architecture
 toc:
   sidebar: left
@@ -12,7 +12,7 @@ giscus_comments: true
 paper:
   title: "HeteroSVD Efficient SVD Accelerator on Versal ACAP with Algorithm-Hardware Co-Design"
   authors: "TODO"
-  venue: "Unknown, Unknown"
+  venue: "DAC, 2024"
   url: ""
   code: ""
   pdf: "/assets/pdf/papers/HeteroSVD_Efficient_SVD_Accelerator_on_Versal_ACAP_with_Algorithm-Hardware_Co-Design%20%281%29.pdf"

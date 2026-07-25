@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "(2025) 20250716&0718-RVSC-XSAI：以CPU的编程范式支持现代LLM核函数"
+title: "(2025 RVSC Talk) XSAI: Hardware Support for Modern LLM Kernels in a CPU Paradigm"
 date: 2025-01-01
 description: "TODO: One-sentence summary"
-published: Unknown 
+published: RVSC 2025
 tags: paper-reading accelerator-architecture
 toc:
   sidebar: left

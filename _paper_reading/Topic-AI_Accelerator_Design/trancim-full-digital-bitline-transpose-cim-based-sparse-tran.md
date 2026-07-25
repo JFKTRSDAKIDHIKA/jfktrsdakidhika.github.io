@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "(2025) TranCIM Full-Digital Bitline-Transpose CIM-based Sparse Transformer Accelerator With Pipeline Parallel Reconfigurable Modes"
-date: 2025-01-01
+title: "(2023 JSSC) TranCIM Full-Digital Bitline-Transpose CIM-based Sparse Transformer Accelerator With Pipeline Parallel Reconfigurable Modes"
+date: 2023-01-01
 description: "TODO: One-sentence summary"
-published: Unknown 
+published: JSSC 2023
 tags: paper-reading PIM CIM
 toc:
   sidebar: left
@@ -12,7 +12,7 @@ giscus_comments: true
 paper:
   title: "TranCIM Full-Digital Bitline-Transpose CIM-based Sparse Transformer Accelerator With Pipeline Parallel Reconfigurable Modes"
   authors: "TODO"
-  venue: "Unknown, Unknown"
+  venue: "JSSC, 2023"
   url: ""
   code: ""
   pdf: "/assets/pdf/papers/TranCIM_Full-Digital_Bitline-Transpose_CIM-based_Sparse_Transformer_Accelerator_With_Pipeline_Parallel_Reconfigurable_Modes.pdf"

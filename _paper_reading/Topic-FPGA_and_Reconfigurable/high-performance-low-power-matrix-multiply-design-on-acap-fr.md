@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "(2025) High Performance Low Power Matrix Multiply Design on ACAP from Architecture Design Challenges and DSE Perspectives"
-date: 2025-01-01
+title: "(2023 FPGA) High Performance Low Power Matrix Multiply Design on ACAP from Architecture Design Challenges and DSE Perspectives"
+date: 2023-01-01
 description: "TODO: One-sentence summary"
-published: Unknown 
+published: FPGA 2023
 tags: paper-reading accelerator-architecture
 toc:
   sidebar: left
@@ -12,7 +12,7 @@ giscus_comments: true
 paper:
   title: "High Performance Low Power Matrix Multiply Design on ACAP from Architecture Design Challenges and DSE Perspectives"
   authors: "TODO"
-  venue: "Unknown, Unknown"
+  venue: "FPGA, 2023"
   url: ""
   code: ""
   pdf: "/assets/pdf/papers/High_Performance_Low_Power_Matrix_Multiply_Design_on_ACAP_from_Architecture_Design_Challenges_and_DSE_Perspectives.pdf"

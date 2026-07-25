@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "(2025) Delivering the Future of High-Performance Computing"
-date: 2025-01-01
+title: "(2024 HotChips) Delivering the Future of High-Performance Computing"
+date: 2024-01-01
 description: "TODO: One-sentence summary"
-published: Unknown 
+published: HotChips 2024
 tags: paper-reading to-read
 toc:
   sidebar: left
@@ -12,7 +12,7 @@ giscus_comments: true
 paper:
   title: "Delivering the Future of High-Performance Computing"
   authors: "TODO"
-  venue: "Unknown, Unknown"
+  venue: "HotChips, 2024"
   url: ""
   code: ""
   pdf: "/assets/pdf/papers/Delivering_the_Future_of_High-Performance_Computing.pdf"

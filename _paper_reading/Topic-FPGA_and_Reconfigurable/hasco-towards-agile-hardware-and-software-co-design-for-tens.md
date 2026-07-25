@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "(2025) HASCO Towards Agile HArdware and Software CO-design for Tensor Computation"
-date: 2025-01-01
+title: "(2021 DAC) HASCO Towards Agile HArdware and Software CO-design for Tensor Computation"
+date: 2021-01-01
 description: "TODO: One-sentence summary"
-published: Unknown 
+published: DAC 2021
 tags: paper-reading accelerator-architecture
 toc:
   sidebar: left
@@ -12,7 +12,7 @@ giscus_comments: true
 paper:
   title: "HASCO Towards Agile HArdware and Software CO-design for Tensor Computation"
   authors: "TODO"
-  venue: "Unknown, Unknown"
+  venue: "DAC, 2021"
   url: ""
   code: ""
   pdf: "/assets/pdf/papers/HASCO_Towards_Agile_HArdware_and_Software_CO-design_for_Tensor_Computation.pdf"

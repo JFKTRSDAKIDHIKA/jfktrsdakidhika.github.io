@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "(2025) Dual-Issue Execution of Mixed Integer and Floating-Point Workloads on Energy-Efficient In-Order RISC-V Cores"
-date: 2025-01-01
+title: "(2024 Unknown) Dual-Issue Execution of Mixed Integer and Floating-Point Workloads on Energy-Efficient In-Order RISC-V Cores"
+date: 2024-01-01
 description: "TODO: One-sentence summary"
-published: Unknown 
+published: Unknown 2024
 tags: paper-reading design-space-exploration
 toc:
   sidebar: left
@@ -12,7 +12,7 @@ giscus_comments: true
 paper:
   title: "Dual-Issue Execution of Mixed Integer and Floating-Point Workloads on Energy-Efficient In-Order RISC-V Cores"
   authors: "TODO"
-  venue: "Unknown, Unknown"
+  venue: "Unknown, 2024"
   url: ""
   code: ""
   pdf: "/assets/pdf/papers/Dual-Issue_Execution_of_Mixed_Integer_and_Floating-Point_Workloads_on_Energy-Efficient_In-Order_RISC-V_Cores.pdf"

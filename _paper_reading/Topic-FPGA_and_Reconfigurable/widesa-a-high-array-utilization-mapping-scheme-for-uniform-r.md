@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "(2025) WideSA A High Array Utilization Mapping Scheme for Uniform Recurrences on ACAP"
-date: 2025-01-01
+title: "(2023 DAC) WideSA A High Array Utilization Mapping Scheme for Uniform Recurrences on ACAP"
+date: 2023-01-01
 description: "TODO: One-sentence summary"
-published: Unknown 
+published: DAC 2023
 tags: paper-reading accelerator-architecture
 toc:
   sidebar: left
@@ -12,7 +12,7 @@ giscus_comments: true
 paper:
   title: "WideSA A High Array Utilization Mapping Scheme for Uniform Recurrences on ACAP"
   authors: "TODO"
-  venue: "Unknown, Unknown"
+  venue: "DAC, 2023"
   url: ""
   code: ""
   pdf: "/assets/pdf/papers/WideSA_A_High_Array_Utilization_Mapping_Scheme_for_Uniform_Recurrences_on_ACAP.pdf"

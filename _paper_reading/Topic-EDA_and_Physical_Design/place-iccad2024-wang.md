@@ -1,18 +1,18 @@
 ---
 layout: post
-title: "(2025) PLACE ICCAD2024 Wang"
-date: 2025-01-01
+title: "(2024 ICCAD) ATPlace2.5D: Analytical Thermal-Aware Chiplet Placement Framework for Large-Scale 2.5D-IC"
+date: 2024-01-01
 description: "TODO: One-sentence summary"
-published: Unknown 
+published: ICCAD 2024
 tags: paper-reading accelerator-architecture
 toc:
   sidebar: left
 related_posts: false
 giscus_comments: true
 paper:
-  title: "PLACE ICCAD2024 Wang"
-  authors: "TODO"
-  venue: "Unknown, Unknown"
+  title: "ATPlace2.5D: Analytical Thermal-Aware Chiplet Placement Framework for Large-Scale 2.5D-IC"
+  authors: "Wang et al."
+  venue: "ICCAD, 2024"
   url: ""
   code: ""
   pdf: "/assets/pdf/papers/PLACE_ICCAD2024_Wang.pdf"

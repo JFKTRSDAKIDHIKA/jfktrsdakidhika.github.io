@@ -1,18 +1,18 @@
 ---
 layout: post
-title: "(2025) MNSIM 2.0 A Behavior-Level Modeling Tool for Processing-In-Memory Architectures"
-date: 2025-01-01
-description: "TODO: One-sentence summary"
-published: Unknown 
-tags: paper-reading PIM CIM
+title: "(2023 TCAD) MNSIM 2.0: A Behavior-Level Modeling Tool for Processing-In-Memory Architectures"
+date: 2023-01-01
+description: "Behavior-level simulator for PIM architectures supporting macro-level to system-level evaluation"
+published: TCAD 2023
+tags: paper-reading DSE PIM modeling simulation tool
 toc:
   sidebar: left
 related_posts: false
 giscus_comments: true
 paper:
-  title: "MNSIM 2.0 A Behavior-Level Modeling Tool for Processing-In-Memory Architectures"
-  authors: "TODO"
-  venue: "Unknown, Unknown"
+  title: "MNSIM 2.0: A Behavior-Level Modeling Tool for Processing-In-Memory Architectures"
+  authors: "Unknown"
+  venue: "TCAD, 2023"
   url: ""
   code: ""
   pdf: "/assets/pdf/papers/MNSIM_2.0_A_Behavior-Level_Modeling_Tool_for_Processing-In-Memory_Architectures.pdf"
@@ -20,54 +20,21 @@ paper:
 
 ## TL;DR
 
-<!-- 用 3-5 句话写清楚 -->
-- 这篇论文解决什么问题。
-- 核心想法是什么。
-- 结果为什么重要。
-- 你读完后的主要判断。
-
-## Paper Info
-
-- **Title:** {{ page.paper.title }}
-- **Authors:** {{ page.paper.authors }}
-- **Venue:** {{ page.paper.venue }}
-- **Paper:** [PDF]({{ page.paper.pdf }})
-- **Code:** [link]({{ page.paper.code }})
+- MNSIM 2.0：PIM 架构的行为级建模工具，支持从 macro 到 system 的多层次评估。
+- 建模 CIM macro 的非理想性（ADC 噪声、cell 变异）和系统级性能。
+- 快速评估不同 PIM 架构配置的 accuracy-efficiency tradeoff。
 
 ## Problem
 
-<!-- 这篇论文试图解决的具体问题是什么？ -->
-
+PIM/CIM 架构的评估需要考虑 analog 非理想性对 DNN accuracy 的影响，传统 digital simulator 无法建模。
 
 ## Method
 
-<!-- 按模块拆解核心方法 -->
-1. 方法的整体 pipeline。
-2. 关键假设或设计。
-3. 和已有方法相比的新东西。
-
-## Experiments
-
-<!-- 记录你认为真正支撑结论的实验 -->
-- 数据集和任务设置。
-- baseline 是否合理。
-- ablation 说明了什么。
-- 有哪些实验缺口。
+1. Macro-level: 建模 crossbar array 的 analog 行为（noise, variation, ADC precision）
+2. Architecture-level: PE 组织、buffer hierarchy、data movement
+3. Accuracy evaluation: 将 hardware noise 注入 DNN inference
 
 ## Insights
 
-<!-- 写自己的理解，不只是复述论文 -->
-- 这个方法为什么有效？
-- 它适合什么场景？
-- 它可能在哪些场景下失败？
-- 对你自己的研究或项目有什么启发？
-
-## Limitations
-
-<!-- 列出论文没有解决、或者你觉得论证不充分的地方 -->
-
-
-## Follow-up
-
-<!-- 值得继续读的相关论文 / 可以复现的部分 / 可以进一步验证的问题 -->
-
+- PIM DSE 的独特挑战：accuracy 和 efficiency 强耦合。
+- MNSIM 类似于 Timeloop 在 digital accelerator 中的角色 — PIM 生态的基础工具。

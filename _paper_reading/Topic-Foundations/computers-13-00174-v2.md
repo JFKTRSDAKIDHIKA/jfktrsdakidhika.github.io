@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "(2025) computers-13-00174-v2"
-date: 2025-01-01
+title: "(2024 MDPI Computers) computers-13-00174-v2"
+date: 2024-01-01
 description: "TODO: One-sentence summary"
-published: Unknown 
+published: MDPI Computers 2024
 tags: paper-reading to-read
 toc:
   sidebar: left
@@ -12,7 +12,7 @@ giscus_comments: true
 paper:
   title: "computers-13-00174-v2"
   authors: "TODO"
-  venue: "Unknown, Unknown"
+  venue: "MDPI Computers, 2024"
   url: ""
   code: ""
   pdf: "/assets/pdf/papers/computers-13-00174-v2.pdf"

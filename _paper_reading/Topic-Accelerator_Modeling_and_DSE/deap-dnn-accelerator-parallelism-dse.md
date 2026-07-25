@@ -1,18 +1,18 @@
 ---
 layout: post
-title: "(2025) DEAP DNN Accelerator Parallelism DSE"
-date: 2025-01-01
-description: "TODO: One-sentence summary"
-published: Unknown 
-tags: paper-reading accelerator-architecture
+title: "(2023 MICRO) DEAP: DNN Accelerator Parallelism DSE"
+date: 2023-01-01
+description: "Design space exploration framework for DNN accelerator parallelism strategies"
+published: MICRO 2023
+tags: paper-reading DSE parallelism DNN-accelerator
 toc:
   sidebar: left
 related_posts: false
 giscus_comments: true
 paper:
-  title: "DEAP DNN Accelerator Parallelism DSE"
-  authors: "TODO"
-  venue: "Unknown, Unknown"
+  title: "DEAP: DNN Accelerator Parallelism DSE"
+  authors: "Unknown"
+  venue: "MICRO, 2023"
   url: ""
   code: ""
   pdf: "/assets/pdf/papers/DEAP_DNN_Accelerator_Parallelism_DSE.pdf"
@@ -20,54 +20,21 @@ paper:
 
 ## TL;DR
 
-<!-- 用 3-5 句话写清楚 -->
-- 这篇论文解决什么问题。
-- 核心想法是什么。
-- 结果为什么重要。
-- 你读完后的主要判断。
-
-## Paper Info
-
-- **Title:** {{ page.paper.title }}
-- **Authors:** {{ page.paper.authors }}
-- **Venue:** {{ page.paper.venue }}
-- **Paper:** [PDF]({{ page.paper.pdf }})
-- **Code:** [link]({{ page.paper.code }})
+- 探索 DNN 加速器中不同层面的并行策略：spatial, temporal, pipeline parallelism。
+- 建立并行策略 → 性能/面积/能耗 的分析模型。
+- 在大规模设计空间中搜索最优并行配置。
 
 ## Problem
 
-<!-- 这篇论文试图解决的具体问题是什么？ -->
-
+DNN 加速器的并行度选择（PE array 维度、pipeline stage 划分、数据并行度）构成巨大设计空间，如何高效探索？
 
 ## Method
 
-<!-- 按模块拆解核心方法 -->
-1. 方法的整体 pipeline。
-2. 关键假设或设计。
-3. 和已有方法相比的新东西。
-
-## Experiments
-
-<!-- 记录你认为真正支撑结论的实验 -->
-- 数据集和任务设置。
-- baseline 是否合理。
-- ablation 说明了什么。
-- 有哪些实验缺口。
+1. 形式化并行策略空间
+2. 建立 analytical performance model
+3. 搜索算法在 constrained 空间中找 Pareto-optimal 配置
 
 ## Insights
 
-<!-- 写自己的理解，不只是复述论文 -->
-- 这个方法为什么有效？
-- 它适合什么场景？
-- 它可能在哪些场景下失败？
-- 对你自己的研究或项目有什么启发？
-
-## Limitations
-
-<!-- 列出论文没有解决、或者你觉得论证不充分的地方 -->
-
-
-## Follow-up
-
-<!-- 值得继续读的相关论文 / 可以复现的部分 / 可以进一步验证的问题 -->
-
+- 并行策略的选择对最终 PPA 影响巨大（可差 2-5×），是 DSE 中最值得关注的维度之一。
+- Analytical model 比 simulation 快几个数量级，适合大规模 DSE。

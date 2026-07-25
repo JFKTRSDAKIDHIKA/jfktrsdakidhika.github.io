@@ -1,18 +1,18 @@
 ---
 layout: post
-title: "(2025) 2024ISCA Orojensis Presentation"
-date: 2025-01-01
+title: "(2024 ISCA) Mind the Gap: Attainable Data Movement and Operational Intensity Bounds for Tensor Algorithms"
+date: 2024-01-01
 description: "TODO: One-sentence summary"
-published: Unknown 
+published: ISCA 2024
 tags: paper-reading accelerator-architecture
 toc:
   sidebar: left
 related_posts: false
 giscus_comments: true
 paper:
-  title: "2024ISCA Orojensis Presentation"
-  authors: "TODO"
-  venue: "Unknown, Unknown"
+  title: "Mind the Gap: Attainable Data Movement and Operational Intensity Bounds for Tensor Algorithms"
+  authors: "Qijing Huang, Po-An Tsai, Joel S. Emer, Angshuman Parashar"
+  venue: "ISCA, 2024"
   url: ""
   code: ""
   pdf: "/assets/pdf/papers/2024ISCA_Orojensis_Presentation.pdf"

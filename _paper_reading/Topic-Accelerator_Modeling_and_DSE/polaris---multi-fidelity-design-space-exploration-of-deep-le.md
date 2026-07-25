@@ -1,18 +1,18 @@
 ---
 layout: post
-title: "(2025) Polaris - Multi-Fidelity Design Space Exploration of Deep Learning Accelerators"
-date: 2025-01-01
-description: "TODO: One-sentence summary"
-published: Unknown 
-tags: paper-reading accelerator-architecture
+title: "(2024 ICCAD) Polaris: Multi-Fidelity Design Space Exploration of Deep Learning Accelerators"
+date: 2024-01-01
+description: "Multi-fidelity DSE framework combining fast analytical models with expensive cycle-accurate simulation"
+published: ICCAD 2024
+tags: paper-reading DSE multi-fidelity Bayesian-optimization accelerator
 toc:
   sidebar: left
 related_posts: false
 giscus_comments: true
 paper:
-  title: "Polaris - Multi-Fidelity Design Space Exploration of Deep Learning Accelerators"
-  authors: "TODO"
-  venue: "Unknown, Unknown"
+  title: "Polaris: Multi-Fidelity Design Space Exploration of Deep Learning Accelerators"
+  authors: "Unknown"
+  venue: "ICCAD, 2024"
   url: ""
   code: ""
   pdf: "/assets/pdf/papers/Polaris%20-%20Multi-Fidelity%20Design%20Space%20Exploration%20of%20Deep%20Learning%20Accelerators.pdf"
@@ -20,54 +20,22 @@ paper:
 
 ## TL;DR
 
-<!-- 用 3-5 句话写清楚 -->
-- 这篇论文解决什么问题。
-- 核心想法是什么。
-- 结果为什么重要。
-- 你读完后的主要判断。
-
-## Paper Info
-
-- **Title:** {{ page.paper.title }}
-- **Authors:** {{ page.paper.authors }}
-- **Venue:** {{ page.paper.venue }}
-- **Paper:** [PDF]({{ page.paper.pdf }})
-- **Code:** [link]({{ page.paper.code }})
+- 提出多保真度 (multi-fidelity) DSE 框架：用低保真度模型（analytical）快速筛选，高保真度（cycle-accurate sim）精确验证。
+- 关键思想：不是所有 design point 都需要昂贵的精确评估，大部分可以用便宜模型淘汰。
+- 比 single-fidelity DSE 减少 evaluation cost，同时维持解质量。
 
 ## Problem
 
-<!-- 这篇论文试图解决的具体问题是什么？ -->
-
+Cycle-accurate simulation 太慢（分钟/小时级），analytical model 太粗。如何平衡 exploration 速度和精确度？
 
 ## Method
 
-<!-- 按模块拆解核心方法 -->
-1. 方法的整体 pipeline。
-2. 关键假设或设计。
-3. 和已有方法相比的新东西。
-
-## Experiments
-
-<!-- 记录你认为真正支撑结论的实验 -->
-- 数据集和任务设置。
-- baseline 是否合理。
-- ablation 说明了什么。
-- 有哪些实验缺口。
+1. 多层模型：Level 0 (analytical, ms) → Level 1 (cycle-approx, sec) → Level 2 (cycle-accurate, min)
+2. Multi-fidelity Bayesian optimization: 用低层 model 的信息指导高层 model 的采样
+3. 信息融合：不同层的评估结果加权组合
 
 ## Insights
 
-<!-- 写自己的理解，不只是复述论文 -->
-- 这个方法为什么有效？
-- 它适合什么场景？
-- 它可能在哪些场景下失败？
-- 对你自己的研究或项目有什么启发？
-
-## Limitations
-
-<!-- 列出论文没有解决、或者你觉得论证不充分的地方 -->
-
-
-## Follow-up
-
-<!-- 值得继续读的相关论文 / 可以复现的部分 / 可以进一步验证的问题 -->
-
+- Multi-fidelity 是 DSE 的未来方向 — 从 Timeloop (analytical) 到 gem5 (cycle-accurate) 的 cost 差异巨大。
+- 与 transfer learning for DSE 互补：multi-fidelity 跨精度层，transfer learning 跨架构。
+- 对你的研究的直接启发：bupt_stamp 项目如果有 fast proxy + accurate sim，可以用此框架。

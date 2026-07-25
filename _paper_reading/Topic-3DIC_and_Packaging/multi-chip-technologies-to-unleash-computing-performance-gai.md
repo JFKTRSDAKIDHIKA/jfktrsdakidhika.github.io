@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "(2025) Multi-chip technologies to unleash computing performance gains over the next decade"
-date: 2025-01-01
+title: "(2022 Nature Electronics) Multi-chip technologies to unleash computing performance gains over the next decade"
+date: 2022-01-01
 description: "TODO: One-sentence summary"
-published: Unknown 
+published: Nature Electronics 2022
 tags: paper-reading to-read
 toc:
   sidebar: left
@@ -12,7 +12,7 @@ giscus_comments: true
 paper:
   title: "Multi-chip technologies to unleash computing performance gains over the next decade"
   authors: "TODO"
-  venue: "Unknown, Unknown"
+  venue: "Nature Electronics, 2022"
   url: ""
   code: ""
   pdf: "/assets/pdf/papers/Multi-chip_technologies_to_unleash_computing_performance_gains_over_the_next_decade.pdf"

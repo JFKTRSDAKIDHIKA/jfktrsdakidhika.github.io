@@ -1,18 +1,18 @@
 ---
 layout: post
-title: "(2025) Ramulator2 arxiv23"
-date: 2025-01-01
-description: "TODO: One-sentence summary"
-published: Unknown 
-tags: paper-reading PIM CIM
+title: "(2023 arXiv) Ramulator 2.0: A Modern, Modular, and Extensible DRAM Simulator"
+date: 2023-01-01
+description: "Next-generation DRAM simulator with modular design supporting emerging memory technologies and PIM"
+published: arXiv 2023
+tags: paper-reading DSE DRAM simulation tool memory
 toc:
   sidebar: left
 related_posts: false
 giscus_comments: true
 paper:
-  title: "Ramulator2 arxiv23"
-  authors: "TODO"
-  venue: "Unknown, Unknown"
+  title: "Ramulator 2.0: A Modern, Modular, and Extensible DRAM Simulator"
+  authors: "Haocong Luo, Ataberk Olgun, A. Giray Yaglikci, Yahya Can Tugrul, Steve Rhyner, Meryem Banu Cavlak, Joël Lindegger, Mohammad Sadrosadati, Onur Mutlu"
+  venue: "arXiv, 2023"
   url: ""
   code: ""
   pdf: "/assets/pdf/papers/Ramulator2_arxiv23.pdf"
@@ -20,54 +20,20 @@ paper:
 
 ## TL;DR
 
-<!-- 用 3-5 句话写清楚 -->
-- 这篇论文解决什么问题。
-- 核心想法是什么。
-- 结果为什么重要。
-- 你读完后的主要判断。
-
-## Paper Info
-
-- **Title:** {{ page.paper.title }}
-- **Authors:** {{ page.paper.authors }}
-- **Venue:** {{ page.paper.venue }}
-- **Paper:** [PDF]({{ page.paper.pdf }})
-- **Code:** [link]({{ page.paper.code }})
+- Ramulator 2.0：新一代模块化 DRAM simulator，支持 DDR5, HBM3, LPDDR5, PIM 等。
+- 比 Ramulator 1.0 更易扩展（插件式架构）、更精确（cycle-accurate timing）。
+- 集成 PIM/NDP 功能单元建模。
+- Onur Mutlu 组的经典工具链。
 
 ## Problem
 
-<!-- 这篇论文试图解决的具体问题是什么？ -->
-
+Memory system simulation 需要跟上快速演进的 DRAM 标准和新兴 PIM 架构。Ramulator 1.0 难以扩展。
 
 ## Method
 
-<!-- 按模块拆解核心方法 -->
-1. 方法的整体 pipeline。
-2. 关键假设或设计。
-3. 和已有方法相比的新东西。
-
-## Experiments
-
-<!-- 记录你认为真正支撑结论的实验 -->
-- 数据集和任务设置。
-- baseline 是否合理。
-- ablation 说明了什么。
-- 有哪些实验缺口。
+模块化重构：Address Mapping Module + Timing Module + Controller Module + PIM Module，每个可独立替换。
 
 ## Insights
 
-<!-- 写自己的理解，不只是复述论文 -->
-- 这个方法为什么有效？
-- 它适合什么场景？
-- 它可能在哪些场景下失败？
-- 对你自己的研究或项目有什么启发？
-
-## Limitations
-
-<!-- 列出论文没有解决、或者你觉得论证不充分的地方 -->
-
-
-## Follow-up
-
-<!-- 值得继续读的相关论文 / 可以复现的部分 / 可以进一步验证的问题 -->
-
+- 做 memory/PIM 研究的必备工具。
+- 模块化设计是研究工具的最佳实践 — 也是你 bupt_stamp 项目应该追求的。

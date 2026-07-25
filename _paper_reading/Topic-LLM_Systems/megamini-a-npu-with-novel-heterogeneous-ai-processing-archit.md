@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "(2025) MEGA.mini A NPU with Novel Heterogeneous AI Processing Architecture Balancing Efficiency Performance and Intelligence for the Era of Generative AI"
+title: "(2025 ISSCC) MEGA.mini A NPU with Novel Heterogeneous AI Processing Architecture Balancing Efficiency Performance and Intelligence for the Era of Generative AI"
 date: 2025-01-01
 description: "TODO: One-sentence summary"
-published: Unknown 
+published: ISSCC 2025
 tags: paper-reading to-read
 toc:
   sidebar: left

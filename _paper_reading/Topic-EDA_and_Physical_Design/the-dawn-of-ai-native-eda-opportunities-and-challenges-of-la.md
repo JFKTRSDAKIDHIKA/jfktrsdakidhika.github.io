@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "(2025) The Dawn of AI-Native EDA Opportunities and Challenges of Large Circuit Models"
-date: 2025-01-01
+title: "(2024 ICCAD) The Dawn of AI-Native EDA Opportunities and Challenges of Large Circuit Models"
+date: 2024-01-01
 description: "TODO: One-sentence summary"
-published: Unknown 
+published: ICCAD 2024
 tags: paper-reading accelerator-architecture
 toc:
   sidebar: left
@@ -12,7 +12,7 @@ giscus_comments: true
 paper:
   title: "The Dawn of AI-Native EDA Opportunities and Challenges of Large Circuit Models"
   authors: "TODO"
-  venue: "Unknown, Unknown"
+  venue: "ICCAD, 2024"
   url: ""
   code: ""
   pdf: "/assets/pdf/papers/The%20Dawn%20of%20AI-Native%20EDA%20Opportunities%20and%20Challenges%20of%20Large%20Circuit%20Models.pdf"

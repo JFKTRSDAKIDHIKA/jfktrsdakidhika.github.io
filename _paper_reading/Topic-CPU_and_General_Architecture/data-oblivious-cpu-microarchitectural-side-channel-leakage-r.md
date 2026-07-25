@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "(2025) Data Oblivious CPU Microarchitectural Side-channel Leakage-Resilient Processor"
-date: 2025-01-01
+title: "(2024 ISCA) Data Oblivious CPU Microarchitectural Side-channel Leakage-Resilient Processor"
+date: 2024-01-01
 description: "TODO: One-sentence summary"
-published: Unknown 
+published: ISCA 2024
 tags: paper-reading design-space-exploration
 toc:
   sidebar: left
@@ -12,7 +12,7 @@ giscus_comments: true
 paper:
   title: "Data Oblivious CPU Microarchitectural Side-channel Leakage-Resilient Processor"
   authors: "TODO"
-  venue: "Unknown, Unknown"
+  venue: "ISCA, 2024"
   url: ""
   code: ""
   pdf: "/assets/pdf/papers/Data_Oblivious_CPU_Microarchitectural_Side-channel_Leakage-Resilient_Processor.pdf"

@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "(2025) tcad24-sai"
-date: 2025-01-01
+title: "(2024 TCAD) tcad24-sai"
+date: 2024-01-01
 description: "TODO: One-sentence summary"
-published: Unknown 
+published: TCAD 2024
 tags: paper-reading to-read
 toc:
   sidebar: left
@@ -12,7 +12,7 @@ giscus_comments: true
 paper:
   title: "tcad24-sai"
   authors: "TODO"
-  venue: "Unknown, Unknown"
+  venue: "TCAD, 2024"
   url: ""
   code: ""
   pdf: "/assets/pdf/papers/tcad24-sai.pdf"

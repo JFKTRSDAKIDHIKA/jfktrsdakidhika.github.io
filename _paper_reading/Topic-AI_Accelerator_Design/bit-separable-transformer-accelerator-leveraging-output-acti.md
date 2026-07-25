@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "(2025) Bit-Separable Transformer Accelerator Leveraging Output Activation Sparsity for Efficient DRAM Access"
-date: 2025-01-01
+title: "(2024 ISSCC) Bit-Separable Transformer Accelerator Leveraging Output Activation Sparsity for Efficient DRAM Access"
+date: 2024-01-01
 description: "TODO: One-sentence summary"
-published: Unknown 
+published: ISSCC 2024
 tags: paper-reading to-read
 toc:
   sidebar: left
@@ -12,7 +12,7 @@ giscus_comments: true
 paper:
   title: "Bit-Separable Transformer Accelerator Leveraging Output Activation Sparsity for Efficient DRAM Access"
   authors: "TODO"
-  venue: "Unknown, Unknown"
+  venue: "ISSCC, 2024"
   url: ""
   code: ""
   pdf: "/assets/pdf/papers/Bit-Separable_Transformer_Accelerator_Leveraging_Output_Activation_Sparsity_for_Efficient_DRAM_Access.pdf"

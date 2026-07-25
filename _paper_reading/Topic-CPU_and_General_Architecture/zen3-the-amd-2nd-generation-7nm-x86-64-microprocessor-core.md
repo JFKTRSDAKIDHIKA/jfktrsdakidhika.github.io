@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "(2025) Zen3 The AMD 2nd-Generation 7nm x86-64 Microprocessor Core"
-date: 2025-01-01
+title: "(2022 ISSCC) Zen3 The AMD 2nd-Generation 7nm x86-64 Microprocessor Core"
+date: 2022-01-01
 description: "TODO: One-sentence summary"
-published: Unknown 
+published: ISSCC 2022
 tags: paper-reading to-read
 toc:
   sidebar: left
@@ -12,7 +12,7 @@ giscus_comments: true
 paper:
   title: "Zen3 The AMD 2nd-Generation 7nm x86-64 Microprocessor Core"
   authors: "TODO"
-  venue: "Unknown, Unknown"
+  venue: "ISSCC, 2022"
   url: ""
   code: ""
   pdf: "/assets/pdf/papers/Zen3_The_AMD_2nd-Generation_7nm_x86-64_Microprocessor_Core.pdf"

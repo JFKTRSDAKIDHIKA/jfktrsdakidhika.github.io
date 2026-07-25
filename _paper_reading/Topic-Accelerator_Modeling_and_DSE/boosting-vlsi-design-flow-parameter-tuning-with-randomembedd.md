@@ -1,18 +1,18 @@
 ---
 layout: post
-title: "(2025) Boosting VLSI Design Flow Parameter Tuning with RandomEmbedding and Multi-objective Trust-region BayesianOptimization"
-date: 2025-01-01
-description: "TODO: One-sentence summary"
-published: Unknown 
-tags: paper-reading design-space-exploration
+title: "(2024 TODAES) Boosting VLSI Design Flow Parameter Tuning with Random Embedding and MOBO"
+date: 2024-01-01
+description: "Random embedding + multi-objective trust-region BO for VLSI design flow tuning"
+published: TODAES 2024
+tags: paper-reading DSE Bayesian-optimization VLSI random-embedding
 toc:
   sidebar: left
 related_posts: false
 giscus_comments: true
 paper:
-  title: "Boosting VLSI Design Flow Parameter Tuning with RandomEmbedding and Multi-objective Trust-region BayesianOptimization"
-  authors: "TODO"
-  venue: "Unknown, Unknown"
+  title: "Boosting VLSI Design Flow Parameter Tuning with Random Embedding and MOBO"
+  authors: "Unknown"
+  venue: "TODAES, 2024"
   url: ""
   code: ""
   pdf: "/assets/pdf/papers/Boosting%20VLSI%20Design%20Flow%20Parameter%20Tuning%20with%20RandomEmbedding%20and%20Multi-objective%20Trust-region%20BayesianOptimization.pdf"
@@ -20,54 +20,19 @@ paper:
 
 ## TL;DR
 
-<!-- 用 3-5 句话写清楚 -->
-- 这篇论文解决什么问题。
-- 核心想法是什么。
-- 结果为什么重要。
-- 你读完后的主要判断。
-
-## Paper Info
-
-- **Title:** {{ page.paper.title }}
-- **Authors:** {{ page.paper.authors }}
-- **Venue:** {{ page.paper.venue }}
-- **Paper:** [PDF]({{ page.paper.pdf }})
-- **Code:** [link]({{ page.paper.code }})
+- Random embedding 将高维 EDA 参数空间投射到低维，使 BO 可扩展。
+- Multi-objective trust-region BO 在低维子空间中高效搜索 Pareto front。
+- 应用于 synthesis/place/route 工具调参。
 
 ## Problem
 
-<!-- 这篇论文试图解决的具体问题是什么？ -->
-
+EDA 工具有 100+ 参数，直接用 BO 不可行。如何降维+多目标同时处理？
 
 ## Method
 
-<!-- 按模块拆解核心方法 -->
-1. 方法的整体 pipeline。
-2. 关键假设或设计。
-3. 和已有方法相比的新东西。
-
-## Experiments
-
-<!-- 记录你认为真正支撑结论的实验 -->
-- 数据集和任务设置。
-- baseline 是否合理。
-- ablation 说明了什么。
-- 有哪些实验缺口。
+Random projection + Trust-region MOBO + Pareto 筛选。
 
 ## Insights
 
-<!-- 写自己的理解，不只是复述论文 -->
-- 这个方法为什么有效？
-- 它适合什么场景？
-- 它可能在哪些场景下失败？
-- 对你自己的研究或项目有什么启发？
-
-## Limitations
-
-<!-- 列出论文没有解决、或者你觉得论证不充分的地方 -->
-
-
-## Follow-up
-
-<!-- 值得继续读的相关论文 / 可以复现的部分 / 可以进一步验证的问题 -->
-
+- 降维是高维 DSE 的关键 enabler。
+- Random embedding 理论上保证了重要信息的保留（Johnson-Lindenstrauss lemma）。

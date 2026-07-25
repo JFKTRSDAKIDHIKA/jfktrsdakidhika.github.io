@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "(2025) Spec2RTL-Agent"
+title: "(2025 arXiv) Spec2RTL-Agent"
 date: 2025-01-01
 description: "TODO: One-sentence summary"
-published: Unknown 
+published: arXiv 2025
 tags: paper-reading accelerator-architecture
 toc:
   sidebar: left
@@ -12,7 +12,7 @@ giscus_comments: true
 paper:
   title: "Spec2RTL-Agent"
   authors: "TODO"
-  venue: "Unknown, Unknown"
+  venue: "arXiv, 2025"
   url: ""
   code: ""
   pdf: "/assets/pdf/papers/Spec2RTL-Agent.pdf"

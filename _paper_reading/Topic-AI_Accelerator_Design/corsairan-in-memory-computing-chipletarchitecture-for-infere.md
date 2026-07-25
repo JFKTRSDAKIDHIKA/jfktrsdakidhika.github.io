@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "(2025) CORSAIRAn In-Memory Computing ChipletArchitecture for Inference-Time Compute Acceleration"
-date: 2025-01-01
+title: "(2024 ISSCC) CORSAIRAn In-Memory Computing ChipletArchitecture for Inference-Time Compute Acceleration"
+date: 2024-01-01
 description: "TODO: One-sentence summary"
-published: Unknown 
+published: ISSCC 2024
 tags: paper-reading to-read
 toc:
   sidebar: left
@@ -12,7 +12,7 @@ giscus_comments: true
 paper:
   title: "CORSAIRAn In-Memory Computing ChipletArchitecture for Inference-Time Compute Acceleration"
   authors: "TODO"
-  venue: "Unknown, Unknown"
+  venue: "ISSCC, 2024"
   url: ""
   code: ""
   pdf: "/assets/pdf/papers/CORSAIRAn_In-Memory_Computing_ChipletArchitecture_for_Inference-Time_Compute_Acceleration.pdf"

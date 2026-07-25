@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "(2025) processing-in-memory workload-driven-perspective IBMjrd19"
-date: 2025-01-01
+title: "(2019 IBM JRD) processing-in-memory workload-driven-perspective IBMjrd19"
+date: 2019-01-01
 description: "TODO: One-sentence summary"
-published: Unknown 
+published: IBM JRD 2019
 tags: paper-reading PIM CIM
 toc:
   sidebar: left
@@ -12,7 +12,7 @@ giscus_comments: true
 paper:
   title: "processing-in-memory workload-driven-perspective IBMjrd19"
   authors: "TODO"
-  venue: "Unknown, Unknown"
+  venue: "IBM JRD, 2019"
   url: ""
   code: ""
   pdf: "/assets/pdf/papers/processing-in-memory_workload-driven-perspective_IBMjrd19.pdf"

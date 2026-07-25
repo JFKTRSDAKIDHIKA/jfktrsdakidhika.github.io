@@ -1,18 +1,18 @@
 ---
 layout: post
-title: "(2025) keynote1"
-date: 2025-01-01
+title: "(2013 Keynote) Die Stacking Is Happening!"
+date: 2013-01-01
 description: "TODO: One-sentence summary"
-published: Unknown 
+published: Keynote 2013
 tags: paper-reading to-read
 toc:
   sidebar: left
 related_posts: false
 giscus_comments: true
 paper:
-  title: "keynote1"
-  authors: "TODO"
-  venue: "Unknown, Unknown"
+  title: "Die Stacking Is Happening!"
+  authors: "Bryan Black"
+  venue: "Keynote, 2013"
   url: ""
   code: ""
   pdf: "/assets/pdf/papers/keynote1.pdf"

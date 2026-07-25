@@ -1,18 +1,18 @@
 ---
 layout: post
-title: "(2025) PrIM-UPMEM-Tutorial-Analysis-Benchmarking-SAFARI-Live-Seminar-2021-07-12-talk"
-date: 2025-01-01
+title: "(2021 SAFARI Seminar) Understanding a Modern Processing-in-Memory Architecture: Benchmarking and Experimental Characterization"
+date: 2021-01-01
 description: "TODO: One-sentence summary"
-published: Unknown 
+published: SAFARI Seminar 2021
 tags: paper-reading PIM CIM
 toc:
   sidebar: left
 related_posts: false
 giscus_comments: true
 paper:
-  title: "PrIM-UPMEM-Tutorial-Analysis-Benchmarking-SAFARI-Live-Seminar-2021-07-12-talk"
-  authors: "TODO"
-  venue: "Unknown, Unknown"
+  title: "Understanding a Modern Processing-in-Memory Architecture: Benchmarking and Experimental Characterization"
+  authors: "Juan Gómez Luna, Izzat El Hajj, Ivan Fernandez, Christina Giannoula"
+  venue: "SAFARI Seminar, 2021"
   url: ""
   code: ""
   pdf: "/assets/pdf/papers/PrIM-UPMEM-Tutorial-Analysis-Benchmarking-SAFARI-Live-Seminar-2021-07-12-talk.pdf"

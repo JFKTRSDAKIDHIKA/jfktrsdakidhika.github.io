@@ -1,18 +1,18 @@
 ---
 layout: post
-title: "(2025) Gemini Mapping and Architecture Co-exploration for Large-scale DNN Chiplet Accelerators"
-date: 2025-01-01
-description: "TODO: One-sentence summary"
-published: Unknown 
-tags: paper-reading to-read
+title: "(2024 HPCA) Gemini: Mapping and Architecture Co-exploration for Large-scale DNN Chiplet Accelerators"
+date: 2024-01-01
+description: "Joint exploration of mapping strategies and chiplet architecture for large-scale DNN accelerators"
+published: HPCA 2024
+tags: paper-reading DSE chiplet mapping co-exploration
 toc:
   sidebar: left
 related_posts: false
 giscus_comments: true
 paper:
-  title: "Gemini Mapping and Architecture Co-exploration for Large-scale DNN Chiplet Accelerators"
-  authors: "TODO"
-  venue: "Unknown, Unknown"
+  title: "Gemini: Mapping and Architecture Co-exploration for Large-scale DNN Chiplet Accelerators"
+  authors: "Unknown"
+  venue: "HPCA, 2024"
   url: ""
   code: ""
   pdf: "/assets/pdf/papers/Gemini_Mapping_and_Architecture_Co-exploration_for_Large-scale_DNN_Chiplet_Accelerators.pdf"
@@ -20,54 +20,21 @@ paper:
 
 ## TL;DR
 
-<!-- 用 3-5 句话写清楚 -->
-- 这篇论文解决什么问题。
-- 核心想法是什么。
-- 结果为什么重要。
-- 你读完后的主要判断。
-
-## Paper Info
-
-- **Title:** {{ page.paper.title }}
-- **Authors:** {{ page.paper.authors }}
-- **Venue:** {{ page.paper.venue }}
-- **Paper:** [PDF]({{ page.paper.pdf }})
-- **Code:** [link]({{ page.paper.code }})
+- Gemini 联合探索 chiplet-based 大规模 DNN 加速器的 mapping 和架构。
+- 核心挑战：chiplet 间通信代价使得 mapping 问题比单芯片更复杂。
+- 同时优化：chiplet 数量/配置 + inter-chiplet 数据分布 + intra-chiplet mapping。
 
 ## Problem
 
-<!-- 这篇论文试图解决的具体问题是什么？ -->
-
+Chiplet 加速器的设计空间 = architecture space × mapping space，且两者强耦合（不同架构对应不同最优 mapping）。
 
 ## Method
 
-<!-- 按模块拆解核心方法 -->
-1. 方法的整体 pipeline。
-2. 关键假设或设计。
-3. 和已有方法相比的新东西。
-
-## Experiments
-
-<!-- 记录你认为真正支撑结论的实验 -->
-- 数据集和任务设置。
-- baseline 是否合理。
-- ablation 说明了什么。
-- 有哪些实验缺口。
+1. Architecture space: chiplet 数量、单个 chiplet 规模、互连拓扑
+2. Mapping space: model parallelism (TP/PP/DP) + intra-chiplet dataflow
+3. Co-exploration algorithm 避免嵌套循环的巨大开销
 
 ## Insights
 
-<!-- 写自己的理解，不只是复述论文 -->
-- 这个方法为什么有效？
-- 它适合什么场景？
-- 它可能在哪些场景下失败？
-- 对你自己的研究或项目有什么启发？
-
-## Limitations
-
-<!-- 列出论文没有解决、或者你觉得论证不充分的地方 -->
-
-
-## Follow-up
-
-<!-- 值得继续读的相关论文 / 可以复现的部分 / 可以进一步验证的问题 -->
-
+- Chiplet 时代的 DSE 比 monolithic 复杂得多 — 通信代价不可忽略。
+- 对你研究的直接相关性：如果做 multi-chiplet accelerator DSE，Gemini 是 baseline。

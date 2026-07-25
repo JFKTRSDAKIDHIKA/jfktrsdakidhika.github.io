@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "(2025) SPCIM Sparsity-Balanced Practical CIM Accelerator With Optimized Spatial-Temporal Multi-Macro Utilization"
-date: 2025-01-01
+title: "(2023 TCAD) SPCIM Sparsity-Balanced Practical CIM Accelerator With Optimized Spatial-Temporal Multi-Macro Utilization"
+date: 2023-01-01
 description: "TODO: One-sentence summary"
-published: Unknown 
+published: TCAD 2023
 tags: paper-reading PIM CIM
 toc:
   sidebar: left
@@ -12,7 +12,7 @@ giscus_comments: true
 paper:
   title: "SPCIM Sparsity-Balanced Practical CIM Accelerator With Optimized Spatial-Temporal Multi-Macro Utilization"
   authors: "TODO"
-  venue: "Unknown, Unknown"
+  venue: "TCAD, 2023"
   url: ""
   code: ""
   pdf: "/assets/pdf/papers/SPCIM_Sparsity-Balanced_Practical_CIM_Accelerator_With_Optimized_Spatial-Temporal_Multi-Macro_Utilization.pdf"

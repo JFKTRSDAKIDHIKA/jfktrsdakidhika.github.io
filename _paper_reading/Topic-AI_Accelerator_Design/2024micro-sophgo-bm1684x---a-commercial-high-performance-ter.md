@@ -1,18 +1,18 @@
 ---
 layout: post
-title: "(2025) (2024MICRO) SOPHGO BM1684X - A Commercial High Performance Terminal AI Processor with Large Model Support"
-date: 2025-01-01
+title: "(2024 MICRO) SOPHGO BM1684X: A Commercial High Performance Terminal AI Processor with Large Model Support"
+date: 2024-01-01
 description: "TODO: One-sentence summary"
-published: Unknown 
+published: MICRO 2024
 tags: paper-reading accelerator-architecture
 toc:
   sidebar: left
 related_posts: false
 giscus_comments: true
 paper:
-  title: "(2024MICRO) SOPHGO BM1684X - A Commercial High Performance Terminal AI Processor with Large Model Support"
-  authors: "TODO"
-  venue: "Unknown, Unknown"
+  title: "SOPHGO BM1684X: A Commercial High Performance Terminal AI Processor with Large Model Support"
+  authors: "Yang Liu et al."
+  venue: "MICRO, 2024"
   url: ""
   code: ""
   pdf: "/assets/pdf/papers/%282024MICRO%29%20SOPHGO%20BM1684X%20-%20A%20Commercial%20High%20Performance%20Terminal%20AI%20Processor%20with%20Large%20Model%20Support.pdf"

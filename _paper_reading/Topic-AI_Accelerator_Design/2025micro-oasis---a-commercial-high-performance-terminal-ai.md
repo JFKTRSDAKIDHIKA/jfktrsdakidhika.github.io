@@ -1,18 +1,18 @@
 ---
 layout: post
-title: "(2025) (2025MICRO) OASIS - A Commercial High Performance Terminal AI Processor Supporting RISC-V Tensor Extension Instructions"
+title: "(2025 MICRO) OASIS: A Commercial High Performance Terminal AI Processor Supporting RISC-V Tensor Extension Instructions"
 date: 2025-01-01
 description: "TODO: One-sentence summary"
-published: Unknown 
+published: MICRO 2025
 tags: paper-reading accelerator-architecture
 toc:
   sidebar: left
 related_posts: false
 giscus_comments: true
 paper:
-  title: "(2025MICRO) OASIS - A Commercial High Performance Terminal AI Processor Supporting RISC-V Tensor Extension Instructions"
-  authors: "TODO"
-  venue: "Unknown, Unknown"
+  title: "OASIS: A Commercial High Performance Terminal AI Processor Supporting RISC-V Tensor Extension Instructions"
+  authors: "Peng Gao, Yang Liu et al."
+  venue: "MICRO, 2025"
   url: ""
   code: ""
   pdf: "/assets/pdf/papers/%282025MICRO%29%20OASIS%20-%20A%20Commercial%20High%20Performance%20Terminal%20AI%20Processor%20Supporting%20RISC-V%20Tensor%20Extension%20Instructions.pdf"

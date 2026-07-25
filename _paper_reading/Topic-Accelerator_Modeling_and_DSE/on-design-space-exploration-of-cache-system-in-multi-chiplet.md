@@ -1,18 +1,18 @@
 ---
 layout: post
-title: "(2025) On Design Space Exploration of Cache System in Multi-Chiplet Systems"
-date: 2025-01-01
-description: "TODO: One-sentence summary"
-published: Unknown 
-tags: paper-reading design-space-exploration
+title: "(2024 ICCAD) On Design Space Exploration of Cache System in Multi-Chiplet Systems"
+date: 2024-01-01
+description: "DSE framework for cache hierarchy design in multi-chiplet architectures"
+published: ICCAD 2024
+tags: paper-reading DSE cache chiplet multi-chiplet
 toc:
   sidebar: left
 related_posts: false
 giscus_comments: true
 paper:
   title: "On Design Space Exploration of Cache System in Multi-Chiplet Systems"
-  authors: "TODO"
-  venue: "Unknown, Unknown"
+  authors: "Unknown"
+  venue: "ICCAD, 2024"
   url: ""
   code: ""
   pdf: "/assets/pdf/papers/On_Design_Space_Exploration_of_Cache_System_in_Multi-Chiplet_Systems.pdf"
@@ -20,54 +20,19 @@ paper:
 
 ## TL;DR
 
-<!-- 用 3-5 句话写清楚 -->
-- 这篇论文解决什么问题。
-- 核心想法是什么。
-- 结果为什么重要。
-- 你读完后的主要判断。
-
-## Paper Info
-
-- **Title:** {{ page.paper.title }}
-- **Authors:** {{ page.paper.authors }}
-- **Venue:** {{ page.paper.venue }}
-- **Paper:** [PDF]({{ page.paper.pdf }})
-- **Code:** [link]({{ page.paper.code }})
+- 探索 multi-chiplet 系统中 cache 层次结构的设计空间。
+- 考虑 chiplet 间 coherence protocol、shared/private cache 划分、cache 容量分配。
+- 在不同 workload 下找到适应性强的 cache 配置。
 
 ## Problem
 
-<!-- 这篇论文试图解决的具体问题是什么？ -->
-
+Multi-chiplet 的 cache 设计比单芯片更复杂：chiplet 间通信延迟使得传统 cache hierarchy 假设不成立。
 
 ## Method
 
-<!-- 按模块拆解核心方法 -->
-1. 方法的整体 pipeline。
-2. 关键假设或设计。
-3. 和已有方法相比的新东西。
-
-## Experiments
-
-<!-- 记录你认为真正支撑结论的实验 -->
-- 数据集和任务设置。
-- baseline 是否合理。
-- ablation 说明了什么。
-- 有哪些实验缺口。
+Simulation-based DSE (gem5 + multi-chiplet 模型) + 搜索算法。
 
 ## Insights
 
-<!-- 写自己的理解，不只是复述论文 -->
-- 这个方法为什么有效？
-- 它适合什么场景？
-- 它可能在哪些场景下失败？
-- 对你自己的研究或项目有什么启发？
-
-## Limitations
-
-<!-- 列出论文没有解决、或者你觉得论证不充分的地方 -->
-
-
-## Follow-up
-
-<!-- 值得继续读的相关论文 / 可以复现的部分 / 可以进一步验证的问题 -->
-
+- Chiplet 时代 cache coherence 的代价被放大 → 可能需要 relaxed coherence 或 software-managed 方案。
+- 与 Gemini (mapping-architecture co-exploration for chiplet) 互补。

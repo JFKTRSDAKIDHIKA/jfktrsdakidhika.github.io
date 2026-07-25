@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "(2025) DiP A Scalable Energy-Efficient Systolic Array for Matrix Multiplication Acceleration"
-date: 2025-01-01
+title: "(2024 Unknown) DiP A Scalable Energy-Efficient Systolic Array for Matrix Multiplication Acceleration"
+date: 2024-01-01
 description: "TODO: One-sentence summary"
-published: Unknown 
+published: Unknown 2024
 tags: paper-reading accelerator-architecture
 toc:
   sidebar: left
@@ -12,7 +12,7 @@ giscus_comments: true
 paper:
   title: "DiP A Scalable Energy-Efficient Systolic Array for Matrix Multiplication Acceleration"
   authors: "TODO"
-  venue: "Unknown, Unknown"
+  venue: "Unknown, 2024"
   url: ""
   code: ""
   pdf: "/assets/pdf/papers/DiP_A_Scalable_Energy-Efficient_Systolic_Array_for_Matrix_Multiplication_Acceleration.pdf"

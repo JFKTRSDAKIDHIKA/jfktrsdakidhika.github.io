@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "(2025) EQ-ViT Algorithm-Hardware Co-Design for End-to-End Acceleration of Real-Time Vision Transformer Inference on Versal ACAP Architecture"
-date: 2025-01-01
+title: "(2024 TCAD) EQ-ViT Algorithm-Hardware Co-Design for End-to-End Acceleration of Real-Time Vision Transformer Inference on Versal ACAP Architecture"
+date: 2024-01-01
 description: "TODO: One-sentence summary"
-published: Unknown 
+published: TCAD 2024
 tags: paper-reading accelerator-architecture
 toc:
   sidebar: left
@@ -12,7 +12,7 @@ giscus_comments: true
 paper:
   title: "EQ-ViT Algorithm-Hardware Co-Design for End-to-End Acceleration of Real-Time Vision Transformer Inference on Versal ACAP Architecture"
   authors: "TODO"
-  venue: "Unknown, Unknown"
+  venue: "TCAD, 2024"
   url: ""
   code: ""
   pdf: "/assets/pdf/papers/EQ-ViT_Algorithm-Hardware_Co-Design_for_End-to-End_Acceleration_of_Real-Time_Vision_Transformer_Inference_on_Versal_ACAP_Architecture.pdf"

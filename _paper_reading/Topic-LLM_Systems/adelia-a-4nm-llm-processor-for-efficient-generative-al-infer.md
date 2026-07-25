@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "(2025) Adelia A 4nm LLM Processor for Efficient Generative Al Inference"
+title: "(2025 ISSCC) Adelia A 4nm LLM Processor for Efficient Generative Al Inference"
 date: 2025-01-01
 description: "TODO: One-sentence summary"
-published: Unknown 
+published: ISSCC 2025
 tags: paper-reading to-read
 toc:
   sidebar: left
@@ -12,7 +12,7 @@ giscus_comments: true
 paper:
   title: "Adelia A 4nm LLM Processor for Efficient Generative Al Inference"
   authors: "TODO"
-  venue: "Unknown, Unknown"
+  venue: "ISSCC, 2025"
   url: ""
   code: ""
   pdf: "/assets/pdf/papers/Adelia_A_4nm_LLM_Processor_for_Efficient_Generative_Al_Inference.pdf"

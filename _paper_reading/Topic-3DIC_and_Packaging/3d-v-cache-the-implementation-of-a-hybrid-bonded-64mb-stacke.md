@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "(2025) 3D V-Cache the Implementation of a Hybrid-Bonded 64MB Stacked Cache for a 7nm x86-64 CPU"
-date: 2025-01-01
+title: "(2022 ISSCC) 3D V-Cache the Implementation of a Hybrid-Bonded 64MB Stacked Cache for a 7nm x86-64 CPU"
+date: 2022-01-01
 description: "TODO: One-sentence summary"
-published: Unknown 
+published: ISSCC 2022
 tags: paper-reading to-read
 toc:
   sidebar: left
@@ -12,7 +12,7 @@ giscus_comments: true
 paper:
   title: "3D V-Cache the Implementation of a Hybrid-Bonded 64MB Stacked Cache for a 7nm x86-64 CPU"
   authors: "TODO"
-  venue: "Unknown, Unknown"
+  venue: "ISSCC, 2022"
   url: ""
   code: ""
   pdf: "/assets/pdf/papers/3D_V-Cache_the_Implementation_of_a_Hybrid-Bonded_64MB_Stacked_Cache_for_a_7nm_x86-64_CPU.pdf"

@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "(2025) ModernPrimerOnPIM springer-emerging-computing-bookchapter21-extended"
-date: 2025-01-01
+title: "(2022 Springer Book) ModernPrimerOnPIM springer-emerging-computing-bookchapter21-extended"
+date: 2022-01-01
 description: "TODO: One-sentence summary"
-published: Unknown 
+published: Springer Book 2022
 tags: paper-reading to-read
 toc:
   sidebar: left
@@ -12,7 +12,7 @@ giscus_comments: true
 paper:
   title: "ModernPrimerOnPIM springer-emerging-computing-bookchapter21-extended"
   authors: "TODO"
-  venue: "Unknown, Unknown"
+  venue: "Springer Book, 2022"
   url: ""
   code: ""
   pdf: "/assets/pdf/papers/ModernPrimerOnPIM_springer-emerging-computing-bookchapter21-extended.pdf"

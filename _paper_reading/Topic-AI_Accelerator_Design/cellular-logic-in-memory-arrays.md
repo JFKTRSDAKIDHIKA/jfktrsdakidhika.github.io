@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "(2025) cellular logic-in-memory arrays"
-date: 2025-01-01
+title: "(1966 IEEE Trans.) cellular logic-in-memory arrays"
+date: 1966-01-01
 description: "TODO: One-sentence summary"
-published: Unknown 
+published: IEEE Trans. 1966
 tags: paper-reading PIM CIM
 toc:
   sidebar: left
@@ -12,7 +12,7 @@ giscus_comments: true
 paper:
   title: "cellular logic-in-memory arrays"
   authors: "TODO"
-  venue: "Unknown, Unknown"
+  venue: "IEEE Trans., 1966"
   url: ""
   code: ""
   pdf: "/assets/pdf/papers/cellular_logic-in-memory_arrays.pdf"

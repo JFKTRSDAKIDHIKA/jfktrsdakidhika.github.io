@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "(2025) The Survey of Chiplet-based Integrated Architecture An EDA perspective"
-date: 2025-01-01
+title: "(2024 Survey) The Survey of Chiplet-based Integrated Architecture An EDA perspective"
+date: 2024-01-01
 description: "TODO: One-sentence summary"
-published: Unknown 
+published: Survey 2024
 tags: paper-reading accelerator-architecture
 toc:
   sidebar: left
@@ -12,7 +12,7 @@ giscus_comments: true
 paper:
   title: "The Survey of Chiplet-based Integrated Architecture An EDA perspective"
   authors: "TODO"
-  venue: "Unknown, Unknown"
+  venue: "Survey, 2024"
   url: ""
   code: ""
   pdf: "/assets/pdf/papers/The%20Survey%20of%20Chiplet-based%20Integrated%20Architecture%20An%20EDA%20perspective.pdf"

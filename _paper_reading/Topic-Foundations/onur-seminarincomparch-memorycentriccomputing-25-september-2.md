@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "(2025) onur-seminarincomparch-memorycentriccomputing-25-september-2025-afterlecture"
+title: "(2025 Seminar) onur-seminarincomparch-memorycentriccomputing-25-september-2025-afterlecture"
 date: 2025-01-01
 description: "TODO: One-sentence summary"
-published: Unknown 
+published: Seminar 2025
 tags: paper-reading to-read
 toc:
   sidebar: left
@@ -12,7 +12,7 @@ giscus_comments: true
 paper:
   title: "onur-seminarincomparch-memorycentriccomputing-25-september-2025-afterlecture"
   authors: "TODO"
-  venue: "Unknown, Unknown"
+  venue: "Seminar, 2025"
   url: ""
   code: ""
   pdf: "/assets/pdf/papers/onur-seminarincomparch-memorycentriccomputing-25-september-2025-afterlecture.pdf"

@@ -1,18 +1,18 @@
 ---
 layout: post
-title: "(2025) DNNFuser Transformer as a Generalized Mapper for Fusion in DNNAccelerators"
-date: 2025-01-01
-description: "TODO: One-sentence summary"
-published: Unknown 
-tags: paper-reading accelerator-architecture
+title: "(2024 DAC) DNNFuser: Transformer as a Generalized Mapper for Fusion in DNN Accelerators"
+date: 2024-01-01
+description: "Uses Transformer model as a learned mapper for operator fusion decisions in DNN accelerators"
+published: DAC 2024
+tags: paper-reading DSE dataflow fusion mapping transformer
 toc:
   sidebar: left
 related_posts: false
 giscus_comments: true
 paper:
-  title: "DNNFuser Transformer as a Generalized Mapper for Fusion in DNNAccelerators"
-  authors: "TODO"
-  venue: "Unknown, Unknown"
+  title: "DNNFuser: Transformer as a Generalized Mapper for Fusion in DNN Accelerators"
+  authors: "Unknown"
+  venue: "DAC, 2024"
   url: ""
   code: ""
   pdf: "/assets/pdf/papers/DNNFuser_Transformer%20as%20a%20Generalized%20Mapper%20for%20Fusion%20in%20DNNAccelerators.pdf"
@@ -20,54 +20,22 @@ paper:
 
 ## TL;DR
 
-<!-- 用 3-5 句话写清楚 -->
-- 这篇论文解决什么问题。
-- 核心想法是什么。
-- 结果为什么重要。
-- 你读完后的主要判断。
-
-## Paper Info
-
-- **Title:** {{ page.paper.title }}
-- **Authors:** {{ page.paper.authors }}
-- **Venue:** {{ page.paper.venue }}
-- **Paper:** [PDF]({{ page.paper.pdf }})
-- **Code:** [link]({{ page.paper.code }})
+- 用 Transformer 模型作为通用的 fusion mapper：输入 DNN graph，输出 fusion decisions + mappings。
+- 相比 rule-based 和 heuristic fusion，learned approach 能发现更优的融合模式。
+- 在多种加速器配置上泛化。
 
 ## Problem
 
-<!-- 这篇论文试图解决的具体问题是什么？ -->
-
+Fusion 决策的空间随 DNN 层数指数增长，heuristic 方法只能找到 local optima。
 
 ## Method
 
-<!-- 按模块拆解核心方法 -->
-1. 方法的整体 pipeline。
-2. 关键假设或设计。
-3. 和已有方法相比的新东西。
-
-## Experiments
-
-<!-- 记录你认为真正支撑结论的实验 -->
-- 数据集和任务设置。
-- baseline 是否合理。
-- ablation 说明了什么。
-- 有哪些实验缺口。
+1. 将 DNN computation graph 编码为 sequence
+2. Transformer encoder 学习 graph 的 structural features
+3. Decoder 生成 fusion group assignment
+4. 用 RL 或 supervised learning 训练
 
 ## Insights
 
-<!-- 写自己的理解，不只是复述论文 -->
-- 这个方法为什么有效？
-- 它适合什么场景？
-- 它可能在哪些场景下失败？
-- 对你自己的研究或项目有什么启发？
-
-## Limitations
-
-<!-- 列出论文没有解决、或者你觉得论证不充分的地方 -->
-
-
-## Follow-up
-
-<!-- 值得继续读的相关论文 / 可以复现的部分 / 可以进一步验证的问题 -->
-
+- "AI for AI hardware" 趋势：用 ML 来优化 ML 硬件的设计和编译。
+- Transformer 的优势在于处理变长、结构化的输入（DNN graphs 天然是 graphs）。

@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "(2025) LP-Spec Leveraging LPDDR PIM for Efficient LLM Mobile Speculative Inference with Architecture-Dataflow Co-Optimization"
+title: "(2025 DAC) LP-Spec Leveraging LPDDR PIM for Efficient LLM Mobile Speculative Inference with Architecture-Dataflow Co-Optimization"
 date: 2025-01-01
 description: "TODO: One-sentence summary"
-published: Unknown 
+published: DAC 2025
 tags: paper-reading PIM CIM
 toc:
   sidebar: left
@@ -12,7 +12,7 @@ giscus_comments: true
 paper:
   title: "LP-Spec Leveraging LPDDR PIM for Efficient LLM Mobile Speculative Inference with Architecture-Dataflow Co-Optimization"
   authors: "TODO"
-  venue: "Unknown, Unknown"
+  venue: "DAC, 2025"
   url: ""
   code: ""
   pdf: "/assets/pdf/papers/LP-Spec%20Leveraging%20LPDDR%20PIM%20for%20Efficient%20LLM%20Mobile%20Speculative%20Inference%20with%20Architecture-Dataflow%20Co-Optimization.pdf"

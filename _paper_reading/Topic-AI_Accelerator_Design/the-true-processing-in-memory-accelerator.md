@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "(2025) The true Processing In Memory accelerator"
-date: 2025-01-01
+title: "(2023 JSSC) The true Processing In Memory accelerator"
+date: 2023-01-01
 description: "TODO: One-sentence summary"
-published: Unknown 
+published: JSSC 2023
 tags: paper-reading to-read
 toc:
   sidebar: left
@@ -12,7 +12,7 @@ giscus_comments: true
 paper:
   title: "The true Processing In Memory accelerator"
   authors: "TODO"
-  venue: "Unknown, Unknown"
+  venue: "JSSC, 2023"
   url: ""
   code: ""
   pdf: "/assets/pdf/papers/The_true_Processing_In_Memory_accelerator.pdf"

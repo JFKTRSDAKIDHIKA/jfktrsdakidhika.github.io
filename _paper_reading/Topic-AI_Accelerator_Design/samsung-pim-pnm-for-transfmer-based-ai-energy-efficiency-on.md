@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "(2025) Samsung PIM PNM for Transfmer Based AI Energy Efficiency on PIM PNM Cluster"
-date: 2025-01-01
+title: "(2023 HotChips) Samsung PIM PNM for Transfmer Based AI Energy Efficiency on PIM PNM Cluster"
+date: 2023-01-01
 description: "TODO: One-sentence summary"
-published: Unknown 
+published: HotChips 2023
 tags: paper-reading to-read
 toc:
   sidebar: left
@@ -12,7 +12,7 @@ giscus_comments: true
 paper:
   title: "Samsung PIM PNM for Transfmer Based AI Energy Efficiency on PIM PNM Cluster"
   authors: "TODO"
-  venue: "Unknown, Unknown"
+  venue: "HotChips, 2023"
   url: ""
   code: ""
   pdf: "/assets/pdf/papers/Samsung_PIM_PNM_for_Transfmer_Based_AI__Energy_Efficiency_on_PIM_PNM_Cluster.pdf"

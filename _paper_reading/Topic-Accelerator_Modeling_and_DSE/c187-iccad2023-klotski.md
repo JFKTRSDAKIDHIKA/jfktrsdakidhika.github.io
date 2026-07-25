@@ -1,18 +1,18 @@
 ---
 layout: post
-title: "(2025) C187-ICCAD2023-Klotski"
-date: 2025-01-01
-description: "TODO: One-sentence summary"
-published: Unknown 
-tags: paper-reading dataflow mapping
+title: "(2023 ICCAD) Klotski: DNN Model Orchestration on Dataflow Architecture Accelerators"
+date: 2023-01-01
+description: "DNN model orchestration framework for multi-layer scheduling on dataflow accelerators"
+published: ICCAD 2023
+tags: paper-reading DSE dataflow scheduling mapping orchestration
 toc:
   sidebar: left
 related_posts: false
 giscus_comments: true
 paper:
-  title: "C187-ICCAD2023-Klotski"
-  authors: "TODO"
-  venue: "Unknown, Unknown"
+  title: "Klotski: DNN Model Orchestration on Dataflow Architecture Accelerators"
+  authors: "Unknown"
+  venue: "ICCAD, 2023"
   url: ""
   code: ""
   pdf: "/assets/pdf/papers/C187-ICCAD2023-Klotski.pdf"
@@ -20,54 +20,21 @@ paper:
 
 ## TL;DR
 
-<!-- 用 3-5 句话写清楚 -->
-- 这篇论文解决什么问题。
-- 核心想法是什么。
-- 结果为什么重要。
-- 你读完后的主要判断。
-
-## Paper Info
-
-- **Title:** {{ page.paper.title }}
-- **Authors:** {{ page.paper.authors }}
-- **Venue:** {{ page.paper.venue }}
-- **Paper:** [PDF]({{ page.paper.pdf }})
-- **Code:** [link]({{ page.paper.code }})
+- Klotski 解决 dataflow 加速器上多层 DNN 的**调度和编排**问题。
+- 类比华容道（Klotski）：在有限资源上安排多个 DNN layer 的执行顺序和资源分配。
+- 考虑 layer fusion、pipeline parallelism、buffer reuse 的联合优化。
 
 ## Problem
 
-<!-- 这篇论文试图解决的具体问题是什么？ -->
-
+给定 dataflow accelerator 的有限 on-chip resource，如何最优地调度多层 DNN 执行（考虑 data dependency, buffer, pipeline）？
 
 ## Method
 
-<!-- 按模块拆解核心方法 -->
-1. 方法的整体 pipeline。
-2. 关键假设或设计。
-3. 和已有方法相比的新东西。
-
-## Experiments
-
-<!-- 记录你认为真正支撑结论的实验 -->
-- 数据集和任务设置。
-- baseline 是否合理。
-- ablation 说明了什么。
-- 有哪些实验缺口。
+1. 建模为约束优化问题（资源约束 + 数据依赖约束）
+2. 分层决策：先确定 fusion group，再确定每组内的 mapping
+3. Heuristic + ILP 混合求解
 
 ## Insights
 
-<!-- 写自己的理解，不只是复述论文 -->
-- 这个方法为什么有效？
-- 它适合什么场景？
-- 它可能在哪些场景下失败？
-- 对你自己的研究或项目有什么启发？
-
-## Limitations
-
-<!-- 列出论文没有解决、或者你觉得论证不充分的地方 -->
-
-
-## Follow-up
-
-<!-- 值得继续读的相关论文 / 可以复现的部分 / 可以进一步验证的问题 -->
-
+- 从 single-layer mapping (Timeloop) 到 multi-layer orchestration (Klotski) 是 DSE 研究的自然演进。
+- "华容道" 类比很形象：有限空间内排列组合的组合爆炸。

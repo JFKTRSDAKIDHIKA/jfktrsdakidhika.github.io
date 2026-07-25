@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "(2025) Active Interposer Technology for Chiplet-Based Advanced 3D System Architectures"
-date: 2025-01-01
+title: "(2019 IEEE JSSC) Active Interposer Technology for Chiplet-Based Advanced 3D System Architectures"
+date: 2019-01-01
 description: "TODO: One-sentence summary"
-published: Unknown 
+published: IEEE JSSC 2019
 tags: paper-reading to-read
 toc:
   sidebar: left
@@ -12,7 +12,7 @@ giscus_comments: true
 paper:
   title: "Active Interposer Technology for Chiplet-Based Advanced 3D System Architectures"
   authors: "TODO"
-  venue: "Unknown, Unknown"
+  venue: "IEEE JSSC, 2019"
   url: ""
   code: ""
   pdf: "/assets/pdf/papers/Active_Interposer_Technology_for_Chiplet-Based_Advanced_3D_System_Architectures.pdf"

@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "(2025) A 1596-GB s 48-Gb Stacked Embedded DRAM 384-Core SoC With Hybrid Bonding Integration"
-date: 2025-01-01
+title: "(2024 ISSCC) A 1596-GB s 48-Gb Stacked Embedded DRAM 384-Core SoC With Hybrid Bonding Integration"
+date: 2024-01-01
 description: "TODO: One-sentence summary"
-published: Unknown 
+published: ISSCC 2024
 tags: paper-reading to-read
 toc:
   sidebar: left
@@ -12,7 +12,7 @@ giscus_comments: true
 paper:
   title: "A 1596-GB s 48-Gb Stacked Embedded DRAM 384-Core SoC With Hybrid Bonding Integration"
   authors: "TODO"
-  venue: "Unknown, Unknown"
+  venue: "ISSCC, 2024"
   url: ""
   code: ""
   pdf: "/assets/pdf/papers/A_1596-GB_s_48-Gb_Stacked_Embedded_DRAM_384-Core_SoC_With_Hybrid_Bonding_Integration.pdf"

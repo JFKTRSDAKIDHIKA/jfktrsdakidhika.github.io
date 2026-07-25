@@ -1,18 +1,18 @@
 ---
 layout: post
-title: "(2025) using shi 2020"
-date: 2025-01-01
+title: "(2020 Unknown) Using Bayesian Optimization for Hardware/Software Co-Design of Neural Accelerators"
+date: 2020-01-01
 description: "TODO: One-sentence summary"
-published: Unknown 
+published: Unknown 2020
 tags: paper-reading accelerator-architecture
 toc:
   sidebar: left
 related_posts: false
 giscus_comments: true
 paper:
-  title: "using shi 2020"
-  authors: "TODO"
-  venue: "Unknown, Unknown"
+  title: "Using Bayesian Optimization for Hardware/Software Co-Design of Neural Accelerators"
+  authors: "Zhan Shi, Chirag Sakhuja, Milad Hashemi, Kevin Swersky"
+  venue: "Unknown, 2020"
   url: ""
   code: ""
   pdf: "/assets/pdf/papers/using_shi_2020.pdf"

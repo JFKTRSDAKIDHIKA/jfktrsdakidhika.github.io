@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "(2025) Eyeriss v2 A Flexible Accelerator for Emerging Deep Neural Networks on Mobile Devices"
-date: 2025-01-01
+title: "(2019 JSSC) Eyeriss v2 A Flexible Accelerator for Emerging Deep Neural Networks on Mobile Devices"
+date: 2019-01-01
 description: "TODO: One-sentence summary"
-published: Unknown 
+published: JSSC 2019
 tags: paper-reading accelerator-architecture
 toc:
   sidebar: left
@@ -12,7 +12,7 @@ giscus_comments: true
 paper:
   title: "Eyeriss v2 A Flexible Accelerator for Emerging Deep Neural Networks on Mobile Devices"
   authors: "TODO"
-  venue: "Unknown, Unknown"
+  venue: "JSSC, 2019"
   url: ""
   code: ""
   pdf: "/assets/pdf/papers/Eyeriss_v2_A_Flexible_Accelerator_for_Emerging_Deep_Neural_Networks_on_Mobile_Devices.pdf"

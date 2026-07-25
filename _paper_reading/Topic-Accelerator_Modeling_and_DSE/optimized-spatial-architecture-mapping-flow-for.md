@@ -1,18 +1,18 @@
 ---
 layout: post
-title: "(2025) Optimized Spatial Architecture Mapping Flow for"
-date: 2025-01-01
-description: "TODO: One-sentence summary"
-published: Unknown 
-tags: paper-reading accelerator-architecture
+title: "(2022 DAC) Optimized Spatial Architecture Mapping Flow"
+date: 2022-01-01
+description: "Optimized mapping flow for spatial DNN accelerator architectures"
+published: DAC 2022
+tags: paper-reading DSE mapping spatial-architecture optimization
 toc:
   sidebar: left
 related_posts: false
 giscus_comments: true
 paper:
-  title: "Optimized Spatial Architecture Mapping Flow for"
-  authors: "TODO"
-  venue: "Unknown, Unknown"
+  title: "Optimized Spatial Architecture Mapping Flow"
+  authors: "Unknown"
+  venue: "DAC, 2022"
   url: ""
   code: ""
   pdf: "/assets/pdf/papers/Optimized%20Spatial%20Architecture%20Mapping%20Flow%20for.pdf"
@@ -20,54 +20,19 @@ paper:
 
 ## TL;DR
 
-<!-- 用 3-5 句话写清楚 -->
-- 这篇论文解决什么问题。
-- 核心想法是什么。
-- 结果为什么重要。
-- 你读完后的主要判断。
-
-## Paper Info
-
-- **Title:** {{ page.paper.title }}
-- **Authors:** {{ page.paper.authors }}
-- **Venue:** {{ page.paper.venue }}
-- **Paper:** [PDF]({{ page.paper.pdf }})
-- **Code:** [link]({{ page.paper.code }})
+- 针对 spatial DNN accelerator 提出优化的 mapping flow。
+- 从 high-level DNN graph 到 low-level PE assignment 的系统化转换。
+- 结合 analytical model + search 找最优 spatial mapping。
 
 ## Problem
 
-<!-- 这篇论文试图解决的具体问题是什么？ -->
-
+Spatial accelerator 的 mapping 空间巨大（每个 PE 可映射不同计算），如何系统化地找好 mapping？
 
 ## Method
 
-<!-- 按模块拆解核心方法 -->
-1. 方法的整体 pipeline。
-2. 关键假设或设计。
-3. 和已有方法相比的新东西。
-
-## Experiments
-
-<!-- 记录你认为真正支撑结论的实验 -->
-- 数据集和任务设置。
-- baseline 是否合理。
-- ablation 说明了什么。
-- 有哪些实验缺口。
+分层 mapping: Loop tiling → PE assignment → Data routing，每层独立优化。
 
 ## Insights
 
-<!-- 写自己的理解，不只是复述论文 -->
-- 这个方法为什么有效？
-- 它适合什么场景？
-- 它可能在哪些场景下失败？
-- 对你自己的研究或项目有什么启发？
-
-## Limitations
-
-<!-- 列出论文没有解决、或者你觉得论证不充分的地方 -->
-
-
-## Follow-up
-
-<!-- 值得继续读的相关论文 / 可以复现的部分 / 可以进一步验证的问题 -->
-
+- Spatial mapping 是 Timeloop/MAESTRO 等工具的核心问题。
+- "Mapping flow" 的概念强调了 mapping 不是一步到位，而是层层 refinement。

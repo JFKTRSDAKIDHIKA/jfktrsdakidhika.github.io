@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "(2026 ISCA) M100 An Orchestrated Dataflow Architecture Powering General AI Computing"
+title: "(2026 ISCA) M100: An Orchestrated Dataflow Architecture Powering General AI Computing"
 date: 2026-01-01
 description: "TODO: One-sentence summary"
 published: ISCA 2026
@@ -10,12 +10,12 @@ toc:
 related_posts: false
 giscus_comments: true
 paper:
-  title: "M100 An Orchestrated Dataflow Architecture Powering General AI Computing"
+  title: "M100: An Orchestrated Dataflow Architecture Powering General AI Computing"
   authors: "TODO"
   venue: "ISCA, 2026"
   url: ""
   code: ""
-  pdf: "/assets/pdf/papers/%282026%20ISCA%29%20M100_An%20Orchestrated%20Dataflow%20Architecture%20Powering%20General%20AI%20Computing.pdf.pdf"
+  pdf: "/assets/pdf/papers/%282026%20ISCA%29%20M100%20-%20An%20Orchestrated%20Dataflow%20Architecture%20Powering%20General%20AI%20Computing.pdf"
 ---
 
 ## TL;DR
@@ -70,4 +70,3 @@ paper:
 ## Follow-up
 
 <!-- 值得继续读的相关论文 / 可以复现的部分 / 可以进一步验证的问题 -->
-

@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "(2025) Pioneering Chiplet Technology and Design for the AMD EPYC and Ryzen Processor Families Industrial Product"
-date: 2025-01-01
+title: "(2021 ISCA) Pioneering Chiplet Technology and Design for the AMD EPYC and Ryzen Processor Families Industrial Product"
+date: 2021-01-01
 description: "TODO: One-sentence summary"
-published: Unknown 
+published: ISCA 2021
 tags: paper-reading to-read
 toc:
   sidebar: left
@@ -12,7 +12,7 @@ giscus_comments: true
 paper:
   title: "Pioneering Chiplet Technology and Design for the AMD EPYC and Ryzen Processor Families Industrial Product"
   authors: "TODO"
-  venue: "Unknown, Unknown"
+  venue: "ISCA, 2021"
   url: ""
   code: ""
   pdf: "/assets/pdf/papers/Pioneering_Chiplet_Technology_and_Design_for_the_AMD_EPYC_and_Ryzen_Processor_Families__Industrial_Product.pdf"

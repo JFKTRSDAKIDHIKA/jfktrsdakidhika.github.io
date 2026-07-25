@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "(2025) KLIMA Low-latency mixed-signal In-Memory Computing accelerator for solving arbitrary-order Boolean Satisfiability"
-date: 2025-01-01
+title: "(2024 JSSC) KLIMA Low-latency mixed-signal In-Memory Computing accelerator for solving arbitrary-order Boolean Satisfiability"
+date: 2024-01-01
 description: "TODO: One-sentence summary"
-published: Unknown 
+published: JSSC 2024
 tags: paper-reading to-read
 toc:
   sidebar: left
@@ -12,7 +12,7 @@ giscus_comments: true
 paper:
   title: "KLIMA Low-latency mixed-signal In-Memory Computing accelerator for solving arbitrary-order Boolean Satisfiability"
   authors: "TODO"
-  venue: "Unknown, Unknown"
+  venue: "JSSC, 2024"
   url: ""
   code: ""
   pdf: "/assets/pdf/papers/KLIMA_Low-latency_mixed-signal_In-Memory_Computing_accelerator_for_solving_arbitrary-order_Boolean_Satisfiability.pdf"

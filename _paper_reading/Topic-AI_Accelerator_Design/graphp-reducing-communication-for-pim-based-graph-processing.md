@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "(2025) GraphP Reducing Communication for PIM-Based Graph Processing with Efficient Data Partition"
-date: 2025-01-01
+title: "(2018 HPCA) GraphP Reducing Communication for PIM-Based Graph Processing with Efficient Data Partition"
+date: 2018-01-01
 description: "TODO: One-sentence summary"
-published: Unknown 
+published: HPCA 2018
 tags: paper-reading to-read
 toc:
   sidebar: left
@@ -12,7 +12,7 @@ giscus_comments: true
 paper:
   title: "GraphP Reducing Communication for PIM-Based Graph Processing with Efficient Data Partition"
   authors: "TODO"
-  venue: "Unknown, Unknown"
+  venue: "HPCA, 2018"
   url: ""
   code: ""
   pdf: "/assets/pdf/papers/GraphP_Reducing_Communication_for_PIM-Based_Graph_Processing_with_Efficient_Data_Partition.pdf"

@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "(2025) DPUV4E High-Throughput DPU Architecture Design for CNN on Versal ACAP"
-date: 2025-01-01
+title: "(2023 FPL) DPUV4E High-Throughput DPU Architecture Design for CNN on Versal ACAP"
+date: 2023-01-01
 description: "TODO: One-sentence summary"
-published: Unknown 
+published: FPL 2023
 tags: paper-reading accelerator-architecture
 toc:
   sidebar: left
@@ -12,7 +12,7 @@ giscus_comments: true
 paper:
   title: "DPUV4E High-Throughput DPU Architecture Design for CNN on Versal ACAP"
   authors: "TODO"
-  venue: "Unknown, Unknown"
+  venue: "FPL, 2023"
   url: ""
   code: ""
   pdf: "/assets/pdf/papers/DPUV4E_%20High-Throughput%20DPU%20Architecture%20Design%20for%20CNN%20on%20Versal%20ACAP.pdf"

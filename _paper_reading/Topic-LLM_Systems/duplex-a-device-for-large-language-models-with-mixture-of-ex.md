@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "(2025) Duplex A Device for Large Language Models with Mixture of Experts Grouped Query Attention and Continuous Batching"
-date: 2025-01-01
+title: "(2024 MICRO) Duplex A Device for Large Language Models with Mixture of Experts Grouped Query Attention and Continuous Batching"
+date: 2024-01-01
 description: "TODO: One-sentence summary"
-published: Unknown 
+published: MICRO 2024
 tags: paper-reading to-read
 toc:
   sidebar: left
@@ -12,7 +12,7 @@ giscus_comments: true
 paper:
   title: "Duplex A Device for Large Language Models with Mixture of Experts Grouped Query Attention and Continuous Batching"
   authors: "TODO"
-  venue: "Unknown, Unknown"
+  venue: "MICRO, 2024"
   url: ""
   code: ""
   pdf: "/assets/pdf/papers/Duplex_A_Device_for_Large_Language_Models_with_Mixture_of_Experts_Grouped_Query_Attention_and_Continuous_Batching.pdf"

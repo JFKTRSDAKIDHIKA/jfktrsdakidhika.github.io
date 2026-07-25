@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "(2025) ESFA An Efficient Scalable FFT Design Framework on Versal AI Engine"
-date: 2025-01-01
+title: "(2024 TCAD) ESFA An Efficient Scalable FFT Design Framework on Versal AI Engine"
+date: 2024-01-01
 description: "TODO: One-sentence summary"
-published: Unknown 
+published: TCAD 2024
 tags: paper-reading accelerator-architecture
 toc:
   sidebar: left
@@ -12,7 +12,7 @@ giscus_comments: true
 paper:
   title: "ESFA An Efficient Scalable FFT Design Framework on Versal AI Engine"
   authors: "TODO"
-  venue: "Unknown, Unknown"
+  venue: "TCAD, 2024"
   url: ""
   code: ""
   pdf: "/assets/pdf/papers/ESFA_An_Efficient_Scalable_FFT_Design_Framework_on_Versal_AI_Engine.pdf"

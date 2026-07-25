@@ -1,18 +1,18 @@
 ---
 layout: post
-title: "(2025) dosa2023-micro-slides"
-date: 2025-01-01
-description: "TODO: One-sentence summary"
-published: Unknown 
-tags: paper-reading accelerator-architecture
+title: "(2023 MICRO) DOSA: Differentiable Model-Based One-Loop Search for DNN Accelerators"
+date: 2023-01-01
+description: "Differentiable one-loop search method for jointly optimizing DNN accelerator architecture and mapping"
+published: MICRO 2023
+tags: paper-reading DSE differentiable-optimization accelerator mapping
 toc:
   sidebar: left
 related_posts: false
 giscus_comments: true
 paper:
-  title: "dosa2023-micro-slides"
-  authors: "TODO"
-  venue: "Unknown, Unknown"
+  title: "DOSA: Differentiable Model-Based One-Loop Search for DNN Accelerators"
+  authors: "Unknown"
+  venue: "MICRO, 2023"
   url: ""
   code: ""
   pdf: "/assets/pdf/papers/dosa2023-micro-slides.pdf"
@@ -20,54 +20,23 @@ paper:
 
 ## TL;DR
 
-<!-- 用 3-5 句话写清楚 -->
-- 这篇论文解决什么问题。
-- 核心想法是什么。
-- 结果为什么重要。
-- 你读完后的主要判断。
-
-## Paper Info
-
-- **Title:** {{ page.paper.title }}
-- **Authors:** {{ page.paper.authors }}
-- **Venue:** {{ page.paper.venue }}
-- **Paper:** [PDF]({{ page.paper.pdf }})
-- **Code:** [link]({{ page.paper.code }})
+- 提出 DOSA：将加速器 DSE 转化为可微分优化问题，一次循环联合搜索架构和映射。
+- 核心创新：relaxation of discrete design choices → continuous optimization → rounding。
+- 比 heuristic/RL-based DSE 更快收敛到更优解。
 
 ## Problem
 
-<!-- 这篇论文试图解决的具体问题是什么？ -->
-
+传统 DSE 方法（遗传算法、RL、Bayesian）需要大量迭代评估。能否用 gradient-based 方法一次性找到好的设计？
 
 ## Method
 
-<!-- 按模块拆解核心方法 -->
-1. 方法的整体 pipeline。
-2. 关键假设或设计。
-3. 和已有方法相比的新东西。
-
-## Experiments
-
-<!-- 记录你认为真正支撑结论的实验 -->
-- 数据集和任务设置。
-- baseline 是否合理。
-- ablation 说明了什么。
-- 有哪些实验缺口。
+1. 将离散设计选择（PE 数量、buffer 大小、dataflow）松弛为连续变量
+2. 构建可微分的 performance model
+3. 用 gradient descent 联合优化所有参数
+4. 最后 rounding 回离散空间
 
 ## Insights
 
-<!-- 写自己的理解，不只是复述论文 -->
-- 这个方法为什么有效？
-- 它适合什么场景？
-- 它可能在哪些场景下失败？
-- 对你自己的研究或项目有什么启发？
-
-## Limitations
-
-<!-- 列出论文没有解决、或者你觉得论证不充分的地方 -->
-
-
-## Follow-up
-
-<!-- 值得继续读的相关论文 / 可以复现的部分 / 可以进一步验证的问题 -->
-
+- 可微分方法在 NAS (Neural Architecture Search) 中已成功，DOSA 将其引入硬件 DSE。
+- 关键挑战：hardware design space 的约束比 NAS 更复杂（面积、功耗、时序）。
+- 需要高质量的可微分 surrogate model。

@@ -1,18 +1,18 @@
 ---
 layout: post
-title: "(2025) UCIe"
+title: "(2025 Notes) UCIe Standard Package Module & PHY 结构笔记"
 date: 2025-01-01
 description: "TODO: One-sentence summary"
-published: Unknown 
+published: Notes 2025
 tags: paper-reading to-read
 toc:
   sidebar: left
 related_posts: false
 giscus_comments: true
 paper:
-  title: "UCIe"
-  authors: "TODO"
-  venue: "Unknown, Unknown"
+  title: "UCIe Standard Package Module & PHY 结构笔记"
+  authors: "Shuao Jia"
+  venue: "Notes, 2025"
   url: ""
   code: ""
   pdf: "/assets/pdf/papers/UCIe.pdf"

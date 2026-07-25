@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "(2025) mimdram"
-date: 2025-01-01
+title: "(2024 ISCA) mimdram"
+date: 2024-01-01
 description: "TODO: One-sentence summary"
-published: Unknown 
+published: ISCA 2024
 tags: paper-reading to-read
 toc:
   sidebar: left
@@ -12,7 +12,7 @@ giscus_comments: true
 paper:
   title: "mimdram"
   authors: "TODO"
-  venue: "Unknown, Unknown"
+  venue: "ISCA, 2024"
   url: ""
   code: ""
   pdf: "/assets/pdf/papers/mimdram.pdf"

@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "(2025) Late Breaking Results PyAIE A Python-based Programming Framework for Versal ACAP Platforms"
-date: 2025-01-01
+title: "(2023 DAC) Late Breaking Results PyAIE A Python-based Programming Framework for Versal ACAP Platforms"
+date: 2023-01-01
 description: "TODO: One-sentence summary"
-published: Unknown 
+published: DAC 2023
 tags: paper-reading accelerator-architecture
 toc:
   sidebar: left
@@ -12,7 +12,7 @@ giscus_comments: true
 paper:
   title: "Late Breaking Results PyAIE A Python-based Programming Framework for Versal ACAP Platforms"
   authors: "TODO"
-  venue: "Unknown, Unknown"
+  venue: "DAC, 2023"
   url: ""
   code: ""
   pdf: "/assets/pdf/papers/Late_Breaking_Results_PyAIE_A_Python-based_Programming_Framework_for_Versal_ACAP_Platforms.pdf"

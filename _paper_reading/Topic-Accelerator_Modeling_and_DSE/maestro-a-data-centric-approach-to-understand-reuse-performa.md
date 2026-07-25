@@ -1,18 +1,18 @@
 ---
 layout: post
-title: "(2025) MAESTRO A Data-Centric Approach to Understand Reuse Performance and Hardware Cost of DNN Mappings"
-date: 2025-01-01
-description: "TODO: One-sentence summary"
-published: Unknown 
-tags: paper-reading accelerator-architecture
+title: "(2020 IEEE Micro) (2019 IEEE Micro) MAESTRO: A Data-Centric Approach to Understand Reuse, Performance, and Hardware Cost of DNN Mappings"
+date: 2020-01-01
+description: "Data-centric analytical model for understanding DNN dataflow/mapping reuse, performance, and cost"
+published: IEEE Micro 2020
+tags: paper-reading DSE dataflow mapping analytical-model reuse
 toc:
   sidebar: left
 related_posts: false
 giscus_comments: true
 paper:
-  title: "MAESTRO A Data-Centric Approach to Understand Reuse Performance and Hardware Cost of DNN Mappings"
-  authors: "TODO"
-  venue: "Unknown, Unknown"
+  title: "MAESTRO: A Data-Centric Approach to Understand Reuse, Performance, and Hardware Cost of DNN Mappings"
+  authors: "Hyoukjun Kwon, Prasanth Chatarasi, Michael Pellauer, Angshuman Parashar, Vivek Sarkar, Tushar Krishna"
+  venue: "IEEE Micro, 2020"
   url: ""
   code: ""
   pdf: "/assets/pdf/papers/MAESTRO_A_Data-Centric_Approach_to_Understand_Reuse_Performance_and_Hardware_Cost_of_DNN_Mappings.pdf"
@@ -20,54 +20,22 @@ paper:
 
 ## TL;DR
 
-<!-- 用 3-5 句话写清楚 -->
-- 这篇论文解决什么问题。
-- 核心想法是什么。
-- 结果为什么重要。
-- 你读完后的主要判断。
-
-## Paper Info
-
-- **Title:** {{ page.paper.title }}
-- **Authors:** {{ page.paper.authors }}
-- **Venue:** {{ page.paper.venue }}
-- **Paper:** [PDF]({{ page.paper.pdf }})
-- **Code:** [link]({{ page.paper.code }})
+- MAESTRO 提出以数据为中心的分析框架，理解 DNN mapping 中的数据复用模式。
+- 用 "data-centric directive" 描述 dataflow，自动推导 reuse factor、buffer 需求、带宽需求。
+- 开源工具，被后续大量 DSE 工作引用（Timeloop 的互补工具）。
 
 ## Problem
 
-<!-- 这篇论文试图解决的具体问题是什么？ -->
-
+DNN 加速器的 mapping (dataflow) 决定了数据复用模式，进而影响性能和能效。如何系统地分析和比较不同 mapping？
 
 ## Method
 
-<!-- 按模块拆解核心方法 -->
-1. 方法的整体 pipeline。
-2. 关键假设或设计。
-3. 和已有方法相比的新东西。
-
-## Experiments
-
-<!-- 记录你认为真正支撑结论的实验 -->
-- 数据集和任务设置。
-- baseline 是否合理。
-- ablation 说明了什么。
-- 有哪些实验缺口。
+1. Data-centric directives: 用简洁的语言描述数据在空间和时间上的分布
+2. 自动推导 reuse factor: 从 directive 计算每种 tensor (weight/input/output) 的复用次数
+3. 性能/面积/能耗估算: 基于 reuse 推导 buffer size、bandwidth、latency
 
 ## Insights
 
-<!-- 写自己的理解，不只是复述论文 -->
-- 这个方法为什么有效？
-- 它适合什么场景？
-- 它可能在哪些场景下失败？
-- 对你自己的研究或项目有什么启发？
-
-## Limitations
-
-<!-- 列出论文没有解决、或者你觉得论证不充分的地方 -->
-
-
-## Follow-up
-
-<!-- 值得继续读的相关论文 / 可以复现的部分 / 可以进一步验证的问题 -->
-
+- MAESTRO 的核心贡献是让 mapping 分析变得可编程和可自动化。
+- 与 Timeloop 的区别：Timeloop 更关注 "给定 mapping 的精确评估"，MAESTRO 更关注 "mapping 的系统化表达和比较"。
+- 对 DSE 的价值：可以作为 DSE loop 中的快速评估器。

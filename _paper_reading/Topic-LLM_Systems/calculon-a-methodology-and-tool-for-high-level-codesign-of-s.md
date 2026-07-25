@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "(2025) Calculon a Methodology and Tool for High-Level Codesign of Systems and Large Language Models"
-date: 2025-01-01
+title: "(2023 SC) Calculon a Methodology and Tool for High-Level Codesign of Systems and Large Language Models"
+date: 2023-01-01
 description: "TODO: One-sentence summary"
-published: Unknown 
+published: SC 2023
 tags: paper-reading PIM CIM
 toc:
   sidebar: left
@@ -12,7 +12,7 @@ giscus_comments: true
 paper:
   title: "Calculon a Methodology and Tool for High-Level Codesign of Systems and Large Language Models"
   authors: "TODO"
-  venue: "Unknown, Unknown"
+  venue: "SC, 2023"
   url: ""
   code: ""
   pdf: "/assets/pdf/papers/Calculon_a_Methodology_and_Tool_for_High-Level_Codesign_of_Systems_and_Large_Language_Models.pdf"

@@ -1,18 +1,18 @@
 ---
 layout: post
-title: "(2025) UniNDP A Unified Compilation and Simulation Tool for Near DRAM Processing Architectures"
-date: 2025-01-01
-description: "TODO: One-sentence summary"
-published: Unknown 
-tags: paper-reading to-read
+title: "(2024 ASPLOS) UniNDP: A Unified Compilation and Simulation Tool for Near DRAM Processing Architectures"
+date: 2024-01-01
+description: "Unified compilation and simulation tool for near-DRAM processing (NDP) architectures"
+published: ASPLOS 2024
+tags: paper-reading DSE NDP PIM simulation compilation tool
 toc:
   sidebar: left
 related_posts: false
 giscus_comments: true
 paper:
-  title: "UniNDP A Unified Compilation and Simulation Tool for Near DRAM Processing Architectures"
-  authors: "TODO"
-  venue: "Unknown, Unknown"
+  title: "UniNDP: A Unified Compilation and Simulation Tool for Near DRAM Processing Architectures"
+  authors: "Unknown"
+  venue: "ASPLOS, 2024"
   url: ""
   code: ""
   pdf: "/assets/pdf/papers/UniNDP_A_Unified_Compilation_and_Simulation_Tool_for_Near_DRAM_Processing_Architectures.pdf"
@@ -20,54 +20,21 @@ paper:
 
 ## TL;DR
 
-<!-- 用 3-5 句话写清楚 -->
-- 这篇论文解决什么问题。
-- 核心想法是什么。
-- 结果为什么重要。
-- 你读完后的主要判断。
-
-## Paper Info
-
-- **Title:** {{ page.paper.title }}
-- **Authors:** {{ page.paper.authors }}
-- **Venue:** {{ page.paper.venue }}
-- **Paper:** [PDF]({{ page.paper.pdf }})
-- **Code:** [link]({{ page.paper.code }})
+- UniNDP：统一的 NDP 编译和仿真工具，覆盖从 workload 到 NDP 硬件的全流程。
+- 支持多种 NDP 架构（UPMEM, AIM, Newton）的统一编程模型。
+- Compiler 负责 workload partition (host vs. NDP) + data mapping。
 
 ## Problem
 
-<!-- 这篇论文试图解决的具体问题是什么？ -->
-
+不同 NDP 架构有不同的 ISA 和编程接口，开发者需要为每种重写代码。缺乏统一抽象。
 
 ## Method
 
-<!-- 按模块拆解核心方法 -->
-1. 方法的整体 pipeline。
-2. 关键假设或设计。
-3. 和已有方法相比的新东西。
-
-## Experiments
-
-<!-- 记录你认为真正支撑结论的实验 -->
-- 数据集和任务设置。
-- baseline 是否合理。
-- ablation 说明了什么。
-- 有哪些实验缺口。
+1. Unified IR 抽象 NDP 操作
+2. Compiler 做 host/NDP partition + data layout optimization
+3. Simulator 验证 performance/energy
 
 ## Insights
 
-<!-- 写自己的理解，不只是复述论文 -->
-- 这个方法为什么有效？
-- 它适合什么场景？
-- 它可能在哪些场景下失败？
-- 对你自己的研究或项目有什么启发？
-
-## Limitations
-
-<!-- 列出论文没有解决、或者你觉得论证不充分的地方 -->
-
-
-## Follow-up
-
-<!-- 值得继续读的相关论文 / 可以复现的部分 / 可以进一步验证的问题 -->
-
+- 类似于 TVM 对 DNN accelerator 的作用：统一编程接口 + 自动化 code generation。
+- NDP 生态的基础设施建设仍在早期 — UniNDP 是重要一步。

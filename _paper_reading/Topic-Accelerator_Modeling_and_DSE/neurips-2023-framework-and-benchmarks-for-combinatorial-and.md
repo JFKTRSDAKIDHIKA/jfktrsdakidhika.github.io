@@ -1,18 +1,18 @@
 ---
 layout: post
-title: "(2025) NeurIPS-2023-framework-and-benchmarks-for-combinatorial-and-mixed-variable-bayesian-optimization-Paper-Datasets and Benchmarks"
-date: 2025-01-01
-description: "TODO: One-sentence summary"
-published: Unknown 
-tags: paper-reading design-space-exploration
+title: "(2023 NeurIPS) Framework and Benchmarks for Combinatorial and Mixed-variable Bayesian Optimization"
+date: 2023-01-01
+description: "Benchmark suite for BO methods handling combinatorial and mixed continuous-discrete variables"
+published: NeurIPS 2023
+tags: paper-reading DSE Bayesian-optimization combinatorial mixed-variable benchmark
 toc:
   sidebar: left
 related_posts: false
 giscus_comments: true
 paper:
-  title: "NeurIPS-2023-framework-and-benchmarks-for-combinatorial-and-mixed-variable-bayesian-optimization-Paper-Datasets and Benchmarks"
-  authors: "TODO"
-  venue: "Unknown, Unknown"
+  title: "Framework and Benchmarks for Combinatorial and Mixed-variable Bayesian Optimization"
+  authors: "Unknown"
+  venue: "NeurIPS, 2023"
   url: ""
   code: ""
   pdf: "/assets/pdf/papers/NeurIPS-2023-framework-and-benchmarks-for-combinatorial-and-mixed-variable-bayesian-optimization-Paper-Datasets_and_Benchmarks.pdf"
@@ -20,54 +20,21 @@ paper:
 
 ## TL;DR
 
-<!-- 用 3-5 句话写清楚 -->
-- 这篇论文解决什么问题。
-- 核心想法是什么。
-- 结果为什么重要。
-- 你读完后的主要判断。
-
-## Paper Info
-
-- **Title:** {{ page.paper.title }}
-- **Authors:** {{ page.paper.authors }}
-- **Venue:** {{ page.paper.venue }}
-- **Paper:** [PDF]({{ page.paper.pdf }})
-- **Code:** [link]({{ page.paper.code }})
+- 提供处理 **组合和混合变量** BO 的统一框架和 benchmark suite。
+- 架构 DSE 的参数通常是 mixed（连续: 电压/频率；离散: PE 数量/buffer 级数；categorical: dataflow 类型）。
+- 评估了主流 mixed-variable BO 方法的优劣。
 
 ## Problem
 
-<!-- 这篇论文试图解决的具体问题是什么？ -->
-
+标准 BO 假设连续空间；但 hardware DSE 的设计空间是 mixed（continuous + integer + categorical）。缺乏统一评估。
 
 ## Method
 
-<!-- 按模块拆解核心方法 -->
-1. 方法的整体 pipeline。
-2. 关键假设或设计。
-3. 和已有方法相比的新东西。
-
-## Experiments
-
-<!-- 记录你认为真正支撑结论的实验 -->
-- 数据集和任务设置。
-- baseline 是否合理。
-- ablation 说明了什么。
-- 有哪些实验缺口。
+1. 定义 mixed-variable BO 的 benchmark suite（含合成函数和真实问题）
+2. 统一接口评估各种方法（SMAC, TPE, CoCaBO, Casmopolitan）
+3. 分析不同 variable 组合下各方法的表现
 
 ## Insights
 
-<!-- 写自己的理解，不只是复述论文 -->
-- 这个方法为什么有效？
-- 它适合什么场景？
-- 它可能在哪些场景下失败？
-- 对你自己的研究或项目有什么启发？
-
-## Limitations
-
-<!-- 列出论文没有解决、或者你觉得论证不充分的地方 -->
-
-
-## Follow-up
-
-<!-- 值得继续读的相关论文 / 可以复现的部分 / 可以进一步验证的问题 -->
-
+- 对 architecture DSE 极其相关：设计空间通常包含整数参数（PE数）、连续参数（电压）和 categorical（dataflow type）。
+- 选择 BO method 时应根据变量类型分布来决定。
