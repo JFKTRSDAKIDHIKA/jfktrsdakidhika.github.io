@@ -15,6 +15,7 @@ paper:
   venue: "ISSCC, 2014"
   url: ""
   code: ""
+  pdf: "/assets/pdf/papers/%282014%20ISSCC%29%201.1_Computings_energy_problem_and_what_we_can_do_about_it.pdf"
 ---
 
 ## TL;DR
@@ -30,7 +31,7 @@ paper:
 - **Title:** {{ page.paper.title }}
 - **Authors:** {{ page.paper.authors }}
 - **Venue:** {{ page.paper.venue }}
-- **Paper:** [link]({{ page.paper.url }})
+- **Paper:** [PDF]({{ page.paper.pdf }})
 - **Code:** [link]({{ page.paper.code }})
 
 ## Problem

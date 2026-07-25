@@ -15,6 +15,7 @@ paper:
   venue: "Unknown, Unknown"
   url: ""
   code: ""
+  pdf: "/assets/pdf/papers/A_Stacked_Embedded_DRAM_Array_for_LPDDR4_4X_using_Hybrid_Bonding_3D_Integration_with_34GB_s_1Gb_0.88pJ_b_Logic-to-Memory_Interface.pdf"
 ---
 
 ## TL;DR
@@ -30,7 +31,7 @@ paper:
 - **Title:** {{ page.paper.title }}
 - **Authors:** {{ page.paper.authors }}
 - **Venue:** {{ page.paper.venue }}
-- **Paper:** [link]({{ page.paper.url }})
+- **Paper:** [PDF]({{ page.paper.pdf }})
 - **Code:** [link]({{ page.paper.code }})
 
 ## Problem

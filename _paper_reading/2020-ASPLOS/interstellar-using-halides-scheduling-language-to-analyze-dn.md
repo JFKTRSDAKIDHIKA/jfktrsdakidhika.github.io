@@ -15,6 +15,7 @@ paper:
   venue: "ASPLOS, 2020"
   url: ""
   code: ""
+  pdf: "/assets/pdf/papers/%282020%20ASPLOS%29%20Interstellar%20Using%20Halide%E2%80%99s%20Scheduling%20Language%20to%20Analyze%20DNN%20Accelerators.pdf"
 ---
 
 ## TL;DR
@@ -30,7 +31,7 @@ paper:
 - **Title:** {{ page.paper.title }}
 - **Authors:** {{ page.paper.authors }}
 - **Venue:** {{ page.paper.venue }}
-- **Paper:** [link]({{ page.paper.url }})
+- **Paper:** [PDF]({{ page.paper.pdf }})
 - **Code:** [link]({{ page.paper.code }})
 
 ## Problem

@@ -15,6 +15,7 @@ paper:
   venue: "AAAI, 2024"
   url: ""
   code: ""
+  pdf: "/assets/pdf/papers/%282024%20AAAI%29%20Towards%20Automated%20RISC-V%20Microarchitecture%20Design%20with%20%20Reinforcement%20Learning.pdf"
 ---
 
 ## TL;DR
@@ -30,7 +31,7 @@ paper:
 - **Title:** {{ page.paper.title }}
 - **Authors:** {{ page.paper.authors }}
 - **Venue:** {{ page.paper.venue }}
-- **Paper:** [link]({{ page.paper.url }})
+- **Paper:** [PDF]({{ page.paper.pdf }})
 - **Code:** [link]({{ page.paper.code }})
 
 ## Problem

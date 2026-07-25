@@ -15,6 +15,7 @@ paper:
   venue: "Unknown, Unknown"
   url: ""
   code: ""
+  pdf: "/assets/pdf/papers/%282025MICRO%29%20OASIS%20-%20A%20Commercial%20High%20Performance%20Terminal%20AI%20Processor%20Supporting%20RISC-V%20Tensor%20Extension%20Instructions.pdf"
 ---
 
 ## TL;DR
@@ -30,7 +31,7 @@ paper:
 - **Title:** {{ page.paper.title }}
 - **Authors:** {{ page.paper.authors }}
 - **Venue:** {{ page.paper.venue }}
-- **Paper:** [link]({{ page.paper.url }})
+- **Paper:** [PDF]({{ page.paper.pdf }})
 - **Code:** [link]({{ page.paper.code }})
 
 ## Problem

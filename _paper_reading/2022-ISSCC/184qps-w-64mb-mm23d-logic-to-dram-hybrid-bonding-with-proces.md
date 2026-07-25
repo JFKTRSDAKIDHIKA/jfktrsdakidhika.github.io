@@ -15,6 +15,7 @@ paper:
   venue: "ISSCC, 2022"
   url: ""
   code: ""
+  pdf: "/assets/pdf/papers/%282022%20ISSCC%29%20184QPS_W_64Mb_mm23D_Logic-to-DRAM_Hybrid_Bonding_with_Process-Near-Memory_Engine_for_Recommendation_System.pdf"
 ---
 
 ## TL;DR
@@ -30,7 +31,7 @@ paper:
 - **Title:** {{ page.paper.title }}
 - **Authors:** {{ page.paper.authors }}
 - **Venue:** {{ page.paper.venue }}
-- **Paper:** [link]({{ page.paper.url }})
+- **Paper:** [PDF]({{ page.paper.pdf }})
 - **Code:** [link]({{ page.paper.code }})
 
 ## Problem

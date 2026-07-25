@@ -15,6 +15,7 @@ paper:
   venue: "IEEE Micro, 2022"
   url: ""
   code: ""
+  pdf: "/assets/pdf/papers/%282022%20IEEE%20Micro%29%20Aquabolt-XL_HBM2-PIM_LPDDR5-PIM_With_In-Memory_Processing_and_AXDIMM_With_Acceleration_Buffer.pdf"
 ---
 
 ## TL;DR
@@ -30,7 +31,7 @@ paper:
 - **Title:** {{ page.paper.title }}
 - **Authors:** {{ page.paper.authors }}
 - **Venue:** {{ page.paper.venue }}
-- **Paper:** [link]({{ page.paper.url }})
+- **Paper:** [PDF]({{ page.paper.pdf }})
 - **Code:** [link]({{ page.paper.code }})
 
 ## Problem

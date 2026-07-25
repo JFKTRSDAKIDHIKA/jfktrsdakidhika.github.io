@@ -15,6 +15,7 @@ paper:
   venue: "ISCA, 2024"
   url: ""
   code: ""
+  pdf: "/assets/pdf/papers/%282024%20ISCA%29%20Mind_the_Gap_Attainable_Data_Movement_and_Operational_Intensity_Bounds_for_Tensor_Algorithms.pdf"
 ---
 
 ## TL;DR
@@ -30,7 +31,7 @@ paper:
 - **Title:** {{ page.paper.title }}
 - **Authors:** {{ page.paper.authors }}
 - **Venue:** {{ page.paper.venue }}
-- **Paper:** [link]({{ page.paper.url }})
+- **Paper:** [PDF]({{ page.paper.pdf }})
 - **Code:** [link]({{ page.paper.code }})
 
 ## Problem

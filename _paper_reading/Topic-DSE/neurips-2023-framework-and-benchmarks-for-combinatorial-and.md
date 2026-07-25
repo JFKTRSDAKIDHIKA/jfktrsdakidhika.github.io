@@ -15,6 +15,7 @@ paper:
   venue: "Unknown, Unknown"
   url: ""
   code: ""
+  pdf: "/assets/pdf/papers/NeurIPS-2023-framework-and-benchmarks-for-combinatorial-and-mixed-variable-bayesian-optimization-Paper-Datasets_and_Benchmarks.pdf"
 ---
 
 ## TL;DR
@@ -30,7 +31,7 @@ paper:
 - **Title:** {{ page.paper.title }}
 - **Authors:** {{ page.paper.authors }}
 - **Venue:** {{ page.paper.venue }}
-- **Paper:** [link]({{ page.paper.url }})
+- **Paper:** [PDF]({{ page.paper.pdf }})
 - **Code:** [link]({{ page.paper.code }})
 
 ## Problem

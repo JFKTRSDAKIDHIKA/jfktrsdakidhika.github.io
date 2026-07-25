@@ -15,6 +15,7 @@ paper:
   venue: "JSSC, 2019"
   url: ""
   code: ""
+  pdf: "/assets/pdf/papers/%282019%20JSSC%29%20A_64-Tile_2.4-Mb_In-Memory-Computing_CNN_Accelerator_Employing_Charge-Domain_Compute.pdf"
 ---
 
 ## TL;DR
@@ -30,7 +31,7 @@ paper:
 - **Title:** {{ page.paper.title }}
 - **Authors:** {{ page.paper.authors }}
 - **Venue:** {{ page.paper.venue }}
-- **Paper:** [link]({{ page.paper.url }})
+- **Paper:** [PDF]({{ page.paper.pdf }})
 - **Code:** [link]({{ page.paper.code }})
 
 ## Problem

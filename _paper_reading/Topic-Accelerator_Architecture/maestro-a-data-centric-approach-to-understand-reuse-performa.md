@@ -15,6 +15,7 @@ paper:
   venue: "Unknown, Unknown"
   url: ""
   code: ""
+  pdf: "/assets/pdf/papers/MAESTRO_A_Data-Centric_Approach_to_Understand_Reuse_Performance_and_Hardware_Cost_of_DNN_Mappings.pdf"
 ---
 
 ## TL;DR
@@ -30,7 +31,7 @@ paper:
 - **Title:** {{ page.paper.title }}
 - **Authors:** {{ page.paper.authors }}
 - **Venue:** {{ page.paper.venue }}
-- **Paper:** [link]({{ page.paper.url }})
+- **Paper:** [PDF]({{ page.paper.pdf }})
 - **Code:** [link]({{ page.paper.code }})
 
 ## Problem

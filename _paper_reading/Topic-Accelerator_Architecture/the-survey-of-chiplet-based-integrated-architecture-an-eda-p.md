@@ -15,6 +15,7 @@ paper:
   venue: "Unknown, Unknown"
   url: ""
   code: ""
+  pdf: "/assets/pdf/papers/The%20Survey%20of%20Chiplet-based%20Integrated%20Architecture%20An%20EDA%20perspective.pdf"
 ---
 
 ## TL;DR
@@ -30,7 +31,7 @@ paper:
 - **Title:** {{ page.paper.title }}
 - **Authors:** {{ page.paper.authors }}
 - **Venue:** {{ page.paper.venue }}
-- **Paper:** [link]({{ page.paper.url }})
+- **Paper:** [PDF]({{ page.paper.pdf }})
 - **Code:** [link]({{ page.paper.code }})
 
 ## Problem

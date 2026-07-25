@@ -15,6 +15,7 @@ paper:
   venue: "CACM, 2020"
   url: ""
   code: ""
+  pdf: "/assets/pdf/papers/%282020%20CACM%29%20A%20Domain%20Specific%20Supercomputer%20for%20Training%20Deep%20Neural%20Networks%20%28TPUv2%29.pdf"
 ---
 
 ## TL;DR
@@ -30,7 +31,7 @@ paper:
 - **Title:** {{ page.paper.title }}
 - **Authors:** {{ page.paper.authors }}
 - **Venue:** {{ page.paper.venue }}
-- **Paper:** [link]({{ page.paper.url }})
+- **Paper:** [PDF]({{ page.paper.pdf }})
 - **Code:** [link]({{ page.paper.code }})
 
 ## Problem

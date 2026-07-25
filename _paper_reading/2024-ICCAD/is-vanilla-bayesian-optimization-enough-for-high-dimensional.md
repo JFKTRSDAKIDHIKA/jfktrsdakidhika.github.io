@@ -15,6 +15,7 @@ paper:
   venue: "ICCAD, 2024"
   url: ""
   code: ""
+  pdf: "/assets/pdf/papers/%282024%20ICCAD%29%20Is%20Vanilla%20Bayesian%20Optimization%20Enough%20for%20High_Dimensional%20Architecture%20Design%20Optimization.pdf"
 ---
 
 ## TL;DR
@@ -30,7 +31,7 @@ paper:
 - **Title:** {{ page.paper.title }}
 - **Authors:** {{ page.paper.authors }}
 - **Venue:** {{ page.paper.venue }}
-- **Paper:** [link]({{ page.paper.url }})
+- **Paper:** [PDF]({{ page.paper.pdf }})
 - **Code:** [link]({{ page.paper.code }})
 
 ## Problem

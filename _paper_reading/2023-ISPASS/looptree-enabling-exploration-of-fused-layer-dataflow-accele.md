@@ -15,6 +15,7 @@ paper:
   venue: "ISPASS, 2023"
   url: ""
   code: ""
+  pdf: "/assets/pdf/papers/%282023%20ISPASS%29%20LoopTree_Enabling_Exploration_of_Fused-layer_Dataflow_Accelerators.pdf"
 ---
 
 ## TL;DR
@@ -30,7 +31,7 @@ paper:
 - **Title:** {{ page.paper.title }}
 - **Authors:** {{ page.paper.authors }}
 - **Venue:** {{ page.paper.venue }}
-- **Paper:** [link]({{ page.paper.url }})
+- **Paper:** [PDF]({{ page.paper.pdf }})
 - **Code:** [link]({{ page.paper.code }})
 
 ## Problem

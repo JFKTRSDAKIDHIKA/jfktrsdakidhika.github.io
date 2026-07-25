@@ -15,6 +15,7 @@ paper:
   venue: "ISSCC, 2023"
   url: ""
   code: ""
+  pdf: "/assets/pdf/papers/%282023%20ISSCC%29%2016.7_A_40-310TOPS_W_SRAM-Based_All-Digital_Up_to_4b_In-Memory_Computing_Multi-Tiled_NN_Accelerator_in_FD-SOI_18nm_for_Deep-Learning_Edge_Applications.pdf"
 ---
 
 ## TL;DR
@@ -30,7 +31,7 @@ paper:
 - **Title:** {{ page.paper.title }}
 - **Authors:** {{ page.paper.authors }}
 - **Venue:** {{ page.paper.venue }}
-- **Paper:** [link]({{ page.paper.url }})
+- **Paper:** [PDF]({{ page.paper.pdf }})
 - **Code:** [link]({{ page.paper.code }})
 
 ## Problem

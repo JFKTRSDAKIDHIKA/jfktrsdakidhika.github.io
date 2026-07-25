@@ -15,6 +15,7 @@ paper:
   venue: "IBM J. Res. Dev., 2006"
   url: ""
   code: ""
+  pdf: "/assets/pdf/papers/%282006%20IBM%20J.%20Res.%20Dev.%29%20Three-dimensional_integrated_circuits.pdf"
 ---
 
 ## TL;DR
@@ -30,7 +31,7 @@ paper:
 - **Title:** {{ page.paper.title }}
 - **Authors:** {{ page.paper.authors }}
 - **Venue:** {{ page.paper.venue }}
-- **Paper:** [link]({{ page.paper.url }})
+- **Paper:** [PDF]({{ page.paper.pdf }})
 - **Code:** [link]({{ page.paper.code }})
 
 ## Problem

@@ -15,6 +15,7 @@ paper:
   venue: "ICCAD, 2019"
   url: ""
   code: ""
+  pdf: "/assets/pdf/papers/%282019%20ICCAD%29%20Accelergy%20An%20Architecture-Level%20Energy%20Estimation%20Methodology%20for%20Accelerator%20Designs.pdf"
 ---
 
 ## TL;DR
@@ -30,7 +31,7 @@ paper:
 - **Title:** {{ page.paper.title }}
 - **Authors:** {{ page.paper.authors }}
 - **Venue:** {{ page.paper.venue }}
-- **Paper:** [link]({{ page.paper.url }})
+- **Paper:** [PDF]({{ page.paper.pdf }})
 - **Code:** [link]({{ page.paper.code }})
 
 ## Problem

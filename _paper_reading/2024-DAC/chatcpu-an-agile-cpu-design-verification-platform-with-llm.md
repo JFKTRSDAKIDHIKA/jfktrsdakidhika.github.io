@@ -15,6 +15,7 @@ paper:
   venue: "DAC, 2024"
   url: ""
   code: ""
+  pdf: "/assets/pdf/papers/%282024%20DAC%29%20ChatCPU%20An%20Agile%20CPU%20Design%20%26%20Verification%20Platform%20with%20LLM.pdf"
 ---
 
 ## TL;DR
@@ -30,7 +31,7 @@ paper:
 - **Title:** {{ page.paper.title }}
 - **Authors:** {{ page.paper.authors }}
 - **Venue:** {{ page.paper.venue }}
-- **Paper:** [link]({{ page.paper.url }})
+- **Paper:** [PDF]({{ page.paper.pdf }})
 - **Code:** [link]({{ page.paper.code }})
 
 ## Problem

@@ -15,6 +15,7 @@ paper:
   venue: "ASPLOS, 2025"
   url: ""
   code: ""
+  pdf: "/assets/pdf/papers/%282025%20ASPLOS%29%20Virgo%20-%20Cluster-level%20Matrix%20Unit%20Integration%20in%20GPUs%20for%20Scalability%20and%20Energy%20Efficiency.pdf"
 ---
 
 ## TL;DR
@@ -30,7 +31,7 @@ paper:
 - **Title:** {{ page.paper.title }}
 - **Authors:** {{ page.paper.authors }}
 - **Venue:** {{ page.paper.venue }}
-- **Paper:** [link]({{ page.paper.url }})
+- **Paper:** [PDF]({{ page.paper.pdf }})
 - **Code:** [link]({{ page.paper.code }})
 
 ## Problem

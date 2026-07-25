@@ -15,6 +15,7 @@ paper:
   venue: "DAC, 2023"
   url: ""
   code: ""
+  pdf: "/assets/pdf/papers/%282023%20DAC%29%20Graph_Representation_Learning_for_Microarchitecture_Design_Space_Exploration.pdf"
 ---
 
 ## TL;DR
@@ -30,7 +31,7 @@ paper:
 - **Title:** {{ page.paper.title }}
 - **Authors:** {{ page.paper.authors }}
 - **Venue:** {{ page.paper.venue }}
-- **Paper:** [link]({{ page.paper.url }})
+- **Paper:** [PDF]({{ page.paper.pdf }})
 - **Code:** [link]({{ page.paper.code }})
 
 ## Problem

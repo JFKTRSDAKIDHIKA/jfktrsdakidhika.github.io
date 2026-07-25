@@ -15,6 +15,7 @@ paper:
   venue: "MICRO, 2026"
   url: ""
   code: ""
+  pdf: "/assets/pdf/papers/%282026%20MICRO%29%20The_Turbo_Charged_Mapper_Fast_and_Optimal_Mapping_for_Energy_efficient_and_Low_latency_Accelerator_Design.pdf"
 ---
 
 ## TL;DR
@@ -30,7 +31,7 @@ paper:
 - **Title:** {{ page.paper.title }}
 - **Authors:** {{ page.paper.authors }}
 - **Venue:** {{ page.paper.venue }}
-- **Paper:** [link]({{ page.paper.url }})
+- **Paper:** [PDF]({{ page.paper.pdf }})
 - **Code:** [link]({{ page.paper.code }})
 
 ## Problem

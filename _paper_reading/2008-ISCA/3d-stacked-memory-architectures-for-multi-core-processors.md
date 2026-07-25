@@ -15,6 +15,7 @@ paper:
   venue: "ISCA, 2008"
   url: ""
   code: ""
+  pdf: "/assets/pdf/papers/%282008%20ISCA%29%203D-Stacked%20Memory%20Architectures%20for%20Multi-Core%20Processors.pdf"
 ---
 
 ## TL;DR
@@ -30,7 +31,7 @@ paper:
 - **Title:** {{ page.paper.title }}
 - **Authors:** {{ page.paper.authors }}
 - **Venue:** {{ page.paper.venue }}
-- **Paper:** [link]({{ page.paper.url }})
+- **Paper:** [PDF]({{ page.paper.pdf }})
 - **Code:** [link]({{ page.paper.code }})
 
 ## Problem

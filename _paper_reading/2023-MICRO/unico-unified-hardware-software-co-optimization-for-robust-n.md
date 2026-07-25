@@ -15,6 +15,7 @@ paper:
   venue: "MICRO, 2023"
   url: ""
   code: ""
+  pdf: "/assets/pdf/papers/%282023%20MICRO%29%20UNICO_Unified%20Hardware%20Software%20Co-Optimization%20for%20Robust%20Neural%20Network%20Acceleration.pdf"
 ---
 
 ## TL;DR
@@ -30,7 +31,7 @@ paper:
 - **Title:** {{ page.paper.title }}
 - **Authors:** {{ page.paper.authors }}
 - **Venue:** {{ page.paper.venue }}
-- **Paper:** [link]({{ page.paper.url }})
+- **Paper:** [PDF]({{ page.paper.pdf }})
 - **Code:** [link]({{ page.paper.code }})
 
 ## Problem

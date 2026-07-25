@@ -15,6 +15,7 @@ paper:
   venue: "MICRO, 2019"
   url: ""
   code: ""
+  pdf: "/assets/pdf/papers/%282019%20MICRO%29%20Understanding%20Reuse%2C%20Performance%2C%20and%20Hardware%20Cost%20of%20DNN%20Dataflows%20A%20Data-Centric%20Approach%20Using%20MAESTRO.pdf"
 ---
 
 ## TL;DR
@@ -30,7 +31,7 @@ paper:
 - **Title:** {{ page.paper.title }}
 - **Authors:** {{ page.paper.authors }}
 - **Venue:** {{ page.paper.venue }}
-- **Paper:** [link]({{ page.paper.url }})
+- **Paper:** [PDF]({{ page.paper.pdf }})
 - **Code:** [link]({{ page.paper.code }})
 
 ## Problem

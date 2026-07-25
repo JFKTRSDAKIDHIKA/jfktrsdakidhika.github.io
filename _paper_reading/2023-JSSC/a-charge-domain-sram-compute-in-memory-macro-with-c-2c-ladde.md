@@ -15,6 +15,7 @@ paper:
   venue: "JSSC, 2023"
   url: ""
   code: ""
+  pdf: "/assets/pdf/papers/%282023%20JSSC%29%20A_Charge_Domain_SRAM_Compute-in-Memory_Macro_With_C-2C_Ladder-Based_8-Bit_MAC_Unit_in_22-nm_FinFET_Process_for_Edge_Inference.pdf"
 ---
 
 ## TL;DR
@@ -30,7 +31,7 @@ paper:
 - **Title:** {{ page.paper.title }}
 - **Authors:** {{ page.paper.authors }}
 - **Venue:** {{ page.paper.venue }}
-- **Paper:** [link]({{ page.paper.url }})
+- **Paper:** [PDF]({{ page.paper.pdf }})
 - **Code:** [link]({{ page.paper.code }})
 
 ## Problem

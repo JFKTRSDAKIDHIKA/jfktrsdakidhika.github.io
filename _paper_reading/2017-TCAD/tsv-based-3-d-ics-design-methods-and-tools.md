@@ -15,6 +15,7 @@ paper:
   venue: "TCAD, 2017"
   url: ""
   code: ""
+  pdf: "/assets/pdf/papers/%282017%20TCAD%29%20TSV-Based_3-D_ICs_Design_Methods_and_Tools.pdf"
 ---
 
 ## TL;DR
@@ -30,7 +31,7 @@ paper:
 - **Title:** {{ page.paper.title }}
 - **Authors:** {{ page.paper.authors }}
 - **Venue:** {{ page.paper.venue }}
-- **Paper:** [link]({{ page.paper.url }})
+- **Paper:** [PDF]({{ page.paper.pdf }})
 - **Code:** [link]({{ page.paper.code }})
 
 ## Problem

@@ -15,6 +15,7 @@ paper:
   venue: "DAC, 2025"
   url: ""
   code: ""
+  pdf: "/assets/pdf/papers/%282025%20DAC%29%20Swift_or_Exact_Boosting_Efficient_Microarchitecture_DSE_via_Multi-fidelity_Partial_Order_Prediction.pdf"
 ---
 
 ## TL;DR
@@ -30,7 +31,7 @@ paper:
 - **Title:** {{ page.paper.title }}
 - **Authors:** {{ page.paper.authors }}
 - **Venue:** {{ page.paper.venue }}
-- **Paper:** [link]({{ page.paper.url }})
+- **Paper:** [PDF]({{ page.paper.pdf }})
 - **Code:** [link]({{ page.paper.code }})
 
 ## Problem

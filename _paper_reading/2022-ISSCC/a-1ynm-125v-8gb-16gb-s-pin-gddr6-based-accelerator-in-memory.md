@@ -15,6 +15,7 @@ paper:
   venue: "ISSCC, 2022"
   url: ""
   code: ""
+  pdf: "/assets/pdf/papers/%282022%20ISSCC%29%20A_1ynm_1.25V_8Gb_16Gb_s_pin_GDDR6-based_Accelerator-in-Memory_supporting_1TFLOPS_MAC_Operation_and_Various_Activation_Functions_for_Deep-Learning_Applications.pdf"
 ---
 
 ## TL;DR
@@ -30,7 +31,7 @@ paper:
 - **Title:** {{ page.paper.title }}
 - **Authors:** {{ page.paper.authors }}
 - **Venue:** {{ page.paper.venue }}
-- **Paper:** [link]({{ page.paper.url }})
+- **Paper:** [PDF]({{ page.paper.pdf }})
 - **Code:** [link]({{ page.paper.code }})
 
 ## Problem

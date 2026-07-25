@@ -15,6 +15,7 @@ paper:
   venue: "ISCA, 2017"
   url: ""
   code: ""
+  pdf: "/assets/pdf/papers/%282017%20ISCA%29%20In-Datacenter%20Performance%20Analysis%20of%20a%20Tensor%20Processing%20Unit.pdf"
 ---
 
 ## TL;DR
@@ -30,7 +31,7 @@ paper:
 - **Title:** {{ page.paper.title }}
 - **Authors:** {{ page.paper.authors }}
 - **Venue:** {{ page.paper.venue }}
-- **Paper:** [link]({{ page.paper.url }})
+- **Paper:** [PDF]({{ page.paper.pdf }})
 - **Code:** [link]({{ page.paper.code }})
 
 ## Problem

@@ -15,6 +15,7 @@ paper:
   venue: "ASPDAC, 2025"
   url: ""
   code: ""
+  pdf: "/assets/pdf/papers/%282025%20ASPDAC%29%20TL-CSE%20Microarchitecture-Compiler%20Co-design%20Space%20Exploration%20via%20Transfer%20Learning.pdf"
 ---
 
 ## TL;DR
@@ -30,7 +31,7 @@ paper:
 - **Title:** {{ page.paper.title }}
 - **Authors:** {{ page.paper.authors }}
 - **Venue:** {{ page.paper.venue }}
-- **Paper:** [link]({{ page.paper.url }})
+- **Paper:** [PDF]({{ page.paper.pdf }})
 - **Code:** [link]({{ page.paper.code }})
 
 ## Problem

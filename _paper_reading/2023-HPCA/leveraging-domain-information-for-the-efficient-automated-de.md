@@ -15,6 +15,7 @@ paper:
   venue: "HPCA, 2023"
   url: ""
   code: ""
+  pdf: "/assets/pdf/papers/%282023%20HPCA%29%20Leveraging_Domain_Information_for_the_Efficient_Automated_Design_of_Deep_Learning_Accelerators.pdf"
 ---
 
 ## TL;DR
@@ -30,7 +31,7 @@ paper:
 - **Title:** {{ page.paper.title }}
 - **Authors:** {{ page.paper.authors }}
 - **Venue:** {{ page.paper.venue }}
-- **Paper:** [link]({{ page.paper.url }})
+- **Paper:** [PDF]({{ page.paper.pdf }})
 - **Code:** [link]({{ page.paper.code }})
 
 ## Problem

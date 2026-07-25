@@ -15,6 +15,7 @@ paper:
   venue: "IEEE micro, 2025"
   url: ""
   code: ""
+  pdf: "/assets/pdf/papers/%282025%20IEEE%20micro%29%20From_TeAAL_to_FuseMax_Separation_of_Concerns_for_Attention_Accelerator_Design.pdf"
 ---
 
 ## TL;DR
@@ -30,7 +31,7 @@ paper:
 - **Title:** {{ page.paper.title }}
 - **Authors:** {{ page.paper.authors }}
 - **Venue:** {{ page.paper.venue }}
-- **Paper:** [link]({{ page.paper.url }})
+- **Paper:** [PDF]({{ page.paper.pdf }})
 - **Code:** [link]({{ page.paper.code }})
 
 ## Problem

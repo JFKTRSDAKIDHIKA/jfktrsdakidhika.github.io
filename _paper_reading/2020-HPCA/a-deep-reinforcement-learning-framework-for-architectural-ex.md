@@ -15,6 +15,7 @@ paper:
   venue: "HPCA, 2020"
   url: ""
   code: ""
+  pdf: "/assets/pdf/papers/%282020%20HPCA%29%20A_Deep_Reinforcement_Learning_Framework_for_Architectural_Exploration_A_Routerless_NoC_Case_Study.pdf"
 ---
 
 ## TL;DR
@@ -30,7 +31,7 @@ paper:
 - **Title:** {{ page.paper.title }}
 - **Authors:** {{ page.paper.authors }}
 - **Venue:** {{ page.paper.venue }}
-- **Paper:** [link]({{ page.paper.url }})
+- **Paper:** [PDF]({{ page.paper.pdf }})
 - **Code:** [link]({{ page.paper.code }})
 
 ## Problem

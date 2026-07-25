@@ -15,6 +15,7 @@ paper:
   venue: "ISCA, 2025"
   url: ""
   code: ""
+  pdf: "/assets/pdf/papers/%282025%20ISCA%29%20ATiM%20Autotuning%20Tensor%20Programs%20for%20Processing-in-DRAM.pdf"
 ---
 
 ## TL;DR
@@ -30,7 +31,7 @@ paper:
 - **Title:** {{ page.paper.title }}
 - **Authors:** {{ page.paper.authors }}
 - **Venue:** {{ page.paper.venue }}
-- **Paper:** [link]({{ page.paper.url }})
+- **Paper:** [PDF]({{ page.paper.pdf }})
 - **Code:** [link]({{ page.paper.code }})
 
 ## Problem

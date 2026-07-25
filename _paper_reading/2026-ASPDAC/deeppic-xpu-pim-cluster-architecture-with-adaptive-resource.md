@@ -15,6 +15,7 @@ paper:
   venue: "ASPDAC, 2026"
   url: ""
   code: ""
+  pdf: "/assets/pdf/papers/%282026%20ASPDAC%29%20DeepPiC%20xPU-PIM%20Cluster%20Architecture%20with%20Adaptive%20Resource-Aware%20Task%20Orchestration%20for%20DeepSeek-Style%20MoE%20Inference.pdf"
 ---
 
 ## TL;DR
@@ -30,7 +31,7 @@ paper:
 - **Title:** {{ page.paper.title }}
 - **Authors:** {{ page.paper.authors }}
 - **Venue:** {{ page.paper.venue }}
-- **Paper:** [link]({{ page.paper.url }})
+- **Paper:** [PDF]({{ page.paper.pdf }})
 - **Code:** [link]({{ page.paper.code }})
 
 ## Problem

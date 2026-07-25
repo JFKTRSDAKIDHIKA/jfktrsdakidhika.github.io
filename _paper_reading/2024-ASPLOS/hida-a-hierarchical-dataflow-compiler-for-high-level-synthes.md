@@ -15,6 +15,7 @@ paper:
   venue: "ASPLOS, 2024"
   url: ""
   code: ""
+  pdf: "/assets/pdf/papers/%282024%20ASPLOS%29%20HIDA%20A%20Hierarchical%20Dataflow%20Compiler%20for%20High-Level%20Synthesis.pdf"
 ---
 
 ## TL;DR
@@ -30,7 +31,7 @@ paper:
 - **Title:** {{ page.paper.title }}
 - **Authors:** {{ page.paper.authors }}
 - **Venue:** {{ page.paper.venue }}
-- **Paper:** [link]({{ page.paper.url }})
+- **Paper:** [PDF]({{ page.paper.pdf }})
 - **Code:** [link]({{ page.paper.code }})
 
 ## Problem

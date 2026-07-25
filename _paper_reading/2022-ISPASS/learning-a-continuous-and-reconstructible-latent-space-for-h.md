@@ -15,6 +15,7 @@ paper:
   venue: "ISPASS, 2022"
   url: ""
   code: ""
+  pdf: "/assets/pdf/papers/%282022%20ISPASS%29%20Learning_A_Continuous_and_Reconstructible_Latent_Space_for_Hardware_Accelerator_Design.pdf"
 ---
 
 ## TL;DR
@@ -30,7 +31,7 @@ paper:
 - **Title:** {{ page.paper.title }}
 - **Authors:** {{ page.paper.authors }}
 - **Venue:** {{ page.paper.venue }}
-- **Paper:** [link]({{ page.paper.url }})
+- **Paper:** [PDF]({{ page.paper.pdf }})
 - **Code:** [link]({{ page.paper.code }})
 
 ## Problem

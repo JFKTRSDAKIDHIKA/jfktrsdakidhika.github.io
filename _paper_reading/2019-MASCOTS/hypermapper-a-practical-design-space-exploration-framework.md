@@ -15,6 +15,7 @@ paper:
   venue: "MASCOTS, 2019"
   url: ""
   code: ""
+  pdf: "/assets/pdf/papers/%282019%20MASCOTS%29%20HyperMapper_a_Practical_Design_Space_Exploration_Framework.pdf"
 ---
 
 ## TL;DR
@@ -30,7 +31,7 @@ paper:
 - **Title:** {{ page.paper.title }}
 - **Authors:** {{ page.paper.authors }}
 - **Venue:** {{ page.paper.venue }}
-- **Paper:** [link]({{ page.paper.url }})
+- **Paper:** [PDF]({{ page.paper.pdf }})
 - **Code:** [link]({{ page.paper.code }})
 
 ## Problem

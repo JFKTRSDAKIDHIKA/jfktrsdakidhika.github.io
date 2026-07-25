@@ -15,6 +15,7 @@ paper:
   venue: "IEEE Micro, 2007"
   url: ""
   code: ""
+  pdf: "/assets/pdf/papers/%282007%20IEEE%20Micro%29%20Processor_Design_in_3D_Die-Stacking_Technologies.pdf"
 ---
 
 ## TL;DR
@@ -30,7 +31,7 @@ paper:
 - **Title:** {{ page.paper.title }}
 - **Authors:** {{ page.paper.authors }}
 - **Venue:** {{ page.paper.venue }}
-- **Paper:** [link]({{ page.paper.url }})
+- **Paper:** [PDF]({{ page.paper.pdf }})
 - **Code:** [link]({{ page.paper.code }})
 
 ## Problem

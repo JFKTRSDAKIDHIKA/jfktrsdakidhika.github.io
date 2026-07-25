@@ -15,6 +15,7 @@ paper:
   venue: "ASPLOS, 2024"
   url: ""
   code: ""
+  pdf: "/assets/pdf/papers/%282024%20ASPLOS%29%20AttAcc%21%20Unleashing%20the%20Power%20of%20PIM%20for%20Batched%20Transformer-based%20Generative%20Model%20Inference.pdf"
 ---
 
 ## TL;DR
@@ -30,7 +31,7 @@ paper:
 - **Title:** {{ page.paper.title }}
 - **Authors:** {{ page.paper.authors }}
 - **Venue:** {{ page.paper.venue }}
-- **Paper:** [link]({{ page.paper.url }})
+- **Paper:** [PDF]({{ page.paper.pdf }})
 - **Code:** [link]({{ page.paper.code }})
 
 ## Problem

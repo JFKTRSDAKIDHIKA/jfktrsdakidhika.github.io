@@ -15,6 +15,7 @@ paper:
   venue: "FPGA, 2023"
   url: ""
   code: ""
+  pdf: "/assets/pdf/papers/%282023%20FPGA%29%20CHARM%20Composing%20Heterogeneous%20AcceleRators%20for%20Matrix%20Multiply%20on%20Versal%20ACAP%20Architecture.pdf"
 ---
 
 ## TL;DR
@@ -30,7 +31,7 @@ paper:
 - **Title:** {{ page.paper.title }}
 - **Authors:** {{ page.paper.authors }}
 - **Venue:** {{ page.paper.venue }}
-- **Paper:** [link]({{ page.paper.url }})
+- **Paper:** [PDF]({{ page.paper.pdf }})
 - **Code:** [link]({{ page.paper.code }})
 
 ## Problem

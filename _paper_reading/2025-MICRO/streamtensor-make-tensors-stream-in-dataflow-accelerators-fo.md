@@ -15,6 +15,7 @@ paper:
   venue: "MICRO, 2025"
   url: ""
   code: ""
+  pdf: "/assets/pdf/papers/%282025%20MICRO%29%20StreamTensor%20Make%20Tensors%20Stream%20in%20Dataflow%20Accelerators%20for%20LLMs.pdf"
 ---
 
 ## TL;DR
@@ -30,7 +31,7 @@ paper:
 - **Title:** {{ page.paper.title }}
 - **Authors:** {{ page.paper.authors }}
 - **Venue:** {{ page.paper.venue }}
-- **Paper:** [link]({{ page.paper.url }})
+- **Paper:** [PDF]({{ page.paper.pdf }})
 - **Code:** [link]({{ page.paper.code }})
 
 ## Problem

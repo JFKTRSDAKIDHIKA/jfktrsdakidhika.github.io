@@ -15,6 +15,7 @@ paper:
   venue: "CICC, 2021"
   url: ""
   code: ""
+  pdf: "/assets/pdf/papers/%282021%20CICC%29%20A_22_nm_1540_TOP_s_W_12.1_TOP_s_mm2_in-Memory_Analog_Matrix-Vector-Multiplier_for_DNN_Acceleration.pdf"
 ---
 
 ## TL;DR
@@ -30,7 +31,7 @@ paper:
 - **Title:** {{ page.paper.title }}
 - **Authors:** {{ page.paper.authors }}
 - **Venue:** {{ page.paper.venue }}
-- **Paper:** [link]({{ page.paper.url }})
+- **Paper:** [PDF]({{ page.paper.pdf }})
 - **Code:** [link]({{ page.paper.code }})
 
 ## Problem

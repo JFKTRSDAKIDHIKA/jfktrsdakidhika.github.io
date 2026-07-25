@@ -15,6 +15,7 @@ paper:
   venue: "ISCA, 2025"
   url: ""
   code: ""
+  pdf: "/assets/pdf/papers/%282025%20ISCA%29%20AMALI%20AnAnalytical%20Model%20for%20Accurately%20Modeling%20LLM%20Inference%20on%20Modern%20GPUs.pdf"
 ---
 
 ## TL;DR
@@ -30,7 +31,7 @@ paper:
 - **Title:** {{ page.paper.title }}
 - **Authors:** {{ page.paper.authors }}
 - **Venue:** {{ page.paper.venue }}
-- **Paper:** [link]({{ page.paper.url }})
+- **Paper:** [PDF]({{ page.paper.pdf }})
 - **Code:** [link]({{ page.paper.code }})
 
 ## Problem

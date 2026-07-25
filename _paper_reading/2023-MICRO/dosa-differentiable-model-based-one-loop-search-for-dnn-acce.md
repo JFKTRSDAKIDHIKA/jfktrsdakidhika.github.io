@@ -15,6 +15,7 @@ paper:
   venue: "Micro, 2023"
   url: ""
   code: ""
+  pdf: "/assets/pdf/papers/%282023%20Micro%29%20DOSA%20Differentiable%20Model-Based%20One_Loop%20Search%20for%20DNN%20Accelerators.pdf"
 ---
 
 ## TL;DR
@@ -30,7 +31,7 @@ paper:
 - **Title:** {{ page.paper.title }}
 - **Authors:** {{ page.paper.authors }}
 - **Venue:** {{ page.paper.venue }}
-- **Paper:** [link]({{ page.paper.url }})
+- **Paper:** [PDF]({{ page.paper.pdf }})
 - **Code:** [link]({{ page.paper.code }})
 
 ## Problem

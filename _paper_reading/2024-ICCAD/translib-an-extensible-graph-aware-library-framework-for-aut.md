@@ -15,6 +15,7 @@ paper:
   venue: "ICCAD, 2024"
   url: ""
   code: ""
+  pdf: "/assets/pdf/papers/%282024%20ICCAD%29%20TransLib_An_Extensible_Graph-Aware_Library_Framework_for_Automated_Generation_of_Transformer_Operators_on_FPGA.pdf"
 ---
 
 ## TL;DR
@@ -30,7 +31,7 @@ paper:
 - **Title:** {{ page.paper.title }}
 - **Authors:** {{ page.paper.authors }}
 - **Venue:** {{ page.paper.venue }}
-- **Paper:** [link]({{ page.paper.url }})
+- **Paper:** [PDF]({{ page.paper.pdf }})
 - **Code:** [link]({{ page.paper.code }})
 
 ## Problem

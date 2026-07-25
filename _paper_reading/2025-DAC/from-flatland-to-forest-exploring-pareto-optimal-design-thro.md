@@ -15,6 +15,7 @@ paper:
   venue: "DAC, 2025"
   url: ""
   code: ""
+  pdf: "/assets/pdf/papers/%282025%20DAC%29%20From_Flatland_to_Forest_Exploring_Pareto-optimal_Design_through_RTL_Hierarchy_Trees.pdf"
 ---
 
 ## TL;DR
@@ -30,7 +31,7 @@ paper:
 - **Title:** {{ page.paper.title }}
 - **Authors:** {{ page.paper.authors }}
 - **Venue:** {{ page.paper.venue }}
-- **Paper:** [link]({{ page.paper.url }})
+- **Paper:** [PDF]({{ page.paper.pdf }})
 - **Code:** [link]({{ page.paper.code }})
 
 ## Problem

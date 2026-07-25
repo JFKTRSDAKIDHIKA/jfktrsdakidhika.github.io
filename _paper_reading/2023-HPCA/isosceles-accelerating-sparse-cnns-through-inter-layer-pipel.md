@@ -15,6 +15,7 @@ paper:
   venue: "HPCA, 2023"
   url: ""
   code: ""
+  pdf: "/assets/pdf/papers/%282023%20HPCA%29%20ISOSceles_Accelerating_Sparse_CNNs_through_Inter-Layer_Pipelining.pdf"
 ---
 
 ## TL;DR
@@ -30,7 +31,7 @@ paper:
 - **Title:** {{ page.paper.title }}
 - **Authors:** {{ page.paper.authors }}
 - **Venue:** {{ page.paper.venue }}
-- **Paper:** [link]({{ page.paper.url }})
+- **Paper:** [PDF]({{ page.paper.pdf }})
 - **Code:** [link]({{ page.paper.code }})
 
 ## Problem

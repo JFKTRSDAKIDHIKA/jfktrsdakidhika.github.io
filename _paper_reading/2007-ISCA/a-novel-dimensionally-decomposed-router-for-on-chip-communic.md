@@ -15,6 +15,7 @@ paper:
   venue: "ISCA, 2007"
   url: ""
   code: ""
+  pdf: "/assets/pdf/papers/%282007%20ISCA%29%20A%20Novel%20Dimensionally-Decomposed%20Router%20for%20On-Chip%20Communication%20in%203D%20Architectures.pdf"
 ---
 
 ## TL;DR
@@ -30,7 +31,7 @@ paper:
 - **Title:** {{ page.paper.title }}
 - **Authors:** {{ page.paper.authors }}
 - **Venue:** {{ page.paper.venue }}
-- **Paper:** [link]({{ page.paper.url }})
+- **Paper:** [PDF]({{ page.paper.pdf }})
 - **Code:** [link]({{ page.paper.code }})
 
 ## Problem

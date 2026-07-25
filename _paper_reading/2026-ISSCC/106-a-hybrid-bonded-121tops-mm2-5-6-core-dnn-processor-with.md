@@ -15,6 +15,7 @@ paper:
   venue: "ISSCC, 2026"
   url: ""
   code: ""
+  pdf: "/assets/pdf/papers/%282026%20ISSCC%29%2010.6_A_Hybrid-Bonded_12.1Tops_mm2_5_6-Core_DNN_Processor_with_2.5Tb_s_mm2_3D_Network_on_Chip.pdf"
 ---
 
 ## TL;DR
@@ -30,7 +31,7 @@ paper:
 - **Title:** {{ page.paper.title }}
 - **Authors:** {{ page.paper.authors }}
 - **Venue:** {{ page.paper.venue }}
-- **Paper:** [link]({{ page.paper.url }})
+- **Paper:** [PDF]({{ page.paper.pdf }})
 - **Code:** [link]({{ page.paper.code }})
 
 ## Problem

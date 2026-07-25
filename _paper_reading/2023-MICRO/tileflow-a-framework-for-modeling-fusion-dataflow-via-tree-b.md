@@ -15,6 +15,7 @@ paper:
   venue: "MICRO, 2023"
   url: ""
   code: ""
+  pdf: "/assets/pdf/papers/%282023%20MICRO%29%20TileFlow%20A%20Framework%20for%20Modeling%20Fusion%20Dataflow%20via%20%20Tree-based%20Analysis%20-%20%E5%89%AF%E6%9C%AC.pdf"
 ---
 
 ## TL;DR
@@ -30,7 +31,7 @@ paper:
 - **Title:** {{ page.paper.title }}
 - **Authors:** {{ page.paper.authors }}
 - **Venue:** {{ page.paper.venue }}
-- **Paper:** [link]({{ page.paper.url }})
+- **Paper:** [PDF]({{ page.paper.pdf }})
 - **Code:** [link]({{ page.paper.code }})
 
 ## Problem

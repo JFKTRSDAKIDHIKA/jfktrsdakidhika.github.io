@@ -15,6 +15,7 @@ paper:
   venue: "ISCA, 2010"
   url: ""
   code: ""
+  pdf: "/assets/pdf/papers/%282010%20ISCA%29%20Debunking%20the%20100X%20GPU%20vs%20CPU%20Myth%20-%20An%20Evaluation%20of%20Throughput%20Computing%20on%20CPU%20and%20GPU.pdf"
 ---
 
 ## TL;DR
@@ -30,7 +31,7 @@ paper:
 - **Title:** {{ page.paper.title }}
 - **Authors:** {{ page.paper.authors }}
 - **Venue:** {{ page.paper.venue }}
-- **Paper:** [link]({{ page.paper.url }})
+- **Paper:** [PDF]({{ page.paper.pdf }})
 - **Code:** [link]({{ page.paper.code }})
 
 ## Problem

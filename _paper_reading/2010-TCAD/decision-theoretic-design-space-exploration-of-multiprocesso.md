@@ -15,6 +15,7 @@ paper:
   venue: "TCAD, 2010"
   url: ""
   code: ""
+  pdf: "/assets/pdf/papers/%282010%20TCAD%29%20Decision-Theoretic_Design_Space_Exploration_of_Multiprocessor_Platforms.pdf"
 ---
 
 ## TL;DR
@@ -30,7 +31,7 @@ paper:
 - **Title:** {{ page.paper.title }}
 - **Authors:** {{ page.paper.authors }}
 - **Venue:** {{ page.paper.venue }}
-- **Paper:** [link]({{ page.paper.url }})
+- **Paper:** [PDF]({{ page.paper.pdf }})
 - **Code:** [link]({{ page.paper.code }})
 
 ## Problem

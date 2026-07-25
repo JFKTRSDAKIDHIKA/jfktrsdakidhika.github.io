@@ -15,6 +15,7 @@ paper:
   venue: "ISCA, 2024"
   url: ""
   code: ""
+  pdf: "/assets/pdf/papers/%282024%20ISCA%29%20FEATHER_A_Reconfigurable_Accelerator_with_Data_Reordering_Support_for_Low-Cost_On-Chip_Dataflow_Switching.pdf"
 ---
 
 ## TL;DR
@@ -30,7 +31,7 @@ paper:
 - **Title:** {{ page.paper.title }}
 - **Authors:** {{ page.paper.authors }}
 - **Venue:** {{ page.paper.venue }}
-- **Paper:** [link]({{ page.paper.url }})
+- **Paper:** [PDF]({{ page.paper.pdf }})
 - **Code:** [link]({{ page.paper.code }})
 
 ## Problem

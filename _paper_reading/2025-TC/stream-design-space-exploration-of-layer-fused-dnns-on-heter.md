@@ -15,6 +15,7 @@ paper:
   venue: "TC, 2025"
   url: ""
   code: ""
+  pdf: "/assets/pdf/papers/%282025%20TC%29%20Stream_Design_Space_Exploration_of_Layer-Fused_DNNs_on_Heterogeneous_Dataflow_Accelerators.pdf"
 ---
 
 ## TL;DR
@@ -30,7 +31,7 @@ paper:
 - **Title:** {{ page.paper.title }}
 - **Authors:** {{ page.paper.authors }}
 - **Venue:** {{ page.paper.venue }}
-- **Paper:** [link]({{ page.paper.url }})
+- **Paper:** [PDF]({{ page.paper.pdf }})
 - **Code:** [link]({{ page.paper.code }})
 
 ## Problem

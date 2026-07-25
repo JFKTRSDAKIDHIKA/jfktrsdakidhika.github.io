@@ -15,6 +15,7 @@ paper:
   venue: "ISCA, 2021"
   url: ""
   code: ""
+  pdf: "/assets/pdf/papers/%282021%20ISCA%29%20Ten_Lessons_From_Three_Generations_Shaped_Googles_TPUv4i__Industrial_Product.pdf"
 ---
 
 ## TL;DR
@@ -30,7 +31,7 @@ paper:
 - **Title:** {{ page.paper.title }}
 - **Authors:** {{ page.paper.authors }}
 - **Venue:** {{ page.paper.venue }}
-- **Paper:** [link]({{ page.paper.url }})
+- **Paper:** [PDF]({{ page.paper.pdf }})
 - **Code:** [link]({{ page.paper.code }})
 
 ## Problem

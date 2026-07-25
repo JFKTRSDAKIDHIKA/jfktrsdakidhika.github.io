@@ -15,6 +15,7 @@ paper:
   venue: "ISPD, 2017"
   url: ""
   code: ""
+  pdf: "/assets/pdf/papers/%282017%20ISPD%29%20ASAP7_predictive_design_kit_development_and_cell_design_technology_co-optimization_Invited_paper.pdf"
 ---
 
 ## TL;DR
@@ -30,7 +31,7 @@ paper:
 - **Title:** {{ page.paper.title }}
 - **Authors:** {{ page.paper.authors }}
 - **Venue:** {{ page.paper.venue }}
-- **Paper:** [link]({{ page.paper.url }})
+- **Paper:** [PDF]({{ page.paper.pdf }})
 - **Code:** [link]({{ page.paper.code }})
 
 ## Problem

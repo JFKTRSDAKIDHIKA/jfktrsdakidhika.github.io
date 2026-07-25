@@ -15,6 +15,7 @@ paper:
   venue: "ISCA, 2026"
   url: ""
   code: ""
+  pdf: "/assets/pdf/papers/%282026%20ISCA%29%20M100_An%20Orchestrated%20Dataflow%20Architecture%20Powering%20General%20AI%20Computing.pdf.pdf"
 ---
 
 ## TL;DR
@@ -30,7 +31,7 @@ paper:
 - **Title:** {{ page.paper.title }}
 - **Authors:** {{ page.paper.authors }}
 - **Venue:** {{ page.paper.venue }}
-- **Paper:** [link]({{ page.paper.url }})
+- **Paper:** [PDF]({{ page.paper.pdf }})
 - **Code:** [link]({{ page.paper.code }})
 
 ## Problem

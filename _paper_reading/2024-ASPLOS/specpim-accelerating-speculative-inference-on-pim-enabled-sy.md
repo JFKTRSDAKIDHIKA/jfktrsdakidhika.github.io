@@ -15,6 +15,7 @@ paper:
   venue: "ASPLOS, 2024"
   url: ""
   code: ""
+  pdf: "/assets/pdf/papers/%282024%20ASPLOS%29%20SpecPIM%20Accelerating%20Speculative%20Inference%20on%20PIM-Enabled%20System%20via%20Architecture-Dataflow%20Co-Exploration.pdf"
 ---
 
 ## TL;DR
@@ -30,7 +31,7 @@ paper:
 - **Title:** {{ page.paper.title }}
 - **Authors:** {{ page.paper.authors }}
 - **Venue:** {{ page.paper.venue }}
-- **Paper:** [link]({{ page.paper.url }})
+- **Paper:** [PDF]({{ page.paper.pdf }})
 - **Code:** [link]({{ page.paper.code }})
 
 ## Problem

@@ -15,6 +15,7 @@ paper:
   venue: "ICLR, 2022"
   url: ""
   code: ""
+  pdf: "/assets/pdf/papers/%282022%20ICLR%29%20DATA-DRIVEN%20OFFLINE%20OPTIMIZATION%20FOR%20ARCHITECTING%20HARDWARE%20ACCELERATORS.pdf"
 ---
 
 ## TL;DR
@@ -30,7 +31,7 @@ paper:
 - **Title:** {{ page.paper.title }}
 - **Authors:** {{ page.paper.authors }}
 - **Venue:** {{ page.paper.venue }}
-- **Paper:** [link]({{ page.paper.url }})
+- **Paper:** [PDF]({{ page.paper.pdf }})
 - **Code:** [link]({{ page.paper.code }})
 
 ## Problem

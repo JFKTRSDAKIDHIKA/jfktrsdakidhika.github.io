@@ -15,6 +15,7 @@ paper:
   venue: "CODES, 2002"
   url: ""
   code: ""
+  pdf: "/assets/pdf/papers/%282002%20CODES%29%20Multi-objective_design_space_exploration_using_genetic_algorithms.pdf"
 ---
 
 ## TL;DR
@@ -30,7 +31,7 @@ paper:
 - **Title:** {{ page.paper.title }}
 - **Authors:** {{ page.paper.authors }}
 - **Venue:** {{ page.paper.venue }}
-- **Paper:** [link]({{ page.paper.url }})
+- **Paper:** [PDF]({{ page.paper.pdf }})
 - **Code:** [link]({{ page.paper.code }})
 
 ## Problem

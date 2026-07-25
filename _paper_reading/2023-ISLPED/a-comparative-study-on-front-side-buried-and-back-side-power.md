@@ -15,6 +15,7 @@ paper:
   venue: "ISLPED, 2023"
   url: ""
   code: ""
+  pdf: "/assets/pdf/papers/%282023%20ISLPED%29%20A_Comparative_Study_on_Front_Side_Buried_and_Back_Side_Power_Rail_Topologies_in_3nm_Technology_Node.pdf"
 ---
 
 ## TL;DR
@@ -30,7 +31,7 @@ paper:
 - **Title:** {{ page.paper.title }}
 - **Authors:** {{ page.paper.authors }}
 - **Venue:** {{ page.paper.venue }}
-- **Paper:** [link]({{ page.paper.url }})
+- **Paper:** [PDF]({{ page.paper.pdf }})
 - **Code:** [link]({{ page.paper.code }})
 
 ## Problem

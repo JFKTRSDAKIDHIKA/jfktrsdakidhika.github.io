@@ -15,6 +15,7 @@ paper:
   venue: "ISCA, 2025"
   url: ""
   code: ""
+  pdf: "/assets/pdf/papers/%282025%20ISCA%29%20AIM%20Software%20and%20Hardware%20Co-design%20for%20Architecture-level%20IR-drop%20Mitigation%20in%20High-performance%20PIM.pdf"
 ---
 
 ## TL;DR
@@ -30,7 +31,7 @@ paper:
 - **Title:** {{ page.paper.title }}
 - **Authors:** {{ page.paper.authors }}
 - **Venue:** {{ page.paper.venue }}
-- **Paper:** [link]({{ page.paper.url }})
+- **Paper:** [PDF]({{ page.paper.pdf }})
 - **Code:** [link]({{ page.paper.code }})
 
 ## Problem
