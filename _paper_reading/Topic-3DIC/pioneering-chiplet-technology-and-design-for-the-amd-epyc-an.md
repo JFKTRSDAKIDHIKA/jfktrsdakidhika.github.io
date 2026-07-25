@@ -1,41 +1,72 @@
 ---
 layout: post
-title: "(2021 ISCA) Pioneering Chiplet Technology and Design for the AMD EPYC and Ryzen Processor Families"
-date: 2021-01-01
-description: "AMD's pioneering chiplet approach for EPYC and Ryzen processors (ISCA Industry Track)"
-published: ISCA 2021
-tags: paper-reading 3DIC chiplet AMD EPYC industry
+title: "(2020 ISCA) Pioneering Chiplet Technology and Design for the AMD EPYC and Ryzen Processor Families"
+date: 2020-01-01
+description: "TODO: One-sentence summary"
+published: ISCA 2020
+tags: paper-reading 3DIC chiplet
 toc:
   sidebar: left
 related_posts: false
 giscus_comments: true
 paper:
   title: "Pioneering Chiplet Technology and Design for the AMD EPYC and Ryzen Processor Families"
-  authors: "AMD"
-  venue: "ISCA, 2021"
+  authors: "TODO"
+  venue: "ISCA, 2020"
   url: ""
   code: ""
-  pdf: "/assets/pdf/papers/Pioneering_Chiplet_Technology_and_Design_for_the_AMD_EPYC_and_Ryzen_Processor_Families__Industrial_Product.pdf"
+  pdf: "/assets/pdf/papers/%282020%20ISCA%29%20Pioneering_Chiplet_Technology_and_Design_for_the_AMD_EPYC_and_Ryzen_Processor_Families.pdf"
 ---
 
 ## TL;DR
 
-- AMD 分享 EPYC/Ryzen 的 chiplet 设计经验。
-- CCD (Core Complex Die) + IOD (I/O Die) 分离。
-- 经济驱动：小 die 良率高 → 成本低 → 性能/$ 优势。
+<!-- 用 3-5 句话写清楚 -->
+- 这篇论文解决什么问题。
+- 核心想法是什么。
+- 结果为什么重要。
+- 你读完后的主要判断。
+
+## Paper Info
+
+- **Title:** {{ page.paper.title }}
+- **Authors:** {{ page.paper.authors }}
+- **Venue:** {{ page.paper.venue }}
+- **Paper:** [PDF]({{ page.paper.pdf }})
+- **Code:** [link]({{ page.paper.code }})
 
 ## Problem
 
-大 die 良率低、成本高。AMD 如何用 chiplet 实现 cost-effective 的高性能 CPU？
+<!-- 这篇论文试图解决的具体问题是什么？ -->
+
 
 ## Method
 
-1. 将 CPU 拆分为多个小 CCD + 一个大 IOD
-2. Infinity Fabric 互连
-3. 跨代复用 CCD（换新工艺只需重新设计小 die）
+<!-- 按模块拆解核心方法 -->
+1. 方法的整体 pipeline。
+2. 关键假设或设计。
+3. 和已有方法相比的新东西。
+
+## Experiments
+
+<!-- 记录你认为真正支撑结论的实验 -->
+- 数据集和任务设置。
+- baseline 是否合理。
+- ablation 说明了什么。
+- 有哪些实验缺口。
 
 ## Insights
 
-- AMD chiplet 是产业界最成功的案例。
-- 证明了 chiplet 的经济可行性。
-- "Design once, replicate many" 理念。
+<!-- 写自己的理解，不只是复述论文 -->
+- 这个方法为什么有效？
+- 它适合什么场景？
+- 它可能在哪些场景下失败？
+- 对你自己的研究或项目有什么启发？
+
+## Limitations
+
+<!-- 列出论文没有解决、或者你觉得论证不充分的地方 -->
+
+
+## Follow-up
+
+<!-- 值得继续读的相关论文 / 可以复现的部分 / 可以进一步验证的问题 -->

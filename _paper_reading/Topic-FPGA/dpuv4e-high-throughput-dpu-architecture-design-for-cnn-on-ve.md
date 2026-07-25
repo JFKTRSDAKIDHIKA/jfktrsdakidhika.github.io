@@ -1,37 +1,72 @@
 ---
 layout: post
-title: "(2023 FPL) DPUV4E: High-Throughput DPU Architecture Design for CNN on Versal"
+title: "(2023 FPGA) DPUV4E High-Throughput DPU Architecture Design for CNN on Versal ACAP"
 date: 2023-01-01
-description: "Xilinx DPU v4E architecture for CNN inference on Versal platform"
-published: FPL 2023
-tags: paper-reading FPGA Versal DPU CNN Xilinx
+description: "TODO: One-sentence summary"
+published: FPGA 2023
+tags: paper-reading FPGA ACAP
 toc:
   sidebar: left
 related_posts: false
 giscus_comments: true
 paper:
-  title: "DPUV4E: High-Throughput DPU Architecture Design for CNN on Versal"
-  authors: "Xilinx/AMD"
-  venue: "FPL, 2023"
+  title: "DPUV4E High-Throughput DPU Architecture Design for CNN on Versal ACAP"
+  authors: "TODO"
+  venue: "FPGA, 2023"
   url: ""
   code: ""
-  pdf: "/assets/pdf/papers/DPUV4E_%20High-Throughput%20DPU%20Architecture%20Design%20for%20CNN%20on%20Versal%20ACAP.pdf"
+  pdf: "/assets/pdf/papers/%282023%20FPGA%29%20DPUV4E_High-Throughput_DPU_Architecture_Design_for_CNN_on_Versal_ACAP.pdf"
 ---
 
 ## TL;DR
 
-- DPUV4E：Xilinx 官方 DPU (Deep Processing Unit) 在 Versal 上的新版本。
-- 面向 CNN 推理的高吞吐架构。
-- 利用 AIE + PL 实现混合精度 CNN 加速。
+<!-- 用 3-5 句话写清楚 -->
+- 这篇论文解决什么问题。
+- 核心想法是什么。
+- 结果为什么重要。
+- 你读完后的主要判断。
+
+## Paper Info
+
+- **Title:** {{ page.paper.title }}
+- **Authors:** {{ page.paper.authors }}
+- **Venue:** {{ page.paper.venue }}
+- **Paper:** [PDF]({{ page.paper.pdf }})
+- **Code:** [link]({{ page.paper.code }})
 
 ## Problem
 
-如何在 Versal 上设计统一的 CNN inference IP（供客户直接使用）？
+<!-- 这篇论文试图解决的具体问题是什么？ -->
+
 
 ## Method
 
-DPU 架构：固定的 CNN datapath + 可配置参数（PE 数量、buffer 大小）。
+<!-- 按模块拆解核心方法 -->
+1. 方法的整体 pipeline。
+2. 关键假设或设计。
+3. 和已有方法相比的新东西。
+
+## Experiments
+
+<!-- 记录你认为真正支撑结论的实验 -->
+- 数据集和任务设置。
+- baseline 是否合理。
+- ablation 说明了什么。
+- 有哪些实验缺口。
 
 ## Insights
 
-- DPU 是 Xilinx/AMD 的商业 IP — 了解它有助于在其上做研究。
+<!-- 写自己的理解，不只是复述论文 -->
+- 这个方法为什么有效？
+- 它适合什么场景？
+- 它可能在哪些场景下失败？
+- 对你自己的研究或项目有什么启发？
+
+## Limitations
+
+<!-- 列出论文没有解决、或者你觉得论证不充分的地方 -->
+
+
+## Follow-up
+
+<!-- 值得继续读的相关论文 / 可以复现的部分 / 可以进一步验证的问题 -->

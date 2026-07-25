@@ -1,47 +1,72 @@
 ---
 layout: post
-title: "(2017 IEEE JEDS) GAAFET Versus Pragmatic FinFET at the 5nm Si-Based CMOS Technology Node"
-date: 2017-01-01
-description: "TCAD comparison of GAA nanosheet vs scaled FinFET at 5nm, showing GAA advantages in electrostatics but FinFET remains competitive"
-published: IEEE JEDS 2017
-tags: paper-reading technology GAA FinFET TCAD device
+title: "(2022 TED) GAAFET Versus Pragmatic FinFET at the 5nm Si-Based CMOS Technology Node"
+date: 2022-01-01
+description: "TODO: One-sentence summary"
+published: TED 2022
+tags: paper-reading process technology
 toc:
   sidebar: left
 related_posts: false
 giscus_comments: true
 paper:
   title: "GAAFET Versus Pragmatic FinFET at the 5nm Si-Based CMOS Technology Node"
-  authors: "N. Loubet et al."
-  venue: "IEEE JEDS, 2017"
+  authors: "TODO"
+  venue: "TED, 2022"
   url: ""
   code: ""
-  pdf: "/assets/pdf/papers/GAAFET_Versus_Pragmatic_FinFET_at_the_5nm_Si-Based_CMOS_Technology_Node.pdf"
+  pdf: "/assets/pdf/papers/%282022%20TED%29%20GAAFET_Versus_Pragmatic_FinFET_at_the_5nm_Si-Based_CMOS_Technology_Node.pdf"
 ---
 
 ## TL;DR
 
-- 通过 TCAD 仿真对比 5nm 节点下 GAA nanosheet FET 和 scaled FinFET 的性能。
-- GAA 在静电控制（SS, DIBL）上有明显优势，但 FinFET 通过 fin pitch 缩减仍有竞争力。
-- 结论：在 5nm 节点 FinFET 仍可工作，但 3nm 及以下 GAA 成为必需。
+<!-- 用 3-5 句话写清楚 -->
+- 这篇论文解决什么问题。
+- 核心想法是什么。
+- 结果为什么重要。
+- 你读完后的主要判断。
+
+## Paper Info
+
+- **Title:** {{ page.paper.title }}
+- **Authors:** {{ page.paper.authors }}
+- **Venue:** {{ page.paper.venue }}
+- **Paper:** [PDF]({{ page.paper.pdf }})
+- **Code:** [link]({{ page.paper.code }})
 
 ## Problem
 
-CMOS 持续缩放需要更好的静电控制。FinFET 从 22nm 用到 5nm，但短沟道效应加剧。GAA（Gate-All-Around）提供理论最优的栅控制力，但制造更复杂。需要量化评估两者在 5nm 的 PPA 权衡。
+<!-- 这篇论文试图解决的具体问题是什么？ -->
+
 
 ## Method
 
-- TCAD 建模两种器件：横向 nanosheet GAA vs 缩放 FinFET
-- 固定相同的 footprint 和电源电压
-- 比较 Ion/Ioff, SS, DIBL, capacitance, delay
+<!-- 按模块拆解核心方法 -->
+1. 方法的整体 pipeline。
+2. 关键假设或设计。
+3. 和已有方法相比的新东西。
+
+## Experiments
+
+<!-- 记录你认为真正支撑结论的实验 -->
+- 数据集和任务设置。
+- baseline 是否合理。
+- ablation 说明了什么。
+- 有哪些实验缺口。
 
 ## Insights
 
-- 此文 2017 年发表时 GAA 还是"未来技术"；到 2022 年 Samsung 3nm GAA 量产，验证了文中预测。
-- Intel 选择在 20A/18A 同时引入 RibbonFET (GAA) + PowerVia (BSPDN)，是一步到位的策略。
-- 对体系结构研究者的启示：GAA 带来更高 drive current density → 可以做更紧凑的标准单元 → 影响 accelerator 面积预算。
+<!-- 写自己的理解，不只是复述论文 -->
+- 这个方法为什么有效？
+- 它适合什么场景？
+- 它可能在哪些场景下失败？
+- 对你自己的研究或项目有什么启发？
 
 ## Limitations
 
-- 仅 TCAD 仿真，无 silicon 验证
-- 未考虑制造良率差异
-- 2017 年的预测参数与实际量产节点有偏差
+<!-- 列出论文没有解决、或者你觉得论证不充分的地方 -->
+
+
+## Follow-up
+
+<!-- 值得继续读的相关论文 / 可以复现的部分 / 可以进一步验证的问题 -->

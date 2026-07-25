@@ -1,38 +1,72 @@
 ---
 layout: post
-title: "(2024 DAC) HeteroSVD: Efficient SVD Accelerator on Versal ACAP with Algorithm-Hardware Co-Design"
+title: "(2024 FPGA) HeteroSVD Efficient SVD Accelerator on Versal ACAP with Algorithm-Hardware Co-Design"
 date: 2024-01-01
-description: "SVD accelerator on Versal ACAP exploiting heterogeneous compute resources"
-published: DAC 2024
-tags: paper-reading FPGA Versal ACAP SVD heterogeneous
+description: "TODO: One-sentence summary"
+published: FPGA 2024
+tags: paper-reading FPGA ACAP
 toc:
   sidebar: left
 related_posts: false
 giscus_comments: true
 paper:
-  title: "HeteroSVD: Efficient SVD Accelerator on Versal ACAP with Algorithm-Hardware Co-Design"
-  authors: "Unknown"
-  venue: "DAC, 2024"
+  title: "HeteroSVD Efficient SVD Accelerator on Versal ACAP with Algorithm-Hardware Co-Design"
+  authors: "TODO"
+  venue: "FPGA, 2024"
   url: ""
   code: ""
-  pdf: "/assets/pdf/papers/HeteroSVD_Efficient_SVD_Accelerator_on_Versal_ACAP_with_Algorithm-Hardware_Co-Design%20%281%29.pdf"
+  pdf: "/assets/pdf/papers/%282024%20FPGA%29%20HeteroSVD_Efficient_SVD_Accelerator_on_Versal_ACAP_with_Algorithm-Hardware_Co-Design.pdf"
 ---
 
 ## TL;DR
 
-- HeteroSVD：在 Versal ACAP 上用异构资源加速 SVD。
-- AIE 做 dense compute，PL 做 data shuffle/control。
-- SVD 是 LLM compression (LoRA) 的核心运算。
+<!-- 用 3-5 句话写清楚 -->
+- 这篇论文解决什么问题。
+- 核心想法是什么。
+- 结果为什么重要。
+- 你读完后的主要判断。
+
+## Paper Info
+
+- **Title:** {{ page.paper.title }}
+- **Authors:** {{ page.paper.authors }}
+- **Venue:** {{ page.paper.venue }}
+- **Paper:** [PDF]({{ page.paper.pdf }})
+- **Code:** [link]({{ page.paper.code }})
 
 ## Problem
 
-SVD 计算量大但 structure 特殊（迭代、mixed 精度），如何在 ACAP 上高效实现？
+<!-- 这篇论文试图解决的具体问题是什么？ -->
+
 
 ## Method
 
-异构映射：Jacobi SVD 的旋转运算→AIE, 排序/选择→PL。
+<!-- 按模块拆解核心方法 -->
+1. 方法的整体 pipeline。
+2. 关键假设或设计。
+3. 和已有方法相比的新东西。
+
+## Experiments
+
+<!-- 记录你认为真正支撑结论的实验 -->
+- 数据集和任务设置。
+- baseline 是否合理。
+- ablation 说明了什么。
+- 有哪些实验缺口。
 
 ## Insights
 
-- SVD for LoRA/模型压缩是新兴应用。
-- Versal ACAP 的异构性正好匹配 SVD 的混合计算需求。
+<!-- 写自己的理解，不只是复述论文 -->
+- 这个方法为什么有效？
+- 它适合什么场景？
+- 它可能在哪些场景下失败？
+- 对你自己的研究或项目有什么启发？
+
+## Limitations
+
+<!-- 列出论文没有解决、或者你觉得论证不充分的地方 -->
+
+
+## Follow-up
+
+<!-- 值得继续读的相关论文 / 可以复现的部分 / 可以进一步验证的问题 -->

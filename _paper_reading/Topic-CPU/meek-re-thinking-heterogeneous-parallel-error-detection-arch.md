@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "(2025 DAC) MEEK Re-thinking Heterogeneous Parallel Error Detection Architecture for Real-World OoO Superscalar Processors"
+title: "(2025 HPCA) MEEK Re-thinking Heterogeneous Parallel Error Detection Architecture for Real-World OoO Superscalar Processors"
 date: 2025-01-01
 description: "TODO: One-sentence summary"
-published: DAC 2025
-tags: paper-reading design-space-exploration
+published: HPCA 2025
+tags: paper-reading CPU microarchitecture
 toc:
   sidebar: left
 related_posts: false
@@ -12,10 +12,10 @@ giscus_comments: true
 paper:
   title: "MEEK Re-thinking Heterogeneous Parallel Error Detection Architecture for Real-World OoO Superscalar Processors"
   authors: "TODO"
-  venue: "DAC, 2025"
+  venue: "HPCA, 2025"
   url: ""
   code: ""
-  pdf: "/assets/pdf/papers/MEEK_Re-thinking_Heterogeneous_Parallel_Error_Detection_Architecture_for_Real-World_OoO_Superscalar_Processors.pdf"
+  pdf: "/assets/pdf/papers/%282025%20HPCA%29%20MEEK_Re-thinking_Heterogeneous_Parallel_Error_Detection_Architecture_for_Real-World_OoO_Superscalar_Processors.pdf"
 ---
 
 ## TL;DR
@@ -70,4 +70,3 @@ paper:
 ## Follow-up
 
 <!-- 值得继续读的相关论文 / 可以复现的部分 / 可以进一步验证的问题 -->
-

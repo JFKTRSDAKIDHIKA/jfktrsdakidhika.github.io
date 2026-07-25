@@ -1,38 +1,72 @@
 ---
 layout: post
-title: "(2024 Survey) The Survey of Chiplet-based Integrated Architecture: An EDA Perspective"
+title: "(2024 TCAD) The Survey of Chiplet-based Integrated Architecture An EDA Perspective"
 date: 2024-01-01
-description: "Comprehensive survey of chiplet architecture from EDA tool perspective"
-published: Survey 2024
-tags: paper-reading 3DIC chiplet EDA survey
+description: "TODO: One-sentence summary"
+published: TCAD 2024
+tags: paper-reading 3DIC chiplet
 toc:
   sidebar: left
 related_posts: false
 giscus_comments: true
 paper:
-  title: "The Survey of Chiplet-based Integrated Architecture: An EDA Perspective"
-  authors: "Unknown"
-  venue: "Survey, 2024"
+  title: "The Survey of Chiplet-based Integrated Architecture An EDA Perspective"
+  authors: "TODO"
+  venue: "TCAD, 2024"
   url: ""
   code: ""
-  pdf: "/assets/pdf/papers/The%20Survey%20of%20Chiplet-based%20Integrated%20Architecture%20An%20EDA%20perspective.pdf"
+  pdf: "/assets/pdf/papers/%282024%20TCAD%29%20The_Survey_of_Chiplet-based_Integrated_Architecture_An_EDA_Perspective.pdf"
 ---
 
 ## TL;DR
 
-- 从 EDA 视角综述 chiplet 架构：floorplan, P&R, thermal, signal integrity。
-- 涵盖 2.5D/3D 的 EDA 工具链现状和挑战。
-- 识别了 chiplet EDA 的关键 gap。
+<!-- 用 3-5 句话写清楚 -->
+- 这篇论文解决什么问题。
+- 核心想法是什么。
+- 结果为什么重要。
+- 你读完后的主要判断。
+
+## Paper Info
+
+- **Title:** {{ page.paper.title }}
+- **Authors:** {{ page.paper.authors }}
+- **Venue:** {{ page.paper.venue }}
+- **Paper:** [PDF]({{ page.paper.pdf }})
+- **Code:** [link]({{ page.paper.code }})
 
 ## Problem
 
-Chiplet 设计缺乏成熟的 EDA 工具支持（传统 EDA 面向单 die）。现状如何？
+<!-- 这篇论文试图解决的具体问题是什么？ -->
+
 
 ## Method
 
-系统综述 chiplet 各设计阶段（partitioning → floorplan → routing → verification）的工具。
+<!-- 按模块拆解核心方法 -->
+1. 方法的整体 pipeline。
+2. 关键假设或设计。
+3. 和已有方法相比的新东西。
+
+## Experiments
+
+<!-- 记录你认为真正支撑结论的实验 -->
+- 数据集和任务设置。
+- baseline 是否合理。
+- ablation 说明了什么。
+- 有哪些实验缺口。
 
 ## Insights
 
-- Chiplet EDA 是蓝海 — 很多问题尚未解决。
-- 与你的 Physical Design 研究方向直接相关。
+<!-- 写自己的理解，不只是复述论文 -->
+- 这个方法为什么有效？
+- 它适合什么场景？
+- 它可能在哪些场景下失败？
+- 对你自己的研究或项目有什么启发？
+
+## Limitations
+
+<!-- 列出论文没有解决、或者你觉得论证不充分的地方 -->
+
+
+## Follow-up
+
+<!-- 值得继续读的相关论文 / 可以复现的部分 / 可以进一步验证的问题 -->

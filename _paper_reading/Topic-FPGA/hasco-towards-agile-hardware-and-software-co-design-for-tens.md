@@ -1,38 +1,72 @@
 ---
 layout: post
-title: "(2021 DAC) HASCO: Towards Agile Hardware and Software CO-design for Tensor Computation"
+title: "(2021 DAC) HASCO Towards Agile Hardware and Software Co-design for Tensor Computation"
 date: 2021-01-01
-description: "Agile HW/SW co-design framework for tensor computations on FPGA"
+description: "TODO: One-sentence summary"
 published: DAC 2021
-tags: paper-reading FPGA HLS co-design tensor
+tags: paper-reading FPGA implementation
 toc:
   sidebar: left
 related_posts: false
 giscus_comments: true
 paper:
-  title: "HASCO: Towards Agile Hardware and Software CO-design for Tensor Computation"
-  authors: "Unknown"
+  title: "HASCO Towards Agile Hardware and Software Co-design for Tensor Computation"
+  authors: "TODO"
   venue: "DAC, 2021"
   url: ""
   code: ""
-  pdf: "/assets/pdf/papers/HASCO_Towards_Agile_HArdware_and_Software_CO-design_for_Tensor_Computation.pdf"
+  pdf: "/assets/pdf/papers/%282021%20DAC%29%20HASCO_Towards_Agile_Hardware_and_Software_Co-design_for_Tensor_Computation.pdf"
 ---
 
 ## TL;DR
 
-- HASCO：敏捷的 tensor 计算硬件-软件协同设计框架。
-- 从 high-level tensor expression 自动生成 FPGA 加速器。
-- 比纯 HLS 方案更高效。
+<!-- 用 3-5 句话写清楚 -->
+- 这篇论文解决什么问题。
+- 核心想法是什么。
+- 结果为什么重要。
+- 你读完后的主要判断。
+
+## Paper Info
+
+- **Title:** {{ page.paper.title }}
+- **Authors:** {{ page.paper.authors }}
+- **Venue:** {{ page.paper.venue }}
+- **Paper:** [PDF]({{ page.paper.pdf }})
+- **Code:** [link]({{ page.paper.code }})
 
 ## Problem
 
-FPGA 加速器设计周期长，如何实现类似软件的快速迭代？
+<!-- 这篇论文试图解决的具体问题是什么？ -->
+
 
 ## Method
 
-High-level DSL → 自动 tiling/scheduling exploration → HLS code generation。
+<!-- 按模块拆解核心方法 -->
+1. 方法的整体 pipeline。
+2. 关键假设或设计。
+3. 和已有方法相比的新东西。
+
+## Experiments
+
+<!-- 记录你认为真正支撑结论的实验 -->
+- 数据集和任务设置。
+- baseline 是否合理。
+- ablation 说明了什么。
+- 有哪些实验缺口。
 
 ## Insights
 
-- "Agile hardware" 是 FPGA 领域的追求方向。
-- 类似 Halide/TVM 的思路应用到 FPGA。
+<!-- 写自己的理解，不只是复述论文 -->
+- 这个方法为什么有效？
+- 它适合什么场景？
+- 它可能在哪些场景下失败？
+- 对你自己的研究或项目有什么启发？
+
+## Limitations
+
+<!-- 列出论文没有解决、或者你觉得论证不充分的地方 -->
+
+
+## Follow-up
+
+<!-- 值得继续读的相关论文 / 可以复现的部分 / 可以进一步验证的问题 -->

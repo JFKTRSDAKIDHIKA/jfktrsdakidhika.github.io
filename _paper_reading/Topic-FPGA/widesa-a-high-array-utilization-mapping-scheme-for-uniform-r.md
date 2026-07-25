@@ -1,38 +1,72 @@
 ---
 layout: post
-title: "(2023 DAC) WideSA: A High Array Utilization Mapping Scheme for Uniform Recurrence on FPGA"
+title: "(2023 ICCAD) WideSA A High Array Utilization Mapping Scheme for Uniform Recurrences on ACAP"
 date: 2023-01-01
-description: "High utilization mapping for systolic arrays on FPGA"
-published: DAC 2023
-tags: paper-reading FPGA systolic-array mapping utilization
+description: "TODO: One-sentence summary"
+published: ICCAD 2023
+tags: paper-reading FPGA ACAP
 toc:
   sidebar: left
 related_posts: false
 giscus_comments: true
 paper:
-  title: "WideSA: A High Array Utilization Mapping Scheme for Uniform Recurrence on FPGA"
-  authors: "Unknown"
-  venue: "DAC, 2023"
+  title: "WideSA A High Array Utilization Mapping Scheme for Uniform Recurrences on ACAP"
+  authors: "TODO"
+  venue: "ICCAD, 2023"
   url: ""
   code: ""
-  pdf: "/assets/pdf/papers/WideSA_A_High_Array_Utilization_Mapping_Scheme_for_Uniform_Recurrences_on_ACAP.pdf"
+  pdf: "/assets/pdf/papers/%282023%20ICCAD%29%20WideSA_A_High_Array_Utilization_Mapping_Scheme_for_Uniform_Recurrences_on_ACAP.pdf"
 ---
 
 ## TL;DR
 
-- WideSA：提高 FPGA 上 systolic array 利用率的映射方案。
-- 传统 systolic array 对非方阵形状利用率低。
-- WideSA 通过 reshape + remap 提高 PE 利用率。
+<!-- 用 3-5 句话写清楚 -->
+- 这篇论文解决什么问题。
+- 核心想法是什么。
+- 结果为什么重要。
+- 你读完后的主要判断。
+
+## Paper Info
+
+- **Title:** {{ page.paper.title }}
+- **Authors:** {{ page.paper.authors }}
+- **Venue:** {{ page.paper.venue }}
+- **Paper:** [PDF]({{ page.paper.pdf }})
+- **Code:** [link]({{ page.paper.code }})
 
 ## Problem
 
-实际 DNN layer shape 不规则，systolic array 常有大量空闲 PE。
+<!-- 这篇论文试图解决的具体问题是什么？ -->
+
 
 ## Method
 
-将 irregular shape 重新映射为多个小的 regular shape，充满 PE array。
+<!-- 按模块拆解核心方法 -->
+1. 方法的整体 pipeline。
+2. 关键假设或设计。
+3. 和已有方法相比的新东西。
+
+## Experiments
+
+<!-- 记录你认为真正支撑结论的实验 -->
+- 数据集和任务设置。
+- baseline 是否合理。
+- ablation 说明了什么。
+- 有哪些实验缺口。
 
 ## Insights
 
-- Array utilization 是 FPGA 加速器的核心指标。
-- 与 DSE 中的 mapping 优化互补。
+<!-- 写自己的理解，不只是复述论文 -->
+- 这个方法为什么有效？
+- 它适合什么场景？
+- 它可能在哪些场景下失败？
+- 对你自己的研究或项目有什么启发？
+
+## Limitations
+
+<!-- 列出论文没有解决、或者你觉得论证不充分的地方 -->
+
+
+## Follow-up
+
+<!-- 值得继续读的相关论文 / 可以复现的部分 / 可以进一步验证的问题 -->

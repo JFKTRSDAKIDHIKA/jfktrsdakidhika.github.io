@@ -1,39 +1,72 @@
 ---
 layout: post
-title: "(2022 ISSCC) Zen3: The AMD 2nd-Generation 7nm x86-64 Microprocessor Core"
+title: "(2022 ISSCC) Zen3 The AMD 2nd-Generation 7nm x86-64 Microprocessor Core"
 date: 2022-01-01
-description: "AMD Zen3 microprocessor core architecture details from ISSCC"
+description: "TODO: One-sentence summary"
 published: ISSCC 2022
-tags: paper-reading CPU AMD Zen3 microarchitecture ISSCC
+tags: paper-reading CPU microarchitecture
 toc:
   sidebar: left
 related_posts: false
 giscus_comments: true
 paper:
-  title: "Zen3: The AMD 2nd-Generation 7nm x86-64 Microprocessor Core"
-  authors: "AMD"
+  title: "Zen3 The AMD 2nd-Generation 7nm x86-64 Microprocessor Core"
+  authors: "TODO"
   venue: "ISSCC, 2022"
   url: ""
   code: ""
-  pdf: "/assets/pdf/papers/Zen3_The_AMD_2nd-Generation_7nm_x86-64_Microprocessor_Core.pdf"
+  pdf: "/assets/pdf/papers/%282022%20ISSCC%29%20Zen3_The_AMD_2nd-Generation_7nm_x86-64_Microprocessor_Core.pdf"
 ---
 
 ## TL;DR
 
-- AMD Zen3 微架构详解（ISSCC 2022）。
-- 7nm, 统一的 8-core CCX (vs Zen2 的 4+4)。
-- IPC 提升 ~19% over Zen2。
-- 关键改进：更大 L3 cache 共享、更宽 frontend。
+<!-- 用 3-5 句话写清楚 -->
+- 这篇论文解决什么问题。
+- 核心想法是什么。
+- 结果为什么重要。
+- 你读完后的主要判断。
+
+## Paper Info
+
+- **Title:** {{ page.paper.title }}
+- **Authors:** {{ page.paper.authors }}
+- **Venue:** {{ page.paper.venue }}
+- **Paper:** [PDF]({{ page.paper.pdf }})
+- **Code:** [link]({{ page.paper.code }})
 
 ## Problem
 
-如何在同一工艺节点 (7nm) 下通过微架构改进提升性能？
+<!-- 这篇论文试图解决的具体问题是什么？ -->
+
 
 ## Method
 
-统一 8 核共享 32MB L3 + 更大 dispatch/issue width + improved branch prediction。
+<!-- 按模块拆解核心方法 -->
+1. 方法的整体 pipeline。
+2. 关键假设或设计。
+3. 和已有方法相比的新东西。
+
+## Experiments
+
+<!-- 记录你认为真正支撑结论的实验 -->
+- 数据集和任务设置。
+- baseline 是否合理。
+- ablation 说明了什么。
+- 有哪些实验缺口。
 
 ## Insights
 
-- ISSCC 级别的工业微架构论文 — 实际产品的真实数据。
-- "Same node, better architecture" 策略。
+<!-- 写自己的理解，不只是复述论文 -->
+- 这个方法为什么有效？
+- 它适合什么场景？
+- 它可能在哪些场景下失败？
+- 对你自己的研究或项目有什么启发？
+
+## Limitations
+
+<!-- 列出论文没有解决、或者你觉得论证不充分的地方 -->
+
+
+## Follow-up
+
+<!-- 值得继续读的相关论文 / 可以复现的部分 / 可以进一步验证的问题 -->

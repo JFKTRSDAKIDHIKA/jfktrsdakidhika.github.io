@@ -1,43 +1,72 @@
 ---
 layout: post
-title: "(2019 JSSC) Eyeriss v2: A Flexible Accelerator for Emerging Deep Neural Networks on Mobile Devices"
+title: "(2019 JSSC) Eyeriss v2 A Flexible Accelerator for Emerging Deep Neural Networks on Mobile Devices"
 date: 2019-01-01
-description: "Flexible DNN accelerator supporting diverse neural network topologies for mobile deployment"
+description: "TODO: One-sentence summary"
 published: JSSC 2019
-tags: paper-reading accelerator DNN mobile dataflow
+tags: paper-reading accelerator-architecture
 toc:
   sidebar: left
 related_posts: false
 giscus_comments: true
 paper:
-  title: "Eyeriss v2: A Flexible Accelerator for Emerging Deep Neural Networks on Mobile Devices"
-  authors: "Yu-Hsin Chen, Tien-Ju Yang, Joel Emer, Vivienne Sze"
+  title: "Eyeriss v2 A Flexible Accelerator for Emerging Deep Neural Networks on Mobile Devices"
+  authors: "TODO"
   venue: "JSSC, 2019"
   url: ""
   code: ""
-  pdf: "/assets/pdf/papers/Eyeriss_v2_A_Flexible_Accelerator_for_Emerging_Deep_Neural_Networks_on_Mobile_Devices.pdf"
+  pdf: "/assets/pdf/papers/%282019%20JSSC%29%20Eyeriss_v2_A_Flexible_Accelerator_for_Emerging_Deep_Neural_Networks_on_Mobile_Devices.pdf"
 ---
 
 ## TL;DR
 
-- Eyeriss v2 解决了 v1 只适合 CNN 的局限，支持各种 DNN 拓扑。
-- 引入 hierarchical mesh NoC 支持灵活的 multicast 和 unicast。
-- Row-stationary+ dataflow 适应不同 layer shape。
-- MIT Sze 组的标志性工作。
+<!-- 用 3-5 句话写清楚 -->
+- 这篇论文解决什么问题。
+- 核心想法是什么。
+- 结果为什么重要。
+- 你读完后的主要判断。
+
+## Paper Info
+
+- **Title:** {{ page.paper.title }}
+- **Authors:** {{ page.paper.authors }}
+- **Venue:** {{ page.paper.venue }}
+- **Paper:** [PDF]({{ page.paper.pdf }})
+- **Code:** [link]({{ page.paper.code }})
 
 ## Problem
 
-DNN 模型多样化（depthwise conv, MobileNet, attention），固定 dataflow 加速器无法高效处理所有 layer。
+<!-- 这篇论文试图解决的具体问题是什么？ -->
+
 
 ## Method
 
-1. 灵活 PE array 支持多种 dataflow mapping
-2. Hierarchical mesh: Global (cluster间) + Local (PE间) 两级互连
-3. Sparse processing: skip zero activations
-4. 支持 compact models (MobileNet-v2, ShuffleNet)
+<!-- 按模块拆解核心方法 -->
+1. 方法的整体 pipeline。
+2. 关键假设或设计。
+3. 和已有方法相比的新东西。
+
+## Experiments
+
+<!-- 记录你认为真正支撑结论的实验 -->
+- 数据集和任务设置。
+- baseline 是否合理。
+- ablation 说明了什么。
+- 有哪些实验缺口。
 
 ## Insights
 
-- Eyeriss 系列定义了 "DNN accelerator" 的研究范式。
-- "Flexibility vs. Efficiency" 是核心 tradeoff — 越灵活、单位面积效率越低。
-- Hierarchical interconnect 是解决 scalability 的关键。
+<!-- 写自己的理解，不只是复述论文 -->
+- 这个方法为什么有效？
+- 它适合什么场景？
+- 它可能在哪些场景下失败？
+- 对你自己的研究或项目有什么启发？
+
+## Limitations
+
+<!-- 列出论文没有解决、或者你觉得论证不充分的地方 -->
+
+
+## Follow-up
+
+<!-- 值得继续读的相关论文 / 可以复现的部分 / 可以进一步验证的问题 -->

@@ -1,21 +1,21 @@
 ---
 layout: post
-title: "(2026 ISCA) MoE-Hub: Taming Software Complexity for Seamless MoE Overlap with Hardware-Accelerated Communication on Multi-GPU Systems"
-date: 2026-01-01
+title: "(2025 arXiv) MoE-Hub Taming Software Complexity for Seamless MoE Overlap with Hardware-Accelerated Communication"
+date: 2025-01-01
 description: "TODO: One-sentence summary"
-published: ISCA 2026
-tags: paper-reading LLM-systems accelerator-architecture GPU interconnect-and-network
+published: arXiv 2025
+tags: paper-reading systems distributed
 toc:
   sidebar: left
 related_posts: false
 giscus_comments: true
 paper:
-  title: "MoE-Hub: Taming Software Complexity for Seamless MoE Overlap with Hardware-Accelerated Communication on Multi-GPU Systems"
+  title: "MoE-Hub Taming Software Complexity for Seamless MoE Overlap with Hardware-Accelerated Communication"
   authors: "TODO"
-  venue: "ISCA, 2026"
+  venue: "arXiv, 2025"
   url: ""
   code: ""
-  pdf: "/assets/pdf/papers/%282026%20ISCA%29%20MoE-Hub%20-%20Taming%20Software%20Complexity%20for%20Seamless%20MoE%20Overlap%20with%20Hardware-Accelerated%20Communication%20on%20Multi-GPU%20Systems.pdf"
+  pdf: "/assets/pdf/papers/%282025%20arXiv%29%20MoE-Hub_Taming_Software_Complexity_for_Seamless_MoE_Overlap_with_Hardware-Accelerated_Communication.pdf"
 ---
 
 ## TL;DR

@@ -1,48 +1,72 @@
 ---
 layout: post
-title: "(2025 IEDM) Intel 18A Platform Technology Featuring RibbonFET (GAA) and PowerVia"
-date: 2025-01-01
-description: "Intel 18A process combining GAA transistors (RibbonFET) and backside power delivery (PowerVia) for next-gen high-performance computing"
+title: "(2024 IEDM) Intel 18A Platform Technology Featuring RibbonFET GAA and PowerVia for Advanced High-Performance Computing"
+date: 2024-01-01
+description: "TODO: One-sentence summary"
 published: IEDM 2024
-tags: paper-reading technology Intel-18A GAA RibbonFET PowerVia
+tags: paper-reading process technology
 toc:
   sidebar: left
 related_posts: false
 giscus_comments: true
 paper:
-  title: "Intel 18A Platform Technology Featuring RibbonFET (GAA) and PowerVia for Advanced High-Performance Computing"
-  authors: "K. Fischer et al. (Intel)"
+  title: "Intel 18A Platform Technology Featuring RibbonFET GAA and PowerVia for Advanced High-Performance Computing"
+  authors: "TODO"
   venue: "IEDM, 2024"
   url: ""
   code: ""
-  pdf: "/assets/pdf/papers/Intel_18A_Platform_Technology_Featuring_RibbonFET_GAA_and_PowerVia_for_Advanced_High-Performance_Computing.pdf"
+  pdf: "/assets/pdf/papers/%282024%20IEDM%29%20Intel_18A_Platform_Technology_Featuring_RibbonFET_GAA_and_PowerVia_for_Advanced_High-Performance_Computing.pdf"
 ---
 
 ## TL;DR
 
-- Intel 18A 同时引入两项突破性技术：**RibbonFET**（GAA nanosheet 晶体管）+ **PowerVia**（背面电源）。
-- RibbonFET 提供更好的静电控制和驱动电流密度。
-- PowerVia 解耦信号/电源布线，提升正面布线效率。
-- 两者结合实现了显著的 PPA 提升，是 Intel 重回工艺领先的关键节点。
+<!-- 用 3-5 句话写清楚 -->
+- 这篇论文解决什么问题。
+- 核心想法是什么。
+- 结果为什么重要。
+- 你读完后的主要判断。
+
+## Paper Info
+
+- **Title:** {{ page.paper.title }}
+- **Authors:** {{ page.paper.authors }}
+- **Venue:** {{ page.paper.venue }}
+- **Paper:** [PDF]({{ page.paper.pdf }})
+- **Code:** [link]({{ page.paper.code }})
 
 ## Problem
 
-摩尔定律放缓背景下，单靠 EUV 缩减 pitch 已不够。需要同时从器件结构（FinFET→GAA）和互连架构（frontside→backside power）两个维度突破。
+<!-- 这篇论文试图解决的具体问题是什么？ -->
+
 
 ## Method
 
-1. **RibbonFET**: 水平 nanosheet stack (4层)，全包围栅极，优于 FinFET 的静电控制
-2. **PowerVia**: nano-TSV 从背面直连 transistor source/drain，正面只走信号
-3. 两者协同：GAA 的紧凑 cell + BSPDN 的 congestion-free routing
+<!-- 按模块拆解核心方法 -->
+1. 方法的整体 pipeline。
+2. 关键假设或设计。
+3. 和已有方法相比的新东西。
+
+## Experiments
+
+<!-- 记录你认为真正支撑结论的实验 -->
+- 数据集和任务设置。
+- baseline 是否合理。
+- ablation 说明了什么。
+- 有哪些实验缺口。
 
 ## Insights
 
-- Intel 18A 已用于 ISSCC 2026 M3DProc 的 top die → 直接支撑了 12.1 TOPS/mm² 的计算密度。
-- 对 3D IC 的影响：PowerVia 天然适配 face-to-back 堆叠（背面已有电源基础设施）。
-- "一步到位"策略的风险与回报：同时引入两项新技术增加了良率挑战，但 PPA 收益最大化。
+<!-- 写自己的理解，不只是复述论文 -->
+- 这个方法为什么有效？
+- 它适合什么场景？
+- 它可能在哪些场景下失败？
+- 对你自己的研究或项目有什么启发？
 
 ## Limitations
 
-- 良率数据未公开
-- 成本（EUV 层数、背面工艺）显著增加
-- 生态建设：需要 EDA 工具完全支持 BSPDN 设计规则
+<!-- 列出论文没有解决、或者你觉得论证不充分的地方 -->
+
+
+## Follow-up
+
+<!-- 值得继续读的相关论文 / 可以复现的部分 / 可以进一步验证的问题 -->

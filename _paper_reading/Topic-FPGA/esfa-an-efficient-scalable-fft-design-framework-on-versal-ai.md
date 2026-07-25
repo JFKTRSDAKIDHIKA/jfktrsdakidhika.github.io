@@ -1,38 +1,72 @@
 ---
 layout: post
-title: "(2024 TCAD) ESFA: An Efficient Scalable FFT Design Framework on Versal AI Engine"
+title: "(2024 DAC) ESFA An Efficient Scalable FFT Design Framework on Versal AI Engine"
 date: 2024-01-01
-description: "Scalable FFT design framework targeting Versal AI Engine"
-published: TCAD 2024
-tags: paper-reading FPGA Versal AIE FFT scalable
+description: "TODO: One-sentence summary"
+published: DAC 2024
+tags: paper-reading FPGA ACAP
 toc:
   sidebar: left
 related_posts: false
 giscus_comments: true
 paper:
-  title: "ESFA: An Efficient Scalable FFT Design Framework on Versal AI Engine"
-  authors: "Unknown"
-  venue: "TCAD, 2024"
+  title: "ESFA An Efficient Scalable FFT Design Framework on Versal AI Engine"
+  authors: "TODO"
+  venue: "DAC, 2024"
   url: ""
   code: ""
-  pdf: "/assets/pdf/papers/ESFA_An_Efficient_Scalable_FFT_Design_Framework_on_Versal_AI_Engine.pdf"
+  pdf: "/assets/pdf/papers/%282024%20DAC%29%20ESFA_An_Efficient_Scalable_FFT_Design_Framework_on_Versal_AI_Engine.pdf"
 ---
 
 ## TL;DR
 
-- ESFA：面向 Versal AI Engine 的可扩展 FFT 设计框架。
-- 支持任意 FFT size 的自动映射到 AIE array。
-- 优化数据搬运减少 AIE 间通信。
+<!-- 用 3-5 句话写清楚 -->
+- 这篇论文解决什么问题。
+- 核心想法是什么。
+- 结果为什么重要。
+- 你读完后的主要判断。
+
+## Paper Info
+
+- **Title:** {{ page.paper.title }}
+- **Authors:** {{ page.paper.authors }}
+- **Venue:** {{ page.paper.venue }}
+- **Paper:** [PDF]({{ page.paper.pdf }})
+- **Code:** [link]({{ page.paper.code }})
 
 ## Problem
 
-FFT 在 AIE 上的映射涉及复杂的蝶形运算分配和数据 shuffle。
+<!-- 这篇论文试图解决的具体问题是什么？ -->
+
 
 ## Method
 
-自动化框架：FFT size → 分解策略 → AIE kernel 分配 → 通信优化。
+<!-- 按模块拆解核心方法 -->
+1. 方法的整体 pipeline。
+2. 关键假设或设计。
+3. 和已有方法相比的新东西。
+
+## Experiments
+
+<!-- 记录你认为真正支撑结论的实验 -->
+- 数据集和任务设置。
+- baseline 是否合理。
+- ablation 说明了什么。
+- 有哪些实验缺口。
 
 ## Insights
 
-- FFT 是 5G/雷达的核心运算。
-- AIE 的确定性执行模型适合 FFT 的规则计算。
+<!-- 写自己的理解，不只是复述论文 -->
+- 这个方法为什么有效？
+- 它适合什么场景？
+- 它可能在哪些场景下失败？
+- 对你自己的研究或项目有什么启发？
+
+## Limitations
+
+<!-- 列出论文没有解决、或者你觉得论证不充分的地方 -->
+
+
+## Follow-up
+
+<!-- 值得继续读的相关论文 / 可以复现的部分 / 可以进一步验证的问题 -->

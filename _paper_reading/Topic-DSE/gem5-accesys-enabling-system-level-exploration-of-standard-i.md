@@ -1,38 +1,72 @@
 ---
 layout: post
-title: "(2024 MICRO) Gem5-AcceSys: Enabling System-Level Exploration of Standard Interconnects for Novel Accelerators"
+title: "(2024 MICRO) Gem5-AcceSys Enabling System-Level Exploration of Standard Interconnects for Novel Accelerators"
 date: 2024-01-01
-description: "gem5-based framework for system-level simulation of accelerators with standard interconnects (CXL, PCIe)"
+description: "TODO: One-sentence summary"
 published: MICRO 2024
-tags: paper-reading DSE gem5 simulation system-level interconnect
+tags: paper-reading DSE design-space-exploration
 toc:
   sidebar: left
 related_posts: false
 giscus_comments: true
 paper:
-  title: "Gem5-AcceSys: Enabling System-Level Exploration of Standard Interconnects for Novel Accelerators"
-  authors: "Unknown"
+  title: "Gem5-AcceSys Enabling System-Level Exploration of Standard Interconnects for Novel Accelerators"
+  authors: "TODO"
   venue: "MICRO, 2024"
   url: ""
   code: ""
-  pdf: "/assets/pdf/papers/Gem5-AcceSys_Enabling_System-Level_Exploration_of_Standard_Interconnects_for_Novel_Accelerators.pdf"
+  pdf: "/assets/pdf/papers/%282024%20MICRO%29%20Gem5-AcceSys_Enabling_System-Level_Exploration_of_Standard_Interconnects_for_Novel_Accelerators.pdf"
 ---
 
 ## TL;DR
 
-- 基于 gem5 的系统级仿真框架，支持将新型加速器接入标准互连（CXL, PCIe, AXI）。
-- 解决了 accelerator DSE 中 "只看加速器本身，忽略系统集成" 的问题。
-- 能评估 host-accelerator 交互的 overhead（DMA setup, interrupt, cache flush）。
+<!-- 用 3-5 句话写清楚 -->
+- 这篇论文解决什么问题。
+- 核心想法是什么。
+- 结果为什么重要。
+- 你读完后的主要判断。
+
+## Paper Info
+
+- **Title:** {{ page.paper.title }}
+- **Authors:** {{ page.paper.authors }}
+- **Venue:** {{ page.paper.venue }}
+- **Paper:** [PDF]({{ page.paper.pdf }})
+- **Code:** [link]({{ page.paper.code }})
 
 ## Problem
 
-很多加速器 DSE 只看 isolated throughput/latency，忽略了与 host CPU 交互的 system-level overhead。
+<!-- 这篇论文试图解决的具体问题是什么？ -->
+
 
 ## Method
 
-在 gem5 full-system 模式中集成 accelerator model + standard bus protocols + memory coherence。
+<!-- 按模块拆解核心方法 -->
+1. 方法的整体 pipeline。
+2. 关键假设或设计。
+3. 和已有方法相比的新东西。
+
+## Experiments
+
+<!-- 记录你认为真正支撑结论的实验 -->
+- 数据集和任务设置。
+- baseline 是否合理。
+- ablation 说明了什么。
+- 有哪些实验缺口。
 
 ## Insights
 
-- System-level 视角对实际部署至关重要 — roofline model 不考虑 host overhead。
-- CXL 时代尤其重要：CXL-attached accelerator 的 latency 与 coherence 开销影响巨大。
+<!-- 写自己的理解，不只是复述论文 -->
+- 这个方法为什么有效？
+- 它适合什么场景？
+- 它可能在哪些场景下失败？
+- 对你自己的研究或项目有什么启发？
+
+## Limitations
+
+<!-- 列出论文没有解决、或者你觉得论证不充分的地方 -->
+
+
+## Follow-up
+
+<!-- 值得继续读的相关论文 / 可以复现的部分 / 可以进一步验证的问题 -->

@@ -1,40 +1,72 @@
 ---
 layout: post
-title: "(2024 ISSCC) Bit-Separable Transformer Accelerator Leveraging Output Activation Sparsity for Efficient DRAM Access"
-date: 2024-01-01
-description: "Transformer accelerator exploiting output activation sparsity to reduce DRAM bandwidth"
-published: ISSCC 2024
-tags: paper-reading accelerator Transformer sparsity DRAM ISSCC
+title: "(2025 ISSCC) Bit-Separable Transformer Accelerator Leveraging Output Activation Sparsity for Efficient DRAM Access"
+date: 2025-01-01
+description: "TODO: One-sentence summary"
+published: ISSCC 2025
+tags: paper-reading accelerator LLM
 toc:
   sidebar: left
 related_posts: false
 giscus_comments: true
 paper:
   title: "Bit-Separable Transformer Accelerator Leveraging Output Activation Sparsity for Efficient DRAM Access"
-  authors: "Unknown"
-  venue: "ISSCC, 2024"
+  authors: "TODO"
+  venue: "ISSCC, 2025"
   url: ""
   code: ""
-  pdf: "/assets/pdf/papers/Bit-Separable_Transformer_Accelerator_Leveraging_Output_Activation_Sparsity_for_Efficient_DRAM_Access.pdf"
+  pdf: "/assets/pdf/papers/%282025%20ISSCC%29%20Bit-Separable_Transformer_Accelerator_Leveraging_Output_Activation_Sparsity_for_Efficient_DRAM_Access.pdf"
 ---
 
 ## TL;DR
 
-- 利用 Transformer 输出 activation 的 bit-level sparsity 减少 DRAM 访问。
-- Bit-separable 计算：将高位和低位分开处理，低位稀疏时跳过。
-- 显著降低 off-chip memory bandwidth 需求。
+<!-- 用 3-5 句话写清楚 -->
+- 这篇论文解决什么问题。
+- 核心想法是什么。
+- 结果为什么重要。
+- 你读完后的主要判断。
+
+## Paper Info
+
+- **Title:** {{ page.paper.title }}
+- **Authors:** {{ page.paper.authors }}
+- **Venue:** {{ page.paper.venue }}
+- **Paper:** [PDF]({{ page.paper.pdf }})
+- **Code:** [link]({{ page.paper.code }})
 
 ## Problem
 
-Transformer 的 attention/FFN 输出 activation 存在大量 leading-zero bits。能否利用 bit-level sparsity？
+<!-- 这篇论文试图解决的具体问题是什么？ -->
+
 
 ## Method
 
-1. 检测 output activation 的 effective bit-width
-2. 只传输/计算 non-zero 高位部分
-3. 硬件支持 variable bit-width 的 MAC 操作
+<!-- 按模块拆解核心方法 -->
+1. 方法的整体 pipeline。
+2. 关键假设或设计。
+3. 和已有方法相比的新东西。
+
+## Experiments
+
+<!-- 记录你认为真正支撑结论的实验 -->
+- 数据集和任务设置。
+- baseline 是否合理。
+- ablation 说明了什么。
+- 有哪些实验缺口。
 
 ## Insights
 
-- Bit-level sparsity 是 value sparsity 之外的另一个优化维度。
-- ISSCC 级别的电路创新 + 架构设计。
+<!-- 写自己的理解，不只是复述论文 -->
+- 这个方法为什么有效？
+- 它适合什么场景？
+- 它可能在哪些场景下失败？
+- 对你自己的研究或项目有什么启发？
+
+## Limitations
+
+<!-- 列出论文没有解决、或者你觉得论证不充分的地方 -->
+
+
+## Follow-up
+
+<!-- 值得继续读的相关论文 / 可以复现的部分 / 可以进一步验证的问题 -->
