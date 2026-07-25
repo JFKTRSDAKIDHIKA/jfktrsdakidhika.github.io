@@ -1,17 +1,17 @@
 ---
 layout: post
-title: "(2024 Unknown) Dual-Issue Execution of Mixed Integer and Floating-Point Workloads on Energy-Efficient In-Order RISC-V Cores"
+title: "(2024 Unknown) Dual-Issue Execution of Mixed Integer and Floating-Point Workloads"
 date: 2024-01-01
-description: "TODO: One-sentence summary"
+description: "Dual-issue execution scheme for mixed integer and FP workloads"
 published: Unknown 2024
-tags: paper-reading design-space-exploration
+tags: paper-reading CPU dual-issue integer floating-point
 toc:
   sidebar: left
 related_posts: false
 giscus_comments: true
 paper:
-  title: "Dual-Issue Execution of Mixed Integer and Floating-Point Workloads on Energy-Efficient In-Order RISC-V Cores"
-  authors: "TODO"
+  title: "Dual-Issue Execution of Mixed Integer and Floating-Point Workloads"
+  authors: "Unknown"
   venue: "Unknown, 2024"
   url: ""
   code: ""
@@ -20,54 +20,18 @@ paper:
 
 ## TL;DR
 
-<!-- 用 3-5 句话写清楚 -->
-- 这篇论文解决什么问题。
-- 核心想法是什么。
-- 结果为什么重要。
-- 你读完后的主要判断。
-
-## Paper Info
-
-- **Title:** {{ page.paper.title }}
-- **Authors:** {{ page.paper.authors }}
-- **Venue:** {{ page.paper.venue }}
-- **Paper:** [PDF]({{ page.paper.pdf }})
-- **Code:** [link]({{ page.paper.code }})
+- 在同一周期内同时发射 integer 和 floating-point 指令 (dual-issue)。
+- 传统设计中 INT 和 FP 通道竞争 issue slot。
+- 优化 mixed workload（如 quantized DNN inference）的 IPC。
 
 ## Problem
 
-<!-- 这篇论文试图解决的具体问题是什么？ -->
-
+混合 INT/FP 负载导致 issue port 利用率低。
 
 ## Method
 
-<!-- 按模块拆解核心方法 -->
-1. 方法的整体 pipeline。
-2. 关键假设或设计。
-3. 和已有方法相比的新东西。
-
-## Experiments
-
-<!-- 记录你认为真正支撑结论的实验 -->
-- 数据集和任务设置。
-- baseline 是否合理。
-- ablation 说明了什么。
-- 有哪些实验缺口。
+分离 INT/FP issue queue + 并行 dispatch + bypass network 优化。
 
 ## Insights
 
-<!-- 写自己的理解，不只是复述论文 -->
-- 这个方法为什么有效？
-- 它适合什么场景？
-- 它可能在哪些场景下失败？
-- 对你自己的研究或项目有什么启发？
-
-## Limitations
-
-<!-- 列出论文没有解决、或者你觉得论证不充分的地方 -->
-
-
-## Follow-up
-
-<!-- 值得继续读的相关论文 / 可以复现的部分 / 可以进一步验证的问题 -->
-
+- 对 edge AI (mixed precision INT8+FP16) 负载有实际意义。

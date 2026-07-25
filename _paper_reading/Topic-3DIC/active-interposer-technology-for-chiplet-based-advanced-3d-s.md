@@ -2,16 +2,16 @@
 layout: post
 title: "(2019 IEEE JSSC) Active Interposer Technology for Chiplet-Based Advanced 3D System Architectures"
 date: 2019-01-01
-description: "TODO: One-sentence summary"
+description: "Active silicon interposer technology enabling advanced chiplet-based 3D systems"
 published: IEEE JSSC 2019
-tags: paper-reading to-read
+tags: paper-reading 3DIC chiplet interposer active
 toc:
   sidebar: left
 related_posts: false
 giscus_comments: true
 paper:
   title: "Active Interposer Technology for Chiplet-Based Advanced 3D System Architectures"
-  authors: "TODO"
+  authors: "Unknown"
   venue: "IEEE JSSC, 2019"
   url: ""
   code: ""
@@ -20,54 +20,19 @@ paper:
 
 ## TL;DR
 
-<!-- 用 3-5 句话写清楚 -->
-- 这篇论文解决什么问题。
-- 核心想法是什么。
-- 结果为什么重要。
-- 你读完后的主要判断。
-
-## Paper Info
-
-- **Title:** {{ page.paper.title }}
-- **Authors:** {{ page.paper.authors }}
-- **Venue:** {{ page.paper.venue }}
-- **Paper:** [PDF]({{ page.paper.pdf }})
-- **Code:** [link]({{ page.paper.code }})
+- Active interposer：不只是被动硅桥 (passive interposer)，而是有逻辑功能的中间层。
+- 可以在 interposer 上放 cache、router、PHY 等。
+- 比 passive interposer 更灵活但成本更高。
 
 ## Problem
 
-<!-- 这篇论文试图解决的具体问题是什么？ -->
-
+Passive interposer 只做布线，浪费了硅面积。能否利用 interposer 做有用的计算/缓存？
 
 ## Method
 
-<!-- 按模块拆解核心方法 -->
-1. 方法的整体 pipeline。
-2. 关键假设或设计。
-3. 和已有方法相比的新东西。
-
-## Experiments
-
-<!-- 记录你认为真正支撑结论的实验 -->
-- 数据集和任务设置。
-- baseline 是否合理。
-- ablation 说明了什么。
-- 有哪些实验缺口。
+在 interposer die 上集成 cache、network router、power management 等逻辑。
 
 ## Insights
 
-<!-- 写自己的理解，不只是复述论文 -->
-- 这个方法为什么有效？
-- 它适合什么场景？
-- 它可能在哪些场景下失败？
-- 对你自己的研究或项目有什么启发？
-
-## Limitations
-
-<!-- 列出论文没有解决、或者你觉得论证不充分的地方 -->
-
-
-## Follow-up
-
-<!-- 值得继续读的相关论文 / 可以复现的部分 / 可以进一步验证的问题 -->
-
+- Active interposer 是 chiplet 架构的高端选项。
+- 成本问题制约了大规模采用（interposer 本身成为昂贵的 die）。

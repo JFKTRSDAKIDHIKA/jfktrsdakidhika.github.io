@@ -1,17 +1,17 @@
 ---
 layout: post
-title: "(2022 Nature Electronics) Multi-chip technologies to unleash computing performance gains over the next decade"
+title: "(2022 Nature Electronics) Multi-chip Technologies to Unleash Computing Performance Gains over the Next Decade"
 date: 2022-01-01
-description: "TODO: One-sentence summary"
+description: "Nature Electronics review of multi-chip technologies for future computing performance"
 published: Nature Electronics 2022
-tags: paper-reading to-read
+tags: paper-reading 3DIC chiplet multi-chip review Nature
 toc:
   sidebar: left
 related_posts: false
 giscus_comments: true
 paper:
-  title: "Multi-chip technologies to unleash computing performance gains over the next decade"
-  authors: "TODO"
+  title: "Multi-chip Technologies to Unleash Computing Performance Gains over the Next Decade"
+  authors: "Unknown"
   venue: "Nature Electronics, 2022"
   url: ""
   code: ""
@@ -20,54 +20,19 @@ paper:
 
 ## TL;DR
 
-<!-- 用 3-5 句话写清楚 -->
-- 这篇论文解决什么问题。
-- 核心想法是什么。
-- 结果为什么重要。
-- 你读完后的主要判断。
-
-## Paper Info
-
-- **Title:** {{ page.paper.title }}
-- **Authors:** {{ page.paper.authors }}
-- **Venue:** {{ page.paper.venue }}
-- **Paper:** [PDF]({{ page.paper.pdf }})
-- **Code:** [link]({{ page.paper.code }})
+- Nature Electronics 综述：未来十年的 multi-chip 技术路线。
+- 涵盖 chiplet, 2.5D, 3D, hybrid bonding, optical interconnect。
+- 从摩尔定律放缓到 "More than Moore" 的系统级创新。
 
 ## Problem
 
-<!-- 这篇论文试图解决的具体问题是什么？ -->
-
+摩尔定律减速后，如何继续提升计算性能？
 
 ## Method
 
-<!-- 按模块拆解核心方法 -->
-1. 方法的整体 pipeline。
-2. 关键假设或设计。
-3. 和已有方法相比的新东西。
-
-## Experiments
-
-<!-- 记录你认为真正支撑结论的实验 -->
-- 数据集和任务设置。
-- baseline 是否合理。
-- ablation 说明了什么。
-- 有哪些实验缺口。
+综述 multi-chip 技术：chiplet disaggregation + advanced packaging + heterogeneous integration。
 
 ## Insights
 
-<!-- 写自己的理解，不只是复述论文 -->
-- 这个方法为什么有效？
-- 它适合什么场景？
-- 它可能在哪些场景下失败？
-- 对你自己的研究或项目有什么启发？
-
-## Limitations
-
-<!-- 列出论文没有解决、或者你觉得论证不充分的地方 -->
-
-
-## Follow-up
-
-<!-- 值得继续读的相关论文 / 可以复现的部分 / 可以进一步验证的问题 -->
-
+- 高质量综述，适合入门 3DIC/chiplet 领域。
+- Nature Electronics 的视角偏产业和趋势。

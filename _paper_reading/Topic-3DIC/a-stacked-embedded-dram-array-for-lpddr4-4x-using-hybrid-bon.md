@@ -1,17 +1,17 @@
 ---
 layout: post
-title: "(2023 ISSCC) A Stacked Embedded DRAM Array for LPDDR4 4X using Hybrid Bonding 3D Integration with 34GB s 1Gb 0.88pJ b Logic-to-Memory Interface"
+title: "(2023 ISSCC) A Stacked Embedded DRAM Array for LPDDR4 4X using Hybrid Bonding 3D Integration"
 date: 2023-01-01
-description: "TODO: One-sentence summary"
+description: "Stacked eDRAM with LPDDR4 4X interface using hybrid bonding"
 published: ISSCC 2023
-tags: paper-reading to-read
+tags: paper-reading 3DIC hybrid-bonding eDRAM LPDDR
 toc:
   sidebar: left
 related_posts: false
 giscus_comments: true
 paper:
-  title: "A Stacked Embedded DRAM Array for LPDDR4 4X using Hybrid Bonding 3D Integration with 34GB s 1Gb 0.88pJ b Logic-to-Memory Interface"
-  authors: "TODO"
+  title: "A Stacked Embedded DRAM Array for LPDDR4 4X using Hybrid Bonding 3D Integration"
+  authors: "Unknown"
   venue: "ISSCC, 2023"
   url: ""
   code: ""
@@ -20,54 +20,19 @@ paper:
 
 ## TL;DR
 
-<!-- 用 3-5 句话写清楚 -->
-- 这篇论文解决什么问题。
-- 核心想法是什么。
-- 结果为什么重要。
-- 你读完后的主要判断。
-
-## Paper Info
-
-- **Title:** {{ page.paper.title }}
-- **Authors:** {{ page.paper.authors }}
-- **Venue:** {{ page.paper.venue }}
-- **Paper:** [PDF]({{ page.paper.pdf }})
-- **Code:** [link]({{ page.paper.code }})
+- 用 hybrid bonding 将 eDRAM 堆叠，提供 LPDDR4 4× 的带宽。
+- 34 GB/s, 1Gb 容量, 0.88 pJ/b 能效。
+- Logic-to-Memory 接口设计。
 
 ## Problem
 
-<!-- 这篇论文试图解决的具体问题是什么？ -->
-
+移动端需要高带宽低功耗内存，LPDDR 受限于 package-level 连接。
 
 ## Method
 
-<!-- 按模块拆解核心方法 -->
-1. 方法的整体 pipeline。
-2. 关键假设或设计。
-3. 和已有方法相比的新东西。
-
-## Experiments
-
-<!-- 记录你认为真正支撑结论的实验 -->
-- 数据集和任务设置。
-- baseline 是否合理。
-- ablation 说明了什么。
-- 有哪些实验缺口。
+Hybrid bonding 将 eDRAM die 直接堆叠在 logic die 上，缩短互连距离。
 
 ## Insights
 
-<!-- 写自己的理解，不只是复述论文 -->
-- 这个方法为什么有效？
-- 它适合什么场景？
-- 它可能在哪些场景下失败？
-- 对你自己的研究或项目有什么启发？
-
-## Limitations
-
-<!-- 列出论文没有解决、或者你觉得论证不充分的地方 -->
-
-
-## Follow-up
-
-<!-- 值得继续读的相关论文 / 可以复现的部分 / 可以进一步验证的问题 -->
-
+- 移动端 3D 集成的先行者。
+- 0.88 pJ/b 能效对 mobile AI 非常有吸引力。

@@ -1,17 +1,17 @@
 ---
 layout: post
-title: "(2024 ICCAD) The Dawn of AI-Native EDA Opportunities and Challenges of Large Circuit Models"
+title: "(2024 ICCAD) The Dawn of AI-Native EDA: Opportunities and Challenges of Large Circuit Models"
 date: 2024-01-01
-description: "TODO: One-sentence summary"
+description: "Vision paper on AI-native EDA leveraging large circuit models"
 published: ICCAD 2024
-tags: paper-reading accelerator-architecture
+tags: paper-reading EDA AI-native LLM circuit-model
 toc:
   sidebar: left
 related_posts: false
 giscus_comments: true
 paper:
-  title: "The Dawn of AI-Native EDA Opportunities and Challenges of Large Circuit Models"
-  authors: "TODO"
+  title: "The Dawn of AI-Native EDA: Opportunities and Challenges of Large Circuit Models"
+  authors: "Unknown"
   venue: "ICCAD, 2024"
   url: ""
   code: ""
@@ -20,54 +20,19 @@ paper:
 
 ## TL;DR
 
-<!-- 用 3-5 句话写清楚 -->
-- 这篇论文解决什么问题。
-- 核心想法是什么。
-- 结果为什么重要。
-- 你读完后的主要判断。
-
-## Paper Info
-
-- **Title:** {{ page.paper.title }}
-- **Authors:** {{ page.paper.authors }}
-- **Venue:** {{ page.paper.venue }}
-- **Paper:** [PDF]({{ page.paper.pdf }})
-- **Code:** [link]({{ page.paper.code }})
+- AI-Native EDA：用大规模 AI 模型 (Large Circuit Models) 革新 EDA 工具。
+- 类比 LLM for NLP → LCM for circuit design。
+- 讨论机会：自动化设计、bug 检测、PPA 预测。
 
 ## Problem
 
-<!-- 这篇论文试图解决的具体问题是什么？ -->
-
+传统 EDA 依赖手工规则和 heuristic。AI 能否从根本上改变 EDA？
 
 ## Method
 
-<!-- 按模块拆解核心方法 -->
-1. 方法的整体 pipeline。
-2. 关键假设或设计。
-3. 和已有方法相比的新东西。
-
-## Experiments
-
-<!-- 记录你认为真正支撑结论的实验 -->
-- 数据集和任务设置。
-- baseline 是否合理。
-- ablation 说明了什么。
-- 有哪些实验缺口。
+Vision paper: 定义 "Large Circuit Model" 概念 + 识别研究方向。
 
 ## Insights
 
-<!-- 写自己的理解，不只是复述论文 -->
-- 这个方法为什么有效？
-- 它适合什么场景？
-- 它可能在哪些场景下失败？
-- 对你自己的研究或项目有什么启发？
-
-## Limitations
-
-<!-- 列出论文没有解决、或者你觉得论证不充分的地方 -->
-
-
-## Follow-up
-
-<!-- 值得继续读的相关论文 / 可以复现的部分 / 可以进一步验证的问题 -->
-
+- EDA + AI 是 2024-2025 最热门的交叉方向之一。
+- 挑战：训练数据稀缺（circuit data 不像 text 那么丰富）。

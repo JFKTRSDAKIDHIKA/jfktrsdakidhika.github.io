@@ -1,17 +1,17 @@
 ---
 layout: post
-title: "(2022 ISSCC) 3D V-Cache the Implementation of a Hybrid-Bonded 64MB Stacked Cache for a 7nm x86-64 CPU"
+title: "(2022 ISSCC) 3D V-Cache: The Implementation of a Hybrid-Bonded 64MB Stacked Cache for a 7nm x86-64 CPU"
 date: 2022-01-01
-description: "TODO: One-sentence summary"
+description: "AMD 3D V-Cache implementation using hybrid bonding for 64MB stacked L3 cache"
 published: ISSCC 2022
-tags: paper-reading to-read
+tags: paper-reading 3DIC hybrid-bonding cache AMD
 toc:
   sidebar: left
 related_posts: false
 giscus_comments: true
 paper:
-  title: "3D V-Cache the Implementation of a Hybrid-Bonded 64MB Stacked Cache for a 7nm x86-64 CPU"
-  authors: "TODO"
+  title: "3D V-Cache: The Implementation of a Hybrid-Bonded 64MB Stacked Cache for a 7nm x86-64 CPU"
+  authors: "AMD"
   venue: "ISSCC, 2022"
   url: ""
   code: ""
@@ -20,54 +20,22 @@ paper:
 
 ## TL;DR
 
-<!-- 用 3-5 句话写清楚 -->
-- 这篇论文解决什么问题。
-- 核心想法是什么。
-- 结果为什么重要。
-- 你读完后的主要判断。
-
-## Paper Info
-
-- **Title:** {{ page.paper.title }}
-- **Authors:** {{ page.paper.authors }}
-- **Venue:** {{ page.paper.venue }}
-- **Paper:** [PDF]({{ page.paper.pdf }})
-- **Code:** [link]({{ page.paper.code }})
+- AMD 3D V-Cache：用 hybrid bonding 将 64MB SRAM cache 堆叠在 7nm CPU die 上。
+- 首个量产的 hybrid bonding 3D cache 产品 (Ryzen 5800X3D)。
+- L3 cache 容量翻三倍（32MB → 96MB），gaming 性能提升 ~15%。
 
 ## Problem
 
-<!-- 这篇论文试图解决的具体问题是什么？ -->
-
+CPU L3 cache 面积受限于 die size。如何在不增大 die 的情况下大幅增加 cache？
 
 ## Method
 
-<!-- 按模块拆解核心方法 -->
-1. 方法的整体 pipeline。
-2. 关键假设或设计。
-3. 和已有方法相比的新东西。
-
-## Experiments
-
-<!-- 记录你认为真正支撑结论的实验 -->
-- 数据集和任务设置。
-- baseline 是否合理。
-- ablation 说明了什么。
-- 有哪些实验缺口。
+1. Hybrid bonding (Cu-Cu direct bond, ~9μm pitch)
+2. SRAM cache die 堆叠在 CCD 上方
+3. TSV 穿透连接，带宽 2TB/s+
 
 ## Insights
 
-<!-- 写自己的理解，不只是复述论文 -->
-- 这个方法为什么有效？
-- 它适合什么场景？
-- 它可能在哪些场景下失败？
-- 对你自己的研究或项目有什么启发？
-
-## Limitations
-
-<!-- 列出论文没有解决、或者你觉得论证不充分的地方 -->
-
-
-## Follow-up
-
-<!-- 值得继续读的相关论文 / 可以复现的部分 / 可以进一步验证的问题 -->
-
+- 3D V-Cache 证明了 hybrid bonding 的量产可行性。
+- 对比 HBM 的 micro-bump (~40μm)，hybrid bonding 密度高 20×。
+- 开启了 3D cache 的产品化时代。

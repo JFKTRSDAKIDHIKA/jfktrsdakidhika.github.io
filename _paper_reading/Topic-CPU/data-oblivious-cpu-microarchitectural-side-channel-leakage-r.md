@@ -1,17 +1,17 @@
 ---
 layout: post
-title: "(2024 ISCA) Data Oblivious CPU Microarchitectural Side-channel Leakage-Resilient Processor"
+title: "(2024 ISCA) Data Oblivious CPU Microarchitectural Side-channel Leakage-Resilient Processing"
 date: 2024-01-01
-description: "TODO: One-sentence summary"
+description: "Data-oblivious CPU design to resist microarchitectural side-channel attacks"
 published: ISCA 2024
-tags: paper-reading design-space-exploration
+tags: paper-reading CPU security side-channel data-oblivious
 toc:
   sidebar: left
 related_posts: false
 giscus_comments: true
 paper:
-  title: "Data Oblivious CPU Microarchitectural Side-channel Leakage-Resilient Processor"
-  authors: "TODO"
+  title: "Data Oblivious CPU Microarchitectural Side-channel Leakage-Resilient Processing"
+  authors: "Unknown"
   venue: "ISCA, 2024"
   url: ""
   code: ""
@@ -20,54 +20,19 @@ paper:
 
 ## TL;DR
 
-<!-- 用 3-5 句话写清楚 -->
-- 这篇论文解决什么问题。
-- 核心想法是什么。
-- 结果为什么重要。
-- 你读完后的主要判断。
-
-## Paper Info
-
-- **Title:** {{ page.paper.title }}
-- **Authors:** {{ page.paper.authors }}
-- **Venue:** {{ page.paper.venue }}
-- **Paper:** [PDF]({{ page.paper.pdf }})
-- **Code:** [link]({{ page.paper.code }})
+- 提出 data-oblivious CPU 微架构：所有执行行为与数据值无关。
+- 抵御 timing, cache, power side-channel attacks。
+- 代价：性能下降，但安全性得到数学保证。
 
 ## Problem
 
-<!-- 这篇论文试图解决的具体问题是什么？ -->
-
+现代 CPU 的微架构优化（分支预测、cache）泄漏秘密信息。如何从根本上消除？
 
 ## Method
 
-<!-- 按模块拆解核心方法 -->
-1. 方法的整体 pipeline。
-2. 关键假设或设计。
-3. 和已有方法相比的新东西。
-
-## Experiments
-
-<!-- 记录你认为真正支撑结论的实验 -->
-- 数据集和任务设置。
-- baseline 是否合理。
-- ablation 说明了什么。
-- 有哪些实验缺口。
+Data-oblivious 执行：fixed timing, oblivious RAM access, constant-time ALU。
 
 ## Insights
 
-<!-- 写自己的理解，不只是复述论文 -->
-- 这个方法为什么有效？
-- 它适合什么场景？
-- 它可能在哪些场景下失败？
-- 对你自己的研究或项目有什么启发？
-
-## Limitations
-
-<!-- 列出论文没有解决、或者你觉得论证不充分的地方 -->
-
-
-## Follow-up
-
-<!-- 值得继续读的相关论文 / 可以复现的部分 / 可以进一步验证的问题 -->
-
+- Security vs Performance 的终极 tradeoff。
+- 对密码学应用有实际意义（constant-time crypto）。

@@ -1,17 +1,17 @@
 ---
 layout: post
-title: "(2024 ISSCC) A 1596-GB s 48-Gb Stacked Embedded DRAM 384-Core SoC With Hybrid Bonding Integration"
+title: "(2024 ISSCC) A 1596-GB/s 48-Gb Stacked Embedded DRAM 384-Core SoC With Hybrid Bonding Integration"
 date: 2024-01-01
-description: "TODO: One-sentence summary"
+description: "384-core SoC with 48Gb stacked eDRAM using hybrid bonding achieving 1596 GB/s"
 published: ISSCC 2024
-tags: paper-reading to-read
+tags: paper-reading 3DIC hybrid-bonding eDRAM SoC
 toc:
   sidebar: left
 related_posts: false
 giscus_comments: true
 paper:
-  title: "A 1596-GB s 48-Gb Stacked Embedded DRAM 384-Core SoC With Hybrid Bonding Integration"
-  authors: "TODO"
+  title: "A 1596-GB/s 48-Gb Stacked Embedded DRAM 384-Core SoC With Hybrid Bonding Integration"
+  authors: "Unknown"
   venue: "ISSCC, 2024"
   url: ""
   code: ""
@@ -20,54 +20,19 @@ paper:
 
 ## TL;DR
 
-<!-- 用 3-5 句话写清楚 -->
-- 这篇论文解决什么问题。
-- 核心想法是什么。
-- 结果为什么重要。
-- 你读完后的主要判断。
-
-## Paper Info
-
-- **Title:** {{ page.paper.title }}
-- **Authors:** {{ page.paper.authors }}
-- **Venue:** {{ page.paper.venue }}
-- **Paper:** [PDF]({{ page.paper.pdf }})
-- **Code:** [link]({{ page.paper.code }})
+- 384 核 SoC + 48Gb 堆叠 eDRAM，hybrid bonding 集成。
+- 带宽 1596 GB/s — 远超传统 HBM 方案。
+- Logic + eDRAM 3D 集成的极端案例。
 
 ## Problem
 
-<!-- 这篇论文试图解决的具体问题是什么？ -->
-
+AI/HPC 需要超高带宽内存，HBM 仍有瓶颈。Hybrid bonding eDRAM 能否提供更高带宽？
 
 ## Method
 
-<!-- 按模块拆解核心方法 -->
-1. 方法的整体 pipeline。
-2. 关键假设或设计。
-3. 和已有方法相比的新东西。
-
-## Experiments
-
-<!-- 记录你认为真正支撑结论的实验 -->
-- 数据集和任务设置。
-- baseline 是否合理。
-- ablation 说明了什么。
-- 有哪些实验缺口。
+384 核 compute die + 多层 eDRAM die，hybrid bonding 实现 ultra-high bandwidth。
 
 ## Insights
 
-<!-- 写自己的理解，不只是复述论文 -->
-- 这个方法为什么有效？
-- 它适合什么场景？
-- 它可能在哪些场景下失败？
-- 对你自己的研究或项目有什么启发？
-
-## Limitations
-
-<!-- 列出论文没有解决、或者你觉得论证不充分的地方 -->
-
-
-## Follow-up
-
-<!-- 值得继续读的相关论文 / 可以复现的部分 / 可以进一步验证的问题 -->
-
+- 1596 GB/s 超过了 HBM3 (819 GB/s per stack) 的单栈带宽。
+- eDRAM + hybrid bonding 可能是 HBM 的竞争方案。

@@ -2,16 +2,16 @@
 layout: post
 title: "(2024 ICCAD) Hierarchical Power Co-Optimization and Management for LLM Chiplet Designs"
 date: 2024-01-01
-description: "TODO: One-sentence summary"
+description: "Hierarchical power optimization for LLM chiplet architectures"
 published: ICCAD 2024
-tags: paper-reading accelerator-architecture
+tags: paper-reading 3DIC chiplet LLM power-management
 toc:
   sidebar: left
 related_posts: false
 giscus_comments: true
 paper:
   title: "Hierarchical Power Co-Optimization and Management for LLM Chiplet Designs"
-  authors: "TODO"
+  authors: "Unknown"
   venue: "ICCAD, 2024"
   url: ""
   code: ""
@@ -20,54 +20,19 @@ paper:
 
 ## TL;DR
 
-<!-- 用 3-5 句话写清楚 -->
-- 这篇论文解决什么问题。
-- 核心想法是什么。
-- 结果为什么重要。
-- 你读完后的主要判断。
-
-## Paper Info
-
-- **Title:** {{ page.paper.title }}
-- **Authors:** {{ page.paper.authors }}
-- **Venue:** {{ page.paper.venue }}
-- **Paper:** [PDF]({{ page.paper.pdf }})
-- **Code:** [link]({{ page.paper.code }})
+- 面向 LLM chiplet 架构的分层功耗优化和管理。
+- 多 chiplet 系统的功耗分配不均 → 需要层次化管理。
+- Co-optimization：架构设计阶段就考虑功耗分配。
 
 ## Problem
 
-<!-- 这篇论文试图解决的具体问题是什么？ -->
-
+LLM chiplet 系统的总功耗可达数百瓦，不同 chiplet 负载不均导致热点和浪费。
 
 ## Method
 
-<!-- 按模块拆解核心方法 -->
-1. 方法的整体 pipeline。
-2. 关键假设或设计。
-3. 和已有方法相比的新东西。
-
-## Experiments
-
-<!-- 记录你认为真正支撑结论的实验 -->
-- 数据集和任务设置。
-- baseline 是否合理。
-- ablation 说明了什么。
-- 有哪些实验缺口。
+Hierarchical: chip-level DVFS + chiplet-level power gating + workload-aware scheduling。
 
 ## Insights
 
-<!-- 写自己的理解，不只是复述论文 -->
-- 这个方法为什么有效？
-- 它适合什么场景？
-- 它可能在哪些场景下失败？
-- 对你自己的研究或项目有什么启发？
-
-## Limitations
-
-<!-- 列出论文没有解决、或者你觉得论证不充分的地方 -->
-
-
-## Follow-up
-
-<!-- 值得继续读的相关论文 / 可以复现的部分 / 可以进一步验证的问题 -->
-
+- 功耗管理是大规模 chiplet 系统的实际挑战。
+- LLM workload 的动态性（prefill vs decode）使功耗管理更复杂。

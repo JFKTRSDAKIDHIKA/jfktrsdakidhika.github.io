@@ -1,17 +1,17 @@
 ---
 layout: post
-title: "(2024 TCAD) tcad24-sai"
+title: "(2024 TCAD) Pin-3D: Effective Physical Design Methodology for Multi-Die Co-Optimization in Monolithic 3-D ICs"
 date: 2024-01-01
-description: "TODO: One-sentence summary"
+description: "Native 3D PnR methodology for monolithic 3D ICs with multi-die co-optimization"
 published: TCAD 2024
-tags: paper-reading to-read
+tags: paper-reading physical-design 3DIC monolithic PnR co-optimization
 toc:
   sidebar: left
 related_posts: false
 giscus_comments: true
 paper:
-  title: "tcad24-sai"
-  authors: "TODO"
+  title: "Pin-3D: Effective Physical Design Methodology for Multi-Die Co-Optimization in Monolithic 3-D ICs"
+  authors: "Sai Pentapati, Kyungwook Chang, Sung Kyu Lim"
   venue: "TCAD, 2024"
   url: ""
   code: ""
@@ -20,54 +20,21 @@ paper:
 
 ## TL;DR
 
-<!-- 用 3-5 句话写清楚 -->
-- 这篇论文解决什么问题。
-- 核心想法是什么。
-- 结果为什么重要。
-- 你读完后的主要判断。
-
-## Paper Info
-
-- **Title:** {{ page.paper.title }}
-- **Authors:** {{ page.paper.authors }}
-- **Venue:** {{ page.paper.venue }}
-- **Paper:** [PDF]({{ page.paper.pdf }})
-- **Code:** [link]({{ page.paper.code }})
+- Pin-3D：原生 3D PnR 方法，专门为 monolithic 3D IC 设计。
+- 与 Compact-2D (fold/unfold) 不同，Pin-3D 直接在 3D 空间做 P&R。
+- Multi-die co-optimization：同时优化多层的 placement + routing。
 
 ## Problem
 
-<!-- 这篇论文试图解决的具体问题是什么？ -->
-
+Compact-2D 的 fold/unfold 方法在 monolithic 3D 下损失 3D-specific 优化机会。
 
 ## Method
 
-<!-- 按模块拆解核心方法 -->
-1. 方法的整体 pipeline。
-2. 关键假设或设计。
-3. 和已有方法相比的新东西。
-
-## Experiments
-
-<!-- 记录你认为真正支撑结论的实验 -->
-- 数据集和任务设置。
-- baseline 是否合理。
-- ablation 说明了什么。
-- 有哪些实验缺口。
+1. 3D-native placement: 考虑 MIV (Monolithic Inter-tier Via) 位置
+2. Tier-aware routing
+3. Multi-die timing co-optimization
 
 ## Insights
 
-<!-- 写自己的理解，不只是复述论文 -->
-- 这个方法为什么有效？
-- 它适合什么场景？
-- 它可能在哪些场景下失败？
-- 对你自己的研究或项目有什么启发？
-
-## Limitations
-
-<!-- 列出论文没有解决、或者你觉得论证不充分的地方 -->
-
-
-## Follow-up
-
-<!-- 值得继续读的相关论文 / 可以复现的部分 / 可以进一步验证的问题 -->
-
+- Monolithic 3D 的 MIV density 比 TSV 高 100×，使 gate-level partitioning 成为可能。
+- Sung Kyu Lim 组在 3D PD 领域的核心贡献。
