@@ -54,7 +54,7 @@ Currently tracking **421 papers** across multiple venues and topics.
 
 ### 2026 (177 papers)
 
-<details><summary><strong>ISCA</strong> (171)</summary>
+<details markdown="1"><summary><strong>ISCA</strong> (171)</summary>
 
 -   [(2026 ISCA) A Silicon-Proven Unified Low-Latency CXL Controller and Port-Based Routing Switch for Memory-Centric Fabrics](/paper-reading/2026-ISCA/a-silicon-proven-unified-low-latency-cxl-controller-and/) [📄 PDF](/assets/pdf/papers/%282026%20ISCA%29%20A%20Silicon-Proven%20Unified%20Low-Latency%20CXL%20Controller%20and%20Port-Based%20Routing%20Switch%20for%20Memory-Centric%20Fabrics.pdf)
 -   [(2026 ISCA) A Streaming Architecture for Quantum Error Syndrome Compression at 4 Kelvin](/paper-reading/2026-ISCA/a-streaming-architecture-for-quantum-error-syndrome/) [📄 PDF](/assets/pdf/papers/%282026%20ISCA%29%20A%20Streaming%20Architecture%20for%20Quantum%20Error%20Syndrome%20Compression%20at%204%20Kelvin.pdf)
@@ -230,27 +230,27 @@ Currently tracking **421 papers** across multiple venues and topics.
 
 </details>
 
-<details><summary><strong>MICRO</strong> (2)</summary>
+<details markdown="1"><summary><strong>MICRO</strong> (2)</summary>
 
 -   [(2026 MICRO) Fast and Fusiest An Optimal Fusion Aware Mapper for Accelerator Design](/paper-reading/2026-MICRO/fast-and-fusiest-an-optimal-fusion-aware-mapper-for-accelera/) [📄 PDF](/assets/pdf/papers/%282026%20MICRO%29%20Fast_and_Fusiest_An_Optimal_Fusion_Aware_Mapper_for_Accelerator_Design%20.pdf)
 -   [(2026 MICRO) The Turbo Charged Mapper Fast and Optimal Mapping for Energy efficient and Low latency Accelerator Design](/paper-reading/2026-MICRO/the-turbo-charged-mapper-fast-and-optimal-mapping-for-energy/) [📄 PDF](/assets/pdf/papers/%282026%20MICRO%29%20The_Turbo_Charged_Mapper_Fast_and_Optimal_Mapping_for_Energy_efficient_and_Low_latency_Accelerator_Design.pdf)
 
 </details>
 
-<details><summary><strong>arXiv</strong> (2)</summary>
+<details markdown="1"><summary><strong>arXiv</strong> (2)</summary>
 
 -   [(2026 arXiv) 2603.04797v1](/paper-reading/2026-arXiv/260304797v1/) [📄 PDF](/assets/pdf/papers/2603.04797v1.pdf)
 -   [(2026 arXiv) 2603.28793v1](/paper-reading/2026-arXiv/260328793v1/) [📄 PDF](/assets/pdf/papers/2603.28793v1.pdf)
 
 </details>
 
-<details><summary><strong>ISSCC</strong> (1)</summary>
+<details markdown="1"><summary><strong>ISSCC</strong> (1)</summary>
 
 -   [(2026 ISSCC) A Hybrid-Bonded 12.1TOPS/mm² 56-Core DNN Processor with 2.5Tb/s/mm² 3D Network on Chip](/paper-reading/2026-ISSCC/106-a-hybrid-bonded-121tops-mm2-5-6-core-dnn-processor-with/) [📄 PDF](/assets/pdf/papers/%282026%20ISSCC%29%2010.6_A_Hybrid-Bonded_12.1Tops_mm2_5_6-Core_DNN_Processor_with_2.5Tb_s_mm2_3D_Network_on_Chip.pdf)
 
 </details>
 
-<details><summary><strong>ASPDAC</strong> (1)</summary>
+<details markdown="1"><summary><strong>ASPDAC</strong> (1)</summary>
 
 -   [(2026 ASPDAC) DeepPiC xPU-PIM Cluster Architecture with Adaptive Resource-Aware Task Orchestration for DeepSeek-Style MoE Inference](/paper-reading/2026-ASPDAC/deeppic-xpu-pim-cluster-architecture-with-adaptive-resource/) [📄 PDF](/assets/pdf/papers/%282026%20ASPDAC%29%20DeepPiC%20xPU-PIM%20Cluster%20Architecture%20with%20Adaptive%20Resource-Aware%20Task%20Orchestration%20for%20DeepSeek-Style%20MoE%20Inference.pdf)
 
@@ -258,7 +258,7 @@ Currently tracking **421 papers** across multiple venues and topics.
 
 ### 2025 (37 papers)
 
-<details><summary><strong>ISCA</strong> (9)</summary>
+<details markdown="1"><summary><strong>ISCA</strong> (9)</summary>
 
 -   [(2025 ISCA) AIM Software and Hardware Co-design for Architecture-level IR-drop Mitigation in High-performance PIM](/paper-reading/2025-ISCA/aim-software-and-hardware-co-design-for-architecture-level-i/) [📄 PDF](/assets/pdf/papers/%282025%20ISCA%29%20AIM%20Software%20and%20Hardware%20Co-design%20for%20Architecture-level%20IR-drop%20Mitigation%20in%20High-performance%20PIM.pdf)
 -   [(2025 ISCA) AMALI AnAnalytical Model for Accurately Modeling LLM Inference on Modern GPUs](/paper-reading/2025-ISCA/amali-ananalytical-model-for-accurately-modeling-llm-inferen/) [📄 PDF](/assets/pdf/papers/%282025%20ISCA%29%20AMALI%20AnAnalytical%20Model%20for%20Accurately%20Modeling%20LLM%20Inference%20on%20Modern%20GPUs.pdf)
@@ -272,7 +272,7 @@ Currently tracking **421 papers** across multiple venues and topics.
 
 </details>
 
-<details><summary><strong>DAC</strong> (6)</summary>
+<details markdown="1"><summary><strong>DAC</strong> (6)</summary>
 
 -   [(2025 DAC) From Flatland to Forest Exploring Pareto-optimal Design through RTL Hierarchy Trees](/paper-reading/2025-DAC/from-flatland-to-forest-exploring-pareto-optimal-design-thro/) [📄 PDF](/assets/pdf/papers/%282025%20DAC%29%20From_Flatland_to_Forest_Exploring_Pareto-optimal_Design_through_RTL_Hierarchy_Trees.pdf)
 -   [(2025 DAC) High-Performance Computing Architecture Exploration with Stage-Enhanced Bayesian Optimization](/paper-reading/2025-DAC/high-performance-computing-architecture-exploration-with-sta/) [📄 PDF](/assets/pdf/papers/%282025%20DAC%29%20High-Performance_Computing_Architecture_Exploration_with_Stage-Enhanced_Bayesian_Optimization.pdf)
@@ -283,7 +283,7 @@ Currently tracking **421 papers** across multiple venues and topics.
 
 </details>
 
-<details><summary><strong>MICRO</strong> (4)</summary>
+<details markdown="1"><summary><strong>MICRO</strong> (4)</summary>
 
 -   [(2025 MICRO) Crane Inter-Layer Scheduling Framework for DNN Inference and Training Co-Support on Tiled Architecture](/paper-reading/2025-MICRO/crane-inter-layer-scheduling-framework-for-dnn-inference-and/) [📄 PDF](/assets/pdf/papers/%282025%20MICRO%29%20Crane%20Inter-Layer%20Scheduling%20Framework%20for%20DNN%20Inference%20and%20Training%20Co-Support%20on%20Tiled%20Architecture.pdf)
 -   [(2025 MICRO) Elk Exploring the Efficiency of Inter-core Connected AI Chips with Deep Learning Compiler Techniques](/paper-reading/2025-MICRO/elk-exploring-the-efficiency-of-inter-core-connected-ai-chip/) [📄 PDF](/assets/pdf/papers/%282025%20MICRO%29%20Elk_Exploring%20the%20Efficiency%20of%20Inter-core%20Connected%20AI%20Chips%20with%20Deep%20Learning%20Compiler%20Techniques.pdf)
@@ -292,7 +292,7 @@ Currently tracking **421 papers** across multiple venues and topics.
 
 </details>
 
-<details><summary><strong>HPCA</strong> (3)</summary>
+<details markdown="1"><summary><strong>HPCA</strong> (3)</summary>
 
 -   [(2025 HPCA) EDA Energy-Efficient Inter-Layer Model Compilation for Edge DNN Inference Acceleration](/paper-reading/2025-HPCA/eda-energy-efficient-inter-layer-model-compilation-for-edge/) [📄 PDF](/assets/pdf/papers/%282025%20HPCA%29%20EDA_Energy-Efficient_Inter-Layer_Model_Compilation_for_Edge_DNN_Inference_Acceleration.pdf)
 -   [(2025 HPCA) Exploring the Performance Improvement of Tensor Processing Engines through Transformation in the Bit-weight Dimension of MACs](/paper-reading/2025-HPCA/exploring-the-performance-improvement-of-tensor-processing-e/) [📄 PDF](/assets/pdf/papers/%282025%20HPCA%29%20Exploring_the_Performance_Improvement_of_Tensor_Processing_Engines_through_Transformation_in_the_Bit-weight_Dimension_of_MACs.pdf)
@@ -300,71 +300,71 @@ Currently tracking **421 papers** across multiple venues and topics.
 
 </details>
 
-<details><summary><strong>ASPLOS</strong> (2)</summary>
+<details markdown="1"><summary><strong>ASPLOS</strong> (2)</summary>
 
 -   [(2025 ASPLOS) Using Analytical PerformancePower Model and Fine-Grained DVFS to Enhance AI Accelerator Energy Efficiency](/paper-reading/2025-ASPLOS/using-analytical-performancepower-model-and-fine-grained-dvf/) [📄 PDF](/assets/pdf/papers/%282025%20ASPLOS%29%20Using%20Analytical%20PerformancePower%20Model%20and%20Fine-Grained%20DVFS%20to%20Enhance%20AI%20Accelerator%20Energy%20Efficiency.pdf)
 -   [(2025 ASPLOS) Virgo - Cluster-level Matrix Unit Integration in GPUs for Scalability and Energy Efficiency](/paper-reading/2025-ASPLOS/virgo---cluster-level-matrix-unit-integration-in-gpus-for-sc/) [📄 PDF](/assets/pdf/papers/%282025%20ASPLOS%29%20Virgo%20-%20Cluster-level%20Matrix%20Unit%20Integration%20in%20GPUs%20for%20Scalability%20and%20Energy%20Efficiency.pdf)
 
 </details>
 
-<details><summary><strong>ASPDAC</strong> (2)</summary>
+<details markdown="1"><summary><strong>ASPDAC</strong> (2)</summary>
 
 -   [(2025 ASPDAC) MACO](/paper-reading/2025-ASPDAC/maco/) [📄 PDF](/assets/pdf/papers/%282025%20ASPDAC%29%20MACO.pdf)
 -   [(2025 ASPDAC) TL-CSE Microarchitecture-Compiler Co-design Space Exploration via Transfer Learning](/paper-reading/2025-ASPDAC/tl-cse-microarchitecture-compiler-co-design-space-exploratio/) [📄 PDF](/assets/pdf/papers/%282025%20ASPDAC%29%20TL-CSE%20Microarchitecture-Compiler%20Co-design%20Space%20Exploration%20via%20Transfer%20Learning.pdf)
 
 </details>
 
-<details><summary><strong>DATE</strong> (2)</summary>
+<details markdown="1"><summary><strong>DATE</strong> (2)</summary>
 
 -   [(2025 DATE) AttentionLib A Scalable Optimization Framework for Automated Attention Acceleration on FPGA](/paper-reading/2025-DATE/attentionlib-a-scalable-optimization-framework-for-automated/) [📄 PDF](/assets/pdf/papers/%282025%20DATE%29%20AttentionLib_A_Scalable_Optimization_Framework_for_Automated_Attention_Acceleration_on_FPGA.pdf)
 -   [(2025 DATE) SEGA-DCIM Design Space Exploration-Guided Automatic Digital CIM Compiler with Multiple Precision Support](/paper-reading/2025-DATE/sega-dcim-design-space-exploration-guided-automatic-digital/) [📄 PDF](/assets/pdf/papers/%282025%20DATE%29%20SEGA-DCIM_Design_Space_Exploration-Guided_Automatic_Digital_CIM_Compiler_with_Multiple_Precision_Support.pdf)
 
 </details>
 
-<details><summary><strong>TCAD</strong> (2)</summary>
+<details markdown="1"><summary><strong>TCAD</strong> (2)</summary>
 
 -   [(2025 TCAD) APPLE-DSE Asynchronous Parallel Pareto Set Learning for Microarchitecture Design Space Exploration](/paper-reading/2025-TCAD/apple-dse-asynchronous-parallel-pareto-set-learning-for-micr/) [📄 PDF](/assets/pdf/papers/%282025%20TCAD%29%20APPLE-DSE_Asynchronous_Parallel_Pareto_Set_Learning_for_Microarchitecture_Design_Space_Exploration.pdf)
 -   [(2025 TCAD) Prior-Boosted GRL Microarchitecture Design Space Exploration via Graph Representation Learning](/paper-reading/2025-TCAD/prior-boosted-grl-microarchitecture-design-space-exploration/) [📄 PDF](/assets/pdf/papers/%282025%20TCAD%29%20Prior-Boosted_GRL_Microarchitecture_Design_Space_Exploration_via_Graph_Representation_Learning.pdf)
 
 </details>
 
-<details><summary><strong>IEEE</strong> (1)</summary>
+<details markdown="1"><summary><strong>IEEE</strong> (1)</summary>
 
 -   [(2025 IEEE micro) From TeAAL to FuseMax Separation of Concerns for Attention Accelerator Design](/paper-reading/2025-IEEE/from-teaal-to-fusemax-separation-of-concerns-for-attention-a/) [📄 PDF](/assets/pdf/papers/%282025%20IEEE%20micro%29%20From_TeAAL_to_FuseMax_Separation_of_Concerns_for_Attention_Accelerator_Design.pdf)
 
 </details>
 
-<details><summary><strong>ISPD</strong> (1)</summary>
+<details markdown="1"><summary><strong>ISPD</strong> (1)</summary>
 
 -   [(2025 ISPD) Physical Design for Advanced 3D ICs: Challenges and Solutions](/paper-reading/2025-ISPD/physical-design-for-advanced-3d-ics-challenges-and-solutions/) [📄 PDF](/assets/pdf/papers/%282025%20ISPD%29%20Physical_Design_for_Advanced_3D_ICs_Challenges_and_Solutions.pdf)
 
 </details>
 
-<details><summary><strong>ICCAD</strong> (1)</summary>
+<details markdown="1"><summary><strong>ICCAD</strong> (1)</summary>
 
 -   [(2025 ICCAD) AccelStack A Cost-Driven Analysis of 3D-Stacked LLM Accelerators](/paper-reading/2025-ICCAD/accelstack-a-cost-driven-analysis-of-3d-stacked-llm-accelera-2/) [📄 PDF](/assets/pdf/papers/%282025%20ICCAD%29%20AccelStack%20A%20Cost-Driven%20Analysis%20of%203D-Stacked%20LLM%20Accelerators.pdf)
 
 </details>
 
-<details><summary><strong>GLSVLSI</strong> (1)</summary>
+<details markdown="1"><summary><strong>GLSVLSI</strong> (1)</summary>
 
 -   [(2025 GLSVLSI) CADOSys Cache Aware DSO Spatial ML Accelerators](/paper-reading/2025-GLSVLSI/cadosys-cache-aware-dso-spatial-ml-accelerators/) [📄 PDF](/assets/pdf/papers/%282025%20GLSVLSI%29%20CADOSys_Cache_Aware_DSO_Spatial_ML_Accelerators.pdf)
 
 </details>
 
-<details><summary><strong>JSSC</strong> (1)</summary>
+<details markdown="1"><summary><strong>JSSC</strong> (1)</summary>
 
 -   [(2025 JSSC) How to Keep Pushing ML Accelerator Performance Know Your Rooflines](/paper-reading/2025-JSSC/how-to-keep-pushing-ml-accelerator-performance-know-your-roo/) [📄 PDF](/assets/pdf/papers/%282025%20JSSC%29%20How_to_Keep_Pushing_ML_Accelerator_Performance_Know_Your_Rooflines.pdf)
 
 </details>
 
-<details><summary><strong>arXiv</strong> (1)</summary>
+<details markdown="1"><summary><strong>arXiv</strong> (1)</summary>
 
 -   [(2025 arXiv) 2506.16444v2](/paper-reading/2025-arXiv/250616444v2/) [📄 PDF](/assets/pdf/papers/2506.16444v2.pdf)
 
 </details>
 
-<details><summary><strong>TC</strong> (1)</summary>
+<details markdown="1"><summary><strong>TC</strong> (1)</summary>
 
 -   [(2025 TC) Stream Design Space Exploration of Layer-Fused DNNs on Heterogeneous Dataflow Accelerators](/paper-reading/2025-TC/stream-design-space-exploration-of-layer-fused-dnns-on-heter/) [📄 PDF](/assets/pdf/papers/%282025%20TC%29%20Stream_Design_Space_Exploration_of_Layer-Fused_DNNs_on_Heterogeneous_Dataflow_Accelerators.pdf)
 
@@ -372,7 +372,7 @@ Currently tracking **421 papers** across multiple venues and topics.
 
 ### 2024 (26 papers)
 
-<details><summary><strong>ISCA</strong> (8)</summary>
+<details markdown="1"><summary><strong>ISCA</strong> (8)</summary>
 
 -   [(2024 ISCA) A Tale of Two Domains Exploring Efficient Architecture Design for Truly Autonomous Things](/paper-reading/2024-ISCA/a-tale-of-two-domains-exploring-efficient-architecture-desig/) [📄 PDF](/assets/pdf/papers/%282024%20ISCA%29%20A_Tale_of_Two_Domains_Exploring_Efficient_Architecture_Design_for_Truly_Autonomous_Things.pdf)
 -   [(2024 ISCA) Cambricon-D Full-Network Differential Acceleration for Diffusion Models](/paper-reading/2024-ISCA/cambricon-d-full-network-differential-acceleration-for-diffu/) [📄 PDF](/assets/pdf/papers/%282024%20ISCA%29%20Cambricon-D_Full-Network_Differential_Acceleration_for_Diffusion_Models.pdf)
@@ -385,7 +385,7 @@ Currently tracking **421 papers** across multiple venues and topics.
 
 </details>
 
-<details><summary><strong>ASPLOS</strong> (5)</summary>
+<details markdown="1"><summary><strong>ASPLOS</strong> (5)</summary>
 
 -   [(2024 ASPLOS) AttAcc! Unleashing the Power of PIM for Batched Transformer-based Generative Model Inference](/paper-reading/2024-ASPLOS/attacc-unleashing-the-power-of-pim-for-batched-transformer-b/) [📄 PDF](/assets/pdf/papers/%282024%20ASPLOS%29%20AttAcc%21%20Unleashing%20the%20Power%20of%20PIM%20for%20Batched%20Transformer-based%20Generative%20Model%20Inference.pdf)
 -   [(2024 ASPLOS) Felix Optimizing Tensor Programs with Gradient Descent](/paper-reading/2024-ASPLOS/felix-optimizing-tensor-programs-with-gradient-descent/) [📄 PDF](/assets/pdf/papers/%282024%20ASPLOS%29%20Felix%20Optimizing%20Tensor%20Programs%20with%20Gradient%20Descent.pdf)
@@ -395,7 +395,7 @@ Currently tracking **421 papers** across multiple venues and topics.
 
 </details>
 
-<details><summary><strong>MICRO</strong> (4)</summary>
+<details markdown="1"><summary><strong>MICRO</strong> (4)</summary>
 
 -   [(2024 MICRO) FuseMax Leveraging Extended Einsums to Optimize Attention Accelerator Design](/paper-reading/2024-MICRO/fusemax-leveraging-extended-einsums-to-optimize-attention-ac/) [📄 PDF](/assets/pdf/papers/%282024%20MICRO%29%20FuseMax_Leveraging_Extended_Einsums_to_Optimize_Attention_Accelerator_Design.pdf)
 -   [(2024 MICRO) SOFA A Compute-Memory Optimized Sparsity Accelerator via Cross-Stage Coordinated Tiling](/paper-reading/2024-MICRO/sofa-a-compute-memory-optimized-sparsity-accelerator-via-cro/) [📄 PDF](/assets/pdf/papers/%282024%20MICRO%29%20SOFA_A_Compute-Memory_Optimized_Sparsity_Accelerator_via_Cross-Stage_Coordinated_Tiling.pdf)
@@ -404,7 +404,7 @@ Currently tracking **421 papers** across multiple venues and topics.
 
 </details>
 
-<details><summary><strong>ICCAD</strong> (3)</summary>
+<details markdown="1"><summary><strong>ICCAD</strong> (3)</summary>
 
 -   [(2024 ICCAD) Is Vanilla Bayesian Optimization Enough for High Dimensional Architecture Design Optimization](/paper-reading/2024-ICCAD/is-vanilla-bayesian-optimization-enough-for-high-dimensional/) [📄 PDF](/assets/pdf/papers/%282024%20ICCAD%29%20Is%20Vanilla%20Bayesian%20Optimization%20Enough%20for%20High_Dimensional%20Architecture%20Design%20Optimization.pdf)
 -   [(2024 ICCAD) Multi-Objective SW-HW Co-Opt HD-PIM Noise-Aware Bayesian Opt](/paper-reading/2024-ICCAD/multi-objective-sw-hw-co-opt-hd-pim-noise-aware-bayesian-opt/) [📄 PDF](/assets/pdf/papers/%282024%20ICCAD%29%20Multi-Objective_SW-HW_Co-Opt_HD-PIM_Noise-Aware_Bayesian_Opt.pdf)
@@ -412,32 +412,32 @@ Currently tracking **421 papers** across multiple venues and topics.
 
 </details>
 
-<details><summary><strong>DAC</strong> (2)</summary>
+<details markdown="1"><summary><strong>DAC</strong> (2)</summary>
 
 -   [(2024 DAC) ChatCPU An Agile CPU Design & Verification Platform with LLM](/paper-reading/2024-DAC/chatcpu-an-agile-cpu-design-verification-platform-with-llm/) [📄 PDF](/assets/pdf/papers/%282024%20DAC%29%20ChatCPU%20An%20Agile%20CPU%20Design%20%26%20Verification%20Platform%20with%20LLM.pdf)
 -   [(2024 DAC) Explainable Fuzzy Neural Network withMulti-Fidelity Reinforcement Learning for Micro-Architecture Design Space Exploration](/paper-reading/2024-DAC/explainable-fuzzy-neural-network-withmulti-fidelity-reinforc/) [📄 PDF](/assets/pdf/papers/%282024%20DAC%29%20Explainable%20Fuzzy%20Neural%20Network%20withMulti-Fidelity%20Reinforcement%20Learning%20for%20Micro-Architecture%20Design%20Space%20Exploration.pdf)
 
 </details>
 
-<details><summary><strong>AAAI</strong> (1)</summary>
+<details markdown="1"><summary><strong>AAAI</strong> (1)</summary>
 
 -   [(2024 AAAI) Towards Automated RISC-V Microarchitecture Design with Reinforcement Learning](/paper-reading/2024-AAAI/towards-automated-risc-v-microarchitecture-design-with-reinf/) [📄 PDF](/assets/pdf/papers/%282024%20AAAI%29%20Towards%20Automated%20RISC-V%20Microarchitecture%20Design%20with%20%20Reinforcement%20Learning.pdf)
 
 </details>
 
-<details><summary><strong>TCSA</strong> (1)</summary>
+<details markdown="1"><summary><strong>TCSA</strong> (1)</summary>
 
 -   [(2024 TCSA) LoopTree Exploring the Fused-Layer Dataflow Accelerator Design Space](/paper-reading/2024-TCSA/looptree-exploring-the-fused-layer-dataflow-accelerator-desi/) [📄 PDF](/assets/pdf/papers/%282024%20TCSA%29%20LoopTree_Exploring_the_Fused-Layer_Dataflow_Accelerator_Design_Space.pdf)
 
 </details>
 
-<details><summary><strong>TCAD</strong> (1)</summary>
+<details markdown="1"><summary><strong>TCAD</strong> (1)</summary>
 
 -   [(2024 TCAD) ROI-HIT Region of Interest-Driven High-Dimensional Microarchitecture Design Space Exploration](/paper-reading/2024-TCAD/roi-hit-region-of-interest-driven-high-dimensional-microarch/) [📄 PDF](/assets/pdf/papers/%282024%20TCAD%29%20ROI-HIT_Region_of_Interest-Driven_High-Dimensional_Microarchitecture_Design_Space_Exploration.pdf)
 
 </details>
 
-<details><summary><strong>arXiv</strong> (1)</summary>
+<details markdown="1"><summary><strong>arXiv</strong> (1)</summary>
 
 -   [(2024 arXiv) 2409.01141v1](/paper-reading/2024-arXiv/240901141v1/) [📄 PDF](/assets/pdf/papers/2409.01141v1.pdf)
 
@@ -445,7 +445,7 @@ Currently tracking **421 papers** across multiple venues and topics.
 
 ### 2023 (18 papers)
 
-<details><summary><strong>MICRO</strong> (4)</summary>
+<details markdown="1"><summary><strong>MICRO</strong> (4)</summary>
 
 -   [(2023 MICRO) TeAAL A Declarative Framework for Modeling Sparse Tensor Accelerators](/paper-reading/2023-MICRO/teaal-a-declarative-framework-for-modeling-sparse-tensor-acc/) [📄 PDF](/assets/pdf/papers/%282023%20MICRO%29%20TeAAL%20A%20Declarative%20Framework%20for%20Modeling%20Sparse%20Tensor%20Accelerators.pdf)
 -   [(2023 MICRO) TileFlow A Framework for Modeling Fusion Dataflow via Tree-based Analysis](/paper-reading/2023-MICRO/tileflow-a-framework-for-modeling-fusion-dataflow-via-tree-b/) [📄 PDF](/assets/pdf/papers/%282023%20MICRO%29%20TileFlow%20A%20Framework%20for%20Modeling%20Fusion%20Dataflow%20via%20%20Tree-based%20Analysis%20-%20%E5%89%AF%E6%9C%AC.pdf)
@@ -454,7 +454,7 @@ Currently tracking **421 papers** across multiple venues and topics.
 
 </details>
 
-<details><summary><strong>HPCA</strong> (3)</summary>
+<details markdown="1"><summary><strong>HPCA</strong> (3)</summary>
 
 -   [(2023 HPCA) DeFiNES Enabling Fast Exploration of the Depth-first Scheduling Space for DNN Accelerators through Analytical Modeling](/paper-reading/2023-HPCA/defines-enabling-fast-exploration-of-the-depth-first-schedul/) [📄 PDF](/assets/pdf/papers/%282023%20HPCA%29%20DeFiNES_Enabling_Fast_Exploration_of_the_Depth-first_Scheduling_Space_for_DNN_Accelerators_through_Analytical_Modeling.pdf)
 -   [(2023 HPCA) ISOSceles Accelerating Sparse CNNs through Inter-Layer Pipelining](/paper-reading/2023-HPCA/isosceles-accelerating-sparse-cnns-through-inter-layer-pipel/) [📄 PDF](/assets/pdf/papers/%282023%20HPCA%29%20ISOSceles_Accelerating_Sparse_CNNs_through_Inter-Layer_Pipelining.pdf)
@@ -462,57 +462,57 @@ Currently tracking **421 papers** across multiple venues and topics.
 
 </details>
 
-<details><summary><strong>ISCA</strong> (2)</summary>
+<details markdown="1"><summary><strong>ISCA</strong> (2)</summary>
 
 -   [(2023 ISCA) ArchGym An Open-Source Gymnasium for Machine Learning Assisted Architecture Design](/paper-reading/2023-ISCA/archgym-an-open-source-gymnasium-for-machine-learning-assist/) [📄 PDF](/assets/pdf/papers/%282023%20ISCA%29%20ArchGym%20An%20Open-Source%20Gymnasium%20for%20Machine%20Learning%20Assisted%20Architecture%20Design.pdf)
 -   [(2023 ISCA) TPUv4](/paper-reading/2023-ISCA/tpuv4/) [📄 PDF](/assets/pdf/papers/%282023%20ISCA%29%20TPUv4.pdf)
 
 </details>
 
-<details><summary><strong>DAC</strong> (2)</summary>
+<details markdown="1"><summary><strong>DAC</strong> (2)</summary>
 
 -   [(2023 DAC) Graph Representation Learning for Microarchitecture Design Space Exploration](/paper-reading/2023-DAC/graph-representation-learning-for-microarchitecture-design-s/) [📄 PDF](/assets/pdf/papers/%282023%20DAC%29%20Graph_Representation_Learning_for_Microarchitecture_Design_Space_Exploration.pdf)
 -   [(2023 DAC) Graph Representation Learning for Microarchitecture Design Space Exploration - final](/paper-reading/2023-DAC/graph-representation-learning-for-microarchitecture-design-s-2/) [📄 PDF](/assets/pdf/papers/%282023%20DAC%29%20Graph%20Representation%20Learning%20for%20Microarchitecture%20Design%20Space%20Exploration%20-%20final.pdf)
 
 </details>
 
-<details><summary><strong>FPGA</strong> (1)</summary>
+<details markdown="1"><summary><strong>FPGA</strong> (1)</summary>
 
 -   [(2023 FPGA) CHARM Composing Heterogeneous AcceleRators for Matrix Multiply on Versal ACAP Architecture](/paper-reading/2023-FPGA/charm-composing-heterogeneous-accelerators-for-matrix-multip/) [📄 PDF](/assets/pdf/papers/%282023%20FPGA%29%20CHARM%20Composing%20Heterogeneous%20AcceleRators%20for%20Matrix%20Multiply%20on%20Versal%20ACAP%20Architecture.pdf)
 
 </details>
 
-<details><summary><strong>ASPLOS</strong> (1)</summary>
+<details markdown="1"><summary><strong>ASPLOS</strong> (1)</summary>
 
 -   [(2023 ASPLOS) FLA：AnOptimizedDataflowforMitigatingAttentionBottlenecks](/paper-reading/2023-ASPLOS/flaanoptimizeddataflowformitigatingattentionbottlenecks/) [📄 PDF](/assets/pdf/papers/%282023%20ASPLOS%29%20FLA%EF%BC%9AAnOptimizedDataflowforMitigatingAttentionBottlenecks.pdf)
 
 </details>
 
-<details><summary><strong>ICCAD</strong> (1)</summary>
+<details markdown="1"><summary><strong>ICCAD</strong> (1)</summary>
 
 -   [(2023 ICCAD) ARES A Mapping Framework of DNNs Towards Diverse PIMs with General Abstractions](/paper-reading/2023-ICCAD/ares-a-mapping-framework-of-dnns-towards-diverse-pims-with-g/) [📄 PDF](/assets/pdf/papers/%2823%20ICCAD%29%20ARES_A_Mapping_Framework_of_DNNs_Towards_Diverse_PIMs_with_General_Abstractions.pdf)
 
 </details>
 
-<details><summary><strong>ISLPED</strong> (1)</summary>
+<details markdown="1"><summary><strong>ISLPED</strong> (1)</summary>
 
 -   [(2023 ISLPED) A Comparative Study on Front Side Buried and Back Side Power Rail Topologies in 3nm Technology Node](/paper-reading/2023-ISLPED/a-comparative-study-on-front-side-buried-and-back-side-power/) [📄 PDF](/assets/pdf/papers/%282023%20ISLPED%29%20A_Comparative_Study_on_Front_Side_Buried_and_Back_Side_Power_Rail_Topologies_in_3nm_Technology_Node.pdf)
 
 </details>
 
-<details><summary><strong>ISSCC</strong> (1)</summary>
+<details markdown="1"><summary><strong>ISSCC</strong> (1)</summary>
 
 -   [(2023 ISSCC) 16.7 A 40-310TOPS W SRAM-Based All-Digital Up to 4b In-Memory Computing Multi-Tiled NN Accelerator in FD-SOI 18nm for Deep-Learning Edge Applications](/paper-reading/2023-ISSCC/167-a-40-310tops-w-sram-based-all-digital-up-to-4b-in-memory/) [📄 PDF](/assets/pdf/papers/%282023%20ISSCC%29%2016.7_A_40-310TOPS_W_SRAM-Based_All-Digital_Up_to_4b_In-Memory_Computing_Multi-Tiled_NN_Accelerator_in_FD-SOI_18nm_for_Deep-Learning_Edge_Applications.pdf)
 
 </details>
 
-<details><summary><strong>ISPASS</strong> (1)</summary>
+<details markdown="1"><summary><strong>ISPASS</strong> (1)</summary>
 
 -   [(2023 ISPASS) LoopTree Enabling Exploration of Fused-layer Dataflow Accelerators](/paper-reading/2023-ISPASS/looptree-enabling-exploration-of-fused-layer-dataflow-accele/) [📄 PDF](/assets/pdf/papers/%282023%20ISPASS%29%20LoopTree_Enabling_Exploration_of_Fused-layer_Dataflow_Accelerators.pdf)
 
 </details>
 
-<details><summary><strong>JSSC</strong> (1)</summary>
+<details markdown="1"><summary><strong>JSSC</strong> (1)</summary>
 
 -   [(2023 JSSC) A Charge Domain SRAM Compute-in-Memory Macro With C-2C Ladder-Based 8-Bit MAC Unit in 22-nm FinFET Process for Edge Inference](/paper-reading/2023-JSSC/a-charge-domain-sram-compute-in-memory-macro-with-c-2c-ladde/) [📄 PDF](/assets/pdf/papers/%282023%20JSSC%29%20A_Charge_Domain_SRAM_Compute-in-Memory_Macro_With_C-2C_Ladder-Based_8-Bit_MAC_Unit_in_22-nm_FinFET_Process_for_Edge_Inference.pdf)
 
@@ -520,45 +520,45 @@ Currently tracking **421 papers** across multiple venues and topics.
 
 ### 2022 (9 papers)
 
-<details><summary><strong>DAC</strong> (2)</summary>
+<details markdown="1"><summary><strong>DAC</strong> (2)</summary>
 
 -   [(2022 DAC) Hammer A Modular and Reusable Physical Design Flow Tool](/paper-reading/2022-DAC/hammer-a-modular-and-reusable-physical-design-flow-tool/) [📄 PDF](/assets/pdf/papers/%282022%20DAC%29%20Hammer%20A%20Modular%20and%20Reusable%20Physical%20Design%20Flow%20Tool.pdf)
 -   [(2022 DAC) Invited ScaleHLS a Scalable High-Level Synthesis Framework with Multi-level Transformations and Optimizations](/paper-reading/2022-DAC/invited-scalehls-a-scalable-high-level-synthesis-framework-w/) [📄 PDF](/assets/pdf/papers/%282022%20DAC%29%20Invited%20ScaleHLS%20a%20Scalable%20High-Level%20Synthesis%20Framework%20%20with%20Multi-level%20Transformations%20and%20Optimizations.pdf)
 
 </details>
 
-<details><summary><strong>ISSCC</strong> (2)</summary>
+<details markdown="1"><summary><strong>ISSCC</strong> (2)</summary>
 
 -   [(2022 ISSCC) 184QPS W 64Mb mm23D Logic-to-DRAM Hybrid Bonding with Process-Near-Memory Engine for Recommendation System](/paper-reading/2022-ISSCC/184qps-w-64mb-mm23d-logic-to-dram-hybrid-bonding-with-proces/) [📄 PDF](/assets/pdf/papers/%282022%20ISSCC%29%20184QPS_W_64Mb_mm23D_Logic-to-DRAM_Hybrid_Bonding_with_Process-Near-Memory_Engine_for_Recommendation_System.pdf)
 -   [(2022 ISSCC) A 1ynm 1.25V 8Gb 16Gb s pin GDDR6-based Accelerator-in-Memory supporting 1TFLOPS MAC Operation and Various Activation Functions for Deep-Learning Applications](/paper-reading/2022-ISSCC/a-1ynm-125v-8gb-16gb-s-pin-gddr6-based-accelerator-in-memory/) [📄 PDF](/assets/pdf/papers/%282022%20ISSCC%29%20A_1ynm_1.25V_8Gb_16Gb_s_pin_GDDR6-based_Accelerator-in-Memory_supporting_1TFLOPS_MAC_Operation_and_Various_Activation_Functions_for_Deep-Learning_Applications.pdf)
 
 </details>
 
-<details><summary><strong>HPCA</strong> (1)</summary>
+<details markdown="1"><summary><strong>HPCA</strong> (1)</summary>
 
 -   [(2022 HPCA) ScaleHLS A New Scalable High-Level Synthesis Framework on Multi-Level Intermediate Representation](/paper-reading/2022-HPCA/scalehls-a-new-scalable-high-level-synthesis-framework-on-mu/) [📄 PDF](/assets/pdf/papers/%282022%20HPCA%29%20ScaleHLS_A_New_Scalable_High-Level_Synthesis_Framework_on_Multi-Level_Intermediate_Representation.pdf)
 
 </details>
 
-<details><summary><strong>ISPASS</strong> (1)</summary>
+<details markdown="1"><summary><strong>ISPASS</strong> (1)</summary>
 
 -   [(2022 ISPASS) Learning A Continuous and Reconstructible Latent Space for Hardware Accelerator Design](/paper-reading/2022-ISPASS/learning-a-continuous-and-reconstructible-latent-space-for-h/) [📄 PDF](/assets/pdf/papers/%282022%20ISPASS%29%20Learning_A_Continuous_and_Reconstructible_Latent_Space_for_Hardware_Accelerator_Design.pdf)
 
 </details>
 
-<details><summary><strong>ICLR</strong> (1)</summary>
+<details markdown="1"><summary><strong>ICLR</strong> (1)</summary>
 
 -   [(2022 ICLR) DATA-DRIVEN OFFLINE OPTIMIZATION FOR ARCHITECTING HARDWARE ACCELERATORS](/paper-reading/2022-ICLR/data-driven-offline-optimization-for-architecting-hardware-a/) [📄 PDF](/assets/pdf/papers/%282022%20ICLR%29%20DATA-DRIVEN%20OFFLINE%20OPTIMIZATION%20FOR%20ARCHITECTING%20HARDWARE%20ACCELERATORS.pdf)
 
 </details>
 
-<details><summary><strong>IEEE</strong> (1)</summary>
+<details markdown="1"><summary><strong>IEEE</strong> (1)</summary>
 
 -   [(2022 IEEE Micro) Aquabolt-XL HBM2-PIM LPDDR5-PIM With In-Memory Processing and AXDIMM With Acceleration Buffer](/paper-reading/2022-IEEE/aquabolt-xl-hbm2-pim-lpddr5-pim-with-in-memory-processing-an/) [📄 PDF](/assets/pdf/papers/%282022%20IEEE%20Micro%29%20Aquabolt-XL_HBM2-PIM_LPDDR5-PIM_With_In-Memory_Processing_and_AXDIMM_With_Acceleration_Buffer.pdf)
 
 </details>
 
-<details><summary><strong>DATE</strong> (1)</summary>
+<details markdown="1"><summary><strong>DATE</strong> (1)</summary>
 
 -   [(2022 DATE) DiGamma Domain-aware Genetic Algorithm for HW-Mapping Co-optimization for DNN Accelerators](/paper-reading/2022-DATE/digamma-domain-aware-genetic-algorithm-for-hw-mapping-co-opt/) [📄 PDF](/assets/pdf/papers/%282022%20DATE%29%20DiGamma_Domain-aware_Genetic_Algorithm_for_HW-Mapping_Co-optimization_for_DNN_Accelerators.pdf)
 
@@ -566,38 +566,38 @@ Currently tracking **421 papers** across multiple venues and topics.
 
 ### 2021 (7 papers)
 
-<details><summary><strong>ISCA</strong> (2)</summary>
+<details markdown="1"><summary><strong>ISCA</strong> (2)</summary>
 
 -   [(2021 ISCA) Hardware Architecture and Software Stack for PIM Based on Commercial DRAM Technology Industrial Product](/paper-reading/2021-ISCA/hardware-architecture-and-software-stack-for-pim-based-on-co/) [📄 PDF](/assets/pdf/papers/%282021%20ISCA%29%20Hardware_Architecture_and_Software_Stack_for_PIM_Based_on_Commercial_DRAM_Technology__Industrial_Product.pdf)
 -   [(2021 ISCA) Ten Lessons From Three Generations Shaped Googles TPUv4i Industrial Product](/paper-reading/2021-ISCA/ten-lessons-from-three-generations-shaped-googles-tpuv4i-ind/) [📄 PDF](/assets/pdf/papers/%282021%20ISCA%29%20Ten_Lessons_From_Three_Generations_Shaped_Googles_TPUv4i__Industrial_Product.pdf)
 
 </details>
 
-<details><summary><strong>ICCAD</strong> (1)</summary>
+<details markdown="1"><summary><strong>ICCAD</strong> (1)</summary>
 
 -   [(2021 ICCAD) BOOM-Explorer RISC-V BOOM Microarchitecture Design Space Exploration Framework](/paper-reading/2021-ICCAD/boom-explorer-risc-v-boom-microarchitecture-design-space-exp/) [📄 PDF](/assets/pdf/papers/%282021%20ICCAD%29%20BOOM-Explorer_RISC-V_BOOM_Microarchitecture_Design_Space_Exploration_Framework.pdf)
 
 </details>
 
-<details><summary><strong>arXiv</strong> (1)</summary>
+<details markdown="1"><summary><strong>arXiv</strong> (1)</summary>
 
 -   [(2021 arXiv) 2102.01723v1](/paper-reading/2021-arXiv/210201723v1/) [📄 PDF](/assets/pdf/papers/2102.01723v1.pdf)
 
 </details>
 
-<details><summary><strong>IEEE</strong> (1)</summary>
+<details markdown="1"><summary><strong>IEEE</strong> (1)</summary>
 
 -   [(2021 IEEE Mico) The Design Process for Googles Training Chips TPUv2 and TPUv3](/paper-reading/2021-IEEE/the-design-process-for-googles-training-chips-tpuv2-and-tpuv/) [📄 PDF](/assets/pdf/papers/%282021%20IEEE%20Mico%29%20The_Design_Process_for_Googles_Training_Chips_TPUv2_and_TPUv3.pdf)
 
 </details>
 
-<details><summary><strong>DAC</strong> (1)</summary>
+<details markdown="1"><summary><strong>DAC</strong> (1)</summary>
 
 -   [(2021 DAC) TensorLib A Spatial Accelerator Generation Framework for Tensor Algebra](/paper-reading/2021-DAC/tensorlib-a-spatial-accelerator-generation-framework-for-ten/) [📄 PDF](/assets/pdf/papers/%282021%20DAC%29%20TensorLib%20A%20Spatial%20Accelerator%20Generation%20%20Framework%20for%20Tensor%20Algebra.pdf)
 
 </details>
 
-<details><summary><strong>CICC</strong> (1)</summary>
+<details markdown="1"><summary><strong>CICC</strong> (1)</summary>
 
 -   [(2021 CICC) A 22 nm 1540 TOP s W 12.1 TOP s mm2 in-Memory Analog Matrix-Vector-Multiplier for DNN Acceleration](/paper-reading/2021-CICC/a-22-nm-1540-top-s-w-121-top-s-mm2-in-memory-analog-matrix-v/) [📄 PDF](/assets/pdf/papers/%282021%20CICC%29%20A_22_nm_1540_TOP_s_W_12.1_TOP_s_mm2_in-Memory_Analog_Matrix-Vector-Multiplier_for_DNN_Acceleration.pdf)
 
@@ -605,19 +605,19 @@ Currently tracking **421 papers** across multiple venues and topics.
 
 ### 2020 (3 papers)
 
-<details><summary><strong>CACM</strong> (1)</summary>
+<details markdown="1"><summary><strong>CACM</strong> (1)</summary>
 
 -   [(2020 CACM) A Domain Specific Supercomputer for Training Deep Neural Networks (TPUv2)](/paper-reading/2020-CACM/a-domain-specific-supercomputer-for-training-deep-neural-net/) [📄 PDF](/assets/pdf/papers/%282020%20CACM%29%20A%20Domain%20Specific%20Supercomputer%20for%20Training%20Deep%20Neural%20Networks%20%28TPUv2%29.pdf)
 
 </details>
 
-<details><summary><strong>HPCA</strong> (1)</summary>
+<details markdown="1"><summary><strong>HPCA</strong> (1)</summary>
 
 -   [(2020 HPCA) A Deep Reinforcement Learning Framework for Architectural Exploration A Routerless NoC Case Study](/paper-reading/2020-HPCA/a-deep-reinforcement-learning-framework-for-architectural-ex/) [📄 PDF](/assets/pdf/papers/%282020%20HPCA%29%20A_Deep_Reinforcement_Learning_Framework_for_Architectural_Exploration_A_Routerless_NoC_Case_Study.pdf)
 
 </details>
 
-<details><summary><strong>ASPLOS</strong> (1)</summary>
+<details markdown="1"><summary><strong>ASPLOS</strong> (1)</summary>
 
 -   [(2020 ASPLOS) Interstellar Using Halide’s Scheduling Language to Analyze DNN Accelerators](/paper-reading/2020-ASPLOS/interstellar-using-halides-scheduling-language-to-analyze-dn/) [📄 PDF](/assets/pdf/papers/%282020%20ASPLOS%29%20Interstellar%20Using%20Halide%E2%80%99s%20Scheduling%20Language%20to%20Analyze%20DNN%20Accelerators.pdf)
 
@@ -625,31 +625,31 @@ Currently tracking **421 papers** across multiple venues and topics.
 
 ### 2019 (5 papers)
 
-<details><summary><strong>ICCAD</strong> (1)</summary>
+<details markdown="1"><summary><strong>ICCAD</strong> (1)</summary>
 
 -   [(2019 ICCAD) Accelergy An Architecture-Level Energy Estimation Methodology for Accelerator Designs](/paper-reading/2019-ICCAD/accelergy-an-architecture-level-energy-estimation-methodolog/) [📄 PDF](/assets/pdf/papers/%282019%20ICCAD%29%20Accelergy%20An%20Architecture-Level%20Energy%20Estimation%20Methodology%20for%20Accelerator%20Designs.pdf)
 
 </details>
 
-<details><summary><strong>MICRO</strong> (1)</summary>
+<details markdown="1"><summary><strong>MICRO</strong> (1)</summary>
 
 -   [(2019 MICRO) Understanding Reuse, Performance, and Hardware Cost of DNN Dataflows A Data-Centric Approach Using MAESTRO](/paper-reading/2019-MICRO/understanding-reuse-performance-and-hardware-cost-of-dnn-dat/) [📄 PDF](/assets/pdf/papers/%282019%20MICRO%29%20Understanding%20Reuse%2C%20Performance%2C%20and%20Hardware%20Cost%20of%20DNN%20Dataflows%20A%20Data-Centric%20Approach%20Using%20MAESTRO.pdf)
 
 </details>
 
-<details><summary><strong>MASCOTS</strong> (1)</summary>
+<details markdown="1"><summary><strong>MASCOTS</strong> (1)</summary>
 
 -   [(2019 MASCOTS) HyperMapper a Practical Design Space Exploration Framework](/paper-reading/2019-MASCOTS/hypermapper-a-practical-design-space-exploration-framework/) [📄 PDF](/assets/pdf/papers/%282019%20MASCOTS%29%20HyperMapper_a_Practical_Design_Space_Exploration_Framework.pdf)
 
 </details>
 
-<details><summary><strong>ISPASS</strong> (1)</summary>
+<details markdown="1"><summary><strong>ISPASS</strong> (1)</summary>
 
 -   [(2019 ISPASS) Timeloop A Systematic Approach to DNN Accelerator Evaluation](/paper-reading/2019-ISPASS/timeloop-a-systematic-approach-to-dnn-accelerator-evaluation/) [📄 PDF](/assets/pdf/papers/%282019%20ISPASS%29Timeloop_A_Systematic_Approach_to_DNN_Accelerator_Evaluation.pdf)
 
 </details>
 
-<details><summary><strong>JSSC</strong> (1)</summary>
+<details markdown="1"><summary><strong>JSSC</strong> (1)</summary>
 
 -   [(2019 JSSC) A 64-Tile 2.4-Mb In-Memory-Computing CNN Accelerator Employing Charge-Domain Compute](/paper-reading/2019-JSSC/a-64-tile-24-mb-in-memory-computing-cnn-accelerator-employin/) [📄 PDF](/assets/pdf/papers/%282019%20JSSC%29%20A_64-Tile_2.4-Mb_In-Memory-Computing_CNN_Accelerator_Employing_Charge-Domain_Compute.pdf)
 
@@ -657,25 +657,25 @@ Currently tracking **421 papers** across multiple venues and topics.
 
 ### 2017 (4 papers)
 
-<details><summary><strong>ISSCC</strong> (1)</summary>
+<details markdown="1"><summary><strong>ISSCC</strong> (1)</summary>
 
 -   [(2017 ISSCC) 14.5 Envision A 0.26-to-10TOPS W subword-parallel dynamic-voltage-accuracy-frequency-scalable Convolutional Neural Network processor in 28nm FDSOI](/paper-reading/2017-ISSCC/145-envision-a-026-to-10tops-w-subword-parallel-dynamic-volt/) [📄 PDF](/assets/pdf/papers/%282017%20ISSCC%29%2014.5_Envision_A_0.26-to-10TOPS_W_subword-parallel_dynamic-voltage-accuracy-frequency-scalable_Convolutional_Neural_Network_processor_in_28nm_FDSOI.pdf)
 
 </details>
 
-<details><summary><strong>TCAD</strong> (1)</summary>
+<details markdown="1"><summary><strong>TCAD</strong> (1)</summary>
 
 -   [(2017 TCAD) TSV-Based 3-D ICs: Design Methods and Tools](/paper-reading/2017-TCAD/tsv-based-3-d-ics-design-methods-and-tools/) [📄 PDF](/assets/pdf/papers/%282017%20TCAD%29%20TSV-Based_3-D_ICs_Design_Methods_and_Tools.pdf)
 
 </details>
 
-<details><summary><strong>ISCA</strong> (1)</summary>
+<details markdown="1"><summary><strong>ISCA</strong> (1)</summary>
 
 -   [(2017 ISCA) In-Datacenter Performance Analysis of a Tensor Processing Unit](/paper-reading/2017-ISCA/in-datacenter-performance-analysis-of-a-tensor-processing-un/) [📄 PDF](/assets/pdf/papers/%282017%20ISCA%29%20In-Datacenter%20Performance%20Analysis%20of%20a%20Tensor%20Processing%20Unit.pdf)
 
 </details>
 
-<details><summary><strong>ISPD</strong> (1)</summary>
+<details markdown="1"><summary><strong>ISPD</strong> (1)</summary>
 
 -   [(2017 ISPD) ASAP7 predictive design kit development and cell design technology co-optimization Invited paper](/paper-reading/2017-ISPD/asap7-predictive-design-kit-development-and-cell-design-tech/) [📄 PDF](/assets/pdf/papers/%282017%20ISPD%29%20ASAP7_predictive_design_kit_development_and_cell_design_technology_co-optimization_Invited_paper.pdf)
 
@@ -683,7 +683,7 @@ Currently tracking **421 papers** across multiple venues and topics.
 
 ### 2015 (1 papers)
 
-<details><summary><strong>ISCA</strong> (1)</summary>
+<details markdown="1"><summary><strong>ISCA</strong> (1)</summary>
 
 -   [(2015 ISCA) ShiDianNao Shifting vision processing closer to the sensor](/paper-reading/2015-ISCA/shidiannao-shifting-vision-processing-closer-to-the-sensor/) [📄 PDF](/assets/pdf/papers/%282015%20ISCA%29%20ShiDianNao_Shifting_vision_processing_closer_to_the_sensor%20%281%29.pdf)
 
@@ -691,7 +691,7 @@ Currently tracking **421 papers** across multiple venues and topics.
 
 ### 2014 (1 papers)
 
-<details><summary><strong>ISSCC</strong> (1)</summary>
+<details markdown="1"><summary><strong>ISSCC</strong> (1)</summary>
 
 -   [(2014 ISSCC) 1.1 Computings energy problem and what we can do about it](/paper-reading/2014-ISSCC/11-computings-energy-problem-and-what-we-can-do-about-it/) [📄 PDF](/assets/pdf/papers/%282014%20ISSCC%29%201.1_Computings_energy_problem_and_what_we_can_do_about_it.pdf)
 
@@ -699,14 +699,14 @@ Currently tracking **421 papers** across multiple venues and topics.
 
 ### 2010 (3 papers)
 
-<details><summary><strong>TCAD</strong> (2)</summary>
+<details markdown="1"><summary><strong>TCAD</strong> (2)</summary>
 
 -   [(2010 TCAD) Decision-Theoretic Design Space Exploration of Multiprocessor Platforms](/paper-reading/2010-TCAD/decision-theoretic-design-space-exploration-of-multiprocesso/) [📄 PDF](/assets/pdf/papers/%282010%20TCAD%29%20Decision-Theoretic_Design_Space_Exploration_of_Multiprocessor_Platforms.pdf)
 -   [(2010 TCAD) Design Space Exploration Acceleration Through Operation Clustering](/paper-reading/2010-TCAD/design-space-exploration-acceleration-through-operation-clus/) [📄 PDF](/assets/pdf/papers/%282010%20TCAD%29%20Design_Space_Exploration_Acceleration_Through_Operation_Clustering.pdf)
 
 </details>
 
-<details><summary><strong>ISCA</strong> (1)</summary>
+<details markdown="1"><summary><strong>ISCA</strong> (1)</summary>
 
 -   [(2010 ISCA) Debunking the 100X GPU vs CPU Myth - An Evaluation of Throughput Computing on CPU and GPU](/paper-reading/2010-ISCA/debunking-the-100x-gpu-vs-cpu-myth---an-evaluation-of-throug/) [📄 PDF](/assets/pdf/papers/%282010%20ISCA%29%20Debunking%20the%20100X%20GPU%20vs%20CPU%20Myth%20-%20An%20Evaluation%20of%20Throughput%20Computing%20on%20CPU%20and%20GPU.pdf)
 
@@ -714,7 +714,7 @@ Currently tracking **421 papers** across multiple venues and topics.
 
 ### 2008 (1 papers)
 
-<details><summary><strong>ISCA</strong> (1)</summary>
+<details markdown="1"><summary><strong>ISCA</strong> (1)</summary>
 
 -   [(2008 ISCA) 3D-Stacked Memory Architectures for Multi-Core Processors](/paper-reading/2008-ISCA/3d-stacked-memory-architectures-for-multi-core-processors/) [📄 PDF](/assets/pdf/papers/%282008%20ISCA%29%203D-Stacked%20Memory%20Architectures%20for%20Multi-Core%20Processors.pdf)
 
@@ -722,13 +722,13 @@ Currently tracking **421 papers** across multiple venues and topics.
 
 ### 2007 (2 papers)
 
-<details><summary><strong>ISCA</strong> (1)</summary>
+<details markdown="1"><summary><strong>ISCA</strong> (1)</summary>
 
 -   [(2007 ISCA) A Novel Dimensionally-Decomposed Router for On-Chip Communication in 3D Architectures](/paper-reading/2007-ISCA/a-novel-dimensionally-decomposed-router-for-on-chip-communic/) [📄 PDF](/assets/pdf/papers/%282007%20ISCA%29%20A%20Novel%20Dimensionally-Decomposed%20Router%20for%20On-Chip%20Communication%20in%203D%20Architectures.pdf)
 
 </details>
 
-<details><summary><strong>IEEE</strong> (1)</summary>
+<details markdown="1"><summary><strong>IEEE</strong> (1)</summary>
 
 -   [(2007 IEEE Micro) Processor Design in 3D Die-Stacking Technologies](/paper-reading/2007-IEEE/processor-design-in-3d-die-stacking-technologies/) [📄 PDF](/assets/pdf/papers/%282007%20IEEE%20Micro%29%20Processor_Design_in_3D_Die-Stacking_Technologies.pdf)
 
@@ -736,13 +736,13 @@ Currently tracking **421 papers** across multiple venues and topics.
 
 ### 2006 (2 papers)
 
-<details><summary><strong>MICRO</strong> (1)</summary>
+<details markdown="1"><summary><strong>MICRO</strong> (1)</summary>
 
 -   [(2006 MICRO) Die Stacking (3D) Microarchitecture](/paper-reading/2006-MICRO/die-stacking-3d-microarchitecture/) [📄 PDF](/assets/pdf/papers/%282006%20MICRO%29%20Die_Stacking_3D_Microarchitecture.pdf)
 
 </details>
 
-<details><summary><strong>IBM</strong> (1)</summary>
+<details markdown="1"><summary><strong>IBM</strong> (1)</summary>
 
 -   [(2006 IBM J. Res. Dev.) Three-dimensional integrated circuits](/paper-reading/2006-IBM/three-dimensional-integrated-circuits/) [📄 PDF](/assets/pdf/papers/%282006%20IBM%20J.%20Res.%20Dev.%29%20Three-dimensional_integrated_circuits.pdf)
 
@@ -750,7 +750,7 @@ Currently tracking **421 papers** across multiple venues and topics.
 
 ### 2002 (1 papers)
 
-<details><summary><strong>CODES</strong> (1)</summary>
+<details markdown="1"><summary><strong>CODES</strong> (1)</summary>
 
 -   [(2002 CODES) Multi-objective design space exploration using genetic algorithms](/paper-reading/2002-CODES/multi-objective-design-space-exploration-using-genetic-algor/) [📄 PDF](/assets/pdf/papers/%282002%20CODES%29%20Multi-objective_design_space_exploration_using_genetic_algorithms.pdf)
 
@@ -758,7 +758,7 @@ Currently tracking **421 papers** across multiple venues and topics.
 
 ### 2001 (1 papers)
 
-<details><summary><strong>ICCAD</strong> (1)</summary>
+<details markdown="1"><summary><strong>ICCAD</strong> (1)</summary>
 
 -   [(2001 ICCAD) System-level exploration for Pareto-optimal configurations in parameterized systems-on-a-chip](/paper-reading/2001-ICCAD/system-level-exploration-for-pareto-optimal-configurations-i/) [📄 PDF](/assets/pdf/papers/%282001%20ICCAD%29%20System-level_exploration_for_Pareto-optimal_configurations_in_parameterized_systems-on-a-chip.pdf)
 
@@ -771,7 +771,7 @@ Currently tracking **421 papers** across multiple venues and topics.
 
 ### <a id="Topic-3DIC"></a>3DIC <span class="paper-count">(18 papers)</span>
 
-<details><summary>Show 18 papers</summary>
+<details markdown="1"><summary>Show 18 papers</summary>
 
 -   [(2013 Keynote) Die Stacking Is Happening!](/paper-reading/Topic-3DIC/keynote1/) [📄 PDF](/assets/pdf/papers/keynote1.pdf)
 -   [(2018 Synthesis Lectures on Computer Architecture) Die-stacking Architecture](/paper-reading/Topic-3DIC/978-3-031-01747-6/) [📄 PDF](/assets/pdf/papers/978-3-031-01747-6.pdf)
@@ -796,7 +796,7 @@ Currently tracking **421 papers** across multiple venues and topics.
 
 ### <a id="Topic-AI_Accelerator"></a>AI Accelerator <span class="paper-count">(99 papers)</span>
 
-<details><summary>Show 99 papers</summary>
+<details markdown="1"><summary>Show 99 papers</summary>
 
 -   [(1966 IEEE Trans.) Cellular Logic-in-Memory Arrays](/paper-reading/Topic-AI_Accelerator/cellular-logic-in-memory-arrays/) [📄 PDF](/assets/pdf/papers/cellular_logic-in-memory_arrays.pdf)
 -   [(1970 IEEE Trans. Computers) Logic-in-Memory Computer](/paper-reading/Topic-AI_Accelerator/stone-logic-in-memory-1970/) [📄 PDF](/assets/pdf/papers/stone_logic_in_memory_1970.pdf)
@@ -902,7 +902,7 @@ Currently tracking **421 papers** across multiple venues and topics.
 
 ### <a id="Topic-CPU"></a>CPU <span class="paper-count">(18 papers)</span>
 
-<details><summary>Show 18 papers</summary>
+<details markdown="1"><summary>Show 18 papers</summary>
 
 -   [(2022 ISSCC) Zen3 The AMD 2nd-Generation 7nm x86-64 Microprocessor Core](/paper-reading/Topic-CPU/zen3-the-amd-2nd-generation-7nm-x86-64-microprocessor-core/) [📄 PDF](/assets/pdf/papers/Zen3_The_AMD_2nd-Generation_7nm_x86-64_Microprocessor_Core.pdf)
 -   [(2024 ISCA) Data Oblivious CPU Microarchitectural Side-channel Leakage-Resilient Processor](/paper-reading/Topic-CPU/data-oblivious-cpu-microarchitectural-side-channel-leakage-r/) [📄 PDF](/assets/pdf/papers/Data_Oblivious_CPU_Microarchitectural_Side-channel_Leakage-Resilient_Processor.pdf)
@@ -927,7 +927,7 @@ Currently tracking **421 papers** across multiple venues and topics.
 
 ### <a id="Topic-Compiler"></a>Compiler <span class="paper-count">(10 papers)</span>
 
-<details><summary>Show 10 papers</summary>
+<details markdown="1"><summary>Show 10 papers</summary>
 
 -   [(2021 ASPLOS) DNNFusion - Accelerating DNN Execution with Advanced Operator Fusion](/paper-reading/Topic-Compiler/34534833454083/) [📄 PDF](/assets/pdf/papers/(2022 ASPLOS) DNNFusion - Accelerating DNN Execution with Advanced Operator Fusion.pdf)
 -   [(2022 ASPLOS) AStitch - Multi-dimensional Optimization for Memory-Intensive ML on SIMT](/paper-reading/Topic-Compiler/35032223507723/) [📄 PDF](/assets/pdf/papers/(2022 ASPLOS) AStitch - Multi-dimensional Optimization for Memory-Intensive ML on SIMT.pdf)
@@ -944,7 +944,7 @@ Currently tracking **421 papers** across multiple venues and topics.
 
 ### <a id="Topic-DSE"></a>DSE <span class="paper-count">(35 papers)</span>
 
-<details><summary>Show 35 papers</summary>
+<details markdown="1"><summary>Show 35 papers</summary>
 
 -   [(2019 NeurIPS) Scalable Global Optimization via Local Bayesian Optimization (TuRBO)](/paper-reading/Topic-DSE/scalable-global-optimization-via-local-bayesian-optimization/) [📄 PDF](/assets/pdf/papers/Scalable%20Global%20Optimization%20via%20Local%20Bayesian%20Optimization.pdf)
 -   [(2020 IEEE Micro) (2019 IEEE Micro) MAESTRO: A Data-Centric Approach to Understand Reuse, Performance, and Hardware Cost of DNN Mappings](/paper-reading/Topic-DSE/maestro-a-data-centric-approach-to-understand-reuse-performa/) [📄 PDF](/assets/pdf/papers/MAESTRO_A_Data-Centric_Approach_to_Understand_Reuse_Performance_and_Hardware_Cost_of_DNN_Mappings.pdf)
@@ -986,7 +986,7 @@ Currently tracking **421 papers** across multiple venues and topics.
 
 ### <a id="Topic-FPGA"></a>FPGA <span class="paper-count">(10 papers)</span>
 
-<details><summary>Show 10 papers</summary>
+<details markdown="1"><summary>Show 10 papers</summary>
 
 -   [(2021 DAC) HASCO Towards Agile HArdware and Software CO-design for Tensor Computation](/paper-reading/Topic-FPGA/hasco-towards-agile-hardware-and-software-co-design-for-tens/) [📄 PDF](/assets/pdf/papers/HASCO_Towards_Agile_HArdware_and_Software_CO-design_for_Tensor_Computation.pdf)
 -   [(2023 DAC) Late Breaking Results PyAIE A Python-based Programming Framework for Versal ACAP Platforms](/paper-reading/Topic-FPGA/late-breaking-results-pyaie-a-python-based-programming-frame/) [📄 PDF](/assets/pdf/papers/Late_Breaking_Results_PyAIE_A_Python-based_Programming_Framework_for_Versal_ACAP_Platforms.pdf)
@@ -1003,7 +1003,7 @@ Currently tracking **421 papers** across multiple venues and topics.
 
 ### <a id="Topic-Fundamentals"></a>Fundamentals <span class="paper-count">(12 papers)</span>
 
-<details><summary>Show 12 papers</summary>
+<details markdown="1"><summary>Show 12 papers</summary>
 
 -   [(1978 CMU CS Report) Systolic Arrays (for VLSI)](/paper-reading/Topic-Fundamentals/1978-cmu-cs-report-kung-leiserson/) [📄 PDF](/assets/pdf/papers/1978-cmu-cs-report-kung-leiserson.pdf)
 -   [(2006 UC Berkeley EECS TR) The Landscape of Parallel Computing Research - A View from Berkeley](/paper-reading/Topic-Fundamentals/berkeleyview/) [📄 PDF](/assets/pdf/papers/BerkeleyView.pdf)
@@ -1022,7 +1022,7 @@ Currently tracking **421 papers** across multiple venues and topics.
 
 ### <a id="Topic-Memory"></a>Memory <span class="paper-count">(28 papers)</span>
 
-<details><summary>Show 28 papers</summary>
+<details markdown="1"><summary>Show 28 papers</summary>
 
 -   [(2012 CACM) Why On-Chip Cache Coherence Is Here to Stay](/paper-reading/Topic-Memory/cacm12-why-coherence/) [📄 PDF](/assets/pdf/papers/cacm12_why_coherence.pdf)
 -   [(2025 ISCA) Folded Banks - 3D-Stacked Random-Access Memory](/paper-reading/Topic-Memory/36950533731111/) [📄 PDF](/assets/pdf/papers/(2025 ISCA) Folded Banks - 3D-Stacked Random-Access Memory.pdf)
@@ -1057,7 +1057,7 @@ Currently tracking **421 papers** across multiple venues and topics.
 
 ### <a id="Topic-Physical_Design"></a>Physical Design <span class="paper-count">(6 papers)</span>
 
-<details><summary>Show 6 papers</summary>
+<details markdown="1"><summary>Show 6 papers</summary>
 
 -   [(2020 TCAD) Compact-2D: A Physical Design Methodology to Build Two-Tier Gate-Level 3-D ICs](/paper-reading/Topic-Physical_Design/08894429/) [📄 PDF](/assets/pdf/papers/08894429.pdf)
 -   [(2024 ICCAD) ATPlace2.5D: Analytical Thermal-Aware Chiplet Placement Framework for Large-Scale 2.5D-IC](/paper-reading/Topic-Physical_Design/place-iccad2024-wang/) [📄 PDF](/assets/pdf/papers/PLACE_ICCAD2024_Wang.pdf)
@@ -1070,7 +1070,7 @@ Currently tracking **421 papers** across multiple venues and topics.
 
 ### <a id="Topic-Process"></a>Process <span class="paper-count">(4 papers)</span>
 
-<details><summary>Show 4 papers</summary>
+<details markdown="1"><summary>Show 4 papers</summary>
 
 -   [(2017 IEEE JEDS) GAAFET Versus Pragmatic FinFET at the 5nm Si-Based CMOS Technology Node](/paper-reading/Topic-Process/gaafet-versus-pragmatic-finfet-at-the-5nm-si-based-cmos-tech/) [📄 PDF](/assets/pdf/papers/GAAFET_Versus_Pragmatic_FinFET_at_the_5nm_Si-Based_CMOS_Technology_Node.pdf)
 -   [(2025 ACM Survey) Extending Silicon Lifetime - A Review of Design Techniques for Reliable Integrated Circuits](/paper-reading/Topic-Process/extending-silicon-lifetime-a-review-of-design-techniques-for/) [📄 PDF](/assets/pdf/papers/Extending%20Silicon%20Lifetime%20A%20Review%20of%20Design%20Techniques%20for%20Reliable%20Integrated%20Circuits.pdf)
@@ -1081,7 +1081,7 @@ Currently tracking **421 papers** across multiple venues and topics.
 
 ### <a id="Topic-Quantum"></a>Quantum <span class="paper-count">(11 papers)</span>
 
-<details><summary>Show 11 papers</summary>
+<details markdown="1"><summary>Show 11 papers</summary>
 
 -   [(2026 ISCA) A Streaming Architecture for Quantum Error Syndrome Compression at 4 Kelvin](/paper-reading/Topic-Quantum/a-streaming-architecture-for-quantum-error-syndrome/) [📄 PDF](/assets/pdf/papers/%282026%20ISCA%29%20A%20Streaming%20Architecture%20for%20Quantum%20Error%20Syndrome%20Compression%20at%204%20Kelvin.pdf)
 -   [(2026 ISCA) Coset Ensemble Decoder for Quantum Error Correction with Algorithm–Hardware Co-Design](/paper-reading/Topic-Quantum/coset-ensemble-decoder-for-quantum-error-correction-with/) [📄 PDF](/assets/pdf/papers/%282026%20ISCA%29%20Coset%20Ensemble%20Decoder%20for%20Quantum%20Error%20Correction%20with%20Algorithm-Hardware%20Co-Design.pdf)
@@ -1099,7 +1099,7 @@ Currently tracking **421 papers** across multiple venues and topics.
 
 ### <a id="Topic-Security"></a>Security <span class="paper-count">(10 papers)</span>
 
-<details><summary>Show 10 papers</summary>
+<details markdown="1"><summary>Show 10 papers</summary>
 
 -   [(2026 ISCA) DarkStream: Exploiting Internal Throughput Contention in Data Streaming Accelerator for Timing Attacks](/paper-reading/Topic-Security/darkstream-exploiting-internal-throughput-contention-in/) [📄 PDF](/assets/pdf/papers/%282026%20ISCA%29%20DarkStream%20-%20Exploiting%20Internal%20Throughput%20Contention%20in%20Data%20Streaming%20Accelerator%20for%20Timing%20Attacks.pdf)
 -   [(2026 ISCA) HE2: A Communication-Light Heterogeneous Architecture for Efficient Fully Homomorphic Encryption](/paper-reading/Topic-Security/he2-a-communication-light-heterogeneous-architecture-for/) [📄 PDF](/assets/pdf/papers/%282026%20ISCA%29%20HE2%20-%20A%20Communication-Light%20Heterogeneous%20Architecture%20for%20Efficient%20Fully%20Homomorphic%20Encryption.pdf)
@@ -1116,7 +1116,7 @@ Currently tracking **421 papers** across multiple venues and topics.
 
 ### <a id="Topic-Systems"></a>Systems <span class="paper-count">(33 papers)</span>
 
-<details><summary>Show 33 papers</summary>
+<details markdown="1"><summary>Show 33 papers</summary>
 
 -   [(2026 ISCA) AutoFHE: An Automatic Hardware Generation Framework for Domain-Specific FHE Accelerators](/paper-reading/Topic-Systems/autofhe-an-automatic-hardware-generation-framework-for/) [📄 PDF](/assets/pdf/papers/%282026%20ISCA%29%20AutoFHE%20-%20An%20Automatic%20Hardware%20Generation%20Framework%20for%20Domain-Specific%20FHE%20Accelerators.pdf)
 -   [(2026 ISCA) Breaking Barriers in Atomic Scaling: A Hardware-Software-Collaborated Framework to Deconstruct RDMA Atomic](/paper-reading/Topic-Systems/breaking-barriers-in-atomic-scaling-a-hardware-software/) [📄 PDF](/assets/pdf/papers/%282026%20ISCA%29%20Breaking%20Barriers%20in%20Atomic%20Scaling%20-%20A%20Hardware-Software-Collaborated%20Framework%20to%20Deconstruct%20RDMA%20Atomic.pdf)
